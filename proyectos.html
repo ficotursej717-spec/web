@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos de Investigación - FICOTUR | UCO</title>
+    <meta name="description" content="Explora los proyectos de investigación activos e históricos del Grupo Ficotur en finanzas, contabilidad analítica y gestión del turismo.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABECERA PRINCIPAL -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-link" aria-label="Página de inicio de Ficotur">
+                <img src="logo_ficotur_vertical.png" alt="Logotipo oficial de Ficotur UCO" class="logo-img">
+            </a>
+            
+            <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-label="Abrir menú de navegación">
+                ☰
+            </button>
+            
+            <nav id="nav-menu" class="nav">
+                <a href="index.html" class="nav-link" data-translate="nav-inicio">Inicio</a>
+                <a href="equipo.html" class="nav-link" data-translate="nav-equipo">Equipo</a>
+                <a href="proyectos.html" class="nav-link active" data-translate="nav-proyectos">Proyectos</a>
+                <a href="publicaciones.html" class="nav-link" data-translate="nav-publicaciones">Publicaciones</a>
+                <a href="contacto.html" class="nav-link" data-translate="nav-contacto">Contacto</a>
+            </nav>
+
+            <div class="lang-selector">
+                <select id="lang-select" class="lang-select" aria-label="Seleccionar idioma">
+                    <option value="es">ES</option>
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                    <option value="pt">PT</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <main class="container section-padding">
+        <h1 class="section-title">Proyectos de Investigación</h1>
+        <p style="color: var(--text-muted); margin-bottom: 2.5rem; max-width: 700px;">
+            Desarrollamos proyectos científicos financiados mediante convocatorias competitivas públicas, orientados al avance del conocimiento y su transferencia tecnológica al sector turístico.
+        </p>
+
+        <!-- Tarjeta Destacada Horizontal para el Proyecto Real -->
+        <div class="featured-project-card" style="margin-top: 2rem;">
+            <div class="featured-project-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=800" alt="Persona usando realidad virtual" class="featured-project-img" loading="lazy">
+            </div>
+            <div class="featured-project-content">
+                <span class="card-tag" data-translate="proy-1-tag">Junta de Andalucía | I+D+i</span>
+                <h3 class="featured-project-title" style="font-size: 1.6rem; color: var(--primary); margin: 0.75rem 0 1.25rem; font-family: var(--font-headings); font-weight: 700; line-height: 1.25;" data-translate="proy-1-title">
+                    OLIVE-VAR: Realidad Virtual y aumentada aplicadas a la promoción del oleoturismo
+                </h3>
+                <div class="featured-project-meta" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-bottom: 1.25rem; font-size: 0.95rem; line-height: 1.5;">
+                    <div><strong data-translate="proy-label-participacion">Tipo de participación: </strong><span data-translate="proy-val-participacion">IP (Investigador Principal)</span></div>
+                    <div><strong data-translate="proy-label-codigo">Código de Referencia: </strong><span>DGP_PIDI_2024_00107</span></div>
+                    <div><strong data-translate="proy-label-cuantia">Cuantía concedida: </strong><span data-translate="proy-val-cuantia">50.000 euros</span></div>
+                    <div><strong data-translate="proy-label-fechas">Período de ejecución: </strong><span data-translate="proy-val-fechas">20-04-2026 a 19-04-2029</span></div>
+                </div>
+                <p style="color: var(--text-dark); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem;">
+                    <strong data-translate="proy-label-entidad">Entidad financiadora: </strong><span data-translate="proy-val-entidad">JUNTA ANDALÚCIA - CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN. Proyectos de Investigación I+D+i (EIDA 2021-2027)</span>
+                </p>
+                <p class="card-desc" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 0px;" data-translate="proy-1-desc">
+                    El proyecto investiga y desarrolla soluciones basadas en realidad virtual y aumentada para la puesta en valor del patrimonio oleotenero andaluz, facilitando la transferencia tecnológica al sector del oleoturismo y dinamizando las economías rurales locales mediante experiencias culturales inmersivas.
+                </p>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

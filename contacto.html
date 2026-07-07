@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - FICOTUR | UCO</title>
+    <meta name="description" content="Ponte en contacto con el Grupo de Investigación Ficotur de la Universidad de Córdoba para colaboraciones científicas y transferencia tecnológica.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABECERA PRINCIPAL -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-link" aria-label="Página de inicio de Ficotur">
+                <img src="logo_ficotur_vertical.png" alt="Logotipo oficial de Ficotur UCO" class="logo-img">
+            </a>
+            
+            <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-label="Abrir menú de navegación">
+                ☰
+            </button>
+            
+            <nav id="nav-menu" class="nav">
+                <a href="index.html" class="nav-link" data-translate="nav-inicio">Inicio</a>
+                <a href="equipo.html" class="nav-link" data-translate="nav-equipo">Equipo</a>
+                <a href="proyectos.html" class="nav-link" data-translate="nav-proyectos">Proyectos</a>
+                <a href="publicaciones.html" class="nav-link" data-translate="nav-publicaciones">Publicaciones</a>
+                <a href="contacto.html" class="nav-link active" data-translate="nav-contacto">Contacto</a>
+            </nav>
+
+            <div class="lang-selector">
+                <select id="lang-select" class="lang-select" aria-label="Seleccionar idioma">
+                    <option value="es">ES</option>
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                    <option value="pt">PT</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <main class="container section-padding">
+        <h1 class="section-title" data-translate="contact-title">Contacto y Colaboraciones</h1>
+        <p style="color: var(--text-muted); margin-bottom: 3.5rem; max-width: 700px;" data-translate="contact-desc">
+            Es obligatorio rellenar todos los datos para enviar la consulta. La dirección de e-mail debe ser una cuenta activa y real.
+        </p>
+
+        <div class="contact-grid">
+            <!-- COLUMNA IZQUIERDA: INFORMACIÓN DE CONTACTO -->
+            <section class="contact-info" aria-label="Datos de contacto físico e institucional">
+                <div class="contact-item" style="border-bottom: 1px solid var(--border-color); padding-bottom: 1.25rem; margin-bottom: 1.25rem;">
+                    <span class="contact-icon" aria-hidden="true">👥</span>
+                    <div class="contact-text">
+                        <h4 data-translate="contact-coordinacion">Coordinación del Grupo</h4>
+                        <p style="margin-bottom: 0.75rem; font-size: 0.95rem;">
+                            <strong>Director del Grupo:</strong> Dr. Ricardo Hernández Rojas<br>
+                            📞 Teléfono: <a href="tel:+34957211250" style="color: var(--secondary); font-weight: 500;">+34 957 21 12 50</a><br>
+                            📧 Email: <a href="mailto:ricardo.hernandez@uco.es" style="color: var(--secondary); font-weight: 500;">ricardo.hernandez@uco.es</a>
+                        </p>
+                        <p style="margin-bottom: 0; font-size: 0.95rem;">
+                            <strong>Contacto Técnico / Investigador:</strong> Leonardo A. Gallardo Apolo<br>
+                            📞 Teléfono: <a href="tel:+34613661016" style="color: var(--secondary); font-weight: 500;">+34 613 661 016</a><br>
+                            📧 Email: <a href="mailto:z42gaapl@uco.es" style="color: var(--secondary); font-weight: 500;">z42gaapl@uco.es</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-item" style="border-bottom: 1px solid var(--border-color); padding-bottom: 1.25rem; margin-bottom: 1.25rem;">
+                    <span class="contact-icon" aria-hidden="true">📍</span>
+                    <div class="contact-text">
+                        <h4 data-translate="contact-postal">Dirección Postal y Departamento</h4>
+                        <p style="margin-bottom: 0.5rem; font-size: 0.95rem; color: var(--text-muted);">
+                            <strong>Facultad de Derecho y Ciencias Económicas y Empresariales</strong><br>
+                            Dpto. Economía Agraria, Finanzas y Contabilidad<br>
+                            Área de Economía Financiera y Contabilidad<br>
+                            Universidad de Córdoba (UCO)<br>
+                            Plaza de Puerta Nueva, s/n, 14002, Córdoba, España
+                        </p>
+                        <a href="https://share.google/lCJHzY59NDiJbeDdZ" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; color: var(--secondary); font-weight: 600; text-decoration: none;">
+                            🗺️ Ver en Google Maps
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-item" style="margin-bottom: 1.5rem;">
+                    <span class="contact-icon" aria-hidden="true">🏢</span>
+                    <div class="contact-text">
+                        <h4 data-translate="contact-catedra">Cátedra Asociada</h4>
+                        <p style="margin-bottom: 0; font-size: 0.95rem; color: var(--text-muted);">
+                            <strong>Cátedra de Turismo Patrimonial y Cultural de la UCO</strong><br>
+                            Facultad de Derecho y Ciencias Económicas y Empresariales
+                        </p>
+                    </div>
+                </div>
+
+                <!-- MAPA DE LOCALIZACIÓN (GOOGLE MAPS — FACULTAD DE DERECHO Y CCEE UCO) -->
+                <div style="width: 100%; height: 280px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border-color); margin-top: 1.5rem; box-shadow: var(--shadow-sm);">
+                    <iframe
+                        src="https://maps.google.com/maps?q=Facultad+de+Derecho+y+Ciencias+Econ%C3%B3micas+y+Empresariales+Universidad+de+C%C3%B3rdoba&hl=es&z=17&output=embed"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa interactivo de la Facultad de Derecho y Ciencias Económicas y Empresariales de la Universidad de Córdoba">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- COLUMNA DERECHA: FORMULARIO DE MENSAJES -->
+            <section class="contact-form-section" aria-labelledby="form-heading">
+                <h3 id="form-heading" style="display:none;">Formulario de contacto</h3>
+                <form class="contact-form" action="#" method="POST" id="form-contacto">
+                    <div class="form-group">
+                        <label for="nombre" data-translate="label-nombre">Nombre y Apellidos *</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" required placeholder="Tu nombre completo" data-translate="placeholder-nombre">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" data-translate="label-email">Dirección de e-mail *</label>
+                        <input type="email" id="email" name="email" class="form-control" required placeholder="Tu correo corporativo o personal" data-translate="placeholder-email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="organizacion" data-translate="label-org">Organización / Universidad *</label>
+                        <input type="text" id="organizacion" name="organizacion" class="form-control" required placeholder="Entidad a la que perteneces" data-translate="placeholder-org">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="asunto" data-translate="label-asunto">Asunto de la consulta *</label>
+                        <input type="text" id="asunto" name="asunto" class="form-control" required placeholder="Motivo de tu mensaje" data-translate="placeholder-asunto">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje" data-translate="label-mensaje">Mensaje o Consulta *</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" class="form-control" required placeholder="Escribe aquí tu consulta en detalle..." data-translate="placeholder-mensaje"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%; border: none;" data-translate="btn-enviar">Enviar Mensaje</button>
+                </form>
+                
+                <div id="form-feedback" style="display: none; margin-top: 1.5rem; padding: 1rem; border-radius: 6px; text-align: center; font-weight: 500;">
+                    <!-- Mensaje dinámico de feedback -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="logo_ficotur_vertical.png" alt="Logo Ficotur" style="height: 55px; background-color: white; padding: 4px; border-radius: 4px;">
+                <p data-translate="footer-desc">Grupo de Investigación SEJ-717 (Ficotur) de la Universidad de Córdoba.<br>Especializados en finanzas, contabilidad analítica y gestión estratégica del turismo.</p>
+            </div>
+            <div>
+                <h3 class="footer-title" data-translate="footer-links-title">Enlaces Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html" data-translate="nav-inicio">Inicio</a></li>
+                    <li><a href="equipo.html" data-translate="nav-equipo">Equipo</a></li>
+                    <li><a href="proyectos.html" data-translate="nav-proyectos">Proyectos</a></li>
+                    <li><a href="publicaciones.html" data-translate="nav-publicaciones">Publicaciones</a></li>
+                    <li><a href="contacto.html" data-translate="nav-contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-title" data-translate="footer-contacto-title">Contacto Oficial</h3>
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;" data-translate="footer-sede">📍 Facultad de Derecho y CC. Económicas y Empresariales, UCO</p>
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;">📧 <a href="mailto:ficotur@uco.es" style="color: var(--accent);">ficotur@uco.es</a></p>
+                <p style="font-size: 0.95rem;">📞 +34 957 21 XX XX</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p data-translate="footer-derechos">&copy; 2026 Grupo de Investigación Ficotur (SEJ-717). Todos los derechos reservados.</p>
+            <a href="https://www.uco.es" target="_blank" rel="noopener" aria-label="Web Oficial de la Universidad de Córdoba" style="display: block; flex-shrink: 0;">
+                <img src="logo_uco.png" alt="Universidad de Córdoba (UCO)" style="height: 38px; background-color: white; padding: 3px; border-radius: 4px; display: block;">
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('form-contacto');
+            const feedback = document.getElementById('form-feedback');
+
+            if (form && feedback) {
+                form.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    
+                    const nombre = document.getElementById('nombre').value.trim();
+                    const email = document.getElementById('email').value.trim();
+                    const organizacion = document.getElementById('organizacion').value.trim();
+                    const asunto = document.getElementById('asunto').value.trim();
+                    const mensaje = document.getElementById('mensaje').value.trim();
+
+                    // 1. Validar que todos los campos requeridos estén completos
+                    if (!nombre || !email || !organizacion || !asunto || !mensaje) {
+                        showFeedback('Todos los campos son obligatorios y deben completarse correctamente.', 'error');
+                        return;
+                    }
+
+                    // 2. Validación de formato de correo real mediante regex avanzada
+                    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+                    if (!emailRegex.test(email)) {
+                        showFeedback('La dirección de correo electrónico introducida no tiene un formato válido.', 'error');
+                        return;
+                    }
+
+                    // 3. Exclusión de proveedores de correo temporal/desechable comunes
+                    const tempDomains = [
+                        'yopmail.com', 'mailinator.com', 'temp-mail.org', 'tempmail.com', 
+                        '10minutemail.com', 'guerrillamail.com', 'sharklasers.com', 
+                        'dispostable.com', 'getairmail.com', 'trashmail.com', 'yopmail.fr', 
+                        'yopmail.net', 'cool.fr.nf', 'jetable.org', 'spambog.com'
+                    ];
+                    const emailDomain = email.split('@')[1].toLowerCase();
+                    if (tempDomains.includes(emailDomain)) {
+                        showFeedback('Las direcciones de correo temporales o desechables no están permitidas. Por favor, utilice una dirección de correo real.', 'error');
+                        return;
+                    }
+
+                    // 4. Si todo es correcto, preparar el enlace de envío directo a ficotur@uco.es
+                    const subjectText = `[Consulta Web Ficotur] ${asunto}`;
+                    const bodyText = `Nombre y Apellidos: ${nombre}\nOrganización / Universidad: ${organizacion}\nEmail de contacto: ${email}\n\nMensaje:\n${mensaje}`;
+                    
+                    const mailtoLink = `mailto:ficotur@uco.es?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(bodyText)}`;
+                    
+                    // Redirigir al mailto
+                    window.location.href = mailtoLink;
+
+                    // Mostrar mensaje de éxito libre de emojis
+                    showFeedback('El correo se ha preparado correctamente para su envío directo a ficotur@uco.es. Por favor, confirme el envío en su aplicación de correo electrónico.', 'success');
+                    
+                    // Resetear formulario
+                    form.reset();
+                });
+            }
+
+            function showFeedback(message, type) {
+                feedback.style.display = 'block';
+                if (type === 'success') {
+                    feedback.style.backgroundColor = 'rgba(42, 143, 108, 0.1)';
+                    feedback.style.color = 'var(--secondary)';
+                    feedback.style.border = '1px solid var(--secondary)';
+                } else {
+                    feedback.style.backgroundColor = 'rgba(239, 68, 68, 0.1)';
+                    feedback.style.color = '#EF4444';
+                    feedback.style.border = '1px solid #EF4444';
+                }
+                feedback.textContent = message;
+            }
+        });
+    </script>
+    <script src="traducciones.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

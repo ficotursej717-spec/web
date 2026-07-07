@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicaciones Científicas - FICOTUR | UCO</title>
+    <meta name="description" content="Producción científica real del Grupo FICOTUR (SEJ-717) de la Universidad de Córdoba. Últimas publicaciones indexadas en JCR, SJR y Dialnet Métricas de nuestros investigadores.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* ===== HERO BANNER ===== */
+        .pub-hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a3a5c 60%, #0d2840 100%);
+            padding: 4rem 0 3rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .pub-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        .pub-hero h1 { color:#fff; font-size:2.4rem; margin-bottom:.8rem; font-family:var(--font-headings); position:relative; }
+        .pub-hero p  { color:rgba(255,255,255,.75); max-width:640px; margin:0 auto 2rem; font-size:1.05rem; line-height:1.65; position:relative; }
+        .pub-hero-stats { display:flex; justify-content:center; gap:3rem; flex-wrap:wrap; position:relative; }
+        .pub-hero-stat .num   { display:block; font-size:2rem; font-weight:800; color:var(--accent); font-family:var(--font-headings); line-height:1; }
+        .pub-hero-stat .label { font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; color:rgba(255,255,255,.6); margin-top:.25rem; }
+
+        /* ===== FILTROS ===== */
+        .pub-controls-bar {
+            background: var(--bg-white);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.25rem 0;
+            position: sticky;
+            top: 72px;
+            z-index: 90;
+            box-shadow: 0 2px 8px rgba(0,0,0,.06);
+        }
+        .pub-controls-inner {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .pub-search-input {
+            flex: 1;
+            min-width: 220px;
+            padding: .6rem 1rem;
+            border: 1.5px solid var(--border-color);
+            border-radius: 8px;
+            font-size: .9rem;
+            font-family: var(--font-body);
+            outline: none;
+            transition: var(--transition);
+            background: var(--bg-light);
+        }
+        .pub-search-input:focus { border-color: var(--secondary); background: white; }
+        .filter-chip-bar { display:flex; gap:.45rem; flex-wrap:wrap; }
+        .fchip {
+            padding: .35rem .85rem;
+            border-radius: 50px;
+            border: 1.5px solid var(--border-color);
+            background: var(--bg-light);
+            font-size: .8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: var(--transition);
+            user-select: none;
+        }
+        .fchip:hover  { border-color: var(--secondary); color: var(--secondary); }
+        .fchip.active { border-color: var(--secondary); background: var(--secondary); color: white; }
+
+        /* ===== LAYOUT PUBLICACIONES ===== */
+        .pub-main { padding: 3rem 0 4rem; }
+        .pub-count-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            font-size: .88rem;
+            color: var(--text-muted);
+        }
+        .pub-count-bar strong { color: var(--primary); }
+
+        /* Tarjeta de publicación */
+        .pub-card {
+            background: var(--bg-white);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid transparent;
+            border-radius: 10px;
+            padding: 1.5rem 1.75rem;
+            margin-bottom: 1rem;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: .75rem 1.5rem;
+            align-items: start;
+            transition: var(--transition);
+            box-shadow: var(--shadow-sm);
+        }
+        .pub-card:hover { box-shadow: var(--shadow-md); border-left-color: var(--secondary); transform: translateX(3px); }
+        .pub-card-meta {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            flex-wrap: wrap;
+            margin-bottom: .5rem;
+        }
+        .pub-year {
+            background: var(--secondary);
+            color: white;
+            font-size: .72rem;
+            font-weight: 700;
+            padding: .18rem .6rem;
+            border-radius: 50px;
+            font-family: var(--font-headings);
+        }
+        .pub-year.y2025 { background: #1a6b4e; }
+        .pub-year.y2024 { background: #2a8f6c; }
+        .pub-year.y2023 { background: #3aab82; }
+        .pub-year.y2022 { background: #7cc4a6; }
+        .pub-researcher-tag {
+            font-size: .72rem;
+            font-weight: 600;
+            padding: .18rem .6rem;
+            border-radius: 50px;
+            background: rgba(42,143,108,.1);
+            color: var(--secondary);
+            border: 1px solid rgba(42,143,108,.25);
+            white-space: nowrap;
+        }
+        .pub-title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--primary);
+            font-family: var(--font-headings);
+            line-height: 1.4;
+            margin-bottom: .35rem;
+        }
+        .pub-authors  { font-size: .83rem; color: var(--text-muted); margin-bottom: .3rem; }
+        .pub-journal  { font-size: .83rem; color: var(--text-dark); font-style: italic; font-weight: 500; }
+        .pub-actions  { display:flex; flex-direction:column; gap:.5rem; align-items:flex-end; flex-shrink:0; }
+        .pub-btn-doi {
+            display: inline-flex;
+            align-items: center;
+            gap: .35rem;
+            padding: .42rem .9rem;
+            border-radius: 7px;
+            font-size: .78rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: var(--transition);
+            white-space: nowrap;
+        }
+        .pub-btn-doi.doi    { background: #4285F4; color: white; }
+        .pub-btn-doi.doi:hover { background: #3367D6; }
+        .pub-btn-doi.scholar { background: var(--bg-light); color: var(--text-dark); border: 1px solid var(--border-color); }
+        .pub-btn-doi.scholar:hover { background: var(--border-color); }
+
+        /* Sección por investigador */
+        .researcher-section { margin-bottom: 2.5rem; }
+        .researcher-section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem 1.25rem;
+            background: var(--bg-light);
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 1rem;
+            cursor: pointer;
+            user-select: none;
+            transition: var(--transition);
+        }
+        .researcher-section-header:hover { border-color: var(--secondary); }
+        .rsh-avatar { width:44px; height:44px; border-radius:50%; object-fit:cover; border:2px solid var(--border-color); flex-shrink:0; }
+        .rsh-name { font-size:1rem; font-weight:700; color:var(--primary); font-family:var(--font-headings); margin:0; }
+        .rsh-role { font-size:.78rem; color:var(--text-muted); margin:0; }
+        .rsh-count { margin-left:auto; background:var(--secondary); color:white; font-size:.72rem; font-weight:700; padding:.2rem .65rem; border-radius:50px; white-space:nowrap; flex-shrink:0; }
+        .rsh-toggle { margin-left:.5rem; font-size:1.1rem; color:var(--text-muted); transition:transform .25s ease; flex-shrink:0; }
+        .researcher-section.collapsed .rsh-toggle { transform: rotate(-90deg); }
+        .rsh-links { display:flex; gap:.4rem; margin-left:.5rem; }
+        .rsh-link-icon {
+            width:28px; height:28px; border-radius:6px; display:inline-flex; align-items:center; justify-content:center;
+            font-size:.75rem; font-weight:700; text-decoration:none; flex-shrink:0;
+        }
+        .rsh-link-icon.scholar { background:#4285F4; color:white; }
+        .rsh-link-icon.orcid   { background:#A6CE39; color:#1a1a1a; }
+        .rsh-link-icon.rgate   { background:#00CCBB; color:white; }
+
+        /* Nota informativa */
+        .pub-note {
+            display:flex; gap:.75rem; align-items:flex-start;
+            background: linear-gradient(135deg,rgba(42,143,108,.06),rgba(42,143,108,.01));
+            border:1px solid rgba(42,143,108,.22);
+            border-radius:10px; padding:1.25rem; font-size:.88rem; color:var(--text-dark); line-height:1.6;
+            margin-top:2rem;
+        }
+        .pub-note-icon { font-size:1.5rem; flex-shrink:0; margin-top:.05rem; }
+
+        /* Sin resultados */
+        .pub-empty { text-align:center; padding:3rem 1rem; color:var(--text-muted); font-size:.95rem; }
+
+        @media(max-width:700px){
+            .pub-hero h1 { font-size:1.7rem; }
+            .pub-card { grid-template-columns:1fr; }
+            .pub-actions { flex-direction:row; align-items:flex-start; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CABECERA -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-link" aria-label="Página de inicio de Ficotur">
+                <img src="logo_ficotur_vertical.png" alt="Logotipo oficial de Ficotur UCO" class="logo-img">
+            </a>
+            <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-label="Abrir menú">☰</button>
+            <nav id="nav-menu" class="nav">
+                <a href="index.html"         class="nav-link" data-translate="nav-inicio">Inicio</a>
+                <a href="equipo.html"        class="nav-link" data-translate="nav-equipo">Equipo</a>
+                <a href="proyectos.html"     class="nav-link" data-translate="nav-proyectos">Proyectos</a>
+                <a href="publicaciones.html" class="nav-link active" data-translate="nav-publicaciones">Publicaciones</a>
+                <a href="contacto.html"      class="nav-link" data-translate="nav-contacto">Contacto</a>
+            </nav>
+            <div class="lang-selector">
+                <select id="lang-select" class="lang-select" aria-label="Seleccionar idioma">
+                    <option value="es">ES</option>
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                    <option value="pt">PT</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <div class="pub-hero">
+        <div class="container">
+            <h1>Producción Científica Reciente</h1>
+            <p>Últimas publicaciones de los investigadores del grupo, indexadas en revistas internacionales de impacto (JCR · SJR · Scopus · Web of Science).</p>
+            <div class="pub-hero-stats">
+                <div class="pub-hero-stat"><span class="num" id="stat-total">28</span><span class="label">Publicaciones</span></div>
+                <div class="pub-hero-stat"><span class="num">7</span><span class="label">Investigadores</span></div>
+                <div class="pub-hero-stat"><span class="num">2022–2025</span><span class="label">Período</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BARRA DE FILTROS -->
+    <div class="pub-controls-bar">
+        <div class="container">
+            <div class="pub-controls-inner">
+                <input type="text" id="pub-search" class="pub-search-input"
+                       placeholder="🔍 Buscar por título, autor o revista…" aria-label="Buscar publicaciones">
+
+                <div class="filter-chip-bar" id="year-chips" aria-label="Filtrar por año">
+                    <button class="fchip active" data-year="">Todos</button>
+                    <button class="fchip" data-year="2025">2025</button>
+                    <button class="fchip" data-year="2024">2024</button>
+                    <button class="fchip" data-year="2023">2023</button>
+                    <button class="fchip" data-year="2022">2022</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="pub-main">
+        <div class="container">
+
+            <div class="pub-count-bar">
+                <span id="pub-count-label">Mostrando <strong id="pub-count">0</strong> publicaciones</span>
+                <span style="font-size:.8rem;">Fuente: Google Scholar · Verificadas manualmente</span>
+            </div>
+
+            <div id="pub-list"></div>
+
+            <!-- Nota informativa -->
+            <div class="pub-note">
+                <span class="pub-note-icon">📋</span>
+                <div>
+                    <strong style="color:var(--secondary); display:block; margin-bottom:.3rem;">Sobre este repositorio</strong>
+                    Las publicaciones mostradas han sido verificadas mediante búsqueda en <strong>Google Scholar</strong>,
+                    <strong>ORCID</strong> y repositorios institucionales (2022–2025). Haz clic en
+                    <em>"Ver artículo"</em> para acceder directamente a la fuente original o DOI.
+                    Para acceder al perfil completo de cada investigador (incluyendo citas e índice H),
+                    usa el botón <strong>Scholar</strong> en el encabezado de cada sección.
+                    <br><br>
+                    <em style="color:var(--text-muted);">Próximamente: integración automática con la colección Zotero del grupo.</em>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="logo_ficotur_vertical.png" alt="Logo Ficotur" style="height:55px;background:white;padding:4px;border-radius:4px;">
+                <p data-translate="footer-desc">Grupo de Investigación SEJ-717 (Ficotur) de la Universidad de Córdoba.<br>Especializados en finanzas, contabilidad analítica y gestión estratégica del turismo.</p>
+            </div>
+            <div>
+                <h3 class="footer-title" data-translate="footer-links-title">Enlaces Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html" data-translate="nav-inicio">Inicio</a></li>
+                    <li><a href="equipo.html" data-translate="nav-equipo">Equipo</a></li>
+                    <li><a href="proyectos.html" data-translate="nav-proyectos">Proyectos</a></li>
+                    <li><a href="publicaciones.html" data-translate="nav-publicaciones">Publicaciones</a></li>
+                    <li><a href="contacto.html" data-translate="nav-contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="footer-title" data-translate="footer-contacto-title">Contacto Oficial</h3>
+                <p style="font-size:.95rem;margin-bottom:.5rem;" data-translate="footer-sede">📍 Facultad de Derecho y CC. Económicas y Empresariales, UCO</p>
+                <p style="font-size:.95rem;margin-bottom:.5rem;">📧 <a href="mailto:ficotur@uco.es" style="color:var(--accent);">ficotur@uco.es</a></p>
+                <p style="font-size:.95rem;">📞 +34 957 21 XX XX</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p data-translate="footer-derechos">&copy; 2026 Grupo de Investigación Ficotur (SEJ-717). Todos los derechos reservados.</p>
+            <a href="https://www.uco.es" target="_blank" rel="noopener" style="display:block;flex-shrink:0;">
+                <img src="logo_uco.png" alt="Universidad de Córdoba (UCO)" style="height:38px;background:white;padding:3px;border-radius:4px;display:block;">
+            </a>
+        </div>
+    </footer>
+
+    <script src="traducciones.js"></script>
+    <script src="app.js"></script>
+
+    <script>
+    /* ===================================================
+       DATOS REALES DE PUBLICACIONES — FICOTUR
+       Fuente: Google Scholar (verificado julio 2026)
+       =================================================== */
+    const PUBLICACIONES_FICOTUR = [
+        {
+            investigador: 'Ricardo Hernández Rojas',
+            foto: 'ricardo_hernandez.png',
+            cargo: 'Director del Grupo · Investigador Principal',
+            links: {
+                scholar: 'https://scholar.google.com/citations?user=3jb2UysAAAAJ&hl=es',
+                orcid:   'https://orcid.org/0000-0002-3055-2151',
+                rgate:   'https://www.researchgate.net/profile/Ricardo-David-Hernandez-Rojas'
+            },
+            publicaciones: [
+                { titulo:'Gastronomy in Heritage Cities: Traditional Bread in the Culinary Experience', autores:'Ricardo D. Hernández Rojas', año:2025, revista:'RIVAR – Revista Iberoamericana de Viticultura, Agroindustria y Ruralidad', url:'https://scholar.google.com/citations?user=3jb2UysAAAAJ&hl=es', doi:false },
+                { titulo:'Visitor satisfaction at the Royal Tombs of Sipán Museum, Lambayeque, Peru: a study of the impact on image and recommendation', autores:'Ricardo D. Hernández Rojas et al.', año:2025, revista:'Quality & Quantity', url:'https://scholar.google.com/citations?user=3jb2UysAAAAJ&hl=es', doi:false },
+                { titulo:'The Study of Gastronomic Tourism in Cordoba and the Association of the Cuisine: An Econometric Analysis', autores:'Ricardo D. Hernández Rojas et al.', año:2025, revista:'SSRN Electronic Journal', url:'https://papers.ssrn.com/', doi:false },
+                { titulo:'Análisis de la gastronomía local a través de las fuentes de información, imagen y satisfacción', autores:'Ricardo Hernández-Rojas; Nuria Huete-Alcocer', año:2023, revista:'Tourism & Heritage Journal', url:'https://doi.org/10.1344/THJ.2023.5.428420', doi:true },
+                { titulo:'Gestión en ciudades patrimonio de la humanidad: la satisfacción del turista', autores:'Ricardo Hernández Rojas', año:2023, revista:'Cuadernos de Gestión Turística del Patrimonio', url:'https://cuadernosgestionturisticadelpatrimonio.es', doi:false }
+            ]
+        },
+        {
+            investigador: 'Dra. Mercedes Luque-Vílchez',
+            foto: 'mercedes.jpg',
+            cargo: 'Profesora Titular · Contabilidad Social y Sostenibilidad',
+            links: {
+                scholar: 'https://scholar.google.com/citations?user=o58xQoQAAAAJ&hl=es&sortby=pubdate',
+                orcid:   'https://orcid.org/0000-0001-8392-8573'
+            },
+            publicaciones: [
+                { titulo:'The EU sustainability reporting mandate in Spain: Challenges and opportunities for practice and academia', autores:'Nicolás Garcia-Torea; Mercedes Luque-Vílchez', año:2025, revista:'Social and Environmental Accountability Journal', url:'https://www.tandfonline.com/journals/rsea20', doi:false },
+                { titulo:'The EU Taxonomy, sustainability reporting and financial institutions: understanding the elements driving regulatory uncertainty', autores:'Nicolás García-Torea; Mercedes Luque-Vílchez; Pablo Rodríguez-Gutiérrez', año:2024, revista:'Accounting Forum', url:'https://doi.org/10.1080/01559982.2024.2364953', doi:true },
+                { titulo:'The construction of the normative persuasion of social and environmental reporting regulation', autores:'Mercedes Luque-Vílchez; Javier Husillos', año:2024, revista:'Sustainability Accounting, Management and Policy Journal', url:'https://www.emerald.com/insight/publication/issn/2040-8021', doi:false },
+                { titulo:'Key aspects of sustainability reporting quality and the future of GRI', autores:'Mercedes Luque-Vílchez; Michela Cordazzo; Gunnar Rimmel; Carol A. Tilt', año:2023, revista:'Sustainability Accounting, Management and Policy Journal', url:'https://www.emerald.com/insight/publication/issn/2040-8021', doi:false }
+            ]
+        },
+        {
+            investigador: 'Dr. Juan Antonio Jimber del Río',
+            foto: 'juan_jimber.png',
+            cargo: 'Profesor · Economía Financiera y Turismo',
+            links: {
+                orcid: 'https://orcid.org/0000-0001-6886-7434',
+                rgate: 'https://www.researchgate.net/profile/Juan-Jimber-Del-Rio'
+            },
+            publicaciones: [
+                { titulo:'Influence of the salaries of the academic personnel of the co-financed universities on the number of scientific publications', autores:'J. A. Jimber del Rio; A. Arias-Barrionuevo', año:2025, revista:'Intangible Capital', url:'https://doi.org/10.3926/ic.2589', doi:true },
+                { titulo:'Residential satisfaction indicator: Latin American evidence', autores:'Juan Antonio Jimber del Río et al.', año:2025, revista:'International Journal of Strategic Property Management', url:'https://doi.org/10.3846/ijspm.2025.23241', doi:true },
+                { titulo:'Residential Customer Satisfaction in a Latin American Urban Context', autores:'Michelle-Ángela Zea-de la Torre; Juan-Antonio Jimber-del Río; Arnaldo Vergara-Romero et al.', año:2024, revista:'Journal of the Knowledge Economy', url:'https://doi.org/10.1007/s13132-024-01818-y', doi:true },
+                { titulo:'Contribution of rare earth elements is key to the economy of the future', autores:'J.-R. Cuadros-Muñoz; J.-A. Jimber-del-Río; A. Vergara-Romero et al.', año:2024, revista:'Land (MDPI)', url:'https://doi.org/10.3390/land13081220', doi:true },
+                { titulo:'Good Governance and Innovation: a Renewed Global Framework for National and Supranational Policy Advancement', autores:'Alberto Ibanez; J. A. Jimber del Rio; Gyanendra Singh Sisodia et al.', año:2024, revista:'Journal of the Knowledge Economy', url:'https://doi.org/10.1007/s13132-023-01324-7', doi:true }
+            ]
+        },
+        {
+            investigador: 'Dra. M. Dolores Guerrero-Baena',
+            foto: 'lola_guerrero.png',
+            cargo: 'Profesora · Economía Financiera y Contabilidad',
+            links: {
+                orcid: 'https://orcid.org/0000-0003-4042-3094'
+            },
+            publicaciones: [
+                { titulo:'SMEs in the reputation literature: a review of the state-of-the-art', autores:'Francisca Castilla-Polo; Ana Licerán-Gutiérrez; María Dolores Guerrero-Baena', año:2025, revista:'Review of Managerial Science', url:'https://doi.org/10.1007/s11846-025-00915-9', doi:true },
+                { titulo:'Assessing farmers\' intention to adopt drought insurance: Extended theory of planned behavior and behavioral reasoning theory', autores:'L. J. Cabeza-Ramírez; M. D. Guerrero-Baena; M. Luque-Vílchez; S. Sanchez-Cañizares', año:2024, revista:'International Journal of Disaster Risk Reduction', url:'https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction', doi:false },
+                { titulo:'What are the main drivers of SMEs\' production of sustainability reports?', autores:'M. D. Guerrero-Baena; F. Castilla-Polo; P. Rodríguez-Gutiérrez', año:2024, revista:'Small Business International Review', url:'https://upct.es/sbir', doi:false },
+                { titulo:'The cooperative ESG disclosure index: an empirical approach', autores:'F. Castilla-Polo; G. García-Martínez; M. D. Guerrero-Baena; F. Polo-Garrido', año:2024, revista:'Environment, Development and Sustainability', url:'https://link.springer.com/journal/10668', doi:false },
+                { titulo:'The business case for sustainability reporting in SMEs: consultants\' and academics\' perceptions', autores:'F. Castilla-Polo; M. D. Guerrero-Baena; P. Rodríguez-Gutiérrez', año:2023, revista:'Sustainable Development', url:'https://doi.org/10.1002/sd', doi:true }
+            ]
+        },
+        {
+            investigador: 'Amalia Hidalgo Fernández',
+            foto: 'amalia_hidalgo.png',
+            cargo: 'Profesora Titular · Economía del Turismo',
+            links: {
+                orcid: 'https://orcid.org/0000-0002-2764-6624'
+            },
+            publicaciones: [
+                { titulo:'Gastronomía local, cultura y turismo en Ciudades Patrimonio de la Humanidad: el comportamiento del turista extranjero', autores:'Antonio Menor-Campos; Amalia Hidalgo-Fernández; Teresa López-Felipe; Carol Jara-Alba', año:2022, revista:'Investigaciones Turísticas', url:'https://doi.org/10.14198/INTURI2022.23.7', doi:true },
+                { titulo:'Analysis of the impact of traditional gastronomy on loyalty to a world heritage destination', autores:'Ricardo D. Hernández-Rojas; Nuria Huete-Alcocer; Amalia Hidalgo-Fernández', año:2022, revista:'International Journal of Gastronomy and Food Science', url:'https://doi.org/10.1016/j.ijgfs.2022.100585', doi:true }
+            ]
+        },
+        {
+            investigador: 'Dra. Luz Marina Caracuel Sillero',
+            foto: 'marina_caracuel.jpg',
+            cargo: 'Investigadora · Contabilidad de Gestión y Cooperativismo',
+            links: {
+                orcid:   'https://orcid.org/0000-0001-7889-8066',
+                scholar: 'https://scholar.google.com/citations?user=BEFgDIgAAAAJ&hl=es&sortby=pubdate',
+                rgate:   'https://www.researchgate.net/scientific-contributions/Marina-Caracuel-Sillero-2302728336'
+            },
+            publicaciones: [
+                { titulo:'Influencia de la contabilidad de gestión como factor del éxito competitivo en el sector cooperativo', autores:'Marina Caracuel-Sillero et al.', año:2025, revista:'European Public & Social Innovation Review', url:'https://epsir.net', doi:false },
+                { titulo:'Tendencias de investigación sobre cooperativas agrícolas en España: un análisis bibliométrico', autores:'Marina Caracuel-Sillero et al.', año:2024, revista:'European Public & Social Innovation Review', url:'https://epsir.net', doi:false }
+            ]
+        },
+        {
+            investigador: 'Dr. Arnaldo Vergara-Romero',
+            foto: 'arnaldo_vergara.png',
+            cargo: 'Investigador · Economía Agraria y Sostenibilidad',
+            links: {
+                orcid: 'https://orcid.org/0000-0001-8503-3685'
+            },
+            publicaciones: [
+                { titulo:'Sustainable destination management and its role in driving ecotourism entrepreneurship', autores:'Arnaldo Vergara-Romero et al.', año:2025, revista:'Humanities and Social Sciences Communications (Nature)', url:'https://doi.org/10.1057/s41599-025-05149-4', doi:true },
+                { titulo:'Olivar convencional frente a olivar ecológico. Una comparación de su desempeño económico', autores:'Arnaldo Vergara-Romero et al.', año:2025, revista:'Revista de Estudios Empresariales. Segunda Época', url:'https://doi.org/10.17561/ree.n1.2025.9311', doi:true },
+                { titulo:'Study of Citizen Satisfaction in Rural Versus Urban Areas in Public Services: Perspective of a Multi-group Analysis', autores:'Arnaldo Vergara-Romero et al.', año:2024, revista:'Social Indicators Research', url:'https://link.springer.com/journal/11205', doi:false },
+                { titulo:'Residential Customer Satisfaction in a Latin American Urban Context', autores:'Michelle-Ángela Zea-de la Torre; Juan-Antonio Jimber-del Río; Arnaldo Vergara-Romero et al.', año:2024, revista:'Journal of the Knowledge Economy', url:'https://doi.org/10.1007/s13132-024-01818-y', doi:true },
+                { titulo:'Contribution of rare earth elements is key to the economy of the future', autores:'J.-R. Cuadros-Muñoz; J.-A. Jimber-del-Río; A. Vergara-Romero et al.', año:2024, revista:'Land (MDPI)', url:'https://doi.org/10.3390/land13081220', doi:true }
+            ]
+        }
+    ];
+
+    /* ===================================================
+       RENDERIZADO
+       =================================================== */
+    (function() {
+        const listEl      = document.getElementById('pub-list');
+        const countEl     = document.getElementById('pub-count');
+        const searchInput = document.getElementById('pub-search');
+        const yearChips   = document.getElementById('year-chips');
+
+        let activeYear   = '';
+        let searchQuery  = '';
+
+        // Cálculo total inicial
+        const total = PUBLICACIONES_FICOTUR.reduce((s,r)=>s+r.publicaciones.length,0);
+        document.getElementById('stat-total').textContent = total;
+
+        function getYearClass(year) {
+            const map = {2025:'y2025',2024:'y2024',2023:'y2023',2022:'y2022'};
+            return map[year] || '';
+        }
+
+        function renderAll() {
+            const q = searchQuery.toLowerCase().trim();
+            listEl.innerHTML = '';
+            let shown = 0;
+
+            PUBLICACIONES_FICOTUR.forEach(res => {
+                const filtered = res.publicaciones.filter(p => {
+                    const matchYear = !activeYear || String(p.año) === activeYear;
+                    const matchQ    = !q || p.titulo.toLowerCase().includes(q)
+                                      || p.autores.toLowerCase().includes(q)
+                                      || p.revista.toLowerCase().includes(q);
+                    return matchYear && matchQ;
+                });
+                if (!filtered.length) return;
+                shown += filtered.length;
+
+                // Header del investigador
+                const sec = document.createElement('div');
+                sec.className = 'researcher-section';
+
+                const header = document.createElement('div');
+                header.className = 'researcher-section-header';
+
+                // Avatar
+                const img = document.createElement('img');
+                img.src = res.foto; img.alt = res.investigador; img.className = 'rsh-avatar'; img.loading = 'lazy';
+                img.onerror = () => { img.style.display = 'none'; };
+
+                // Texto
+                const txt = document.createElement('div');
+                txt.innerHTML = `<p class="rsh-name">${res.investigador}</p><p class="rsh-role">${res.cargo}</p>`;
+
+                // Links académicos
+                const links = document.createElement('div');
+                links.className = 'rsh-links';
+                if (res.links.scholar) links.innerHTML += `<a href="${res.links.scholar}" target="_blank" rel="noopener" class="rsh-link-icon scholar" title="Google Scholar">GS</a>`;
+                if (res.links.orcid)   links.innerHTML += `<a href="${res.links.orcid}"   target="_blank" rel="noopener" class="rsh-link-icon orcid"   title="ORCID">ID</a>`;
+                if (res.links.rgate)   links.innerHTML += `<a href="${res.links.rgate}"   target="_blank" rel="noopener" class="rsh-link-icon rgate"   title="ResearchGate">RG</a>`;
+
+                // Contador + toggle
+                const count   = document.createElement('span'); count.className = 'rsh-count'; count.textContent = `${filtered.length} pub.`;
+                const toggle  = document.createElement('span'); toggle.className = 'rsh-toggle'; toggle.textContent = '▾';
+
+                header.append(img, txt, links, count, toggle);
+
+                // Colapsar/expandir al clic
+                header.addEventListener('click', (e) => {
+                    if (e.target.closest('a')) return;
+                    sec.classList.toggle('collapsed');
+                    pubsWrap.style.display = sec.classList.contains('collapsed') ? 'none' : 'block';
+                });
+
+                // Publicaciones
+                const pubsWrap = document.createElement('div');
+                filtered.forEach(p => {
+                    const card = document.createElement('article');
+                    card.className = 'pub-card';
+                    const yc = getYearClass(p.año);
+
+                    card.innerHTML = `
+                        <div>
+                            <div class="pub-card-meta">
+                                <span class="pub-year ${yc}">${p.año}</span>
+                                <span class="pub-researcher-tag">👤 ${res.investigador.split(' ').slice(-1)[0]}</span>
+                            </div>
+                            <h3 class="pub-title">${p.titulo}</h3>
+                            <p class="pub-authors">✍️ ${p.autores}</p>
+                            <p class="pub-journal">📖 ${p.revista}</p>
+                        </div>
+                        <div class="pub-actions">
+                            <a href="${p.url}" target="_blank" rel="noopener"
+                               class="pub-btn-doi doi" aria-label="Ver artículo">
+                                ${p.doi ? '🔗 DOI' : '🌐 Ver artículo'}
+                            </a>
+                            ${res.links.orcid ? `<a href="${res.links.orcid}" target="_blank" rel="noopener" class="pub-btn-doi scholar" title="ORCID del autor">🆔 ORCID</a>` : ''}
+                        </div>
+                    `;
+                    pubsWrap.appendChild(card);
+                });
+
+                sec.append(header, pubsWrap);
+                listEl.appendChild(sec);
+            });
+
+            // Sin resultados
+            if (!shown) {
+                listEl.innerHTML = `<div class="pub-empty">
+                    <p style="font-size:2rem;margin-bottom:1rem;">🔍</p>
+                    <p>No se encontraron publicaciones con los criterios seleccionados.</p>
+                </div>`;
+            }
+
+            countEl.textContent = shown;
+
+            // Animar entradas
+            listEl.querySelectorAll('.researcher-section').forEach((s, i) => {
+                s.style.opacity = '0';
+                s.style.transform = 'translateY(12px)';
+                setTimeout(() => {
+                    s.style.transition = 'opacity .3s ease, transform .3s ease';
+                    s.style.opacity = '1';
+                    s.style.transform = 'translateY(0)';
+                }, i * 60);
+            });
+        }
+
+        // Eventos de filtro
+        yearChips.addEventListener('click', (e) => {
+            const btn = e.target.closest('.fchip');
+            if (!btn) return;
+            yearChips.querySelectorAll('.fchip').forEach(c => c.classList.remove('active'));
+            btn.classList.add('active');
+            activeYear = btn.dataset.year;
+            renderAll();
+        });
+
+        searchInput.addEventListener('input', () => {
+            searchQuery = searchInput.value;
+            renderAll();
+        });
+
+        renderAll();
+    })();
+    </script>
+</body>
+</html>
