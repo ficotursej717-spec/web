@@ -1,0 +1,31 @@
+name: Actualizar Datos de la Web (BOUCO y UCO)
+
+on:
+  schedule:
+    - cron: '0 7 * * *' # Todos los días a las 07:00 UTC (08:00 o 09:00 en España según horario de verano/invierno)
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions en GitHub
+
+permissions:
+  contents: write # Permiso necesario para que el bot de Actions haga commit y push de los cambios
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Ejecutar script de actualización
+        run: python actualizar_bouco.py
+
+      - name: Confirmar y subir cambios
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add bouco_convocatorias.json uco_boletines.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-actualización de boletines y convocatorias [skip ci]" && git push)
