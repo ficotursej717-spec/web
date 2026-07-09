@@ -296,35 +296,92 @@
         </div>
     </main>
 
-    <!-- PIE DE PÁGINA -->
-    <footer class="footer">
-        <div class="container footer-grid">
-            <div class="footer-brand">
-                <img src="logo_ficotur_vertical.png" alt="Logo Ficotur" style="height:55px;background:white;padding:4px;border-radius:4px;">
-                <p data-translate="footer-desc">Grupo de Investigación SEJ-717 (Ficotur) de la Universidad de Córdoba.<br>Especializados en finanzas, contabilidad analítica y gestión estratégica del turismo.</p>
-            </div>
-            <div>
-                <h3 class="footer-title" data-translate="footer-links-title">Enlaces Rápidos</h3>
-                <ul class="footer-links">
-                    <li><a href="index.html" data-translate="nav-inicio">Inicio</a></li>
-                    <li><a href="equipo.html" data-translate="nav-equipo">Equipo</a></li>
-                    <li><a href="proyectos.html" data-translate="nav-proyectos">Proyectos</a></li>
-                    <li><a href="publicaciones.html" data-translate="nav-publicaciones">Publicaciones</a></li>
-                    <li><a href="contacto.html" data-translate="nav-contacto">Contacto</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="footer-title" data-translate="footer-contacto-title">Contacto Oficial</h3>
-                <p style="font-size:.95rem;margin-bottom:.5rem;" data-translate="footer-sede">📍 Facultad de Derecho y CC. Económicas y Empresariales, UCO</p>
-                <p style="font-size:.95rem;margin-bottom:.5rem;">📧 <a href="mailto:ficotur@uco.es" style="color:var(--accent);">ficotur@uco.es</a></p>
-                <p style="font-size:.95rem;">📞 +34 957 21 XX XX</p>
+    <!-- PIE DE PÁGINA (ESTILO CNIO) -->
+    <footer class="footer-cnio">
+        <!-- 1. Barra superior: Redes y Accesos -->
+        <div class="footer-top-bar">
+            <div class="container footer-top-inner">
+                <div class="footer-socials">
+                    <span class="social-prefix">FICOTUR</span>
+                    <a href="https://www.linkedin.com/in/ricardohernandezrojas" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg class="icon-svg" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                    </a>
+                    <a href="https://scholar.google.es/citations?user=Y70n6oMAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+                        <svg class="icon-svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12 3L1 9l11 6l9-4.91V17h2V9L12 3M5.89 12.55L12 15.88l6.11-3.33c.6.93.89 2 .89 3.45H5c0-1.45.29-2.52.89-3.45Z"/></svg>
+                    </a>
+                    <a href="https://orcid.org/0000-0002-3055-2151" target="_blank" rel="noopener" aria-label="ORCID">
+                        <svg class="icon-svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2zm-.229 14.808H9.95V7.198h1.822v9.61zm-.911-10.8c-.615 0-1.077-.456-1.077-1.077c0-.621.462-1.077 1.077-1.077c.621 0 1.077.456 1.077 1.077c0 .621-.456 1.077-1.077 1.077zm5.556 10.8c-1.371 0-2.316-.948-2.316-2.304v-4.996h1.84v4.996c0 .736.43 1.157 1.134 1.157c.71 0 1.144-.421 1.144-1.157v-4.996h1.84v4.996c0 1.356-.948 2.304-2.642 2.304z"/></svg>
+                    </a>
+                </div>
+                <div class="footer-top-right">
+                    <span class="co-prefix">Cátedra Asociada:</span>
+                    <a href="https://www.uco.es/ficotur" target="_blank" rel="noopener">Cátedra de Turismo Patrimonial y Cultural ↗</a>
+                </div>
             </div>
         </div>
-        <div class="container footer-bottom">
-            <p data-translate="footer-derechos">&copy; 2026 Grupo de Investigación Ficotur (SEJ-717). Todos los derechos reservados.</p>
-            <a href="https://www.uco.es" target="_blank" rel="noopener" style="display:block;flex-shrink:0;">
-                <img src="logo_uco.png" alt="Universidad de Córdoba (UCO)" style="height:38px;background:white;padding:3px;border-radius:4px;display:block;">
-            </a>
+
+        <!-- 2. Sección central: Marca, Info y Acciones -->
+        <div class="footer-middle-section">
+            <div class="container footer-middle-grid">
+                <!-- Columna Izq: Logotipo y lema -->
+                <div class="footer-col-brand">
+                    <a href="index.html" class="footer-logo-link">
+                        <img src="logo_ficotur.png" alt="Logotipo Ficotur UCO" class="footer-logo">
+                    </a>
+                    <p class="footer-tagline">Grupo de Investigación SEJ-717 (Ficotur) de la Universidad de Córdoba.</p>
+                </div>
+                
+                <!-- Columna Centro: Información de contacto -->
+                <div class="footer-col-info">
+                    <p class="footer-address">
+                        <strong>Facultad de Derecho y Ciencias Económicas y Empresariales</strong><br>
+                        Plaza de Puerta Nueva, s/n, 14002, Córdoba, España<br>
+                        📞 <a href="tel:+34957211250">+34 957 21 12 50</a> | ✉️ <a href="mailto:ficotur@uco.es">ficotur@uco.es</a>
+                    </p>
+                </div>
+                
+                <!-- Columna Der: Botones de Acción -->
+                <div class="footer-col-actions">
+                    <p class="actions-title">¿Quieres colaborar con nosotros?</p>
+                    <a href="contacto.html" class="btn-footer-outline">CONTACTO</a>
+                    <a href="https://www.uco.es/servicios/actualidad/boletines" target="_blank" rel="noopener" class="btn-footer-outline">BOLETÍN UCO</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Sección de logos de Financiación / Acreditaciones (Monocromáticos) -->
+        <div class="footer-funding-section">
+            <div class="container">
+                <span class="funding-title">Financiación institucional / Colaboradores</span>
+                <div class="funding-logos-grid">
+                    <img src="logo_uco.png" alt="Universidad de Córdoba" class="funding-logo">
+                    <img src="logo_catedra.png" alt="Cátedra de Turismo Patrimonial y Cultural" class="funding-logo">
+                    <img src="logo_junta.png" alt="Junta de Andalucía" class="funding-logo">
+                    <img src="logo_ministerio_fecyt.png" alt="Ministerio de Ciencia e Innovación - FECYT" class="funding-logo">
+                    <img src="logo_ue_nextgen.png" alt="Financiado por la Unión Europea - NextGenerationEU" class="funding-logo">
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. Barra de enlaces legales y créditos -->
+        <div class="footer-bottom-bar">
+            <div class="container footer-bottom-inner">
+                <div class="footer-bottom-links">
+                    <a href="index.html" data-translate="nav-inicio">Inicio</a>
+                    <a href="equipo.html" data-translate="nav-equipo">Equipo</a>
+                    <a href="proyectos.html" data-translate="nav-proyectos">Proyectos</a>
+                    <a href="publicaciones.html" data-translate="nav-publicaciones">Publicaciones</a>
+                    <a href="contacto.html" data-translate="nav-contacto">Contacto</a>
+                </div>
+                <div class="footer-legal-links">
+                    <a href="#" id="footer-btn-legal" data-translate="footer-legal">Aviso Legal</a>
+                    <a href="#" id="footer-btn-privacy" data-translate="footer-privacy">Política de Privacidad</a>
+                    <a href="#" id="footer-btn-cookies" data-translate="footer-cookies">Cookies</a>
+                </div>
+                <p class="footer-credits" data-translate="footer-derechos">
+                    © 2026 Grupo de Investigación Ficotur (SEJ-717). Todos los derechos reservados.
+                </p>
+            </div>
         </div>
     </footer>
 
@@ -340,7 +397,7 @@
         {
             investigador: 'Ricardo Hernández Rojas',
             foto: 'ricardo_hernandez.png',
-            cargo: 'Director del Grupo · Investigador Principal',
+            cargo: 'Profesor Titular · Economía Financiera y Contabilidad',
             links: {
                 scholar: 'https://scholar.google.com/citations?user=3jb2UysAAAAJ&hl=es',
                 orcid:   'https://orcid.org/0000-0002-3055-2151',
@@ -388,7 +445,7 @@
         {
             investigador: 'Dra. M. Dolores Guerrero-Baena',
             foto: 'lola_guerrero.png',
-            cargo: 'Profesora · Economía Financiera y Contabilidad',
+            cargo: 'Profesora Titular · Economía Financiera y Contabilidad',
             links: {
                 orcid: 'https://orcid.org/0000-0003-4042-3094'
             },
@@ -401,7 +458,7 @@
             ]
         },
         {
-            investigador: 'Amalia Hidalgo Fernández',
+            investigador: 'Dra. Amalia Hidalgo Fernández',
             foto: 'amalia_hidalgo.png',
             cargo: 'Profesora Titular · Economía del Turismo',
             links: {
@@ -415,7 +472,7 @@
         {
             investigador: 'Dra. Luz Marina Caracuel Sillero',
             foto: 'marina_caracuel.jpg',
-            cargo: 'Investigadora · Contabilidad de Gestión y Cooperativismo',
+            cargo: 'Profesora · Contabilidad de Gestión y Cooperativismo',
             links: {
                 orcid:   'https://orcid.org/0000-0001-7889-8066',
                 scholar: 'https://scholar.google.com/citations?user=BEFgDIgAAAAJ&hl=es&sortby=pubdate',
@@ -429,7 +486,7 @@
         {
             investigador: 'Dr. Arnaldo Vergara-Romero',
             foto: 'arnaldo_vergara.png',
-            cargo: 'Investigador · Economía Agraria y Sostenibilidad',
+            cargo: 'Profesor · Economía Agraria y Sostenibilidad',
             links: {
                 orcid: 'https://orcid.org/0000-0001-8503-3685'
             },
@@ -499,9 +556,9 @@
                 // Links académicos
                 const links = document.createElement('div');
                 links.className = 'rsh-links';
-                if (res.links.scholar) links.innerHTML += `<a href="${res.links.scholar}" target="_blank" rel="noopener" class="rsh-link-icon scholar" title="Google Scholar">GS</a>`;
-                if (res.links.orcid)   links.innerHTML += `<a href="${res.links.orcid}"   target="_blank" rel="noopener" class="rsh-link-icon orcid"   title="ORCID">ID</a>`;
-                if (res.links.rgate)   links.innerHTML += `<a href="${res.links.rgate}"   target="_blank" rel="noopener" class="rsh-link-icon rgate"   title="ResearchGate">RG</a>`;
+                if (res.links.scholar) links.innerHTML += `<a href="${res.links.scholar}" target="_blank" rel="noopener" class="rsh-link-icon scholar" title="Google Scholar"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="display:block;"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z M5 13.18v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4l-7 3.82-7-3.82z"/></svg></a>`;
+                if (res.links.orcid)   links.innerHTML += `<a href="${res.links.orcid}"   target="_blank" rel="noopener" class="rsh-link-icon orcid"   title="ORCID"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="display:block;"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.541 0 .98.439.98.98s-.439.98-.98.98-.98-.439-.98-.98.439-.98.98-.98zm-.554 4.542h1.108v10.024H6.815V8.92zm5.727 0h2.47c1.785 0 2.828.988 2.828 2.502 0 1.1-.643 2.057-1.783 2.378 1.408.318 2.158 1.402 2.158 2.766 0 1.691-1.189 2.378-3.053 2.378h-2.62V8.92zm1.108 1.024v3.136h1.22c1.08 0 1.7-.492 1.7-1.587 0-1.077-.62-1.549-1.7-1.549h-1.22zm0 4.16v3.816h1.37c1.127 0 1.832-.444 1.832-1.921 0-1.44-.705-1.895-1.832-1.895h-1.37z"/></svg></a>`;
+                if (res.links.rgate)   links.innerHTML += `<a href="${res.links.rgate}"   target="_blank" rel="noopener" class="rsh-link-icon rgate"   title="ResearchGate"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="display:block;"><path d="M19.586 0c-.818 0-1.508.19-2.073.565-.563.377-.97.936-1.213 1.68a3.193 3.193 0 0 0-.112.437 8.365 8.365 0 0 0-.078.53 9 9 0 0 0-.05.727c-.01.282-.013.621-.013 1.016a31.121 31.123 0 0 0 .014 1.017 9 9 0 0 0 .05.727 7.946 7.946 0 0 0 .077.53h-.005a3.334 3.334 0 0 0 .113.438c.245.743.65 1.303 1.214 1.68.565.376 1.256.564 2.075.564.8 0 1.536-.213 2.105-.603.57-.39.94-.916 1.175-1.65.076-.235.135-.558.177-.93a10.9 10.9 0 0 0 .043-1.207v-.82c0-.095-.047-.142-.14-.142h-3.064c-.094 0-.14.047-.14.141v.956c0 .094.046.14.14.14h1.666c.056 0 .084.03.084.086 0 .36 0 .62-.036.865-.038.244-.1.447-.147.606-.108.385-.348.664-.638.876-.29.212-.738.35-1.227.35-.545 0-.901-.15-1.21-.353-.306-.203-.517-.454-.67-.915a3.136 3.136 0 0 1-.147-.762 17.366 17.367 0 0 1-.034-.656c-.01-.26-.014-.572-.014-.939a26.401 26.403 0 0 1 .014-.938 15.821 15.822 0 0 1 .035-.656 3.19 3.19 0 0 1 .148-.76 1.89 1.89 0 0 1 .742-1.01c.344-.244.593-.352 1.137-.352.508 0 .815.096 1.144.303.33.207.528.492.764.925.047.094.111.118.198.07l1.044-.43c.075-.048.09-.115.042-.199a3.549 3.549 0 0 0-.466-.742 3 3 0 0 0-.679-.607 3.313 3.313 0 0 0-.903-.41A4.068 4.068 0 0 0 19.586 0zM8.217 5.836c-1.69 0-3.036.086-4.297.086-1.146 0-2.291 0-3.007-.029v.831l1.088.2c.744.144 1.174.488 1.174 2.264v11.288c0 1.777-.43 2.12-1.174 2.263l-1.088.2v.832c.773-.029 2.12-.086 3.465-.086 1.29 0 2.951.057 3.667.086v-.831l-1.49-.2c-.773-.115-1.174-.487-1.174-2.264v-4.784c.688.057 1.29.057 2.206.057 1.748 3.123 3.41 5.472 4.355 6.56.86 1.032 2.177 1.691 3.839 1.691.487 0 1.003-.086 1.318-.23v-.744c-1.031 0-2.063-.716-2.808-1.518-1.26-1.376-2.95-3.582-4.355-6.074 2.32-.545 4.04-2.722 4.04-4.9 0-3.208-2.492-4.698-5.758-4.698zm-.515 1.29c2.406 0 3.839 1.26 3.839 3.552 0 2.263-1.547 3.782-4.097 3.782-.974 0-1.404-.03-2.063-.086v-7.19c.66-.059 1.547-.059 2.32-.059z"/></svg></a>`;
 
                 // Contador + toggle
                 const count   = document.createElement('span'); count.className = 'rsh-count'; count.textContent = `${filtered.length} pub.`;
@@ -538,7 +595,7 @@
                                class="pub-btn-doi doi" aria-label="Ver artículo">
                                 ${p.doi ? '🔗 DOI' : '🌐 Ver artículo'}
                             </a>
-                            ${res.links.orcid ? `<a href="${res.links.orcid}" target="_blank" rel="noopener" class="pub-btn-doi scholar" title="ORCID del autor">🆔 ORCID</a>` : ''}
+                            ${res.links.orcid ? `<a href="${res.links.orcid}" target="_blank" rel="noopener" class="pub-btn-doi scholar" title="ORCID del autor"><svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" style="margin-right:0.25rem;"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.541 0 .98.439.98.98s-.439.98-.98.98-.98-.439-.98-.98.439-.98.98-.98zm-.554 4.542h1.108v10.024H6.815V8.92zm5.727 0h2.47c1.785 0 2.828.988 2.828 2.502 0 1.1-.643 2.057-1.783 2.378 1.408.318 2.158 1.402 2.158 2.766 0 1.691-1.189 2.378-3.053 2.378h-2.62V8.92zm1.108 1.024v3.136h1.22c1.08 0 1.7-.492 1.7-1.587 0-1.077-.62-1.549-1.7-1.549h-1.22zm0 4.16v3.816h1.37c1.127 0 1.832-.444 1.832-1.921 0-1.44-.705-1.895-1.832-1.895h-1.37z"/></svg> ORCID</a>` : ''}
                         </div>
                     `;
                     pubsWrap.appendChild(card);

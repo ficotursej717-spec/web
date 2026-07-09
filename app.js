@@ -7,7 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
     initTeamModals();
     initZoteroAPI();
     initBoucoWidget();
+    initUcoBoletinesWidget();
     initLanguageSelector();
+    initLegalModals();
+    
+    // Inicializar iconos de badges académicos estáticos en la página
+    document.querySelectorAll('.badge-link').forEach(addIconToBadge);
 });
 
 /* ==========================================================================
@@ -42,7 +47,7 @@ function initMobileMenu() {
 const investigadoresData = {
     'investigador-1': {
         nombre: 'Dr. Ricardo Hernández Rojas',
-        cargo: 'Director de Ficotur - Área de Economía Financiera y Contabilidad, Dpto. Economía Agraria, Finanzas y Contabilidad',
+        cargo: 'Profesor Titular de Universidad - Área de Economía Financiera y Contabilidad, Dpto. Economía Agraria, Finanzas y Contabilidad',
         foto: 'ricardo.jpg',
         lineas: [
             'Gestión turística del patrimonio.',
@@ -54,7 +59,7 @@ const investigadoresData = {
         contacto: {
             email: 'ricardo.hernandez@uco.es',
             telefono: '+34 957 21 12 50',
-            despacho: 'Facultad de Ciencias del Trabajo, Universidad de Córdoba'
+            despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
             orcid: 'https://orcid.org/0000-0002-3055-2151',
@@ -115,7 +120,7 @@ const investigadoresData = {
     },
     'investigador-4': {
         nombre: 'Dr. José Antonio Fernández-Gallardo',
-        cargo: 'Profesor del Dpto. de Economía Agraria, Finanzas y Contabilidad - Área de Economía Financiera y Contabilidad',
+        cargo: 'Profesor del Área de Economía Financiera y Contabilidad - Dpto. Economía Agraria, Finanzas y Contabilidad',
         foto: 'jose_antonio.png',
         lineas: [
             'Economía financiera, contabilidad de gestión y valoración corporativa.',
@@ -135,7 +140,7 @@ const investigadoresData = {
     },
     'investigador-5': {
         nombre: 'Carmen Barbero Saavedra',
-        cargo: 'Docente e Investigadora - Área de Métodos Cuantitativos y Economía Española',
+        cargo: 'Profesora de Área de Métodos Cuantitativos y Economía Española',
         foto: 'carmen_barbero.png',
         lineas: [
             'Métodos cuantitativos aplicados a la economía agraria y análisis de datos.',
@@ -154,7 +159,7 @@ const investigadoresData = {
     },
     'investigador-6': {
         nombre: 'Dra. M. Dolores Guerrero-Baena',
-        cargo: 'Profesora e Investigadora - Área de Economía Financiera y Contabilidad, Dpto. Economía Agraria, Finanzas y Contabilidad',
+        cargo: 'Profesora Titular de Universidad - Área de Economía Financiera y Contabilidad, Dpto. Economía Agraria, Finanzas y Contabilidad',
         foto: 'lola_guerrero.png',
         lineas: [
             'Valoración de inversiones corporativas y capital intelectual.',
@@ -194,7 +199,7 @@ const investigadoresData = {
         }
     },
     'investigador-8': {
-        nombre: 'Amalia Hidalgo Fernández',
+        nombre: 'Dra. Amalia Hidalgo Fernández',
         cargo: 'Profesora Titular de Universidad - Dpto. Economía Agraria, Finanzas y Contabilidad',
         foto: 'amalia_hidalgo.png',
         lineas: [
@@ -214,7 +219,7 @@ const investigadoresData = {
     },
     'investigador-9': {
         nombre: 'Dra. Luz Marina Caracuel Sillero',
-        cargo: 'Investigadora - Área de Economía Financiera y Contabilidad, Dpto. Economía Agraria, Finanzas y Contabilidad',
+        cargo: 'Profesora del Área de Economía Financiera y Contabilidad - Dpto. Economía Agraria, Finanzas y Contabilidad',
         foto: 'marina_caracuel.jpg',
         lineas: [
             'Contabilidad de gestión: influencia de la información contable en la competitividad de cooperativas oleícolas.',
@@ -236,7 +241,7 @@ const investigadoresData = {
     },
     'investigador-10': {
         nombre: 'Dr. Arnaldo Vergara-Romero',
-        cargo: 'Investigador - Área de Economía Financiera y Contabilidad, Proyecto FARMPERFORM',
+        cargo: 'Profesor del Área de Economía Financiera y Contabilidad - Proyecto FARMPERFORM',
         foto: 'arnaldo_vergara.png',
         lineas: [
             'Métodos matemáticos y cuantitativos aplicados a la economía (JEL: C).',
@@ -342,9 +347,41 @@ function fillModal(data) {
                 a.rel = 'noopener';
                 a.className = info.class;
                 a.textContent = info.label;
+                addIconToBadge(a);
                 linksContainer.appendChild(a);
             }
         }
+    }
+}
+
+/* ==========================================================================
+   HELPER: AÑADIR ICONOS A BADGES ACADÉMICOS
+   ========================================================================== */
+function addIconToBadge(link) {
+    if (link.querySelector('svg')) return;
+
+    const text = link.textContent.trim().toLowerCase();
+    let iconSvg = '';
+
+    if (text.includes('orcid')) {
+        iconSvg = '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.541 0 .98.439.98.98s-.439.98-.98.98-.98-.439-.98-.98.439-.98.98-.98zm-.554 4.542h1.108v10.024H6.815V8.92zm5.727 0h2.47c1.785 0 2.828.988 2.828 2.502 0 1.1-.643 2.057-1.783 2.378 1.408.318 2.158 1.402 2.158 2.766 0 1.691-1.189 2.378-3.053 2.378h-2.62V8.92zm1.108 1.024v3.136h1.22c1.08 0 1.7-.492 1.7-1.587 0-1.077-.62-1.549-1.7-1.549h-1.22zm0 4.16v3.816h1.37c1.127 0 1.832-.444 1.832-1.921 0-1.44-.705-1.895-1.832-1.895h-1.37z"/></svg>';
+    } else if (text.includes('scholar')) {
+        iconSvg = '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z M5 13.18v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4l-7 3.82-7-3.82z"/></svg>';
+    } else if (text.includes('researchgate')) {
+        iconSvg = '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19.586 0c-.818 0-1.508.19-2.073.565-.563.377-.97.936-1.213 1.68a3.193 3.193 0 0 0-.112.437 8.365 8.365 0 0 0-.078.53 9 9 0 0 0-.05.727c-.01.282-.013.621-.013 1.016a31.121 31.123 0 0 0 .014 1.017 9 9 0 0 0 .05.727 7.946 7.946 0 0 0 .077.53h-.005a3.334 3.334 0 0 0 .113.438c.245.743.65 1.303 1.214 1.68.565.376 1.256.564 2.075.564.8 0 1.536-.213 2.105-.603.57-.39.94-.916 1.175-1.65.076-.235.135-.558.177-.93a10.9 10.9 0 0 0 .043-1.207v-.82c0-.095-.047-.142-.14-.142h-3.064c-.094 0-.14.047-.14.141v.956c0 .094.046.14.14.14h1.666c.056 0 .084.03.084.086 0 .36 0 .62-.036.865-.038.244-.1.447-.147.606-.108.385-.348.664-.638.876-.29.212-.738.35-1.227.35-.545 0-.901-.15-1.21-.353-.306-.203-.517-.454-.67-.915a3.136 3.136 0 0 1-.147-.762 17.366 17.367 0 0 1-.034-.656c-.01-.26-.014-.572-.014-.939a26.401 26.403 0 0 1 .014-.938 15.821 15.822 0 0 1 .035-.656 3.19 3.19 0 0 1 .148-.76 1.89 1.89 0 0 1 .742-1.01c.344-.244.593-.352 1.137-.352.508 0 .815.096 1.144.303.33.207.528.492.764.925.047.094.111.118.198.07l1.044-.43c.075-.048.09-.115.042-.199a3.549 3.549 0 0 0-.466-.742 3 3 0 0 0-.679-.607 3.313 3.313 0 0 0-.903-.41A4.068 4.068 0 0 0 19.586 0zM8.217 5.836c-1.69 0-3.036.086-4.297.086-1.146 0-2.291 0-3.007-.029v.831l1.088.2c.744.144 1.174.488 1.174 2.264v11.288c0 1.777-.43 2.12-1.174 2.263l-1.088.2v.832c.773-.029 2.12-.086 3.465-.086 1.29 0 2.951.057 3.667.086v-.831l-1.49-.2c-.773-.115-1.174-.487-1.174-2.264v-4.784c.688.057 1.29.057 2.206.057 1.748 3.123 3.41 5.472 4.355 6.56.86 1.032 2.177 1.691 3.839 1.691.487 0 1.003-.086 1.318-.23v-.744c-1.031 0-2.063-.716-2.808-1.518-1.26-1.376-2.95-3.582-4.355-6.074 2.32-.545 4.04-2.722 4.04-4.9 0-3.208-2.492-4.698-5.758-4.698zm-.515 1.29c2.406 0 3.839 1.26 3.839 3.552 0 2.263-1.547 3.782-4.097 3.782-.974 0-1.404-.03-2.063-.086v-7.19c.66-.059 1.547-.059 2.32-.059z"/></svg>';
+    } else if (text.includes('linkedin')) {
+        iconSvg = '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>';
+    } else if (text.includes('instagram')) {
+        iconSvg = '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>';
+    } else if (text.includes('scopus')) {
+        iconSvg = '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>';
+    } else if (text.includes('dialnet')) {
+        iconSvg = '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 11.55C9.64 9.35 6.48 8 3 8v11c3.48 0 6.64 1.35 9 3.55 2.36-2.2 5.52-3.55 9-3.55V8c-3.48 0-6.64 1.35-9 3.55zM12 8c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3z"/></svg>';
+    }
+
+    if (iconSvg) {
+        const label = link.textContent.trim();
+        link.innerHTML = `${iconSvg}<span>${label}</span>`;
     }
 }
 
@@ -694,6 +731,54 @@ function setupBoucoFilters() {
 }
 
 /* ==========================================================================
+   4b. WIDGET INTERACTIVO DE BOLETINES DE NOVEDADES UCO (TIEMPO REAL)
+   ========================================================================== */
+async function initUcoBoletinesWidget() {
+    const listContainer = document.getElementById('uco-boletines-list');
+    if (!listContainer) return;
+
+    try {
+        const response = await fetch('uco_boletines.json');
+        if (!response.ok) throw new Error('No se pudo cargar el boletín de novedades');
+        
+        const list = await response.json();
+        renderUcoBoletines(list);
+    } catch (error) {
+        console.error('Error al cargar boletines de la UCO:', error);
+        listContainer.innerHTML = '<div class="bouco-empty">[Error de conexión] No se pudo sincronizar el boletín de novedades de la UCO. Inténtelo más tarde.</div>';
+    }
+}
+
+function renderUcoBoletines(list) {
+    const container = document.getElementById('uco-boletines-list');
+    if (!container) return;
+
+    if (list.length === 0) {
+        container.innerHTML = '<div class="bouco-empty">No hay boletines disponibles en este momento.</div>';
+        return;
+    }
+
+    container.innerHTML = '';
+    list.forEach(item => {
+        const a = document.createElement('a');
+        a.href = item.link;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        a.className = 'uco-boletin-item';
+        a.setAttribute('aria-label', `${item.titulo}. Publicado el ${item.fecha}.`);
+
+        a.innerHTML = `
+            <div class="uco-boletin-item-header">
+                <span class="uco-boletin-badge-date">📅 ${item.fecha}</span>
+                <span class="uco-boletin-link-text">Ver Boletín ↗</span>
+            </div>
+            <div class="uco-boletin-item-title">${item.titulo}</div>
+        `;
+        container.appendChild(a);
+    });
+}
+
+/* ==========================================================================
    5. SISTEMA DE TRADUCCIÓN MULTILINGÜE
    ========================================================================== */
 function initLanguageSelector() {
@@ -752,4 +837,245 @@ function translatePage(lang) {
     
     // Cambiar el atributo lang en la etiqueta html para SEO y accesibilidad
     document.documentElement.lang = lang;
+}
+
+/* ==========================================================================
+   6. MODALES LEGALES DINÁMICOS (AVISO LEGAL, PRIVACIDAD, COOKIES)
+   ========================================================================== */
+function initLegalModals() {
+    // Crear el modal legal dinámicamente si no existe
+    let legalModal = document.getElementById('legal-modal');
+    if (!legalModal) {
+        legalModal = document.createElement('div');
+        legalModal.id = 'legal-modal';
+        legalModal.className = 'modal';
+        legalModal.role = 'dialog';
+        legalModal.setAttribute('aria-modal', 'true');
+        legalModal.setAttribute('aria-labelledby', 'legal-modal-title');
+        legalModal.innerHTML = `
+            <div class="modal-content" style="max-width: 700px; max-height: 85vh; display: flex; flex-direction: column; padding: 2.5rem;">
+                <button class="modal-close" aria-label="Cerrar modal de información" style="top: 1.25rem; right: 1.25rem;">×</button>
+                <div class="modal-header" style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; margin-bottom: 1rem; display: block; flex-shrink: 0; gap: 0;">
+                    <h3 id="legal-modal-title" class="modal-name" style="margin: 0; font-size: 1.5rem; color: var(--primary);">Título</h3>
+                </div>
+                <div class="modal-body" id="legal-modal-body" style="overflow-y: auto; flex-grow: 1; padding-right: 0.5rem; line-height: 1.6; font-size: 0.95rem; color: var(--text-dark);">
+                    <!-- Contenido dinámico -->
+                </div>
+            </div>
+        `;
+        document.body.appendChild(legalModal);
+    }
+
+    const legalTexts = {
+        es: {
+            legal: {
+                title: "Aviso Legal",
+                content: `
+                    <p><strong>1. Identificación del Titular</strong></p>
+                    <p>En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSI-CE), se informa que este sitio web es gestionado por el <strong>Grupo de Investigación Ficotur (SEJ-717)</strong> de la <strong>Universidad de Córdoba (UCO)</strong>.</p>
+                    <p><strong>Sede:</strong> Facultad de Derecho y Ciencias Económicas y Empresariales. Plaza de Puerta Nueva, s/n, 14002, Córdoba, España.</p>
+                    <p><strong>Contacto:</strong> ficotur@uco.es</p>
+                    <br>
+                    <p><strong>2. Propiedad Intelectual</strong></p>
+                    <p>Todos los contenidos científicos, publicaciones, textos, imágenes, logos, gráficos y diseños que aparecen en este sitio web están protegidos por derechos de propiedad intelectual propiedad de la Universidad de Córdoba y/o de sus respectivos autores del grupo de investigación.</p>
+                    <p>Queda prohibida su reproducción, distribución o comunicación pública con fines comerciales sin la autorización expresa del grupo de investigación.</p>
+                    <br>
+                    <p><strong>3. Limitación de Responsabilidad</strong></p>
+                    <p>El Grupo Ficotur realiza los mayores esfuerzos para mantener la información científica y de convocatorias actualizada y exacta. No obstante, no se responsabiliza de posibles errores ortográficos, técnicos o por cambios temporales en las fuentes de información institucionales.</p>
+                `
+            },
+            privacy: {
+                title: "Política de Privacidad",
+                content: `
+                    <p><strong>1. Protección de Datos de Carácter Personal</strong></p>
+                    <p>De conformidad con el Reglamento General de Protección de Datos (RGPD UE 2016/679) y la Ley Orgánica 3/2018 (LOPDGDD), le informamos que los datos de contacto que facilite a través de los formularios o correos electrónicos oficiales del grupo serán tratados bajo la responsabilidad de la Universidad de Córdoba.</p>
+                    <br>
+                    <p><strong>2. Finalidad del Tratamiento</strong></p>
+                    <p>La finalidad principal es atender y resolver sus consultas, solicitudes de colaboración o contacto con los miembros del grupo de investigación.</p>
+                    <br>
+                    <p><strong>3. Legitimación</strong></p>
+                    <p>La base legal para el tratamiento de sus datos es el consentimiento explícito que otorga al pulsar el botón de envío en el formulario de contacto.</p>
+                    <br>
+                    <p><strong>4. Derechos de los Usuarios</strong></p>
+                    <p>Puede ejercitar sus derechos de acceso, rectificación, supresión, limitación y oposición dirigiendo una solicitud firmada junto a copia de su documento de identidad a ficotur@uco.es o a través de la Secretaría General de la Universidad de Córdoba.</p>
+                `
+            },
+            cookies: {
+                title: "Política de Cookies",
+                content: `
+                    <p><strong>1. ¿Qué es una Cookie?</strong></p>
+                    <p>Una cookie es un pequeño fichero de texto que un sitio web almacena en el navegador del usuario para recordar sus preferencias de navegación y optimizar la experiencia técnica.</p>
+                    <br>
+                    <p><strong>2. Cookies Utilizadas en Ficotur</strong></p>
+                    <p>Este sitio web utiliza únicamente:</p>
+                    <ul>
+                        <li><strong>Cookies Técnicas / de Personalización:</strong> Necesarias para recordar el idioma de navegación seleccionado (español, inglés, francés o portugués) guardado en su navegador (localStorage).</li>
+                        <li><strong>Cookies Analíticas Anónimas:</strong> No recogen datos de carácter personal; únicamente miden estadísticas agregadas y anónimas sobre el tráfico de visitas para la optimización de la velocidad del sitio.</li>
+                    </ul>
+                    <br>
+                    <p><strong>3. Desactivación de Cookies</strong></p>
+                    <p>El usuario puede restringir, bloquear o borrar las cookies de este o cualquier otro sitio web utilizando la configuración de su propio navegador web.</p>
+                `
+            }
+        },
+        en: {
+            legal: {
+                title: "Legal Notice",
+                content: `
+                    <p><strong>1. Identification of the Owner</strong></p>
+                    <p>In compliance with Article 10 of Law 34/2002 of July 11 on Services of the Information Society and Electronic Commerce (LSSI-CE), we inform you that this website is managed by the <strong>Ficotur Research Group (SEJ-717)</strong> of the <strong>University of Córdoba (UCO)</strong>.</p>
+                    <p><strong>HQ:</strong> Faculty of Law and Business & Economic Sciences. Plaza de Puerta Nueva, s/n, 14002, Córdoba, Spain.</p>
+                    <p><strong>Contact:</strong> ficotur@uco.es</p>
+                    <br>
+                    <p><strong>2. Intellectual Property</strong></p>
+                    <p>All scientific content, publications, texts, images, logos, graphics, and designs on this website are protected by intellectual property rights owned by the University of Córdoba and/or the respective authors of the research group.</p>
+                    <p>Reproduction, distribution, or public communication for commercial purposes without explicit authorization is strictly prohibited.</p>
+                    <br>
+                    <p><strong>3. Limitation of Liability</strong></p>
+                    <p>The Ficotur Group makes every effort to keep all scientific and call information up to date and accurate. However, it is not responsible for typographical, technical errors, or changes made by official institutional sources.</p>
+                `
+            },
+            privacy: {
+                title: "Privacy Policy",
+                content: `
+                    <p><strong>1. Protection of Personal Data</strong></p>
+                    <p>In accordance with the General Data Protection Regulation (GDPR EU 2016/679) and organic national regulations, we inform you that the contact details you provide through official forms or emails will be processed under the responsibility of the University of Córdoba.</p>
+                    <br>
+                    <p><strong>2. Purpose of Processing</strong></p>
+                    <p>The main purpose is to answer and resolve your queries, requests for collaboration, or contact messages directed to members of the research group.</p>
+                    <br>
+                    <p><strong>3. Lawfulness of Processing</strong></p>
+                    <p>The legal basis is the explicit consent given when clicking the send button on the contact form.</p>
+                    <br>
+                    <p><strong>4. User Rights</strong></p>
+                    <p>You can exercise your rights of access, rectification, erasure, restriction, and objection by sending a request together with a copy of your ID to ficotur@uco.es or through the General Secretariat of the University of Córdoba.</p>
+                `
+            },
+            cookies: {
+                title: "Cookie Policy",
+                content: `
+                    <p><strong>1. What is a Cookie?</strong></p>
+                    <p>A cookie is a small text file that a website stores in the user's browser to remember browsing preferences and optimize technical performance.</p>
+                    <br>
+                    <p><strong>2. Cookies Used by Ficotur</strong></p>
+                    <p>This website uses only:</p>
+                    <ul>
+                        <li><strong>Technical / Preference Cookies:</strong> Necessary to remember your selected browsing language (Spanish, English, French, or Portuguese) stored in your browser (localStorage).</li>
+                        <li><strong>Anonymous Analytical Cookies:</strong> Do not collect personal data; they only measure aggregated and anonymous traffic statistics to optimize website performance.</li>
+                    </ul>
+                    <br>
+                    <p><strong>3. Disabling Cookies</strong></p>
+                    <p>Users can restrict, block, or delete cookies from this or any other website using their own web browser settings.</p>
+                `
+            }
+        },
+        fr: {
+            legal: {
+                title: "Mentions Légales",
+                content: `
+                    <p><strong>1. Identification du Propriétaire</strong></p>
+                    <p>Conformément à l'article 10 de la loi 34/2002 du 11 juillet relative aux services de la société de l'information et du commerce électronique (LSSI-CE), nous vous informons que ce site est géré par le <strong>Groupe de Recherche Ficotur (SEJ-717)</strong> de l'<strong>Université de Cordoue (UCO)</strong>.</p>
+                    <p><strong>Siège:</strong> Faculté de Droit et des Sciences Économiques et de Gestion. Plaza de Puerta Nueva, s/n, 14002, Cordoue, Espagne.</p>
+                    <p><strong>Contact:</strong> ficotur@uco.es</p>
+                    <br>
+                    <p><strong>2. Propriété Intellectuelle</strong></p>
+                    <p>Tous les contenus scientifiques, publications, textes, images, logos, graphiques et designs figurant sur ce site sont protégés par les droits de propriété intellectuelle appartenant à l'Université de Cordoue et/ou aux auteurs du groupe de recherche.</p>
+                    <p>Toute reproduction ou distribution à des fins commerciales sans autorisation expresse est interdite.</p>
+                `
+            },
+            privacy: {
+                title: "Politique de Confidentialité",
+                content: `
+                    <p><strong>1. Protection des Données Personnelles</strong></p>
+                    <p>Conformément au Règlement Général sur la Protection des Données (RGPD UE 2016/679), nous vous informons que les données fournies via nos formulaires ou e-mails officiels seront traitées sous la responsabilité de l'Université de Cordoue.</p>
+                    <br>
+                    <p><strong>2. Finalité du Traitement</strong></p>
+                    <p>La finalité est de répondre et de résoudre vos demandes de renseignements ou de collaboration avec les membres de notre équipe.</p>
+                    <br>
+                    <p><strong>3. Droits des Utilisateurs</strong></p>
+                    <p>Vous pouvez exercer vos droits d'accès, de rectification, de suppression et d'opposition en écrivant à ficotur@uco.es.</p>
+                `
+            },
+            cookies: {
+                title: "Politique de Cookies",
+                content: `
+                    <p><strong>1. Qu'est-ce qu'un Cookie?</strong></p>
+                    <p>Un cookie est un petit fichier texte stocké par le site web sur votre navigateur pour retenir vos préférences.</p>
+                    <br>
+                    <p><strong>2. Cookies Utilisés</strong></p>
+                    <ul>
+                        <li><strong>Cookies Techniques:</strong> Utilisés pour mémoriser la langue d'affichage sélectionnée (localStorage).</li>
+                        <li><strong>Cookies Analytiques Anonymes:</strong> Statistiques de visites anonymes.</li>
+                    </ul>
+                `
+            }
+        },
+        pt: {
+            legal: {
+                title: "Aviso Legal",
+                content: `
+                    <p><strong>1. Identificação do Titular</strong></p>
+                    <p>Em conformidade com a legislação em vigor, este site é gerido pelo <strong>Grupo de Pesquisa Ficotur (SEJ-717)</strong> da <strong>Universidade de Córdoba (UCO)</strong>.</p>
+                    <p><strong>Sede:</strong> Faculdade de Direito e Ciências Econômicas e Empresariais. Plaza de Puerta Nueva, s/n, 14002, Córdoba, Espanha.</p>
+                    <p><strong>Contato:</strong> ficotur@uco.es</p>
+                    <br>
+                    <p><strong>2. Propriedade Intelectual</strong></p>
+                    <p>Todos os conteúdos, textos, imagens e logotipos no site são de propriedade da Universidade de Córdoba ou dos autores do grupo.</p>
+                `
+            },
+            privacy: {
+                title: "Política de Privacidade",
+                content: `
+                    <p><strong>1. Tratamento de Dados Pessoais</strong></p>
+                    <p>De acordo com o Regulamento Geral de Proteção de Dados (RGPD UE), os dados enviados pelo formulário de contato são confidenciais e tratados sob responsabilidade da Universidade de Córdoba.</p>
+                    <br>
+                    <p><strong>2. Finalidade</strong></p>
+                    <p>Responder às suas dúvidas e gerenciar pedidos de colaboração.</p>
+                `
+            },
+            cookies: {
+                title: "Política de Cookies",
+                content: `
+                    <p><strong>1. O que são Cookies?</strong></p>
+                    <p>Arquivos gravados no seu navegador para armazenar preferências de idioma (localStorage) e estatísticas anônimas de tráfego.</p>
+                `
+            }
+        }
+    };
+
+    const btnLegal = document.getElementById('footer-btn-legal');
+    const btnPrivacy = document.getElementById('footer-btn-privacy');
+    const btnCookies = document.getElementById('footer-btn-cookies');
+
+    const modalTitle = document.getElementById('legal-modal-title');
+    const modalBody = document.getElementById('legal-modal-body');
+    const modalClose = legalModal.querySelector('.modal-close');
+
+    function openLegalModal(type) {
+        // Determinar idioma actual
+        const lang = localStorage.getItem('ficotur-lang') || 'es';
+        const doc = legalTexts[lang] ? legalTexts[lang][type] : legalTexts['es'][type];
+        
+        if (doc) {
+            modalTitle.textContent = doc.title;
+            modalBody.innerHTML = doc.content;
+            legalModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    if (btnLegal) btnLegal.addEventListener('click', (e) => { e.preventDefault(); openLegalModal('legal'); });
+    if (btnPrivacy) btnPrivacy.addEventListener('click', (e) => { e.preventDefault(); openLegalModal('privacy'); });
+    if (btnCookies) btnCookies.addEventListener('click', (e) => { e.preventDefault(); openLegalModal('cookies'); });
+
+    function closeLegalModal() {
+        legalModal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    if (modalClose) modalClose.addEventListener('click', closeLegalModal);
+    legalModal.addEventListener('click', (e) => { if (e.target === legalModal) closeLegalModal(); });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && legalModal.classList.contains('active')) closeLegalModal();
+    });
 }

@@ -60,7 +60,7 @@ const dictionary = {
         // Contacto contacto.html
         "contact-title": "Contacto y Colaboraciones",
         "contact-desc": "Es obligatorio rellenar todos los datos para enviar la consulta. La dirección de e-mail debe ser una cuenta activa y real.",
-        "contact-coordinacion": "Coordinación del Grupo",
+        "contact-coordinacion": "Contacto del Grupo",
         "contact-postal": "Dirección Postal y Departamento",
         "contact-catedra": "Cátedra Asociada",
         "label-nombre": "Nombre y Apellidos *",
@@ -80,7 +80,10 @@ const dictionary = {
         "footer-links-title": "Enlaces Rápidos",
         "footer-contacto-title": "Contacto Oficial",
         "footer-sede": "📍 Facultad de Derecho y CC. Económicas y Empresariales, UCO",
-        "footer-derechos": "© 2026 Grupo de Investigación Ficotur (SEJ-717). Todos los derechos reservados."
+        "footer-derechos": "© 2026 Grupo de Investigación Ficotur (SEJ-717). Todos los derechos reservados.",
+        "footer-legal": "Aviso Legal",
+        "footer-privacy": "Política de Privacidad",
+        "footer-cookies": "Cookies"
     },
     en: {
         // Navigation
@@ -143,7 +146,7 @@ const dictionary = {
         // Contacto contacto.html
         "contact-title": "Contact & Collaborations",
         "contact-desc": "All fields are required in order to submit the query. The e-mail address must be an active, real account.",
-        "contact-coordinacion": "Group Coordination",
+        "contact-coordinacion": "Group Contact",
         "contact-postal": "Mailing Address & Department",
         "contact-catedra": "Associated Chair",
         "label-nombre": "Full Name *",
@@ -163,7 +166,10 @@ const dictionary = {
         "footer-links-title": "Quick Links",
         "footer-contacto-title": "Official Contact",
         "footer-sede": "📍 Faculty of Law and Business & Economic Sciences, UCO",
-        "footer-derechos": "© 2026 Ficotur Research Group (SEJ-717). All rights reserved."
+        "footer-derechos": "© 2026 Ficotur Research Group (SEJ-717). All rights reserved.",
+        "footer-legal": "Legal Notice",
+        "footer-privacy": "Privacy Policy",
+        "footer-cookies": "Cookies"
     },
     fr: {
         // Navigation
@@ -226,7 +232,7 @@ const dictionary = {
         // Contacto contacto.html
         "contact-title": "Contact et Collaborations",
         "contact-desc": "Tous les champs sont obligatoires pour envoyer la demande. L'adresse e-mail doit être un compte actif et réel.",
-        "contact-coordinacion": "Coordination du Groupe",
+        "contact-coordinacion": "Contact du Groupe",
         "contact-postal": "Adresse Postale & Département",
         "contact-catedra": "Chaire Associée",
         "label-nombre": "Nom et Prénom *",
@@ -246,7 +252,10 @@ const dictionary = {
         "footer-links-title": "Liens Rapides",
         "footer-contacto-title": "Contact Officiel",
         "footer-sede": "📍 Faculté de Droit et des Sciences Économiques et de Gestion, UCO",
-        "footer-derechos": "© 2026 Groupe de Recherche Ficotur (SEJ-717). Tous droits réservés."
+        "footer-derechos": "© 2026 Groupe de Recherche Ficotur (SEJ-717). Tous droits réservés.",
+        "footer-legal": "Mentions Légales",
+        "footer-privacy": "Politique de Confidentialité",
+        "footer-cookies": "Cookies"
     },
     pt: {
         // Navigation
@@ -308,7 +317,7 @@ const dictionary = {
         // Contacto contacto.html
         "contact-title": "Contato e Colaborações",
         "contact-desc": "Todos os campos são obrigatórios para enviar a consulta. O endereço de e-mail deve ser uma conta ativa e real.",
-        "contact-coordinacion": "Coordenação do Grupo",
+        "contact-coordinacion": "Contato do Grupo",
         "contact-postal": "Endereço Postal & Departamento",
         "contact-catedra": "Cátedra Associada",
         "label-nombre": "Nome e Sobrenome *",
@@ -328,6 +337,9 @@ const dictionary = {
         "footer-links-title": "Links Rápidos",
         "footer-contacto-title": "Contato Oficial",
         "footer-sede": "📍 Faculdade de Direito e Ciências Econômicas e Empresariais, UCO",
-        "footer-derechos": "© 2026 Grupo de Pesquisa Ficotur (SEJ-717). Todos os direitos reservados."
+        "footer-derechos": "© 2026 Grupo de Pesquisa Ficotur (SEJ-717). Todos os direitos reservados.",
+        "footer-legal": "Aviso Legal",
+        "footer-privacy": "Política de Privacidade",
+        "footer-cookies": "Cookies"
     }
 };
