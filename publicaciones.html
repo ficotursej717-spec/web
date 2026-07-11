@@ -120,6 +120,7 @@
         .pub-year.y2024 { background: #2a8f6c; }
         .pub-year.y2023 { background: #3aab82; }
         .pub-year.y2022 { background: #7cc4a6; }
+        .pub-year.y2020 { background: #9ad9be; }
         .pub-researcher-tag {
             font-size: .72rem;
             font-weight: 600;
@@ -244,7 +245,7 @@
             <div class="pub-hero-stats">
                 <div class="pub-hero-stat"><span class="num" id="stat-total">28</span><span class="label">Publicaciones</span></div>
                 <div class="pub-hero-stat"><span class="num">7</span><span class="label">Investigadores</span></div>
-                <div class="pub-hero-stat"><span class="num">2022–2025</span><span class="label">Período</span></div>
+                <div class="pub-hero-stat"><span class="num">2020–2025</span><span class="label">Período</span></div>
             </div>
         </div>
     </div>
@@ -262,6 +263,7 @@
                     <button class="fchip" data-year="2024">2024</button>
                     <button class="fchip" data-year="2023">2023</button>
                     <button class="fchip" data-year="2022">2022</button>
+                    <button class="fchip" data-year="2020">2020</button>
                 </div>
             </div>
         </div>
@@ -315,7 +317,7 @@
                 </div>
                 <div class="footer-top-right">
                     <span class="co-prefix">Cátedra Asociada:</span>
-                    <a href="https://www.uco.es/ficotur" target="_blank" rel="noopener">Cátedra de Turismo Patrimonial y Cultural ↗</a>
+                    <a href="https://www.uco.es/catedrasyaulas/catedraturismo/" target="_blank" rel="noopener">Cátedra de Turismo Patrimonial y Cultural ↗</a>
                 </div>
             </div>
         </div>
@@ -466,7 +468,13 @@
             },
             publicaciones: [
                 { titulo:'Gastronomía local, cultura y turismo en Ciudades Patrimonio de la Humanidad: el comportamiento del turista extranjero', autores:'Antonio Menor-Campos; Amalia Hidalgo-Fernández; Teresa López-Felipe; Carol Jara-Alba', año:2022, revista:'Investigaciones Turísticas', url:'https://doi.org/10.14198/INTURI2022.23.7', doi:true },
-                { titulo:'Analysis of the impact of traditional gastronomy on loyalty to a world heritage destination', autores:'Ricardo D. Hernández-Rojas; Nuria Huete-Alcocer; Amalia Hidalgo-Fernández', año:2022, revista:'International Journal of Gastronomy and Food Science', url:'https://doi.org/10.1016/j.ijgfs.2022.100585', doi:true }
+                { titulo:'Analysis of the impact of traditional gastronomy on loyalty to a world heritage destination', autores:'Ricardo D. Hernández-Rojas; Nuria Huete-Alcocer; Amalia Hidalgo-Fernández', año:2022, revista:'International Journal of Gastronomy and Food Science, 30, 100585', url:'https://doi.org/10.1016/j.ijgfs.2022.100585', doi:true },
+                { titulo:'Profit and viability persistence: Evidence from the Spanish agricultural sector', autores:'José Antonio Gómez-Limón-Rodríguez; Sandra María Sánchez-Cañizares; María Amalia Hidalgo-Fernández; Ana M.ª Castillo-Canalejo', año:2023, revista:'Agribusiness, 39(4), 1300-1332', url:'https://doi.org/10.1002/agr.21822', doi:true },
+                { titulo:'Gastrotourists\' profiles through their motivations, opinions, and perceptions: An artificial neural network approach', autores:'Miguel Ángel Solano; David Mora; María Amalia Hidalgo-Fernández; Salvador Moral Cuadra', año:2024, revista:'International Journal of Tourism Research, 26(3), e2655', url:'https://doi.org/10.1002/jtr.2655', doi:true },
+                { titulo:'Analysis of the dimensions of corporate social responsibility: study applied to co-operativism in Ecuador', autores:'Francisco González-Santa Cruz; Iliana Loor-Alcívar; Nelly Moreira-Mero; María Amalia Hidalgo-Fernández', año:2020, revista:'Social Indicators Research, 148, 517-534', url:'https://doi.org/10.1007/s11205-019-02213-w', doi:true },
+                { titulo:'Analysis of organizational commitment in cooperatives in Ecuador', autores:'María Amalia Hidalgo-Fernández; Nelly Moreira-Mero; María Iliana Loor-Alcívar; Francisco González-Santa Cruz', año:2020, revista:'Journal of Management Development, 39(4), 391-406', url:'https://doi.org/10.1108/JMD-05-2019-0180', doi:true },
+                { titulo:'Pet tourism: Motivations and assessment in the destinations', autores:'María Amalia Hidalgo-Fernández; Salvador Moral Cuadra; Antonio Pablo Menor; Tomas Jesús López-Guzmán-Guzmán', año:2023, revista:'Consumer Behavior in Tourism and Hospitality, 18(3)', url:'https://doi.org/10.1108/CBTH-06-2022-0132', doi:true },
+                { titulo:'Influence of Internal Marketing Dimensions on Organizational Commitment: An Empirical Application in Ecuadorian Co-Operativism', autores:'Nelly Moreira-Mero; María Amalia Hidalgo-Fernández; María Iliana Loor-Alcívar; Francisco González-Santa Cruz', año:2020, revista:'Sage Open, 10(3), 1-10', url:'https://doi.org/10.1177/2158244020945712', doi:true }
             ]
         },
         {
@@ -517,7 +525,7 @@
         document.getElementById('stat-total').textContent = total;
 
         function getYearClass(year) {
-            const map = {2025:'y2025',2024:'y2024',2023:'y2023',2022:'y2022'};
+            const map = {2025:'y2025',2024:'y2024',2023:'y2023',2022:'y2022',2020:'y2020'};
             return map[year] || '';
         }
 
