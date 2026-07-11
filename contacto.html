@@ -268,20 +268,39 @@
                         return;
                     }
 
-                    // 4. Si todo es correcto, preparar el enlace de envío directo a ficotur@uco.es
-                    const subjectText = `[Consulta Web Ficotur] ${asunto}`;
-                    const bodyText = `Nombre y Apellidos: ${nombre}\nOrganización / Universidad: ${organizacion}\nEmail de contacto: ${email}\n\nMensaje:\n${mensaje}`;
-                    
-                    const mailtoLink = `mailto:ficotur@uco.es?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(bodyText)}`;
-                    
-                    // Redirigir al mailto
-                    window.location.href = mailtoLink;
+                    // 4. Si todo es correcto, enviar los datos a FormSubmit mediante AJAX (fetch)
+                    showFeedback('Enviando su mensaje, por favor espere...', 'info');
 
-                    // Mostrar mensaje de éxito libre de emojis
-                    showFeedback('El correo se ha preparado correctamente para su envío directo a ficotur@uco.es. Por favor, confirme el envío en su aplicación de correo electrónico.', 'success');
-                    
-                    // Resetear formulario
-                    form.reset();
+                    fetch('https://formsubmit.co/ajax/ficotur@uco.es', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Accept': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            _subject: `[Consulta Web Ficotur] ${asunto}`,
+                            _replyto: email,
+                            _captcha: 'false',
+                            Nombre: nombre,
+                            Email: email,
+                            Organizacion: organizacion,
+                            Asunto: asunto,
+                            Mensaje: mensaje
+                        })
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success === 'true' || data.success === true) {
+                            showFeedback('Su mensaje ha sido enviado con éxito a ficotur@uco.es. Por favor, si es la primera vez que usa el formulario, revise su correo ficotur@uco.es para confirmar la activación del servicio de recepción.', 'success');
+                            form.reset();
+                        } else {
+                            showFeedback('Hubo un problema al enviar el mensaje. Por favor, inténtelo de nuevo o escriba directamente a ficotur@uco.es.', 'error');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        showFeedback('Hubo un error de conexión al enviar el mensaje. Por favor, compruebe su conexión e inténtelo de nuevo.', 'error');
+                    });
                 });
             }
 
@@ -291,6 +310,10 @@
                     feedback.style.backgroundColor = 'rgba(42, 143, 108, 0.1)';
                     feedback.style.color = 'var(--secondary)';
                     feedback.style.border = '1px solid var(--secondary)';
+                } else if (type === 'info') {
+                    feedback.style.backgroundColor = 'rgba(66, 133, 244, 0.1)';
+                    feedback.style.color = '#4285F4';
+                    feedback.style.border = '1px solid #4285F4';
                 } else {
                     feedback.style.backgroundColor = 'rgba(239, 68, 68, 0.1)';
                     feedback.style.color = '#EF4444';
