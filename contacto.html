@@ -232,6 +232,26 @@
             const form = document.getElementById('form-contacto');
             const feedback = document.getElementById('form-feedback');
 
+            // Función para añadir campos ocultos de FormSubmit
+            function addHiddenField(formEl, name, value) {
+                let input = formEl.querySelector(`input[name="${name}"]`);
+                if (!input) {
+                    input = document.createElement('input');
+                    input.type = 'hidden';
+                    input.name = name;
+                    formEl.appendChild(input);
+                }
+                input.value = value;
+            }
+
+            // Comprobar si volvemos de una redirección de activación exitosa
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('success') === 'true') {
+                showFeedback('Su mensaje ha sido enviado con éxito a ficotur@uco.es. Por favor, si es la primera vez que usa el formulario, revise su correo ficotur@uco.es para confirmar la activación del servicio de recepción.', 'success');
+                // Limpiar la URL para evitar que se muestre el mensaje al recargar
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+
             if (form && feedback) {
                 form.addEventListener('submit', (e) => {
                     e.preventDefault();
@@ -288,18 +308,36 @@
                             Mensaje: mensaje
                         })
                     })
-                    .then(response => response.json())
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('El correo no ha sido activado en FormSubmit todavía.');
+                        }
+                        return response.json();
+                    })
                     .then(data => {
                         if (data.success === 'true' || data.success === true) {
-                            showFeedback('Su mensaje ha sido enviado con éxito a ficotur@uco.es. Por favor, si es la primera vez que usa el formulario, revise su correo ficotur@uco.es para confirmar la activación del servicio de recepción.', 'success');
+                            showFeedback('Su mensaje ha sido enviado con éxito a ficotur@uco.es.', 'success');
                             form.reset();
                         } else {
-                            showFeedback('Hubo un problema al enviar el mensaje. Por favor, inténtelo de nuevo o escriba directamente a ficotur@uco.es.', 'error');
+                            throw new Error('FormSubmit devolvió un éxito falso.');
                         }
                     })
                     .catch(error => {
-                        console.error('Error:', error);
-                        showFeedback('Hubo un error de conexión al enviar el mensaje. Por favor, compruebe su conexión e inténtelo de nuevo.', 'error');
+                        console.warn('Error en AJAX o correo no activado, usando formulario tradicional para activación:', error);
+                        showFeedback('Redirigiendo para la confirmación y activación del correo en FormSubmit...', 'info');
+                        
+                        // Fallback a POST normal a FormSubmit (esto activará el correo la primera vez)
+                        form.action = 'https://formsubmit.co/ficotur@uco.es';
+                        form.method = 'POST';
+                        
+                        // Añadir los campos correspondientes a los inputs ocultos
+                        addHiddenField(form, '_subject', `[Consulta Web Ficotur] ${asunto}`);
+                        addHiddenField(form, '_replyto', email);
+                        addHiddenField(form, '_captcha', 'false');
+                        addHiddenField(form, '_next', window.location.href + '?success=true');
+                        
+                        // Enviar formulario tradicionalmente
+                        form.submit();
                     });
                 });
             }
