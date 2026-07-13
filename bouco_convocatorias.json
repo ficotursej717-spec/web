@@ -1,41 +1,41 @@
 [
     {
-        "id": "conv-2026-00866",
-        "titulo": "Becas Solidarias UCO-Santander, curso 2025/26. Relación definitiva de solicitudes admitidas y excluidas de la convocatoria",
-        "fecha": "10/07/2026",
+        "id": "conv-2026-00871",
+        "titulo": "Convocatoria concurso de acceso a plazas de Cuerpos Docentes Universitarios 1/2026. Lista definitiva de aspirantes admitidos y excluidos. Varias Áreas",
+        "fecha": "13/07/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-00867",
-        "titulo": "Exposición pública de la memoria del plan estudios del Grado en Logística y Transporte",
-        "fecha": "10/07/2026",
+        "id": "conv-2026-00870",
+        "titulo": "Resolución de Concesión de becas Programa Erasmus+ de movilidad del PTGAS. Formación Out. Curso 2025-2026. Proyecto 2025-1-Es01-Ka131-Hed-000316044",
+        "fecha": "13/07/2026",
+        "tipo": "Resolución",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00869",
+        "titulo": "Subcomisión de Cultura y Difusión Científica. Corrección de errores",
+        "fecha": "13/07/2026",
         "tipo": "Anuncio",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-00865",
-        "titulo": "Listado provisional de incentivos de la Convocatoria 2026, Modalidad 2, del Plan Propio de Investigación Internacional de la UCO \"Rosalind Franklin\"",
-        "fecha": "10/07/2026",
+        "id": "conv-2026-00868",
+        "titulo": "Concurso de Traslado (PTGAS) Laboral en el Área de Conserjería. Anuncio de interposición de recurso de reposición",
+        "fecha": "13/07/2026",
+        "tipo": "Anuncio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00872",
+        "titulo": "Resolución Vicerrector de Estudiantes, Acceso y Empleabilidad, por la que se actualizan varias convocatorias",
+        "fecha": "13/07/2026",
         "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00864",
-        "titulo": "Instrucción por la que se regula la eliminación de documentos de la Universidad de Córdoba. Corrección de errores",
-        "fecha": "10/07/2026",
-        "tipo": "Instrucción",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00863",
-        "titulo": "Relación de Convenios aprobados, ratificados y suscritos con organismos/empresas para la realización de prácticas tuteladas del alumnado universitario",
-        "fecha": "10/07/2026",
-        "tipo": "Convenio",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
