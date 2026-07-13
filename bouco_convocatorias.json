@@ -1,50 +1,42 @@
 [
     {
-        "id": "conv-1783933932",
-        "titulo": "Resolución de Rectorado por la que se publican las bases para contratos del grupo SEJ-717 (Ficotur) - Actualizado el 13/07/2026",
-        "fecha": "13/07/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/bandejaAnuncios.htm;jsessionid=0128C99A141A20BB1918C19B3AFC13D8?cid=1125621"
-    },
-    {
-        "id": "conv-1783856102",
-        "titulo": "Resolución de Rectorado por la que se publican las bases para contratos del grupo SEJ-717 (Ficotur) - Actualizado el 12/07/2026",
-        "fecha": "12/07/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/bandejaAnuncios.htm;jsessionid=0128C99A141A20BB1918C19B3AFC13D8?cid=1125621"
-    },
-    {
-        "id": "conv-1783766695",
-        "titulo": "Resolución de Rectorado por la que se publican las bases para contratos del grupo SEJ-717 (Ficotur) - Actualizado el 11/07/2026",
-        "fecha": "11/07/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/bandejaAnuncios.htm;jsessionid=0128C99A141A20BB1918C19B3AFC13D8?cid=1125621"
-    },
-    {
-        "id": "conv-1783699603",
-        "titulo": "Resolución de Rectorado por la que se publican las bases para contratos del grupo SEJ-717 (Ficotur) - Actualizado el 10/07/2026",
+        "id": "conv-2026-00866",
+        "titulo": "Becas Solidarias UCO-Santander, curso 2025/26. Relación definitiva de solicitudes admitidas y excluidas de la convocatoria",
         "fecha": "10/07/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/bandejaAnuncios.htm;jsessionid=0128C99A141A20BB1918C19B3AFC13D8?cid=1125621"
+        "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-1783607283",
-        "titulo": "Resolución de Rectorado por la que se publican las bases para contratos del grupo SEJ-717 (Ficotur) - Actualizado el 09/07/2026",
-        "fecha": "09/07/2026",
-        "tipo": "Convocatoria",
+        "id": "conv-2026-00867",
+        "titulo": "Exposición pública de la memoria del plan estudios del Grado en Logística y Transporte",
+        "fecha": "10/07/2026",
+        "tipo": "Anuncio",
         "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/bandejaAnuncios.htm;jsessionid=0128C99A141A20BB1918C19B3AFC13D8?cid=1125621"
+        "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-1783430862",
-        "titulo": "Resolución de Rectorado por la que se publican las bases para contratos del grupo SEJ-717 (Ficotur) - Actualizado el 07/07/2026",
-        "fecha": "07/07/2026",
+        "id": "conv-2026-00865",
+        "titulo": "Listado provisional de incentivos de la Convocatoria 2026, Modalidad 2, del Plan Propio de Investigación Internacional de la UCO \"Rosalind Franklin\"",
+        "fecha": "10/07/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/bandejaAnuncios.htm;jsessionid=0128C99A141A20BB1918C19B3AFC13D8?cid=1125621"
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00864",
+        "titulo": "Instrucción por la que se regula la eliminación de documentos de la Universidad de Córdoba. Corrección de errores",
+        "fecha": "10/07/2026",
+        "tipo": "Instrucción",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00863",
+        "titulo": "Relación de Convenios aprobados, ratificados y suscritos con organismos/empresas para la realización de prácticas tuteladas del alumnado universitario",
+        "fecha": "10/07/2026",
+        "tipo": "Convenio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
     }
 ]
