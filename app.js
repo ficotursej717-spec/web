@@ -75,13 +75,10 @@ const investigadoresData = {
         cargo: 'Investigador Predoctoral - Programa de Doctorado en Ciencias Sociales y Jurídicas',
         foto: 'leo_gallardo.png',
         lineas: [
-            'Turismo gastronómico y gestión del patrimonio cultural.',
-            'Herramientas de digitalización y desarrollo de la hostelería rural.',
-            'Doctorando en Ciencias Sociales y Jurídicas (Universidad de Córdoba).',
-            'Miembro de la Cátedra de Turismo Patrimonial y Cultural de la UCO.',
-            'Proyecto (Contrato): Rescate Histórico Noor (PAMOGA Gastro S.L. - Desde 01/02/2026).',
-            'Proyecto (Contrato): Puesta en marcha del Observatorio de la Restauración de la Provincia de Córdoba (Diputación de Córdoba).',
-            'Coautor del libro "Patrimonio y Turismo: Experiencias, Territorios y Transformaciones" (Editorial Aranzadi, 2026).'
+            'Turismo gastronómico.',
+            'Turismo patrimonial inmaterial.',
+            'Gestión y desarrollo del patrimonio cultural.',
+            'Digitalización y desarrollo de la hostelería rural.'
         ],
         contacto: {
             email: 'z42gaapl@uco.es',
