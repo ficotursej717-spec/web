@@ -78,7 +78,8 @@ const investigadoresData = {
             'Turismo gastronómico.',
             'Turismo patrimonial inmaterial.',
             'Gestión y desarrollo del patrimonio cultural.',
-            'Digitalización y desarrollo de la hostelería rural.'
+            'Digitalización y desarrollo de la hostelería rural.',
+            'Modelos de sostenibilidad y economía circular aplicados a pymes y establecimientos de restauración.'
         ],
         contacto: {
             email: 'z42gaapl@uco.es',
