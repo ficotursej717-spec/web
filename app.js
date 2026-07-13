@@ -140,7 +140,7 @@ const investigadoresData = {
     },
     'investigador-5': {
         nombre: 'Carmen Barbero Saavedra',
-        cargo: 'Profesora de Área de Métodos Cuantitativos y Economía Española',
+        cargo: 'Profesora del Área de Economía Financiera y Contabilidad - Dpto. Economía Agraria, Finanzas y Contabilidad',
         foto: 'carmen_barbero.png',
         lineas: [
             'Métodos cuantitativos aplicados a la economía agraria y análisis de datos.',
@@ -219,22 +219,23 @@ const investigadoresData = {
     },
     'investigador-9': {
         nombre: 'Dra. Luz Marina Caracuel Sillero',
-        cargo: 'Profesora del Área de Economía Financiera y Contabilidad - Dpto. Economía Agraria, Finanzas y Contabilidad',
+        cargo: 'Profesora Sustituta Interina y Coordinadora de ADE - Dpto. Economía Agraria, Finanzas y Contabilidad',
         foto: 'marina_caracuel.jpg',
         lineas: [
-            'Contabilidad de gestión: influencia de la información contable en la competitividad de cooperativas oleícolas.',
-            'Cooperativismo agrario: tendencias en innovación, sostenibilidad y gobernanza en España (análisis bibliométrico).',
-            'Patrimonio cultural y turismo: gestión del patrimonio religioso y su relación con el turismo local en Córdoba.',
-            'Coordinadora de grado en el Área de Administración y Dirección de Empresas (ADE), UCO.',
-            'Capítulo: "Patrimonio religioso en Córdoba: el caso de las ermitas" — Turismo y patrimonio: enfoques para la gestión (2023).'
+            'Contabilidad y finanzas sostenibles.',
+            'Economía y gestión turística del patrimonio.',
+            'Economía y finanzas para la toma de decisiones en la empresa agroalimentaria.',
+            'Contabilidad y finanzas para las empresas de economía social.',
+            'IA en finanzas y contabilidad.',
+            'Línea de TFG: Contabilidad, Fiscalidad y Finanzas.'
         ],
         contacto: {
-            email: 'marina.caracuel@uco.es',
+            email: 'lcaracuel@uco.es',
             telefono: '+34 957 21 XX XX',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
-            orcid: 'https://orcid.org/0000-0001-7889-8066',
+            orcid: 'https://orcid.org/0009-0004-8597-8311',
             researchgate: 'https://www.researchgate.net/scientific-contributions/Marina-Caracuel-Sillero-2302728336',
             scholar: 'https://scholar.google.com/citations?user=BEFgDIgAAAAJ&hl=es'
         }
