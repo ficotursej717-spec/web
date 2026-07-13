@@ -107,7 +107,7 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'mercedes.luque@uco.es',
-            telefono: '+34 957 21 XX XX',
+            telefono: '+34 679 81 42 52',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -128,7 +128,7 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'jose.fernandez@uco.es',
-            telefono: '+34 957 21 XX XX',
+            telefono: '+34 619 00 98 41',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -147,7 +147,7 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'carmen.barbero@uco.es',
-            telefono: '+34 957 21 XX XX',
+            telefono: '+34 666 71 57 12',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -167,7 +167,7 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'dolores.guerrero@uco.es',
-            telefono: '+34 957 21 XX XX',
+            telefono: '+34 699 78 20 89',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -187,7 +187,7 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'jjimber@uco.es',
-            telefono: '+34 957 21 88 84',
+            telefono: '+34 657 68 25 51',
             despacho: 'Dpto. de Economía Financiera y Contabilidad, Ftad. Derecho y CC Económicas y Empresariales, Córdoba 14071'
         },
         links: {
@@ -207,7 +207,7 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'ahidalgo@uco.es',
-            telefono: '+34 957 21 26 51',
+            telefono: '+34 636 64 72 45',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -228,7 +228,7 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'lcaracuel@uco.es',
-            telefono: '+34 957 21 XX XX',
+            telefono: '+34 626 30 22 19',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -250,7 +250,7 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'z82veroa@uco.es',
-            telefono: '+34 685 250 09 87',
+            telefono: '+34 685 25 09 97',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
