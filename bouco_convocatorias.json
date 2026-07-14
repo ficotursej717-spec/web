@@ -1,41 +1,41 @@
 [
     {
-        "id": "conv-2026-00871",
-        "titulo": "Convocatoria concurso de acceso a plazas de Cuerpos Docentes Universitarios 1/2026. Lista definitiva de aspirantes admitidos y excluidos. Varias Áreas",
-        "fecha": "13/07/2026",
+        "id": "conv-2026-00878",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 9/2026. Constitución definitiva. Área Geometría y Topología",
+        "fecha": "14/07/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-00870",
-        "titulo": "Resolución de Concesión de becas Programa Erasmus+ de movilidad del PTGAS. Formación Out. Curso 2025-2026. Proyecto 2025-1-Es01-Ka131-Hed-000316044",
-        "fecha": "13/07/2026",
+        "id": "conv-2026-00875",
+        "titulo": "Resolución de concesión de becas Programa Erasmus+ de movilidad del PDI Formación Out. curso 2025-2026. proyecto 2025-1-es01-ka131-hed-000316044",
+        "fecha": "14/07/2026",
         "tipo": "Resolución",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-00869",
-        "titulo": "Subcomisión de Cultura y Difusión Científica. Corrección de errores",
-        "fecha": "13/07/2026",
-        "tipo": "Anuncio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00868",
-        "titulo": "Concurso de Traslado (PTGAS) Laboral en el Área de Conserjería. Anuncio de interposición de recurso de reposición",
-        "fecha": "13/07/2026",
-        "tipo": "Anuncio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00872",
-        "titulo": "Resolución Vicerrector de Estudiantes, Acceso y Empleabilidad, por la que se actualizan varias convocatorias",
-        "fecha": "13/07/2026",
+        "id": "conv-2026-00874",
+        "titulo": "Resolución Vicerrector de Transferencia, Formación Continua y Emprendimiento, por la que se actualizan varias convocatorias",
+        "fecha": "14/07/2026",
         "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00873",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 1/2026. Constitución Provisional. Área Didáctica de la Expresión Plástica",
+        "fecha": "14/07/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00879",
+        "titulo": "Instrucción 1/2026 sobre período mínimo de vigencia de modificaciones de planes de estudios de las titulaciones oficiales de la Universidad de Córdoba",
+        "fecha": "14/07/2026",
+        "tipo": "Instrucción",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
