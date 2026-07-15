@@ -1,41 +1,41 @@
 [
     {
-        "id": "conv-2026-00878",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 9/2026. Constitución definitiva. Área Geometría y Topología",
-        "fecha": "14/07/2026",
+        "id": "conv-2026-00884",
+        "titulo": "Programa Santander X Spain Awards StartUp | Universitaria 2025. Relación provisional de solicitudes admitidas y excluidas",
+        "fecha": "15/07/2026",
+        "tipo": "Anuncio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00883",
+        "titulo": "Ampliación de Bolsa de Trabajo de PTGAS funcionario de la Escala de Ayudantes de Archivos, Bibliotecas y Museos",
+        "fecha": "15/07/2026",
+        "tipo": "Anuncio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00882",
+        "titulo": "Convocatoria Comisión de Servicios PTGAS Funcionario",
+        "fecha": "15/07/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-00875",
-        "titulo": "Resolución de concesión de becas Programa Erasmus+ de movilidad del PDI Formación Out. curso 2025-2026. proyecto 2025-1-es01-ka131-hed-000316044",
-        "fecha": "14/07/2026",
-        "tipo": "Resolución",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00874",
-        "titulo": "Resolución Vicerrector de Transferencia, Formación Continua y Emprendimiento, por la que se actualizan varias convocatorias",
-        "fecha": "14/07/2026",
+        "id": "conv-2026-00881",
+        "titulo": "Convocatoria Bolsa Ordinaria de Profesor Sustituto 19/2026. Corrección error en listado definitivo de admitidos y excluidos",
+        "fecha": "15/07/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-00873",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 1/2026. Constitución Provisional. Área Didáctica de la Expresión Plástica",
-        "fecha": "14/07/2026",
+        "id": "conv-2026-00880",
+        "titulo": "Convocatoria de Profesor Asociado de Concierto con las Instituciones Sanitarias 8/2026. Declaración desiertas plazas reservadas para personas con discapacidad",
+        "fecha": "15/07/2026",
         "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00879",
-        "titulo": "Instrucción 1/2026 sobre período mínimo de vigencia de modificaciones de planes de estudios de las titulaciones oficiales de la Universidad de Córdoba",
-        "fecha": "14/07/2026",
-        "tipo": "Instrucción",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
