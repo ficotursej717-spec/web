@@ -141,7 +141,10 @@ const investigadoresData = {
         cargo: 'Profesora del Área de Economía Financiera y Contabilidad - Dpto. Economía Agraria, Finanzas y Contabilidad',
         foto: 'carmen_barbero.png',
         lineas: [
-            'Economía financiera, contabilidad de gestión y valoración corporativa.'
+            'Economía financiera, contabilidad de gestión y valoración corporativa.',
+            'Análisis económico-financiero y contable aplicado a empresas y organizaciones del sector turístico.',
+            'Gestión financiera, sostenibilidad y toma de decisiones en el ámbito del turismo.',
+            'Estudio de la actividad turística desde una perspectiva económica, financiera y empresarial.'
         ],
         contacto: {
             email: 'carmen.barbero@uco.es',
