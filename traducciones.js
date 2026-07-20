@@ -45,6 +45,64 @@ const dictionary = {
         "proy-val-cuantia": "50.000 euros",
         "proy-val-fechas": "20-04-2026 a 19-04-2029",
 
+        "proy-destacados-title": "Projetos de Pesquisa Ativos",
+        "proy-label-investigadores": "Equipe de Pesquisa: ",
+        "proy-label-objetivo": "Objetivo Principal: ",
+        "proy-label-marco": "Marco Jurídico / Estratégico: ",
+        "proy-label-coordinacion": "Coordenação Institucional: ",
+
+        // Projeto 2
+        "proy-2-tag": "Rede de Cátedras de Turismo | Sustentabilidade",
+        "proy-2-title": "Proposta para o Design do Observatório para a Sustentabilidade Turística Local",
+        "proy-2-val-participacion": "Análise de Alinhamento de Sustentabilidade (UCO)",
+        "proy-2-val-marco": "Art. 17 Anteprojeto de Lei do Turismo Sustentável",
+        "proy-2-val-investigadores": "Mª Dolores Guerrero Baena (IP SEJ-717 FICOTUR), Francisca Castilla Polo (Catedrática UJA)",
+        "proy-2-val-coordinacion": "Rede de Cátedras de Turismo da Andaluzia (8 Universidades)",
+        "proy-2-val-entidad": "SECRETARIA DE TURISMO - GOVERNO REGIONAL DA ANDALUZIA",
+        "proy-2-desc": "Atividade conjunta das oito universidades públicas da Andaluzia para criar o Observatório para a Sustentabilidade Turística Local. A Universidade de Córdoba analisa o alinhamento nas dimensões ambiental, social e econômica.",
+        "proy-2-objetivo": "Elaborar um relatório científico que analise o alinhamento estratégico do Observatório com os princípios de sustentabilidade.",
+
+        // Projeto 3
+        "proy-3-tag": "Cátedra de Turismo Patrimonial e Cultural | Desenvolvimento Regulatório",
+        "proy-3-title": "Propostas de Melhoria da Futura Lei do Turismo da Andaluzia: Desenvolvimento Regulatório",
+        "proy-3-val-participacion": "Desenvolvimento Regulatório (Títulos III, IV, VII e VIII)",
+        "proy-3-val-marco": "Anteprojeto de Lei do Turismo Sustentável & Direito Comparado",
+        "proy-3-val-investigadores": "Mª Ángeles Recio Ramírez (IP), Rafael Carlos Ortega Navarro, Manuel Rivera Mateos, José Manuel Serrano Cañas",
+        "proy-3-val-coordinacion": "Rede de Cátedras de Turismo da Andaluzia",
+        "proy-3-val-entidad": "GOVERNO REGIONAL DA ANDALUZIA - REDE DE CÁTEDRAS DE TURISMO",
+        "proy-3-desc": "Estudo comparativo e propostas regulatórias para o anteprojeto de Lei do Turismo Sustentável da Andaluzia.",
+        "proy-3-objetivo": "Sustentabilidade social, regulação de Moradias Turísticas (VUT), ordenamento do território e regime sancionador.",
+
+
+        "proy-destacados-title": "Proyectos de Investigación Activos",
+        "proy-label-investigadores": "Equipo Investigador: ",
+        "proy-label-objetivo": "Objetivo Principal: ",
+        "proy-label-marco": "Marco Estratégico / Legal: ",
+        "proy-label-coordinacion": "Coordinación Institucional: ",
+
+        // Proyecto 2
+        "proy-2-tag": "Red de Cátedras de Turismo | Sostenibilidad",
+        "proy-2-title": "Propuesta para el diseño del Observatorio para la Sostenibilidad Turística Local",
+        "proy-2-val-participacion": "Análisis de Alineación con la Sostenibilidad (UCO)",
+        "proy-2-val-marco": "Art. 17 Anteproyecto de Ley de Turismo Sostenible",
+        "proy-2-val-investigadores": "Mª Dolores Guerrero Baena (IP SEJ-717 FICOTUR), Francisca Castilla Polo (Catedrática UJA)",
+        "proy-2-val-coordinacion": "Red de Cátedras de Turismo de Andalucía (8 Universidades)",
+        "proy-2-val-entidad": "CONSEJERÍA DE TURISMO Y ANDALUCÍA EXTERIOR - JUNTA DE ANDALÚCIA",
+        "proy-2-desc": "Actividad conjunta de las ocho universidades públicas de Andalucía para crear el Observatorio para la Sostenibilidad Turística Local. La Universidad de Córdoba analiza de forma específica la alineación con los principios de sostenibilidad ambiental, social y económica, garantizando un marco multidisciplinar y científicamente rigurosa para asesorar a la Administración autonómica y local.",
+        "proy-2-objetivo": "Elaborar un informe científico que analice la alineación estratégica del Observatorio para la Sostenibilidad Turística Local en sus dimensiones ambiental, social y económica.",
+
+        // Proyecto 3
+        "proy-3-tag": "Cátedra de Turismo Patrimonial y Cultural | Desarrollo Normativo",
+        "proy-3-title": "Propuestas de mejora de la futura Ley de Turismo de Andalucía: Desarrollo reglamentario",
+        "proy-3-val-participacion": "Desarrollo Reglamentario (Títulos III, IV, VII y VIII)",
+        "proy-3-val-marco": "Anteproyecto de Ley de Turismo Sostenible & Normativa Comparada",
+        "proy-3-val-investigadores": "Mª Ángeles Recio Ramírez (IP - D. Financiero), Rafael Carlos Ortega Navarro (D. Penal), Manuel Rivera Mateos (Geografía), José Manuel Serrano Cañas (D. Mercantil)",
+        "proy-3-val-coordinacion": "Red de Cátedras de Turismo de Andalucía",
+        "proy-3-val-entidad": "JUNTA DE ANDALÚCIA - RED DE CÁTEDRAS DE TURISMO DE ANDALUCÍA",
+        "proy-3-desc": "Estudio jurídico-técnico comparativo y propuesta de desarrollo reglamentario para el Anteproyecto de Ley de Turismo Sostenible de Andalucía. La Cátedra aborda específicamente la Planificación Turística (Tít. III), Derechos y Obligaciones (Tít. IV), Inspección (Tít. VII) y Régimen Sancionador (Tít. VIII).",
+        "proy-3-objetivo": "Sostenibilidad social y relación turista-residente; Regulación y aplicación de Viviendas de Uso Turístico (VUT); Ordenación del territorio y vinculación de usos del suelo; Régimen sancionador y regulación de plataformas digitales de comercialización.",
+
+
         // BOUCO index.html
         "bouco-title": "Boletín Oficial de la Universidad de Córdoba",
         "bouco-desc": "Consulta de forma transparente y en tiempo real las resoluciones, convocatorias de investigación y anuncios del BOUCO que afectan al funcionamiento de nuestro grupo.",
@@ -130,6 +188,35 @@ const dictionary = {
         "proy-val-entidad": "REGIONAL GOVERNMENT OF ANDALUSIA - MINISTRY OF UNIVERSITY, RESEARCH AND INNOVATION. R&D&i Research Projects (EIDA 2021-2027)",
         "proy-val-cuantia": "50,000 euros",
         "proy-val-fechas": "20-04-2026 to 19-04-2029",
+
+        "proy-destacados-title": "Active Research Projects",
+        "proy-label-investigadores": "Research Team: ",
+        "proy-label-objetivo": "Main Objective: ",
+        "proy-label-marco": "Legal / Strategic Framework: ",
+        "proy-label-coordinacion": "Institutional Coordination: ",
+
+        // Project 2
+        "proy-2-tag": "Network of Tourism Chairs | Sustainability",
+        "proy-2-title": "Proposal for the Design of the Local Tourism Sustainability Observatory",
+        "proy-2-val-participacion": "Sustainability Alignment Analysis (UCO)",
+        "proy-2-val-marco": "Art. 17 Draft Sustainable Tourism Law of Andalusia",
+        "proy-2-val-investigadores": "Mª Dolores Guerrero Baena (PI - SEJ-717 FICOTUR, UCO), Francisca Castilla Polo (Full Professor UJA)",
+        "proy-2-val-coordinacion": "Andalusia Network of Tourism Chairs (8 Public Universities)",
+        "proy-2-val-entidad": "MINISTRY OF TOURISM AND FOREIGN ANDALUSIA - REGIONAL GOVERNMENT OF ANDALUSIA",
+        "proy-2-desc": "Joint initiative of all eight Andalusian public universities to create the Local Tourism Sustainability Observatory. The University of Córdoba specifically evaluates alignment across environmental, social, and economic sustainability dimensions.",
+        "proy-2-objetivo": "Deliver a comprehensive scientific report assessing the Observatory's alignment with environmental, social, and economic sustainability principles.",
+
+        // Project 3
+        "proy-3-tag": "Chair of Cultural and Heritage Tourism | Regulatory Development",
+        "proy-3-title": "Proposals for Improvement of the Future Tourism Law of Andalusia: Regulatory Development",
+        "proy-3-val-participacion": "Regulatory Development (Titles III, IV, VII and VIII)",
+        "proy-3-val-marco": "Draft Sustainable Tourism Law & Comparative Framework",
+        "proy-3-val-investigadores": "Mª Ángeles Recio Ramírez (PI - Financial Law), Rafael Carlos Ortega Navarro (Criminal Law), Manuel Rivera Mateos (Geography), José Manuel Serrano Cañas (Commercial Law)",
+        "proy-3-val-coordinacion": "Andalusia Network of Tourism Chairs",
+        "proy-3-val-entidad": "REGIONAL GOVERNMENT OF ANDALUSIA - NETWORK OF TOURISM CHAIRS",
+        "proy-3-desc": "Comparative legal-technical study and regulatory proposals for the draft Sustainable Tourism Law of Andalusia. The Chair specifically drafts Titles III (Planning), IV (Rights & Obligations), VII (Inspection), and VIII (Sanctions).",
+        "proy-3-objetivo": "Social sustainability and tourist-resident relationships; regulation of Tourist Dwellings (VUT); land-use planning; sanctioning regime and regulation of digital booking platforms.",
+
 
         // BOUCO index.html
         "bouco-title": "Official Gazette of the University of Córdoba",
@@ -217,6 +304,35 @@ const dictionary = {
         "proy-val-cuantia": "50 000 euros",
         "proy-val-fechas": "20-04-2026 au 19-04-2029",
 
+        "proy-destacados-title": "Projets de Recherche Actifs",
+        "proy-label-investigadores": "Équipe de Recherche: ",
+        "proy-label-objetivo": "Objectif Principal: ",
+        "proy-label-marco": "Cadre Juridique / Stratégique: ",
+        "proy-label-coordinacion": "Coordination Institutionnelle: ",
+
+        // Projet 2
+        "proy-2-tag": "Réseau des Chaires de Tourisme | Durabilité",
+        "proy-2-title": "Proposition pour la conception de l'Observatoire de la Durabilité Touristique Locale",
+        "proy-2-val-participacion": "Analyse d'Alignement de Durabilité (UCO)",
+        "proy-2-val-marco": "Art. 17 Avant-projet de Loi sur le Tourisme Durable",
+        "proy-2-val-investigadores": "Mª Dolores Guerrero Baena (IP SEJ-717 FICOTUR), Francisca Castilla Polo (Professeure UJA)",
+        "proy-2-val-coordinacion": "Réseau des Chaires de Tourisme d'Andalousie (8 Universités)",
+        "proy-2-val-entidad": "MINISTÈRE DU TOURISME - GOUVERNEMENT RÉGIONAL D'ANDALOUSIE",
+        "proy-2-desc": "Action conjointe des huit universités publiques d'Andalousie pour créer l'Observatoire de la Durabilité Touristique Locale. L'Université de Cordoue analyse l'alignement environnemental, social et économique.",
+        "proy-2-objetivo": "Élaborer un rapport scientifique évaluant l'alignement stratégique de l'Observatoire sur les principes de durabilité.",
+
+        // Projet 3
+        "proy-3-tag": "Chaire de Tourisme Patrimonial et Culturel | Développement Réglementaire",
+        "proy-3-title": "Propositions d'amélioration de la future Loi sur le Tourisme d'Andalousie: Développement réglementaire",
+        "proy-3-val-participacion": "Développement Réglementaire (Titres III, IV, VII et VIII)",
+        "proy-3-val-marco": "Avant-projet de Loi sur le Tourisme Durable & Droit Comparé",
+        "proy-3-val-investigadores": "Mª Ángeles Recio Ramírez (IP), Rafael Carlos Ortega Navarro, Manuel Rivera Mateos, José Manuel Serrano Cañas",
+        "proy-3-val-coordinacion": "Réseau des Chaires de Tourisme d'Andalousie",
+        "proy-3-val-entidad": "GOUVERNEMENT RÉGIONAL D'ANDALOUSIE - RÉSEAU DES CHAIRES DE TOURISME",
+        "proy-3-desc": "Étude comparative et propositions réglementaires pour l'avant-projet de loi sur le tourisme durable d'Andalousie.",
+        "proy-3-objetivo": "Durabilité sociale, régulation des logements touristiques (VUT), aménagement du territoire et régime de sanctions.",
+
+
         // BOUCO index.html
         "bouco-title": "Bulletin Officiel de l'Université de Cordoue",
         "bouco-desc": "Consultez en temps réel et en toute transparence les résolutions officielles, les appels de recherche et les annonces du BOUCO qui affectent le fonctionnement de notre groupe.",
@@ -302,6 +418,35 @@ const dictionary = {
         "proy-val-entidad": "GOVERNO REGIONAL DE ANDALUZIA - SECRETARIA DE UNIVERSIDADE, PESQUISA E INOVAÇÃO. Projetos de Pesquisa P&D&i (EIDA 2021-2027)",
         "proy-val-cuantia": "50.000 euros",
         "proy-val-fechas": "20-04-2026 a 19-04-2029",
+
+        "proy-destacados-title": "Proyectos de Investigación Activos",
+        "proy-label-investigadores": "Equipo Investigador: ",
+        "proy-label-objetivo": "Objetivo Principal: ",
+        "proy-label-marco": "Marco Estratégico / Legal: ",
+        "proy-label-coordinacion": "Coordinación Institucional: ",
+
+        // Proyecto 2
+        "proy-2-tag": "Red de Cátedras de Turismo | Sostenibilidad",
+        "proy-2-title": "Propuesta para el diseño del Observatorio para la Sostenibilidad Turística Local",
+        "proy-2-val-participacion": "Análisis de Alineación con la Sostenibilidad (UCO)",
+        "proy-2-val-marco": "Art. 17 Anteproyecto de Ley de Turismo Sostenible",
+        "proy-2-val-investigadores": "Mª Dolores Guerrero Baena (IP SEJ-717 FICOTUR), Francisca Castilla Polo (Catedrática UJA)",
+        "proy-2-val-coordinacion": "Red de Cátedras de Turismo de Andalucía (8 Universidades)",
+        "proy-2-val-entidad": "CONSEJERÍA DE TURISMO Y ANDALUCÍA EXTERIOR - JUNTA DE ANDALÚCIA",
+        "proy-2-desc": "Actividad conjunta de las ocho universidades públicas de Andalucía para crear el Observatorio para la Sostenibilidad Turística Local. La Universidad de Córdoba analiza de forma específica la alineación con los principios de sostenibilidad ambiental, social y económica, garantizando un marco multidisciplinar y científicamente rigurosa para asesorar a la Administración autonómica y local.",
+        "proy-2-objetivo": "Elaborar un informe científico que analice la alineación estratégica del Observatorio para la Sostenibilidad Turística Local en sus dimensiones ambiental, social y económica.",
+
+        // Proyecto 3
+        "proy-3-tag": "Cátedra de Turismo Patrimonial y Cultural | Desarrollo Normativo",
+        "proy-3-title": "Propuestas de mejora de la futura Ley de Turismo de Andalucía: Desarrollo reglamentario",
+        "proy-3-val-participacion": "Desarrollo Reglamentario (Títulos III, IV, VII y VIII)",
+        "proy-3-val-marco": "Anteproyecto de Ley de Turismo Sostenible & Normativa Comparada",
+        "proy-3-val-investigadores": "Mª Ángeles Recio Ramírez (IP - D. Financiero), Rafael Carlos Ortega Navarro (D. Penal), Manuel Rivera Mateos (Geografía), José Manuel Serrano Cañas (D. Mercantil)",
+        "proy-3-val-coordinacion": "Red de Cátedras de Turismo de Andalucía",
+        "proy-3-val-entidad": "JUNTA DE ANDALÚCIA - RED DE CÁTEDRAS DE TURISMO DE ANDALUCÍA",
+        "proy-3-desc": "Estudio jurídico-técnico comparativo y propuesta de desarrollo reglamentario para el Anteproyecto de Ley de Turismo Sostenible de Andalucía. La Cátedra aborda específicamente la Planificación Turística (Tít. III), Derechos y Obligaciones (Tít. IV), Inspección (Tít. VII) y Régimen Sancionador (Tít. VIII).",
+        "proy-3-objetivo": "Sostenibilidad social y relación turista-residente; Regulación y aplicación de Viviendas de Uso Turístico (VUT); Ordenación del territorio y vinculación de usos del suelo; Régimen sancionador y regulación de plataformas digitales de comercialización.",
+
         // BOUCO index.html
         "bouco-title": "Boletim Oficial da Universidade de Córdoba",
         "bouco-desc": "Consulte de forma transparente e em tempo real as resoluções oficiais, editais de pesquisa e anúncios do BOUCO que afetam o funcionamento do nosso grupo.",
