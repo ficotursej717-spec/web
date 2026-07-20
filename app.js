@@ -141,18 +141,14 @@ const investigadoresData = {
         cargo: 'Profesora del Área de Economía Financiera y Contabilidad - Dpto. Economía Agraria, Finanzas y Contabilidad',
         foto: 'carmen_barbero.png',
         lineas: [
-            'Métodos cuantitativos aplicados a la economía agraria y análisis de datos.',
-            'Economía española e internacional vinculada a la gestión del desarrollo turístico.',
-            'Modelización matemática avanzada para la toma de decisiones empresariales.',
-            'Docencia e investigación de economía de la pyme y matemáticas financieras.'
+            'Economía financiera, contabilidad de gestión y valoración corporativa.'
         ],
         contacto: {
             email: 'carmen.barbero@uco.es',
-            telefono: '+34 666 71 57 12',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
-            linkedin: 'https://www.linkedin.com/in/carmen-barbero-saavedra-731b31109/'
+            orcid: 'https://orcid.org/0009-0008-7514-9228'
         }
     },
     'investigador-6': {
