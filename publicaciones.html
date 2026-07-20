@@ -519,7 +519,7 @@
     ];
 
     /* ===================================================
-       RENDERIZADO
+       RENDERIZADO CON CONEXIÓN AL PANEL DE CONTROL CMS (8001)
        =================================================== */
     (function() {
         const listEl      = document.getElementById('pub-list');
@@ -530,7 +530,62 @@
         let activeYear   = '';
         let searchQuery  = '';
 
-        // Cálculo total inicial
+        // Sincronizar publicaciones agregadas dinámicamente desde el CMS (localhost:8001)
+        function syncAdminPublications() {
+            try {
+                const stored = localStorage.getItem("ficotur_publications");
+                if (stored) {
+                    const customPubs = JSON.parse(stored);
+                    customPubs.forEach(cp => {
+                        const title = cp.title_es || cp.title || "";
+                        const authors = cp.authors || "";
+                        const year = parseInt(cp.year) || 2026;
+                        const journal = cp.journal || "Publicación FICOTUR";
+                        const doiUrl = cp.doi ? (cp.doi.startsWith("http") ? cp.doi : `https://doi.org/${cp.doi}`) : "";
+
+                        if (!title) return;
+
+                        // Buscar si coincide con alguno de los investigadores existentes
+                        let target = PUBLICACIONES_FICOTUR.find(r => {
+                            const surname = r.investigador.split(' ').slice(-1)[0].toLowerCase();
+                            const firstName = r.investigador.split(' ')[0].toLowerCase();
+                            return authors.toLowerCase().includes(surname) || authors.toLowerCase().includes(r.investigador.toLowerCase());
+                        });
+
+                        if (!target) {
+                            let mainAuthor = authors.split(',')[0].split(';')[0].trim() || "Investigador FICOTUR";
+                            target = {
+                                investigador: mainAuthor,
+                                foto: 'logo_ficotur.png',
+                                cargo: 'Investigador / Miembro FICOTUR',
+                                links: {},
+                                publicaciones: []
+                            };
+                            PUBLICACIONES_FICOTUR.unshift(target);
+                        }
+
+                        // Evitar duplicados por título
+                        const exists = target.publicaciones.some(p => p.titulo.toLowerCase().trim() === title.toLowerCase().trim());
+                        if (!exists) {
+                            target.publicaciones.unshift({
+                                titulo: title,
+                                autores: authors,
+                                año: year,
+                                revista: journal,
+                                url: doiUrl || '#',
+                                doi: !!cp.doi
+                            });
+                        }
+                    });
+                }
+            } catch (err) {
+                console.warn("No se pudieron cargar publicaciones personalizadas de localStorage:", err);
+            }
+        }
+
+        syncAdminPublications();
+
+        // Cálculo total dinámico
         const total = PUBLICACIONES_FICOTUR.reduce((s,r)=>s+r.publicaciones.length,0);
         document.getElementById('stat-total').textContent = total;
 
