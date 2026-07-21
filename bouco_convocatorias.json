@@ -1,5 +1,21 @@
 [
     {
+        "id": "conv-2026-00907",
+        "titulo": "Extracto Convocatoria de la submodalidad 2.1 Becas \"Semillero de Investigación\" del Plan Propio de Investigación Enrique Aguilar Benítez de Lugo 2026",
+        "fecha": "21/07/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00906",
+        "titulo": "Extracto Convocatoria de Incentivos para la Residencia Universitaria de Belmez. Curso 2025-2026",
+        "fecha": "21/07/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-00904",
         "titulo": "Convocatoria concurso de acceso a plazas de cuerpos docentes 1/2026. Composición final Comisión Selección",
         "fecha": "20/07/2026",
@@ -18,22 +34,6 @@
     {
         "id": "conv-2026-00902",
         "titulo": "Extracto Convocatoria 2026 de ayudas de matrícula en el Programa de Inclusión social UCOGATA CATTANA",
-        "fecha": "20/07/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00903",
-        "titulo": "Extracto Convocatoria 2026 de ayudas Programa Palmeras",
-        "fecha": "20/07/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00899",
-        "titulo": "Resolución por la que se publica el listado definitivo de Ayudas concedidas a los GID/GIDE de la UCO (Convocatoria 2025)",
         "fecha": "20/07/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
