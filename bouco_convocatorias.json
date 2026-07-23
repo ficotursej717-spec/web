@@ -1,5 +1,21 @@
 [
     {
+        "id": "conv-2026-00928",
+        "titulo": "Convocatoria de profesorado contratado 7/2026. Propuesta definitiva",
+        "fecha": "23/07/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00927",
+        "titulo": "Convocatoria de Proceso Ordinario de Acceso a la Carrera Profesional Horizontal del PTGAS de la Universidad de Córdoba",
+        "fecha": "23/07/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-00918",
         "titulo": "Convocatoria de Profesorado Contratado 16/2023. Nueva propuesta definitiva parea contratación. Área Psicología Evolutiva y de la Educación",
         "fecha": "22/07/2026",
@@ -18,22 +34,6 @@
     {
         "id": "conv-2026-00914",
         "titulo": "Convocatoria Comisión de Servicios de PTGA funcionario. Relación provisional de personas admitidas y excluidas",
-        "fecha": "22/07/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00926",
-        "titulo": "Convocatoria de Profesorado Contratado 16/2023. Propuesta definitiva para contratación. Área Didáctica de la Expresión Corporal",
-        "fecha": "22/07/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00920",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 8/2026. Constitución provisional. Área Didáctica y Organización Escolar",
         "fecha": "22/07/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
