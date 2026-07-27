@@ -1,41 +1,41 @@
 [
     {
-        "id": "conv-2026-00945",
-        "titulo": "Resolución provisional Convocatoria 2026, Modalidad 1, Plan Propio de Investigación Internacional de la UCO \"Rosalind Franklin\". Corrección de errores",
-        "fecha": "24/07/2026",
+        "id": "conv-2026-00948",
+        "titulo": "Baremo General de méritos para concursos de profesorado ayudante doctor y profesorado ayudante doctor vinculado en la UCO. Modificación",
+        "fecha": "27/07/2026",
+        "tipo": "Anuncio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00963",
+        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 20/2026. Listado Definitivo de aspirantes admitidos y excluidos",
+        "fecha": "27/07/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-00936",
-        "titulo": "Listado provisional de ayudas de Acción Social concedidas y denegadas, no automáticas, solicitadas desde el 1 de enero al 30 de junio de 2026",
-        "fecha": "24/07/2026",
+        "id": "conv-2026-00961",
+        "titulo": "Reglamento 8/2025 sobre las Bases Reguladoras generales de los programas de prácticas académicas externas extracurriculares remunerados. Modificación",
+        "fecha": "27/07/2026",
         "tipo": "Anuncio",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-00933",
-        "titulo": "Acuerdo de la Gerencia y el Comité de Empresa del PTGAS Laboral de la Universidad de Córdoba, sobre jubilación parcial de este personal",
-        "fecha": "24/07/2026",
-        "tipo": "Anuncio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00932",
-        "titulo": "Programa Santander X Spain Awards Proyectos Emprendedores Universitarios 2025. Relación provisional de solicitudes admitidas y excluidas",
-        "fecha": "24/07/2026",
-        "tipo": "Anuncio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00941",
-        "titulo": "Convocatoria concurso de acceso a plazas de Cuerpos Docentes 1/2026. Composición final Comisión Selección",
-        "fecha": "24/07/2026",
+        "id": "conv-2026-00960",
+        "titulo": "Convocatoria de Profesorado Contratado 7/2026. Propuesta definitiva para contratación. Área Derecho Constitucional",
+        "fecha": "27/07/2026",
         "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00958",
+        "titulo": "XIII Plan Anual de Captación de Estudiantes en la Universidad de Córdoba. Curso 2026/2027",
+        "fecha": "27/07/2026",
+        "tipo": "Anuncio",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
