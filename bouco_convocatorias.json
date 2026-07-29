@@ -1,41 +1,41 @@
 [
     {
-        "id": "conv-2026-00948",
-        "titulo": "Baremo General de méritos para concursos de profesorado ayudante doctor y profesorado ayudante doctor vinculado en la UCO. Modificación",
-        "fecha": "27/07/2026",
-        "tipo": "Anuncio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-00963",
-        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 20/2026. Listado Definitivo de aspirantes admitidos y excluidos",
-        "fecha": "27/07/2026",
+        "id": "conv-2026-00969",
+        "titulo": "Convocatoria Bolsa Ordinaria de Profesor Sustituto 16/2026. Corrección error en listado definitivo de admitidos y excluidos",
+        "fecha": "29/07/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-00961",
-        "titulo": "Reglamento 8/2025 sobre las Bases Reguladoras generales de los programas de prácticas académicas externas extracurriculares remunerados. Modificación",
-        "fecha": "27/07/2026",
-        "tipo": "Anuncio",
+        "id": "conv-2026-00968",
+        "titulo": "Resolución definitiva de la Submodalidad 3.3 Actividades de Difusión y Divulgación Científica",
+        "fecha": "29/07/2026",
+        "tipo": "Resolución",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-00960",
-        "titulo": "Convocatoria de Profesorado Contratado 7/2026. Propuesta definitiva para contratación. Área Derecho Constitucional",
-        "fecha": "27/07/2026",
+        "id": "conv-2026-00976",
+        "titulo": "Modelo de convenio de colaboración para la realización de un proyecto de Doctorado Industrial en el desarrollo académico de la tesis",
+        "fecha": "29/07/2026",
+        "tipo": "Convenio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-00967",
+        "titulo": "Convocatoria de Profesorado Contratado 8/2026. Propuesta provisional para contratación. Varias Áreas",
+        "fecha": "29/07/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-00958",
-        "titulo": "XIII Plan Anual de Captación de Estudiantes en la Universidad de Córdoba. Curso 2026/2027",
-        "fecha": "27/07/2026",
-        "tipo": "Anuncio",
+        "id": "conv-2026-00975",
+        "titulo": "Relación de Convenios aprobados, ratificados y suscritos con organismos/empresas para la realización de prácticas tuteladas del alumnado universitario",
+        "fecha": "29/07/2026",
+        "tipo": "Convenio",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
