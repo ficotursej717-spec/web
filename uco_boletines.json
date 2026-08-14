@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "Boletín de Novedades - Viernes, 14 de Agosto de 2026",
+        "fecha": "14 Agosto 2026",
+        "link": "https://www.uco.es/servicios/actualidad/boletines/listid-1/mailid-4916-boletin-general-nueva-imagen?tmpl=component&tmpl=component"
+    },
+    {
         "titulo": "Boletín de Novedades - Jueves, 13 de Agosto de 2026",
         "fecha": "13 Agosto 2026",
         "link": "https://www.uco.es/servicios/actualidad/boletines/listid-1/mailid-4915-boletin-general-nueva-imagen?tmpl=component&tmpl=component"
@@ -23,10 +28,5 @@
         "titulo": "Boletín de Novedades - Sábado, 8 de Agosto de 2026",
         "fecha": "08 Agosto 2026",
         "link": "https://www.uco.es/servicios/actualidad/boletines/listid-1/mailid-4911-boletin-general-nueva-imagen?tmpl=component&tmpl=component"
-    },
-    {
-        "titulo": "Boletín de Novedades - Viernes, 7 de Agosto de 2026",
-        "fecha": "07 Agosto 2026",
-        "link": "https://www.uco.es/servicios/actualidad/boletines/listid-1/mailid-4910-boletin-general-nueva-imagen?tmpl=component&tmpl=component"
     }
 ]
