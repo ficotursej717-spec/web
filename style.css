@@ -1970,3 +1970,215 @@ textarea.form-control {
         opacity: 0.25;
     }
 }
+
+/* ==========================================================================
+   SECCIÓN LÍNEAS DE INVESTIGACIÓN (FICOTUR SEJ-717)
+   ========================================================================== */
+.research-lines-section {
+    padding: 5.5rem 0;
+    background-color: var(--bg-white, #ffffff);
+    border-bottom: 1px solid var(--border-color, #E2E8F0);
+}
+
+.research-lines-header {
+    max-width: 860px;
+    margin: 0 auto 3.5rem auto;
+    text-align: center;
+}
+
+.research-lines-badge {
+    display: inline-block;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--secondary, #2A8F6C);
+    background-color: rgba(42, 143, 108, 0.08);
+    border: 1px solid rgba(42, 143, 108, 0.2);
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    margin-bottom: 1rem;
+}
+
+.research-lines-title {
+    font-family: var(--font-headings, 'Outfit', sans-serif);
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--primary, #003B7C);
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+    letter-spacing: -0.01em;
+}
+
+.research-lines-intro {
+    font-family: var(--font-body, 'Inter', sans-serif);
+    font-size: 1.05rem;
+    color: var(--text-muted, #64748B);
+    line-height: 1.7;
+    margin: 0 auto;
+}
+
+/* Enlace a SICA */
+.sica-official-link {
+    color: var(--primary, #003B7C);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: var(--accent, #C5A059);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+    display: inline-inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    transition: var(--transition);
+}
+
+.sica-official-link:hover {
+    color: var(--secondary, #2A8F6C);
+    text-decoration-color: var(--secondary, #2A8F6C);
+}
+
+.external-icon {
+    width: 0.85em;
+    height: 0.85em;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* Grid de Tarjetas */
+.research-lines-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
+}
+
+/* Tarjeta individual */
+.research-line-card {
+    background-color: var(--bg-light, #F8FAFC);
+    border: 1px solid var(--border-color, #E2E8F0);
+    border-radius: 14px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.research-line-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary, #003B7C), var(--secondary, #2A8F6C));
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.research-line-card:hover {
+    background-color: var(--bg-white, #ffffff);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -6px rgba(0, 59, 124, 0.08), 0 4px 8px -2px rgba(0, 0, 0, 0.04);
+    border-color: rgba(42, 143, 108, 0.35);
+}
+
+.research-line-card:hover::before {
+    opacity: 1;
+}
+
+/* Cabecera de la tarjeta: número e icono */
+.card-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.line-number {
+    font-family: var(--font-headings, 'Outfit', sans-serif);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent, #C5A059);
+    letter-spacing: 0.05em;
+}
+
+.line-icon-wrapper {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: rgba(0, 59, 124, 0.06);
+    color: var(--primary, #003B7C);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.line-icon-wrapper svg {
+    width: 22px;
+    height: 22px;
+}
+
+.research-line-card:hover .line-icon-wrapper {
+    background-color: var(--secondary, #2A8F6C);
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Tipografía de la tarjeta */
+.line-card-title {
+    font-family: var(--font-headings, 'Outfit', sans-serif);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--primary, #003B7C);
+    line-height: 1.35;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.01em;
+}
+
+.line-card-desc {
+    font-family: var(--font-body, 'Inter', sans-serif);
+    font-size: 0.92rem;
+    color: var(--text-muted, #64748B);
+    line-height: 1.6;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+/* Responsividad */
+@media (max-width: 992px) {
+    .research-lines-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+    }
+    
+    .research-lines-title {
+        font-size: 1.95rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .research-lines-section {
+        padding: 3.75rem 0;
+    }
+
+    .research-lines-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .research-line-card {
+        padding: 1.5rem;
+    }
+
+    .research-lines-title {
+        font-size: 1.65rem;
+    }
+    
+    .research-lines-intro {
+        font-size: 0.98rem;
+    }
+}
+

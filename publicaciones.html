@@ -116,6 +116,7 @@
             border-radius: 50px;
             font-family: var(--font-headings);
         }
+        .pub-year.y2026 { background: #003B7C; }
         .pub-year.y2025 { background: #1a6b4e; }
         .pub-year.y2024 { background: #2a8f6c; }
         .pub-year.y2023 { background: #3aab82; }
@@ -243,9 +244,9 @@
             <h1>Producción Científica Reciente</h1>
             <p>Últimas publicaciones de los investigadores del grupo, indexadas en revistas internacionales de impacto (JCR · SJR · Scopus · Web of Science).</p>
             <div class="pub-hero-stats">
-                <div class="pub-hero-stat"><span class="num" id="stat-total">28</span><span class="label">Publicaciones</span></div>
-                <div class="pub-hero-stat"><span class="num">7</span><span class="label">Investigadores</span></div>
-                <div class="pub-hero-stat"><span class="num">2020–2025</span><span class="label">Período</span></div>
+                <div class="pub-hero-stat"><span class="num" id="stat-total">41</span><span class="label">Publicaciones</span></div>
+                <div class="pub-hero-stat"><span class="num">8</span><span class="label">Investigadores</span></div>
+                <div class="pub-hero-stat"><span class="num">2019–2026</span><span class="label">Período</span></div>
             </div>
         </div>
     </div>
@@ -259,6 +260,7 @@
 
                 <div class="filter-chip-bar" id="year-chips" aria-label="Filtrar por año">
                     <button class="fchip active" data-year="">Todos</button>
+                    <button class="fchip" data-year="2026">2026</button>
                     <button class="fchip" data-year="2025">2025</button>
                     <button class="fchip" data-year="2024">2024</button>
                     <button class="fchip" data-year="2023">2023</button>
@@ -408,7 +410,7 @@
     const PUBLICACIONES_FICOTUR = [
         {
             investigador: 'Ricardo Hernández Rojas',
-            foto: 'ricardo_hernandez.png',
+            foto: 'ricardo.jpg',
             cargo: 'Profesor Titular · Economía Financiera y Contabilidad',
             links: {
                 scholar: 'https://scholar.google.com/citations?user=3jb2UysAAAAJ&hl=es',
@@ -467,6 +469,23 @@
                 { titulo:'What are the main drivers of SMEs\' production of sustainability reports?', autores:'M. D. Guerrero-Baena; F. Castilla-Polo; P. Rodríguez-Gutiérrez', año:2024, revista:'Small Business International Review', url:'https://upct.es/sbir', doi:false },
                 { titulo:'The cooperative ESG disclosure index: an empirical approach', autores:'F. Castilla-Polo; G. García-Martínez; M. D. Guerrero-Baena; F. Polo-Garrido', año:2024, revista:'Environment, Development and Sustainability', url:'https://link.springer.com/journal/10668', doi:false },
                 { titulo:'The business case for sustainability reporting in SMEs: consultants\' and academics\' perceptions', autores:'F. Castilla-Polo; M. D. Guerrero-Baena; P. Rodríguez-Gutiérrez', año:2023, revista:'Sustainable Development', url:'https://doi.org/10.1002/sd', doi:true }
+            ]
+        },
+        {
+            investigador: 'Dr. José Antonio Fernández-Gallardo',
+            foto: 'jose_antonio.png',
+            cargo: 'Profesor · Economía Financiera y Contabilidad',
+            links: {
+                orcid: 'https://orcid.org/0000-0002-3003-3909'
+            },
+            publicaciones: [
+                { titulo:'Gestión económica y comercialización del trabajo femenino en la pesca artesanal de Crucita, cantón Portoviejo', autores:'José Antonio Fernández-Gallardo et al.', año:2026, revista:'InnDev', url:'https://doi.org/10.69583/inndev.v5n1.2026.227', doi:true },
+                { titulo:'Impact of touristic sustainability on satisfaction with touristic services in a world heritage city. The case of the equestrian show in Córdoba (Spain)', autores:'José Antonio Fernández-Gallardo et al.', año:2025, revista:'Journal of Cultural Heritage Management and Sustainable Development', url:'https://doi.org/10.1108/JCHMSD-12-2023-0226', doi:true },
+                { titulo:'Hedging the risk of hydrological drought in irrigated agriculture: the role of precautionary savings', autores:'José Antonio Fernández-Gallardo et al.', año:2022, revista:'International Journal of Water Resources Development', url:'https://doi.org/10.1080/07900627.2021.1949699', doi:true },
+                { titulo:'La cadena de valor del maíz amarillo duro ecuatoriano. Retos y oportunidades', autores:'José Antonio Fernández-Gallardo et al.', año:2022, revista:'Lecturas de Economía', url:'https://doi.org/10.17533/udea.le.n98a347315', doi:true },
+                { titulo:'Análisis de costos de agronegocios en la cadena de valor del maíz duro caso Manabí-Ecuador', autores:'José Antonio Fernández-Gallardo et al.', año:2022, revista:'Custos e Agronegocio', url:'https://www.scopus.com/record/display.uri?eid=2-s2.0-85150455979&origin=resultslist', doi:false },
+                { titulo:'Caracterización socioeconómica del agricultor maicero en la Provincia de Manabí mediante técnicas de análisis multivariantes', autores:'José Antonio Fernández-Gallardo et al.', año:2020, revista:'Podium', url:'https://doi.org/10.31095/podium.2020.38.1', doi:true },
+                { titulo:'Evaluation of the Reception Capacity of a Certain Area Regarding Tourist Housing, Addressing Sustainable-Tourism Criteria', autores:'José Antonio Fernández-Gallardo et al.', año:2019, revista:'Sustainability (MDPI)', url:'https://doi.org/10.3390/SU11226422', doi:true }
             ]
         },
         {
@@ -590,7 +609,7 @@
         document.getElementById('stat-total').textContent = total;
 
         function getYearClass(year) {
-            const map = {2025:'y2025',2024:'y2024',2023:'y2023',2022:'y2022',2020:'y2020'};
+            const map = {2026:'y2026',2025:'y2025',2024:'y2024',2023:'y2023',2022:'y2022',2020:'y2020'};
             return map[year] || '';
         }
 

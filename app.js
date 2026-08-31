@@ -58,7 +58,6 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'ricardo.hernandez@uco.es',
-            telefono: '+34 957 21 12 50',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -83,7 +82,6 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'z42gaapl@uco.es',
-            telefono: '+34613661016',
             despacho: 'Cátedra de Turismo Patrimonial y Cultural, Facultad de Derecho y Ciencias Económicas y Empresariales'
         },
         links: {
@@ -108,7 +106,6 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'mercedes.luque@uco.es',
-            telefono: '+34 679 81 42 52',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -129,7 +126,6 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'jose.fernandez@uco.es',
-            telefono: '+34 619 00 98 41',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -167,7 +163,6 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'dolores.guerrero@uco.es',
-            telefono: '+34 699 78 20 89',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -187,7 +182,6 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'jjimber@uco.es',
-            telefono: '+34 657 68 25 51',
             despacho: 'Dpto. de Economía Financiera y Contabilidad, Ftad. Derecho y CC Económicas y Empresariales, Córdoba 14071'
         },
         links: {
@@ -207,7 +201,6 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'ahidalgo@uco.es',
-            telefono: '+34 636 64 72 45',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -228,7 +221,6 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'lcaracuel@uco.es',
-            telefono: '+34 626 30 22 19',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -250,7 +242,6 @@ const investigadoresData = {
         ],
         contacto: {
             email: 'z82veroa@uco.es',
-            telefono: '+34 685 25 09 97',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
@@ -319,7 +310,6 @@ function fillModal(data) {
     // Contacto
     modal.querySelector('.modal-email').textContent = data.contacto.email;
     modal.querySelector('.modal-email').href = `mailto:${data.contacto.email}`;
-    modal.querySelector('.modal-phone').textContent = data.contacto.telefono;
     modal.querySelector('.modal-office').textContent = data.contacto.despacho;
 
     // Enlaces Académicos y Redes Profesionales de forma dinámica
