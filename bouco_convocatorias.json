@@ -1,40 +1,40 @@
 [
     {
-        "id": "conv-2026-01015",
-        "titulo": "Resolución definitiva de concesión de las ayudas a contratos en empresas para la realización de Tesis Doctorales con Mención Industrial",
-        "fecha": "09/09/2026",
+        "id": "conv-2026-01018",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 14/2026. Publicación de interposición de reclamaciones a la propuesta provisional . Código Bolsa BO261406",
+        "fecha": "11/09/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01021",
+        "titulo": "Convocatoria de Bolsa de Trabajo Profesor Sustituto 8/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Código Bolsa BO260801",
+        "fecha": "11/09/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01025",
+        "titulo": "Programa Santander X Spain Awards StartUp | Universitaria 2025. Propuesta de resolución provisional de concesión de premios",
+        "fecha": "11/09/2026",
         "tipo": "Resolución",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-01014",
-        "titulo": "Libre Designación Personal Técnico, de Gestión y de Administración y Servicios Funcionario. Convocatoria",
-        "fecha": "09/09/2026",
+        "id": "conv-2026-01026",
+        "titulo": "Convocatoria de Profesorado Contratado 5/2026. Nueva propuesta definitiva para contratación. Área Organización de Empresas",
+        "fecha": "11/09/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-01013",
-        "titulo": "Plan Estratégico de Subvenciones de la Universidad de Córdoba. Modificación núm. 7",
-        "fecha": "09/09/2026",
-        "tipo": "Anuncio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01010",
-        "titulo": "Convocatoria de Profesorado Contratado 8/2026. Propuesta definitiva para contratación. Área Psiquiatría",
-        "fecha": "07/09/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01012",
-        "titulo": "Convocatoria de Profesorado Contratado 5/2026. Propuesta definitiva para contratación. Área Obstetricia y Ginecología",
-        "fecha": "07/09/2026",
+        "id": "conv-2026-01023",
+        "titulo": "Convocatoria de Bolsa de Trabajo Profesor Sustituto 8/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Código Bolsa BO260803",
+        "fecha": "11/09/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
