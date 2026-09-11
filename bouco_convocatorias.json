@@ -1,5 +1,21 @@
 [
     {
+        "id": "conv-2026-01027",
+        "titulo": "Convocatoria de Profesorado Contratado 16/2023. Notificación de interposición de recursos de alzada. Plaza Código C231612",
+        "fecha": "11/09/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01028",
+        "titulo": "Resolución Definitiva de la Modalidad I: Proyectos de Innovación y Transferencia (UCOSocial-Innova y Transfiere) del XII Plan Propio Galileo",
+        "fecha": "11/09/2026",
+        "tipo": "Resolución",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01018",
         "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 14/2026. Publicación de interposición de reclamaciones a la propuesta provisional . Código Bolsa BO261406",
         "fecha": "11/09/2026",
@@ -20,22 +36,6 @@
         "titulo": "Programa Santander X Spain Awards StartUp | Universitaria 2025. Propuesta de resolución provisional de concesión de premios",
         "fecha": "11/09/2026",
         "tipo": "Resolución",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01026",
-        "titulo": "Convocatoria de Profesorado Contratado 5/2026. Nueva propuesta definitiva para contratación. Área Organización de Empresas",
-        "fecha": "11/09/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01023",
-        "titulo": "Convocatoria de Bolsa de Trabajo Profesor Sustituto 8/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Código Bolsa BO260803",
-        "fecha": "11/09/2026",
-        "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
