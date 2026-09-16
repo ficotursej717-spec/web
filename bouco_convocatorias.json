@@ -1,5 +1,21 @@
 [
     {
+        "id": "conv-2026-01038",
+        "titulo": "Convocatoria del Programa de Prácticas asociadas al convenio con el Ministerio del Interior 2025/2026. Resolución definitiva de concesión de ayudas",
+        "fecha": "16/09/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01037",
+        "titulo": "Programa Campus Rural 2025/2026. Relación definitiva de solicitudes admitidas y excluidas",
+        "fecha": "16/09/2026",
+        "tipo": "Anuncio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01036",
         "titulo": "Movilidad forzosa provisional por cargas de trabajo",
         "fecha": "15/09/2026",
@@ -19,22 +35,6 @@
         "id": "conv-2026-01029",
         "titulo": "Convocatoria concurso de acceso a plazas de Cuerpos Docentes 1/2026. Composición final Comisión Selección. Área Bioquímica y Biología Molecular",
         "fecha": "15/09/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01031",
-        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 22/2026. Listado Definitivo de aspirantes admitidos y excluidos",
-        "fecha": "14/09/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01032",
-        "titulo": "Convocatoria concurso de acceso a plazas de Cuerpos Docentes 1/2026. Composición final Comisión Selección",
-        "fecha": "14/09/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
