@@ -46,16 +46,89 @@ function initMobileMenu() {
 // Datos reales de los investigadores de Ficotur
 const investigadoresData = {
     'investigador-1': {
-        nombre: 'Dr. Ricardo Hernández Rojas',
+        nombre: 'Dr. Ricardo David Hernández Rojas',
         cargo: 'Profesor Titular de Universidad - Área de Economía Financiera y Contabilidad, Dpto. Economía Agraria, Finanzas y Contabilidad',
         foto: 'ricardo.jpg',
         lineas: [
-            'Gestión turística del patrimonio.',
-            'Gestión empresarial de la gastronomía tradicional.',
-            'Coordinador del Congreso Internacional de Gestión Turística del Patrimonio (CIGESTUR).',
-            'Director de la Cátedra de Turismo Patrimonial y Cultural UCO.',
-            'Proyecto Actual (IP2): DGP_PIDI_2024_00107. OLIVE-VAR: Realidad virtual y aumentada aplicadas a la promoción del oleoturismo (Convocatoria Junta de Andalucía - Consejería de Universidad, Investigación e Innovación. Importe: 50.000 €).'
+            'Gestión turística del patrimonio cultural y natural.',
+            'Gestión empresarial de la gastronomía tradicional y oleoturismo.',
+            'Coordinador General del Congreso Internacional de Gestión Turística del Patrimonio (CIGESTUR).',
+            'Director de la Cátedra de Turismo Patrimonial y Cultural de la Universidad de Córdoba.',
+            'Modelos de fidelización del turista, calidad percibida y análisis de impacto económico territorial.'
         ],
+        proyectosIP: [
+            {
+                tipo: 'Proyecto I+D+i',
+                titulo: 'OLIVE-VAR: Realidad virtual y aumentada aplicadas a la promoción del oleoturismo',
+                referencia: 'DGP_PIDI_2024_00107',
+                entidad: 'Junta de Andalucía - Consejería de Universidad, Investigación e Innovación (EIDA 2021-2027)',
+                ip: 'Co-Investigador Principal (IP2): Dr. Ricardo David Hernández Rojas',
+                periodo: '2026–2029',
+                financiacion: '50.000 €'
+            },
+            {
+                tipo: 'Cátedra Institucional',
+                titulo: 'Dirección y desarrollo científico-técnico de la Cátedra de Turismo Patrimonial y Cultural de la Universidad de Córdoba',
+                referencia: 'Cátedra UCO',
+                entidad: 'Universidad de Córdoba, Junta de Andalucía y entidades del sector turístico',
+                ip: 'Director / Investigador Principal: Dr. Ricardo David Hernández Rojas',
+                periodo: '2021–Activo',
+                financiacion: 'Convenio anual de transferencia'
+            },
+            {
+                tipo: 'Congreso Internacional',
+                titulo: 'Coordinación General y Dirección Científica del Congreso Internacional de Gestión Turística del Patrimonio Cultural y Natural (CIGESTUR)',
+                referencia: 'CIGESTUR',
+                entidad: 'Universidad de Córdoba / Redes Internacionales de Turismo',
+                ip: 'Director y Coordinador General: Dr. Ricardo David Hernández Rojas',
+                periodo: 'Ediciones continuadas',
+                financiacion: 'Transferencia y divulgación'
+            }
+        ],
+        tesisDirigidas: [
+            {
+                ano: '2025',
+                doctorando: 'Carlos Luis Zambrano Pincay',
+                titulo: 'La satisfacción laboral y su incidencia en el sector gastronómico de la provincia de Manabí-Ecuador',
+                universidad: 'Universidad de Córdoba',
+                defensa: '2025',
+                direccion: 'Dr. Ricardo David Hernández Rojas',
+                indicadores: 'Tesis doctoral con mención internacional sobre gestión del talento, hostelería y satisfacción laboral en la restauración de Manabí (Ecuador), con artículos científicos derivados en revistas de impacto.',
+                badges: ['Doctorado Internacional', 'Turismo Gastronómico']
+            },
+            {
+                ano: '2023',
+                doctorando: 'María Dolores Pérez González',
+                titulo: 'Metodología y análisis de las enseñanzas de baile flamenco',
+                universidad: 'Universidad de Córdoba',
+                defensa: 'Septiembre 2023',
+                direccion: 'Dr. Ricardo David Hernández Rojas',
+                indicadores: 'Calificación de Sobresaliente Cum Laude. Investigación sobre metodología y valorización del flamenco como Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO. Documentada en el repositorio Helvia UCO.',
+                badges: ['Sobresaliente Cum Laude', 'Patrimonio Cultural Inmaterial', 'Repositorio Helvia UCO']
+            },
+            {
+                ano: '2022',
+                doctorando: 'José Antonio Cava Jiménez',
+                titulo: 'Análisis de las rutas gastronómicas en el marco de las denominaciones de origen protegidas de Córdoba',
+                universidad: 'Universidad de Córdoba',
+                defensa: '2022',
+                direccion: 'Dr. Ricardo David Hernández Rojas y Dra. María Genoveva Millán Vázquez de la Torre',
+                indicadores: 'Calificación de Sobresaliente Cum Laude. Análisis pionero sobre el impacto de las Denominaciones de Origen Protegidas (DOP) en el turismo gastronómico y oleícola andaluz, con amplia producción científica en revistas JCR/Scopus.',
+                badges: ['Sobresaliente Cum Laude', 'DOP y Oleoturismo', 'Alta Transferencia']
+            }
+        ],
+        editorial: {
+            associateEditor: [
+                'Director de Colección: Thomson Reuters Aranzadi ("Patrimonio y Turismo")',
+                'Director Científico: Actas del Congreso Internacional CIGESTUR'
+            ],
+            editorialBoard: [
+                'Revisor Científico: Sustainability (MDPI)',
+                'Revisor Científico: Journal of Business Research (Elsevier)',
+                'Revisor Científico: Heritage (MDPI)',
+                'Revisor Científico: Cuadernos de Turismo'
+            ]
+        },
         contacto: {
             email: 'ricardo.hernandez@uco.es',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
@@ -99,12 +172,97 @@ const investigadoresData = {
             'Contabilidad social y medioambiental. Información no financiera e información de sostenibilidad.',
             'Regulación y gobernanza del reporting corporativo. Aseguramiento de la información de sostenibilidad.',
             'Contabilidad para la transición ecológica. Sostenibilidad en pymes y organizaciones públicas.',
-            'Compra pública sostenible. Gobernanza empresarial y Responsabilidad Social Corporativa (RSC).',
-            'Proyecto Actual (IP): Análisis de la información de planes de transición de empresas españolas/europeas (ICAC-ASEPUC 2026 - Financiación: 3.500 €).',
-            'Proyecto Actual: Información de sostenibilidad transformativa (Ministerio de Ciencia e Innovación, PID2024-156135OB-I00, 2025-2028 - Presupuesto: 112.500 €).',
-            'Proyecto Actual: Contabilidad socio-ecológica y stewardship empresarial (Junta de Castilla y León, BU029P23, 2023-2027 - Presupuesto: 180.000 €).',
-            'Consultoría: Contrato internacional en contabilidad para la sostenibilidad para la Contaduría General de la Nación de Colombia (Banco Interamericano de Desarrollo - BID, 2025-2026).'
+            'Compra pública sostenible. Gobernanza empresarial y Responsabilidad Social Corporativa (RSC).'
         ],
+        proyectosIP: [
+            {
+                tipo: 'Proyecto de investigación',
+                titulo: 'Análisis de la información suministrada por las empresas obligadas por la CSRS en relación con los planes de transición: empresas españolas y muestra de empresas europeas',
+                referencia: 'Proyecto ICAC-ASEPUC 2026',
+                entidad: 'ICAC / ASEPUC',
+                ip: 'Investigadora Principal: Mercedes Luque Vílchez',
+                periodo: '2026',
+                financiacion: '3.500 €'
+            },
+            {
+                tipo: 'Contrato de investigación',
+                titulo: 'Estudio sobre inversión y financiación de la industria de defensa, con especial atención a la regulación bancaria y a la normativa en materia de sostenibilidad',
+                referencia: '—',
+                entidad: 'Instituto Español de Analistas Financieros',
+                ip: 'Investigadora Principal: Mercedes Luque Vílchez',
+                periodo: '2026',
+                financiacion: '2.957,24 €'
+            }
+        ],
+        tesisEnCurso: [
+            {
+                ano: '2028–2029 (Prevista)',
+                doctorando: 'Brayan Stick',
+                titulo: 'Información pública de sostenibilidad y materialidad adaptativa',
+                universidad: 'Universidad de Burgos',
+                direccion: 'Nicolás García Torea y Mercedes Luque Vílchez',
+                indicadores: 'Contrato predoctoral asociado al proyecto de la Contaduría General de la Nación de Colombia (CGN) sobre contabilidad para la sostenibilidad, financiado mediante dos anualidades de 45.000 € cada una (dotación total: 90.000 €).',
+                enlace: 'https://investigacion.ubu.es/proyectos/1472336/detalle'
+            }
+        ],
+        tesisDirigidas: [
+            {
+                ano: '2026',
+                doctorando: 'Silvia Soriano',
+                titulo: 'Regulating for Sustainability: Disclosure and Due Diligence Mandates as Drivers of Organisational Change',
+                universidad: 'Università degli Studi Roma Tre',
+                defensa: '24/04/2026',
+                direccion: 'Paola Demartini y Mercedes Luque Vílchez',
+                indicadores: 'Calificación de Sobresaliente Cum Laude y realización de estancia internacional. Beca predoctoral financiada por Leonardo S.p.A. (empresa de referencia aeroespacial, defensa y seguridad) con una dotación de 70.000 €.',
+                badges: ['Sobresaliente Cum Laude', 'Estancia Internacional', 'Beca Leonardo S.p.A. (70.000 €)']
+            },
+            {
+                ano: '2024',
+                doctorando: 'Eduardo Jiménez Martínez',
+                titulo: 'Cluster Management Organization Sustainability Reporting: An Insight into Basque SMEs from a Sectoral Perspective',
+                universidad: 'UNED',
+                defensa: '15/07/2024',
+                direccion: 'Marta de la Cuesta González y Mercedes Luque Vílchez',
+                indicadores: 'Calificación de Sobresaliente Cum Laude y realización de estancia internacional.',
+                badges: ['Sobresaliente Cum Laude', 'Estancia Internacional']
+            },
+            {
+                ano: '2024',
+                doctorando: 'Luis Rafael Perera Aldama',
+                titulo: 'Integrating Sustainability Information into Mainstream Reporting',
+                universidad: 'Universidad de Burgos',
+                defensa: '22/03/2024',
+                direccion: 'Luk Van Wassenhove, Carlos Larrinaga González y Mercedes Luque Vílchez',
+                indicadores: 'Calificación de Sobresaliente Cum Laude y Premio Extraordinario de Doctorado.',
+                badges: ['Sobresaliente Cum Laude', 'Premio Extraordinario de Doctorado']
+            },
+            {
+                ano: '2023',
+                doctorando: 'María del Rosario Fernández Pérez',
+                titulo: 'Compra pública sostenible y estratégica: una aproximación al concepto de rendición de cuentas en el proceso de la compra pública sostenible a través de indicadores',
+                universidad: 'Universidad de Burgos',
+                defensa: '23/06/2023',
+                direccion: 'Carlos Larrinaga González y Mercedes Luque Vílchez',
+                indicadores: 'Calificación de Sobresaliente Cum Laude, Premio Extraordinario del Programa de Doctorado (UBU 2023) y Premio a la mejor propuesta en el Doctoral Colloquium del XX Encuentro Internacional de ASEPUC (2023).',
+                badges: ['Sobresaliente Cum Laude', 'Premio Extraordinario de Doctorado', 'Premio Doctoral Colloquium ASEPUC']
+            }
+        ],
+        editorial: {
+            associateEditor: [
+                'Sustainability Accounting, Management and Policy Journal (SAMPJ) — Emerald',
+                'Interdisciplinary Accounting Review',
+                'Revista de Contabilidad – Spanish Accounting Review (SAR) (Senior Editor)',
+                'Revista de Administração de Empresas (RAE)'
+            ],
+            editorialBoard: [
+                'Accounting Open',
+                'Accounting Forum',
+                'Piccola Impresa / Small Business'
+            ],
+            guestEditor: [
+                'Meditari Accountancy Research (Emerald): Guest Editor del monográfico especial "Artificial Intelligence in Sustainability Accounting and Assurance" (Olsen, Carmen; Luque-Vílchez, Mercedes; Kuruppu, Sanjaya Chinthana, 2026).'
+            ]
+        },
         contacto: {
             email: 'mercedes.luque@uco.es',
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
@@ -290,6 +448,21 @@ function initTeamModals() {
         modal.classList.remove('active');
         document.body.style.overflow = '';
     }
+
+    // Apertura automática si viene con parámetro URL o ancla (?investigador=investigador-3 o #investigador-3)
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetId = urlParams.get('investigador') || (window.location.hash ? window.location.hash.replace('#', '') : null);
+    if (targetId && investigadoresData[targetId]) {
+        setTimeout(() => {
+            fillModal(investigadoresData[targetId]);
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            const targetCard = document.querySelector(`.team-card[data-id="${targetId}"]`);
+            if (targetCard) {
+                targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }, 150);
+    }
 }
 
 function fillModal(data) {
@@ -340,6 +513,155 @@ function fillModal(data) {
                 linksContainer.appendChild(a);
             }
         }
+    }
+
+    // Contenedor dinámico para Secciones Avanzadas (Proyectos IP, Tesis Doctorales / Training, Actividad Editorial)
+    let extraContainer = modal.querySelector('.modal-extra-details');
+    if (!extraContainer) {
+        extraContainer = document.createElement('div');
+        extraContainer.className = 'modal-extra-details';
+        modal.querySelector('.modal-body').appendChild(extraContainer);
+    }
+    extraContainer.innerHTML = '';
+
+    // 1. Proyectos y contratos como IP
+    if (data.proyectosIP && data.proyectosIP.length > 0) {
+        const sec = document.createElement('div');
+        sec.className = 'modal-section-proyectos';
+        sec.innerHTML = `
+            <h4>Proyectos y Contratos como Investigadora Principal (IP):</h4>
+            <div style="overflow-x: auto; margin-bottom: 1.25rem;">
+                <table class="modal-table">
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Proyecto o Contrato</th>
+                            <th>Entidad Financiadora</th>
+                            <th>Periodo</th>
+                            <th>Financiación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${data.proyectosIP.map(p => `
+                            <tr>
+                                <td><span class="quality-badge badge-funding">${p.tipo}</span></td>
+                                <td>
+                                    <strong>${p.titulo}</strong>
+                                    ${p.referencia && p.referencia !== '—' ? `<br><small style="color: var(--text-muted); font-weight: 500;">${p.referencia}</small>` : ''}
+                                </td>
+                                <td>${p.entidad}</td>
+                                <td>${p.periodo}</td>
+                                <td><strong style="color: var(--secondary);">${p.financiacion}</strong></td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            </div>
+        `;
+        extraContainer.appendChild(sec);
+    }
+
+    // 2. Tesis Doctorales y Capacidad de Formación (Training)
+    if ((data.tesisEnCurso && data.tesisEnCurso.length > 0) || (data.tesisDirigidas && data.tesisDirigidas.length > 0)) {
+        const sec = document.createElement('div');
+        sec.className = 'modal-section-training';
+        let html = `<h4>Tesis Doctorales y Capacidad de Formación (Training):</h4>`;
+
+        // 2.1. Tesis en curso
+        if (data.tesisEnCurso && data.tesisEnCurso.length > 0) {
+            html += `<h5 style="color: var(--primary); margin: 0.9rem 0 0.45rem; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                🎓 Tesis Doctorales en Curso (Ongoing PhD Dissertations):
+            </h5>`;
+            data.tesisEnCurso.forEach(t => {
+                html += `
+                    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid var(--primary); padding: 0.85rem 1rem; border-radius: 6px; margin-bottom: 0.75rem;">
+                        <div style="font-weight: 700; color: var(--primary); margin-bottom: 0.25rem; font-size: 0.98rem;">${t.titulo}</div>
+                        <div style="font-size: 0.88rem; color: var(--text-dark); margin-bottom: 0.4rem; line-height: 1.45;">
+                            <strong>Doctorando:</strong> ${t.doctorando} &nbsp;|&nbsp; 
+                            <strong>Dirección:</strong> ${t.direccion} &nbsp;|&nbsp; 
+                            <strong>Univ:</strong> ${t.universidad} &nbsp;|&nbsp; 
+                            <strong>Periodo:</strong> ${t.ano}
+                        </div>
+                        <div style="font-size: 0.85rem; color: #0f766e; background: #f0fdfa; padding: 0.45rem 0.65rem; border-radius: 4px; border: 1px solid #ccfbf1; line-height: 1.4;">
+                            <strong>Indicadores de calidad acreditables:</strong> ${t.indicadores}
+                            ${t.enlace ? `<br><a href="${t.enlace}" target="_blank" rel="noopener" style="color: #0d9488; text-decoration: underline; font-weight: 500;">Ver detalle oficial de investigación ↗</a>` : ''}
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        // 2.2. Tesis dirigidas / leídas
+        if (data.tesisDirigidas && data.tesisDirigidas.length > 0) {
+            html += `<h5 style="color: var(--primary); margin: 1.25rem 0 0.55rem; font-size: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                🏆 Tesis Doctorales Dirigidas y Defendidas (Completed PhD Dissertations):
+            </h5>`;
+            html += `
+                <div style="overflow-x: auto;">
+                    <table class="modal-table">
+                        <thead>
+                            <tr>
+                                <th>Año</th>
+                                <th>Tesis y Doctorando/a</th>
+                                <th>Dirección</th>
+                                <th>Indicadores de Calidad Acreditables</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${data.tesisDirigidas.map(t => `
+                                <tr>
+                                    <td style="white-space: nowrap; font-weight: 700; color: var(--primary);">${t.ano}</td>
+                                    <td>
+                                        <strong style="color: var(--primary);">${t.doctorando}</strong><br>
+                                        <em>${t.titulo}</em><br>
+                                        <small style="color: var(--text-muted);">${t.universidad} • Defensa: ${t.defensa}</small>
+                                    </td>
+                                    <td style="font-size: 0.85rem; white-space: nowrap;">${t.direccion}</td>
+                                    <td>
+                                        <div style="margin-bottom: 0.35rem;">
+                                            ${(t.badges || []).map(b => `<span class="quality-badge ${b.includes('Cum Laude') ? 'badge-cum-laude' : b.includes('Premio') ? 'badge-award' : b.includes('Leonardo') ? 'badge-funding' : 'badge-international'}">${b}</span>`).join('')}
+                                        </div>
+                                        <small style="display: block; line-height: 1.4; color: var(--text-dark);">${t.indicadores}</small>
+                                    </td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            `;
+        }
+        sec.innerHTML = html;
+        extraContainer.appendChild(sec);
+    }
+
+    // 3. Responsabilidades editoriales y revisión científica
+    if (data.editorial) {
+        const sec = document.createElement('div');
+        sec.className = 'modal-section-editorial';
+        let html = `<h4>Responsabilidades Editoriales y Revisión Científica:</h4>`;
+
+        if (data.editorial.associateEditor && data.editorial.associateEditor.length > 0) {
+            html += `<div style="margin-bottom: 0.75rem;">
+                <strong style="color: var(--primary); display: block; margin-bottom: 0.35rem; font-size: 0.92rem;">Associate Editor / Senior Editor:</strong>
+                <div>${data.editorial.associateEditor.map(ed => `<span class="badge-editorial">${ed}</span>`).join('')}</div>
+            </div>`;
+        }
+        if (data.editorial.editorialBoard && data.editorial.editorialBoard.length > 0) {
+            html += `<div style="margin-bottom: 0.75rem;">
+                <strong style="color: var(--primary); display: block; margin-bottom: 0.35rem; font-size: 0.92rem;">Miembro de Consejos Editoriales (Editorial Board):</strong>
+                <div>${data.editorial.editorialBoard.map(ed => `<span class="badge-editorial">${ed}</span>`).join('')}</div>
+            </div>`;
+        }
+        if (data.editorial.guestEditor && data.editorial.guestEditor.length > 0) {
+            html += `<div style="margin-bottom: 0.75rem;">
+                <strong style="color: var(--primary); display: block; margin-bottom: 0.35rem; font-size: 0.92rem;">Guest Editor en Revistas de Impacto:</strong>
+                <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 0.6rem 0.85rem; border-radius: 6px; font-size: 0.88rem; color: var(--text-dark); line-height: 1.45;">
+                    ${data.editorial.guestEditor.join('<br>')}
+                </div>
+            </div>`;
+        }
+        sec.innerHTML = html;
+        extraContainer.appendChild(sec);
     }
 }
 

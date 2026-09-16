@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos de Investigación - FICOTUR | UCO</title>
+    <meta name="description" content="Explora los proyectos de investigación activos e históricos del Grupo Ficotur en finanzas, contabilidad analítica y gestión del turismo.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABECERA PRINCIPAL -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-link" aria-label="Página de inicio de Ficotur">
+                <img src="logo_ficotur_vertical.png" alt="Logotipo oficial de Ficotur UCO" class="logo-img">
+            </a>
+            
+            <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-label="Abrir menú de navegación">
+                ☰
+            </button>
+            
+            <nav id="nav-menu" class="nav">
+                <a href="index.html" class="nav-link" data-translate="nav-inicio">Inicio</a>
+                <a href="equipo.html" class="nav-link" data-translate="nav-equipo">Equipo</a>
+                <a href="proyectos.html" class="nav-link active" data-translate="nav-proyectos">Proyectos</a>
+                <a href="publicaciones.html" class="nav-link" data-translate="nav-publicaciones">Publicaciones</a>
+                <a href="contacto.html" class="nav-link" data-translate="nav-contacto">Contacto</a>
+            </nav>
+
+            <div class="lang-selector">
+                <select id="lang-select" class="lang-select" aria-label="Seleccionar idioma">
+                    <option value="es">ES</option>
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                    <option value="pt">PT</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <main class="container section-padding">
+        <h1 class="section-title">Proyectos de Investigación</h1>
+        <p style="color: var(--text-muted); margin-bottom: 2.5rem; max-width: 700px;">
+            Desarrollamos proyectos científicos financiados mediante convocatorias competitivas públicas, orientados al avance del conocimiento y su transferencia tecnológica al sector turístico.
+        </p>
+
+        <!-- Tarjeta Destacada Horizontal para el Proyecto Real 1 -->
+        <div class="featured-project-card" style="margin-top: 2rem;">
+            <div class="featured-project-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=800" alt="Persona usando realidad virtual" class="featured-project-img" loading="lazy">
+            </div>
+            <div class="featured-project-content">
+                <span class="card-tag" data-translate="proy-1-tag">Junta de Andalucía | I+D+i</span>
+                <h3 class="featured-project-title" style="font-size: 1.6rem; color: var(--primary); margin: 0.75rem 0 1.25rem; font-family: var(--font-headings); font-weight: 700; line-height: 1.25;" data-translate="proy-1-title">
+                    OLIVE-VAR: Realidad Virtual y aumentada aplicadas a la promoción del oleoturismo
+                </h3>
+                <div class="featured-project-meta" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-bottom: 1.25rem; font-size: 0.95rem; line-height: 1.5;">
+                    <div><strong data-translate="proy-label-participacion">Tipo de participación: </strong><span data-translate="proy-val-participacion">IP (Investigador Principal)</span></div>
+                    <div><strong data-translate="proy-label-codigo">Código de Referencia: </strong><span>DGP_PIDI_2024_00107</span></div>
+                    <div><strong data-translate="proy-label-cuantia">Cuantía concedida: </strong><span data-translate="proy-val-cuantia">50.000 euros</span></div>
+                    <div><strong data-translate="proy-label-fechas">Período de ejecución: </strong><span data-translate="proy-val-fechas">20-04-2026 a 19-04-2029</span></div>
+                </div>
+                <p style="color: var(--text-dark); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem;">
+                    <strong data-translate="proy-label-entidad">Entidad financiadora: </strong><span data-translate="proy-val-entidad">JUNTA ANDALÚCIA - CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN. Proyectos de Investigación I+D+i (EIDA 2021-2027)</span>
+                </p>
+                <p class="card-desc" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 0px;" data-translate="proy-1-desc">
+                    El proyecto investiga y desarrolla soluciones basadas en realidad virtual y aumentada para la puesta en valor del patrimonio oleotenero andaluz, facilitando la transferencia tecnológica al sector del oleoturismo y dinamizando las economías rurales locales mediante experiencias culturales inmersivas.
+                </p>
+            </div>
+        </div>
+
+        <!-- PROYECTO 2: OBSERVATORIO SOSTENIBILIDAD TURÍSTICA LOCAL -->
+        <div class="featured-project-card" style="margin-top: 2.5rem;">
+            <div class="featured-project-img-wrapper">
+                <img src="observatorio_sostenibilidad.png" alt="Observatorio para la Sostenibilidad Turística Local" class="featured-project-img" loading="lazy">
+            </div>
+            <div class="featured-project-content">
+                <span class="card-tag" style="background-color: rgba(0, 59, 124, 0.1); color: var(--primary);" data-translate="proy-2-tag">Red de Cátedras de Turismo | Sostenibilidad</span>
+                <h3 class="featured-project-title" style="font-size: 1.6rem; color: var(--primary); margin: 0.75rem 0 1.25rem; font-family: var(--font-headings); font-weight: 700; line-height: 1.25;" data-translate="proy-2-title">
+                    Propuesta para el diseño del Observatorio para la Sostenibilidad Turística Local
+                </h3>
+                <div class="featured-project-meta" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-bottom: 1.25rem; font-size: 0.95rem; line-height: 1.5;">
+                    <div><strong data-translate="proy-label-participacion">Tipo de participación: </strong><span data-translate="proy-2-val-participacion">Análisis de Alineación con la Sostenibilidad (UCO)</span></div>
+                    <div><strong data-translate="proy-label-marco">Marco legal: </strong><span data-translate="proy-2-val-marco">Art. 17 Anteproyecto de Ley de Turismo Sostenible</span></div>
+                    <div><strong data-translate="proy-label-coordinacion">Coordinación: </strong><span data-translate="proy-2-val-coordinacion">Red de Cátedras de Turismo de Andalucía (8 Universidades)</span></div>
+                    <div><strong data-translate="proy-label-investigadores">Equipo Investigador: </strong><span data-translate="proy-2-val-investigadores">Mª Dolores Guerrero Baena (IP SEJ-717 FICOTUR), Francisca Castilla Polo (Catedrática UJA)</span></div>
+                </div>
+                <p style="color: var(--text-dark); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;">
+                    <strong data-translate="proy-label-entidad">Entidad impulsora: </strong><span data-translate="proy-2-val-entidad">CONSEJERÍA DE TURISMO Y ANDALUCÍA EXTERIOR - JUNTA DE ANDALUCÍA</span>
+                </p>
+                <p class="card-desc" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;" data-translate="proy-2-desc">
+                    Actividad conjunta de las ocho universidades públicas de Andalucía para crear el Observatorio para la Sostenibilidad Turística Local. La Universidad de Córdoba analiza de forma específica la alineación con los principios de sostenibilidad ambiental, social y económica, garantizando un marco multidisciplinar y científicamente rigurosa para asesorar a la Administración autonómica y local.
+                </p>
+                <div style="background-color: var(--bg-light); border-left: 4px solid var(--secondary); padding: 0.85rem 1.1rem; border-radius: 4px; font-size: 0.9rem;">
+                    <strong style="color: var(--secondary);" data-translate="proy-label-objetivo">Objetivo Principal: </strong>
+                    <span style="color: var(--text-dark);" data-translate="proy-2-objetivo">Elaborar un informe científico que analice la alineación estratégica del Observatorio para la Sostenibilidad Turística Local en sus dimensiones ambiental, social y económica.</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROYECTO 3: PROPUESTAS DE MEJORA LEY DE TURISMO Y DESARROLLO REGLAMENTARIO -->
+        <div class="featured-project-card" style="margin-top: 2.5rem;">
+            <div class="featured-project-img-wrapper">
+                <img src="ley_turismo_andalucia.png" alt="Propuestas de mejora de la Ley de Turismo de Andalucía" class="featured-project-img" loading="lazy">
+            </div>
+            <div class="featured-project-content">
+                <span class="card-tag" style="background-color: rgba(197, 160, 89, 0.15); color: #9A752C;" data-translate="proy-3-tag">Cátedra de Turismo Patrimonial y Cultural | Desarrollo Normativo</span>
+                <h3 class="featured-project-title" style="font-size: 1.6rem; color: var(--primary); margin: 0.75rem 0 1.25rem; font-family: var(--font-headings); font-weight: 700; line-height: 1.25;" data-translate="proy-3-title">
+                    Propuestas de mejora de la futura Ley de Turismo de Andalucía: Desarrollo reglamentario
+                </h3>
+                <div class="featured-project-meta" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-bottom: 1.25rem; font-size: 0.95rem; line-height: 1.5;">
+                    <div><strong data-translate="proy-label-participacion">Tipo de participación: </strong><span data-translate="proy-3-val-participacion">Desarrollo Reglamentario (Títulos III, IV, VII y VIII)</span></div>
+                    <div><strong data-translate="proy-label-marco">Marco de estudio: </strong><span data-translate="proy-3-val-marco">Anteproyecto de Ley de Turismo Sostenible &amp; Normativa Comparada</span></div>
+                    <div><strong data-translate="proy-label-coordinacion">Coordinación: </strong><span data-translate="proy-3-val-coordinacion">Red de Cátedras de Turismo de Andalucía</span></div>
+                    <div><strong data-translate="proy-label-investigadores">Equipo Investigador: </strong><span data-translate="proy-3-val-investigadores">Mª Ángeles Recio Ramírez (IP - D. Financiero), Rafael Carlos Ortega Navarro (D. Penal), Manuel Rivera Mateos (Geografía), José Manuel Serrano Cañas (D. Mercantil)</span></div>
+                </div>
+                <p style="color: var(--text-dark); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;">
+                    <strong data-translate="proy-label-entidad">Entidad impulsora: </strong><span data-translate="proy-3-val-entidad">JUNTA DE ANDALÚCIA - RED DE CÁTEDRAS DE TURISMO DE ANDALUCÍA</span>
+                </p>
+                <p class="card-desc" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;" data-translate="proy-3-desc">
+                    Estudio jurídico-técnico comparativo y propuesta de desarrollo reglamentario para el Anteproyecto de Ley de Turismo Sostenible de Andalucía. La Cátedra aborda específicamente la Planificación Turística (Tít. III), Derechos y Obligaciones (Tít. IV), Inspección (Tít. VII) y Régimen Sancionador (Tít. VIII).
+                </p>
+                <div style="background-color: var(--bg-light); border-left: 4px solid var(--accent); padding: 0.85rem 1.1rem; border-radius: 4px; font-size: 0.9rem;">
+                    <strong style="color: #9A752C;" data-translate="proy-label-objetivo">Ejes de Intervención Prioritaria: </strong>
+                    <span style="color: var(--text-dark);" data-translate="proy-3-objetivo">Sostenibilidad social y relación turista-residente; Regulación y aplicación de Viviendas de Uso Turístico (VUT); Ordenación del territorio y vinculación de usos del suelo; Régimen sancionador y regulación de plataformas digitales de comercialización.</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- PIE DE PÁGINA (ESTILO CNIO) -->
+    <footer class="footer-cnio">
+        <!-- 1. Barra superior: Redes y Accesos -->
+        <div class="footer-top-bar">
+            <div class="container footer-top-inner">
+                <div class="footer-socials">
+                    <span class="social-prefix">FICOTUR</span>
+                    <a href="https://www.linkedin.com/in/ricardohernandezrojas" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg class="icon-svg" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                    </a>
+                    <a href="https://scholar.google.es/citations?user=Y70n6oMAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+                        <svg class="icon-svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12 3L1 9l11 6l9-4.91V17h2V9L12 3M5.89 12.55L12 15.88l6.11-3.33c.6.93.89 2 .89 3.45H5c0-1.45.29-2.52.89-3.45Z"/></svg>
+                    </a>
+                    <a href="https://orcid.org/0000-0002-3055-2151" target="_blank" rel="noopener" aria-label="ORCID">
+                        <svg class="icon-svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2zm-.229 14.808H9.95V7.198h1.822v9.61zm-.911-10.8c-.615 0-1.077-.456-1.077-1.077c0-.621.462-1.077 1.077-1.077c.621 0 1.077.456 1.077 1.077c0 .621-.456 1.077-1.077 1.077zm5.556 10.8c-1.371 0-2.316-.948-2.316-2.304v-4.996h1.84v4.996c0 .736.43 1.157 1.134 1.157c.71 0 1.144-.421 1.144-1.157v-4.996h1.84v4.996c0 1.356-.948 2.304-2.642 2.304z"/></svg>
+                    </a>
+                </div>
+                <div class="footer-top-right">
+                    <span class="co-prefix">Cátedra Asociada:</span>
+                    <a href="https://www.uco.es/catedrasyaulas/catedraturismo/" target="_blank" rel="noopener">Cátedra de Turismo Patrimonial y Cultural ↗</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Sección central: Marca, Info y Acciones -->
+        <div class="footer-middle-section">
+            <div class="container footer-middle-grid">
+                <!-- Columna Izq: Logotipo y lema -->
+                <div class="footer-col-brand">
+                    <a href="index.html" class="footer-logo-link">
+                        <img src="logo_ficotur.png" alt="Logotipo Ficotur UCO" class="footer-logo">
+                    </a>
+                    <p class="footer-tagline">Grupo de Investigación SEJ-717 (Ficotur) de la Universidad de Córdoba.</p>
+                </div>
+                
+                <!-- Columna Centro: Información de contacto -->
+                <div class="footer-col-info">
+                    <p class="footer-address">
+                        <strong>Facultad de Derecho y Ciencias Económicas y Empresariales</strong><br>
+                        Plaza de Puerta Nueva, s/n, 14002, Córdoba, España<br>
+                        📞 <a href="tel:+34957211250">+34 957 21 12 50</a> | ✉️ <a href="mailto:ficotur@uco.es">ficotur@uco.es</a>
+                    </p>
+                </div>
+                
+                <!-- Columna Der: Botones de Acción -->
+                <div class="footer-col-actions">
+                    <p class="actions-title">¿Quieres colaborar con nosotros?</p>
+                    <a href="contacto.html" class="btn-footer-outline">CONTACTO</a>
+                    <a href="https://www.uco.es/servicios/actualidad/boletines" target="_blank" rel="noopener" class="btn-footer-outline">BOLETÍN UCO</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Sección de logos de Financiación / Acreditaciones (Monocromáticos) -->
+        <div class="footer-funding-section">
+            <div class="container">
+                <span class="funding-title">Financiación institucional / Colaboradores</span>
+                <div class="funding-logos-grid">
+                    <a href="https://www.uco.es/" target="_blank" rel="noopener" aria-label="Universidad de Córdoba">
+                        <img src="logo_uco.png" alt="Universidad de Córdoba" class="funding-logo">
+                    </a>
+                    <a href="https://www.uco.es/catedrasyaulas/catedraturismo/" target="_blank" rel="noopener" aria-label="Cátedra de Turismo Patrimonial y Cultural">
+                        <img src="logo_catedra.png" alt="Cátedra de Turismo Patrimonial y Cultural" class="funding-logo">
+                    </a>
+                    <a href="https://www.juntadeandalucia.es/organismos/universidadinvestigacioneinnovacion/areas/universidad.html" target="_blank" rel="noopener" aria-label="Junta de Andalucía">
+                        <img src="logo_junta.png" alt="Junta de Andalucía" class="funding-logo">
+                    </a>
+                    <a href="https://fecyt.es/es/tematica/investigacion" target="_blank" rel="noopener" aria-label="Ministerio de Ciencia e Innovación - FECYT">
+                        <img src="logo_ministerio_fecyt.png" alt="Ministerio de Ciencia e Innovación - FECYT" class="funding-logo">
+                    </a>
+                    <a href="https://www.consilium.europa.eu/es/council-eu/search-the-list-of-council-preparatory-bodies/working-party-on-research/" target="_blank" rel="noopener" aria-label="Financiado por la Unión Europea - NextGenerationEU">
+                        <img src="logo_ue_nextgen.png" alt="Financiado por la Unión Europea - NextGenerationEU" class="funding-logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. Barra de enlaces legales y créditos -->
+        <div class="footer-bottom-bar">
+            <div class="container footer-bottom-inner">
+                <div class="footer-bottom-links">
+                    <a href="index.html" data-translate="nav-inicio">Inicio</a>
+                    <a href="equipo.html" data-translate="nav-equipo">Equipo</a>
+                    <a href="proyectos.html" data-translate="nav-proyectos">Proyectos</a>
+                    <a href="publicaciones.html" data-translate="nav-publicaciones">Publicaciones</a>
+                    <a href="contacto.html" data-translate="nav-contacto">Contacto</a>
+                </div>
+                <div class="footer-legal-links">
+                    <a href="#" id="footer-btn-legal" data-translate="footer-legal">Aviso Legal</a>
+                    <a href="#" id="footer-btn-privacy" data-translate="footer-privacy">Política de Privacidad</a>
+                    <a href="#" id="footer-btn-cookies" data-translate="footer-cookies">Cookies</a>
+                </div>
+                <p class="footer-credits" data-translate="footer-derechos">
+                    © 2026 Grupo de Investigación Ficotur (SEJ-717). Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="traducciones.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

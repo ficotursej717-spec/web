@@ -5,6 +5,7 @@ const dictionary = {
         "nav-equipo": "Equipo",
         "nav-proyectos": "Proyectos",
         "nav-publicaciones": "Publicaciones",
+        "nav-training": "Training",
         "nav-contacto": "Contacto",
         "nav-idioma": "Idioma",
 
@@ -149,6 +150,7 @@ const dictionary = {
         "nav-equipo": "Team",
         "nav-proyectos": "Projects",
         "nav-publicaciones": "Publications",
+        "nav-training": "Training",
         "nav-contacto": "Contact",
         "nav-idioma": "Language",
 
@@ -264,6 +266,7 @@ const dictionary = {
         "nav-equipo": "Équipe",
         "nav-proyectos": "Projets",
         "nav-publicaciones": "Publications",
+        "nav-training": "Training",
         "nav-contacto": "Contact",
         "nav-idioma": "Langue",
 
@@ -379,6 +382,7 @@ const dictionary = {
         "nav-equipo": "Equipe",
         "nav-proyectos": "Projetos",
         "nav-publicaciones": "Publicações",
+        "nav-training": "Training",
         "nav-contacto": "Contato",
         "nav-idioma": "Idioma",
 

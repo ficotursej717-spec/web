@@ -55,6 +55,7 @@
                 <a href="equipo.html" class="nav-link" data-translate="nav-equipo">Equipo</a>
                 <a href="proyectos.html" class="nav-link" data-translate="nav-proyectos">Proyectos</a>
                 <a href="publicaciones.html" class="nav-link" data-translate="nav-publicaciones">Publicaciones</a>
+                <a href="training.html" class="nav-link" data-translate="nav-training">Training</a>
                 <a href="contacto.html" class="nav-link" data-translate="nav-contacto">Contacto</a>
             </nav>
 
@@ -625,6 +626,7 @@
                     <a href="equipo.html" data-translate="nav-equipo">Equipo</a>
                     <a href="proyectos.html" data-translate="nav-proyectos">Proyectos</a>
                     <a href="publicaciones.html" data-translate="nav-publicaciones">Publicaciones</a>
+                    <a href="training.html" data-translate="nav-training">Training</a>
                     <a href="contacto.html" data-translate="nav-contacto">Contacto</a>
                 </div>
                 <div class="footer-legal-links">
@@ -641,5 +643,70 @@
 
     <script src="traducciones.js"></script>
     <script src="app.js"></script>
+
+    <!-- ══ MEJORAS 2026: Scroll Reveal + Animated Counters ══ -->
+    <script>
+    (function() {
+        // ── Scroll Reveal ──────────────────────────────────────────
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+        // Añadir clase reveal a cards y secciones clave
+        const revealSelectors = [
+            '.team-card', '.research-line-card', '.pub-researcher-card',
+            '.section-title', '.project-card', '.weare-table',
+            '.training-section', '.stat-card'
+        ];
+        revealSelectors.forEach(sel => {
+            document.querySelectorAll(sel).forEach((el, i) => {
+                el.classList.add('reveal');
+                if (i % 4 === 1) el.classList.add('reveal-delay-1');
+                if (i % 4 === 2) el.classList.add('reveal-delay-2');
+                if (i % 4 === 3) el.classList.add('reveal-delay-3');
+                revealObserver.observe(el);
+            });
+        });
+
+        // ── Animated Counters ─────────────────────────────────────
+        function animateCounter(el, target, duration = 1200) {
+            const start = performance.now();
+            const update = (now) => {
+                const elapsed = now - start;
+                const progress = Math.min(elapsed / duration, 1);
+                // Ease out cubic
+                const eased = 1 - Math.pow(1 - progress, 3);
+                el.textContent = Math.round(eased * target);
+                if (progress < 1) requestAnimationFrame(update);
+            };
+            requestAnimationFrame(update);
+        }
+
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const el = entry.target;
+                    const target = parseInt(el.textContent, 10);
+                    if (!isNaN(target)) animateCounter(el, target);
+                    counterObserver.unobserve(el);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        document.querySelectorAll('.hero-stat-num').forEach(el => {
+            counterObserver.observe(el);
+        });
+
+        // Respetar prefers-reduced-motion
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+        }
+    })();
+    </script>
 </body>
 </html>
