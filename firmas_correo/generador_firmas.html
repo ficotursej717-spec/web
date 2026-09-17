@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador Oficial de Firmas de Correo | FICOTUR (SEJ-717) UCO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ficotur-green: #2A8F6C;
+            --ficotur-green-hover: #227357;
+            --uco-blue: #003B7C;
+            --uco-blue-dark: #002652;
+            --uco-gold: #C5A059;
+            --text-dark: #1E293B;
+            --text-muted: #64748B;
+            --border-color: #E2E8F0;
+            --bg-light: #F8FAFC;
+            --white: #FFFFFF;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+            --shadow-md: 0 10px 25px -5px rgba(0,0,0,0.08), 0 8px 10px -6px rgba(0,0,0,0.04);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #F1F5F9;
+            color: var(--text-dark);
+            line-height: 1.5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--uco-blue) 0%, var(--uco-blue-dark) 100%);
+            color: var(--white);
+            padding: 1.5rem 2rem;
+            box-shadow: 0 4px 12px rgba(0, 59, 124, 0.15);
+            border-bottom: 4px solid var(--ficotur-green);
+        }
+
+        .header-content {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .brand-block {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        .brand-logos {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: rgba(255, 255, 255, 0.12);
+            padding: 6px 14px;
+            border-radius: 12px;
+            backdrop-filter: blur(8px);
+        }
+
+        .brand-logos img {
+            height: 36px;
+            width: auto;
+            object-fit: contain;
+            filter: brightness(0) invert(1);
+        }
+
+        .header-titles h1 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .header-titles p {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.82);
+        }
+
+        .header-badges {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .header-badge {
+            background-color: rgba(42, 143, 108, 0.25);
+            color: #A7F3D0;
+            border: 1px solid rgba(167, 243, 208, 0.3);
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 9999px;
+        }
+
+        main {
+            flex: 1;
+            max-width: 1320px;
+            width: 100%;
+            margin: 1.75rem auto;
+            padding: 0 1.25rem;
+            display: grid;
+            grid-template-columns: 1fr 1.15fr;
+            gap: 1.75rem;
+            align-items: start;
+        }
+
+        @media (max-width: 992px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .panel {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+            overflow: hidden;
+        }
+
+        .panel-header {
+            padding: 1.15rem 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: var(--bg-light);
+        }
+
+        .panel-header h2 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--uco-blue);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .panel-body {
+            padding: 1.5rem;
+        }
+
+        /* FORM STYLES */
+        .form-group {
+            margin-bottom: 1.15rem;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .form-row-3 {
+            display: grid;
+            grid-template-columns: 120px 1fr 1fr;
+            gap: 0.75rem;
+        }
+
+        @media (max-width: 600px) {
+            .form-row, .form-row-3 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        label {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0.35rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="url"],
+        select {
+            width: 100%;
+            padding: 0.65rem 0.85rem;
+            font-size: 0.875rem;
+            font-family: inherit;
+            border: 1.5px solid var(--border-color);
+            border-radius: 8px;
+            background-color: var(--white);
+            color: var(--text-dark);
+            transition: all 0.2s ease;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--ficotur-green);
+            box-shadow: 0 0 0 3px rgba(42, 143, 108, 0.15);
+        }
+
+        .helper-text {
+            font-size: 0.725rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        .preset-container {
+            background: #F0FDF4;
+            border: 1px solid #BBF7D0;
+            padding: 1rem;
+            border-radius: var(--radius-md);
+            margin-bottom: 1.5rem;
+        }
+
+        .preset-container label {
+            color: #166534;
+            font-size: 0.825rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .section-separator {
+            margin: 1.5rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--uco-blue);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+            cursor: pointer;
+        }
+
+        .checkbox-container input {
+            cursor: pointer;
+            accent-color: var(--ficotur-green);
+            width: 16px;
+            height: 16px;
+        }
+
+        /* PREVIEW PANEL */
+        .preview-sticky {
+            position: sticky;
+            top: 1.5rem;
+        }
+
+        .tabs-container {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .tab-btn {
+            background: transparent;
+            border: none;
+            padding: 0.45rem 0.9rem;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .tab-btn.active {
+            background-color: var(--uco-blue);
+            color: var(--white);
+        }
+
+        .email-mockup {
+            background: #FFFFFF;
+            border: 1px solid #E2E8F0;
+            border-radius: var(--radius-md);
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            overflow-x: auto;
+        }
+
+        .mockup-header {
+            border-bottom: 1px dashed #CBD5E1;
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.25rem;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        .actions-card {
+            background: linear-gradient(135deg, #F8FAFC 0%, #EDF2F7 100%);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+        }
+
+        .actions-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+
+        @media (max-width: 500px) {
+            .actions-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1rem;
+            font-size: 0.875rem;
+            font-weight: 700;
+            font-family: inherit;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--ficotur-green);
+            color: var(--white);
+            box-shadow: 0 4px 10px rgba(42, 143, 108, 0.25);
+            grid-column: 1 / -1;
+            font-size: 0.95rem;
+            padding: 0.9rem 1.25rem;
+        }
+
+        .btn-primary:hover {
+            background: var(--ficotur-green-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 14px rgba(42, 143, 108, 0.3);
+        }
+
+        .btn-secondary {
+            background: var(--white);
+            color: var(--uco-blue);
+            border: 1.5px solid var(--uco-blue);
+        }
+
+        .btn-secondary:hover {
+            background: #F0F7FF;
+        }
+
+        .btn-outline {
+            background: var(--white);
+            color: var(--text-dark);
+            border: 1.5px solid var(--border-color);
+        }
+
+        .btn-outline:hover {
+            background: #F8FAFC;
+            border-color: #CBD5E1;
+        }
+
+        .copy-toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: #0F172A;
+            color: var(--white);
+            padding: 0.9rem 1.5rem;
+            border-radius: 10px;
+            box-shadow: var(--shadow-md);
+            font-size: 0.875rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            z-index: 1000;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .copy-toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .toast-icon {
+            color: #34D399;
+            font-size: 1.1rem;
+        }
+
+        /* INSTRUCTIONS ACCORDION */
+        .instructions-box {
+            margin-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            padding-top: 1.25rem;
+        }
+
+        .instructions-box h3 {
+            font-size: 0.9rem;
+            color: var(--uco-blue);
+            margin-bottom: 0.75rem;
+        }
+
+        .steps-list {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            padding-left: 1.2rem;
+            line-height: 1.7;
+        }
+
+        .steps-list strong {
+            color: var(--text-dark);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-content">
+            <div class="brand-block">
+                <div class="header-titles">
+                    <h1>Generador Oficial de Firmas Institucionales</h1>
+                    <p>Grupo de Investigación FICOTUR (SEJ-717) · Universidad de Córdoba</p>
+                </div>
+            </div>
+            <div class="header-badges">
+                <span class="header-badge">✔ Cumple RGPD</span>
+                <span class="header-badge">✔ Outlook & Gmail Ready</span>
+                <span class="header-badge">✔ Retina Hi-DPI</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- FORMULARIO DE CONFIGURACIÓN -->
+        <div class="panel">
+            <div class="panel-header">
+                <h2><span>⚙️</span> Datos del Investigador/a</h2>
+            </div>
+            <div class="panel-body">
+                
+                <!-- SELECTOR DE PERFILES PRECONFIGURADOS -->
+                <div class="preset-container">
+                    <label for="presetSelect">
+                        <strong>⚡ Cargar Perfil de Miembro de FICOTUR:</strong>
+                    </label>
+                    <select id="presetSelect" style="margin-top: 0.4rem;">
+                        <option value="custom">-- Escribir datos propios (personalizado) --</option>
+                        <option value="ricardo">Dr. Ricardo David Hernández Rojas (Profesor Titular, Co-IP)</option>
+                        <option value="amalia">Dra. Amalia Hidalgo Fernández (Profesora Titular)</option>
+                        <option value="mercedes">Dra. Mercedes Luque-Vílchez (Profesora Titular)</option>
+                        <option value="leonardo">Leonardo Gallardo Apolo (Investigador en Formación / Predoctoral)</option>
+                        <option value="carmen">Carmen Barbero Saavedra (Profesora de Economía Financiera)</option>
+                    </select>
+                    <div class="helper-text">Selecciona un miembro para autorellenar todos sus datos automáticamente.</div>
+                </div>
+
+                <!-- IDENTIDAD -->
+                <div class="form-row-3">
+                    <div class="form-group">
+                        <label for="fTratamiento">Tratamiento</label>
+                        <select id="fTratamiento">
+                            <option value="Dr.">Dr.</option>
+                            <option value="Dra.">Dra.</option>
+                            <option value="D.">D.</option>
+                            <option value="Dña.">Dña.</option>
+                            <option value="">(Ninguno)</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="grid-column: span 2;">
+                        <label for="fNombre">Nombre y Apellidos</label>
+                        <input type="text" id="fNombre" value="Nombre y Apellidos" placeholder="Ej: Amalia Hidalgo Fernández">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="fCargo">Categoría Académica / Cargo</label>
+                    <input type="text" id="fCargo" value="Profesora Titular de Universidad" placeholder="Ej: Profesor/a Titular de Universidad">
+                </div>
+
+                <div class="form-group">
+                    <label for="fDepartamento">Departamento y/o Área de Conocimiento</label>
+                    <input type="text" id="fDepartamento" value="Dpto. Economía Agraria, Finanzas y Contabilidad" placeholder="Dpto. o Área académica">
+                </div>
+
+                <div class="form-group">
+                    <label for="fGrupo">Grupo e Institución</label>
+                    <input type="text" id="fGrupo" value="Grupo de Investigación FICOTUR (SEJ-717) — Universidad de Córdoba">
+                </div>
+
+                <!-- CONTACTO -->
+                <div class="section-separator">Contacto y Ubicación</div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fEmail">Correo Institucional UCO</label>
+                        <input type="email" id="fEmail" value="usuario@uco.es" placeholder="ejemplo@uco.es">
+                    </div>
+                    <div class="form-group">
+                        <label for="fTelefono">Teléfono / Extensión</label>
+                        <input type="text" id="fTelefono" value="+34 957 218 000 (Ext. 0000)" placeholder="+34 957 218 000">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="fUbicacion">Facultad / Campus / Despacho</label>
+                    <input type="text" id="fUbicacion" value="Facultad de Derecho y Ciencias Económicas y Empresariales" placeholder="Facultad o Campus">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fWebFicotur">Web FICOTUR</label>
+                        <input type="url" id="fWebFicotur" value="https://ficotur.es">
+                    </div>
+                    <div class="form-group">
+                        <label for="fWebUco">Web UCO</label>
+                        <input type="url" id="fWebUco" value="https://www.uco.es">
+                    </div>
+                </div>
+
+                <!-- PERFILES ACADÉMICOS -->
+                <div class="section-separator">Perfiles Académicos y Redes</div>
+
+                <div class="form-group">
+                    <label for="fOrcid">Enlace ORCID</label>
+                    <input type="url" id="fOrcid" value="https://orcid.org" placeholder="https://orcid.org/0000-0000-0000-0000">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fScholar">Google Scholar (Opcional)</label>
+                        <input type="url" id="fScholar" value="https://scholar.google.es" placeholder="https://scholar.google.es/citations?user=...">
+                    </div>
+                    <div class="form-group">
+                        <label for="fLinkedin">LinkedIn (Opcional)</label>
+                        <input type="url" id="fLinkedin" value="https://www.linkedin.com" placeholder="https://www.linkedin.com/in/...">
+                    </div>
+                </div>
+
+                <!-- OPCIONES AVANZADAS -->
+                <div class="section-separator">Opciones de Firma</div>
+
+                <div class="form-group">
+                    <label class="checkbox-container">
+                        <input type="checkbox" id="fLegal" checked>
+                        <span>Incluir cláusula legal RGPD y aviso de sostenibilidad ambiental</span>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label for="fImgSource">Origen de las imágenes / logos</label>
+                    <select id="fImgSource">
+                        <option value="remote">En línea (GitHub / Servidor oficial - Recomendado para correos salientes)</option>
+                        <option value="local">Rutas locales relativas (Para uso o pruebas en esta misma carpeta)</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- PANEL DE VISTA PREVIA Y ACCIONES -->
+        <div class="panel preview-sticky">
+            <div class="panel-header">
+                <h2><span>👁️</span> Vista Previa en Tiempo Real</h2>
+                <div class="tabs-container">
+                    <button type="button" class="tab-btn active" id="tabStandard" onclick="switchDesign('standard')">Estándar</button>
+                    <button type="button" class="tab-btn" id="tabCompact" onclick="switchDesign('compact')">Compacta</button>
+                </div>
+            </div>
+            
+            <div class="panel-body">
+                <!-- CONTENEDOR VISTA PREVIA -->
+                <div class="email-mockup">
+                    <div class="mockup-header">
+                        <strong>De:</strong> <span id="mockSender">Dra. Nombre y Apellidos</span> &lt;<span id="mockEmail">usuario@uco.es</span>&gt;<br>
+                        <strong>Asunto:</strong> Documentación y avances de investigación FICOTUR
+                    </div>
+                    
+                    <!-- AQUÍ SE RENDERIZA LA FIRMA GENERADA -->
+                    <div id="signatureRenderContainer"></div>
+                </div>
+
+                <!-- TARJETA DE ACCIONES -->
+                <div class="actions-card">
+                    <div class="actions-grid">
+                        <button type="button" class="btn btn-primary" onclick="copyFormattedSignature()">
+                            <span>📋</span> Copiar Firma con Formato (1 Clic para Outlook / Gmail)
+                        </button>
+                        <button type="button" class="btn btn-secondary" onclick="copyHtmlSource()">
+                            <span>&lt;/&gt;</span> Copiar Código HTML
+                        </button>
+                        <button type="button" class="btn btn-outline" onclick="downloadHtmlFile()">
+                            <span>💾</span> Descargar Archivo .html
+                        </button>
+                    </div>
+                    <div style="font-size: 0.75rem; color: var(--text-muted); text-align: center;">
+                        💡 Al pulsar <strong>"Copiar Firma con Formato"</strong>, simplemente ve a la configuración de tu correo (Outlook o Gmail) y pulsa <strong>Ctrl + V</strong> (Pegar).
+                    </div>
+                </div>
+
+                <!-- GUÍA RÁPIDA DE INSTALACIÓN -->
+                <div class="instructions-box">
+                    <h3>Pasos rápidos para aplicar en tu correo:</h3>
+                    <ol class="steps-list">
+                        <li>Pulsa el botón verde <strong>"Copiar Firma con Formato (1 Clic)"</strong> arriba.</li>
+                        <li><strong>En Outlook:</strong> Ve a <em>Archivo > Opciones > Correo > Firmas</em> (o <em>Configuración > Correo > Firmas</em> en Outlook Web), crea una nueva firma y pulsa <strong>Ctrl + V</strong> en el cuadro de edición.</li>
+                        <li><strong>En Gmail:</strong> Pulsa el icono de engranaje <em>Configuración > Ver todos los ajustes > General > Firma</em>, añade una firma y pulsa <strong>Ctrl + V</strong>. Guarda los cambios.</li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- TOAST DE NOTIFICACIÓN -->
+    <div id="toast" class="copy-toast">
+        <span class="toast-icon">✔</span>
+        <span id="toastMsg">¡Firma copiada con formato! Pégala con Ctrl+V en tu correo.</span>
+    </div>
+
+    <!-- SCRIPT DE LÓGICA -->
+    <script>
+        // DATOS DE LOS MIEMBROS PRECONFIGURADOS
+        const PRESETS = {
+            ricardo: {
+                tratamiento: "Dr.",
+                nombre: "Ricardo David Hernández Rojas",
+                cargo: "Profesor Titular de Universidad | Co-IP Proyecto OLIVE-VAR",
+                depto: "Área de Economía Financiera y Contabilidad | Dpto. Economía Agraria, Finanzas y Contabilidad",
+                grupo: "Grupo de Investigación FICOTUR (SEJ-717) — Universidad de Córdoba",
+                email: "ricardo.hernandez@uco.es",
+                telefono: "+34 957 218 000",
+                ubicacion: "Facultad de Derecho y Ciencias Económicas y Empresariales",
+                webFicotur: "https://ficotur.es",
+                webUco: "https://www.uco.es",
+                orcid: "https://orcid.org/0000-0002-3055-2151",
+                scholar: "https://scholar.google.es/citations?user=Y70n6oMAAAAJ",
+                linkedin: "https://www.linkedin.com/in/ricardohernandezrojas"
+            },
+            amalia: {
+                tratamiento: "Dra.",
+                nombre: "Amalia Hidalgo Fernández",
+                cargo: "Profesora Titular de Universidad",
+                depto: "Área de Economía Financiera y Contabilidad | Dpto. Economía Agraria, Finanzas y Contabilidad",
+                grupo: "Grupo de Investigación FICOTUR (SEJ-717) — Universidad de Córdoba",
+                email: "ahidalgo@uco.es",
+                telefono: "+34 957 218 000",
+                ubicacion: "Facultad de Derecho y Ciencias Económicas y Empresariales",
+                webFicotur: "https://ficotur.es",
+                webUco: "https://www.uco.es",
+                orcid: "https://orcid.org/0000-0002-2764-6624",
+                scholar: "",
+                linkedin: ""
+            },
+            mercedes: {
+                tratamiento: "Dra.",
+                nombre: "Mercedes Luque-Vílchez",
+                cargo: "Profesora Titular de Universidad",
+                depto: "Área de Economía Financiera y Contabilidad | Dpto. Economía Agraria, Finanzas y Contabilidad",
+                grupo: "Grupo de Investigación FICOTUR (SEJ-717) — Universidad de Córdoba",
+                email: "mercedes.luque@uco.es",
+                telefono: "+34 957 218 000",
+                ubicacion: "Facultad de Derecho y Ciencias Económicas y Empresariales",
+                webFicotur: "https://ficotur.es",
+                webUco: "https://www.uco.es",
+                orcid: "https://orcid.org/0000-0001-8392-8573",
+                scholar: "",
+                linkedin: "https://www.linkedin.com/in/mercedes-luque-v%C3%ADlchez-6a571866/"
+            },
+            leonardo: {
+                tratamiento: "",
+                nombre: "Leonardo Gallardo Apolo",
+                cargo: "Investigador en Formación / Personal Investigador Predoctoral",
+                depto: "Área de Economía Financiera y Contabilidad | Dpto. Economía Agraria, Finanzas y Contabilidad",
+                grupo: "Grupo de Investigación FICOTUR (SEJ-717) — Universidad de Córdoba",
+                email: "z42gaapl@uco.es",
+                telefono: "+34 957 218 000",
+                ubicacion: "Facultad de Derecho y Ciencias Económicas y Empresariales",
+                webFicotur: "https://ficotur.es",
+                webUco: "https://www.uco.es",
+                orcid: "https://orcid.org/0009-0008-9384-5729",
+                scholar: "",
+                linkedin: "https://www.linkedin.com/in/leonardo-gallardo-apolo-16ab78355/"
+            },
+            carmen: {
+                tratamiento: "Dña.",
+                nombre: "Carmen Barbero Saavedra",
+                cargo: "Profesora del Área de Economía Financiera y Contabilidad",
+                depto: "Área de Economía Financiera y Contabilidad | Dpto. Economía Agraria, Finanzas y Contabilidad",
+                grupo: "Grupo de Investigación FICOTUR (SEJ-717) — Universidad de Córdoba",
+                email: "carmen.barbero@uco.es",
+                telefono: "+34 957 218 000",
+                ubicacion: "Facultad de Derecho y Ciencias Económicas y Empresariales",
+                webFicotur: "https://ficotur.es",
+                webUco: "https://www.uco.es",
+                orcid: "https://orcid.org/0009-0008-7514-9228",
+                scholar: "",
+                linkedin: "https://www.linkedin.com/in/carmen-barbero-saavedra-731b31109/"
+            }
+        };
+
+        let currentDesign = 'standard';
+
+        // URLS DE LOGOS
+        const LOGO_URLS = {
+            remote: {
+                ficotur: "https://raw.githubusercontent.com/ficotursej717-spec/web/main/logo_ficotur.png",
+                uco: "https://raw.githubusercontent.com/ficotursej717-spec/web/main/logo_uco_nuevo.jpg"
+            },
+            local: {
+                ficotur: "logo_ficotur.png",
+                uco: "logo_uco_nuevo.jpg"
+            }
+        };
+
+        function switchDesign(design) {
+            currentDesign = design;
+            document.getElementById('tabStandard').classList.toggle('active', design === 'standard');
+            document.getElementById('tabCompact').classList.toggle('active', design === 'compact');
+            renderSignature();
+        }
+
+        function getFormData() {
+            const tratamiento = document.getElementById('fTratamiento').value.trim();
+            const nombre = document.getElementById('fNombre').value.trim();
+            const nombreCompleto = tratamiento ? `${tratamiento} ${nombre}` : nombre;
+
+            return {
+                nombreCompleto: nombreCompleto,
+                cargo: document.getElementById('fCargo').value.trim(),
+                depto: document.getElementById('fDepartamento').value.trim(),
+                grupo: document.getElementById('fGrupo').value.trim(),
+                email: document.getElementById('fEmail').value.trim(),
+                telefono: document.getElementById('fTelefono').value.trim(),
+                ubicacion: document.getElementById('fUbicacion').value.trim(),
+                webFicotur: document.getElementById('fWebFicotur').value.trim(),
+                webUco: document.getElementById('fWebUco').value.trim(),
+                orcid: document.getElementById('fOrcid').value.trim(),
+                scholar: document.getElementById('fScholar').value.trim(),
+                linkedin: document.getElementById('fLinkedin').value.trim(),
+                legal: document.getElementById('fLegal').checked,
+                imgSource: document.getElementById('fImgSource').value
+            };
+        }
+
+        function renderSignature() {
+            const data = getFormData();
+            const logos = LOGO_URLS[data.imgSource] || LOGO_URLS.remote;
+
+            // Actualizar cabecera de simulación
+            document.getElementById('mockSender').textContent = data.nombreCompleto || 'Usuario';
+            document.getElementById('mockEmail').textContent = data.email || 'usuario@uco.es';
+
+            let html = '';
+
+            // BOTONES ACADÉMICOS
+            let badgesHtml = '';
+            if (data.orcid) {
+                badgesHtml += `
+                    <td style="padding-right: 6px;">
+                        <a href="${data.orcid}" target="_blank" style="display: inline-block; background-color: #F1F5F9; color: #0F172A; text-decoration: none; font-size: 11px; padding: 2px 7px; border-radius: 3px; border: 1px solid #CBD5E1; font-weight: 500; font-family: 'Segoe UI', Arial, sans-serif;">
+                            <span style="color: #A6CE39; font-weight: bold;">●</span> ORCID
+                        </a>
+                    </td>`;
+            }
+            if (data.scholar) {
+                badgesHtml += `
+                    <td style="padding-right: 6px;">
+                        <a href="${data.scholar}" target="_blank" style="display: inline-block; background-color: #F1F5F9; color: #0F172A; text-decoration: none; font-size: 11px; padding: 2px 7px; border-radius: 3px; border: 1px solid #CBD5E1; font-weight: 500; font-family: 'Segoe UI', Arial, sans-serif;">
+                            <span style="color: #4285F4; font-weight: bold;">●</span> Google Scholar
+                        </a>
+                    </td>`;
+            }
+            if (data.linkedin) {
+                badgesHtml += `
+                    <td>
+                        <a href="${data.linkedin}" target="_blank" style="display: inline-block; background-color: #F1F5F9; color: #0F172A; text-decoration: none; font-size: 11px; padding: 2px 7px; border-radius: 3px; border: 1px solid #CBD5E1; font-weight: 500; font-family: 'Segoe UI', Arial, sans-serif;">
+                            <span style="color: #0A66C2; font-weight: bold;">●</span> LinkedIn
+                        </a>
+                    </td>`;
+            }
+
+            // CLÁUSULA LEGAL
+            let legalHtml = '';
+            if (data.legal) {
+                legalHtml = `
+                    <tr>
+                        <td colspan="2" style="padding-top: 14px; border-top: 1px solid #E2E8F0; margin-top: 10px;">
+                            <p style="margin: 0 0 5px 0; font-size: 9px; line-height: 12px; color: #64748B; text-align: justify; font-family: 'Segoe UI', Arial, sans-serif;">
+                                <strong>AVISO DE CONFIDENCIALIDAD Y PROTECCIÓN DE DATOS (RGPD):</strong> Este mensaje y cualquier archivo anexo son confidenciales y están dirigidos exclusivamente a su destinatario. Si ha recibido este correo por error, rogamos informe de inmediato al remitente y proceda a su eliminación íntegra sin reproducirlo ni divulgarlo. De conformidad con el RGPD (UE 2016/679) y la LOPDGDD 3/2018, le informamos de que sus datos personales son tratados con la finalidad de gestionar la comunicación académica y de investigación con la Universidad de Córdoba. Puede ejercer sus derechos de acceso, rectificación, supresión y demás reconocidos dirigiéndose a la Universidad de Córdoba.
+                            </p>
+                            <p style="margin: 0; font-size: 9px; line-height: 12px; color: #166534; font-family: 'Segoe UI', Arial, sans-serif;">
+                                🌱 <em>Por favor, piense en el medio ambiente antes de imprimir este mensaje. Grupo FICOTUR comprometido con la sostenibilidad.</em>
+                            </p>
+                        </td>
+                    </tr>`;
+            }
+
+            if (currentDesign === 'standard') {
+                html = `
+                <table cellpadding="0" cellspacing="0" border="0" style="max-width: 620px; font-family: 'Segoe UI', Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; color: #1E293B; background-color: #ffffff; border-collapse: collapse; text-align: left;">
+                    <tr>
+                        <td style="padding: 10px 16px 10px 0; vertical-align: middle; border-right: 3px solid #2A8F6C; text-align: center; width: 160px;">
+                            <a href="${data.webFicotur}" target="_blank" style="text-decoration: none; display: block;">
+                                <img src="${logos.ficotur}" alt="Logotipo FICOTUR SEJ-717" width="150" style="display: block; width: 150px; max-width: 150px; height: auto; border: 0; margin: 0 auto 10px auto;" />
+                            </a>
+                            <div style="border-top: 1px solid #E2E8F0; margin: 0 10px 10px 10px;"></div>
+                            <a href="${data.webUco}" target="_blank" style="text-decoration: none; display: block;">
+                                <img src="${logos.uco}" alt="Universidad de Córdoba" width="85" style="display: block; width: 85px; max-width: 85px; height: auto; border: 0; margin: 0 auto;" />
+                            </a>
+                        </td>
+                        
+                        <td style="padding: 6px 0 6px 18px; vertical-align: top;">
+                            <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; border-collapse: collapse;">
+                                <tr>
+                                    <td style="padding-bottom: 2px;">
+                                        <span style="font-size: 16px; font-weight: bold; color: #003B7C; letter-spacing: -0.2px;">${data.nombreCompleto}</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-bottom: 4px;">
+                                        <span style="font-size: 13px; font-weight: 600; color: #2A8F6C;">${data.cargo}</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-bottom: 8px; font-size: 12px; color: #475569; line-height: 16px;">
+                                        <span>${data.depto}</span><br />
+                                        <strong style="color: #003B7C;">${data.grupo}</strong>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td style="padding-bottom: 8px;">
+                                        <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; border-top: 1px solid #E2E8F0;">
+                                            <tr><td></td></tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td style="font-size: 12px; color: #334155; line-height: 19px;">
+                                        <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+                                            <tr>
+                                                <td style="padding-right: 14px; white-space: nowrap;">
+                                                    <span style="color: #2A8F6C; font-weight: bold;">✉</span> 
+                                                    <a href="mailto:${data.email}" style="color: #003B7C; text-decoration: none; font-weight: 500;">${data.email}</a>
+                                                </td>
+                                                ${data.telefono ? `
+                                                <td style="padding-right: 14px; white-space: nowrap;">
+                                                    <span style="color: #2A8F6C; font-weight: bold;">📞</span> 
+                                                    <a href="tel:${data.telefono.replace(/[^\d+]/g, '')}" style="color: #334155; text-decoration: none;">${data.telefono}</a>
+                                                </td>` : ''}
+                                            </tr>
+                                            ${data.ubicacion ? `
+                                            <tr>
+                                                <td colspan="2" style="padding-top: 3px;">
+                                                    <span style="color: #2A8F6C; font-weight: bold;">📍</span> 
+                                                    <span>${data.ubicacion}</span>
+                                                </td>
+                                            </tr>` : ''}
+                                            <tr>
+                                                <td colspan="2" style="padding-top: 3px;">
+                                                    <span style="color: #2A8F6C; font-weight: bold;">🌐</span> 
+                                                    <a href="${data.webFicotur}" target="_blank" style="color: #2A8F6C; text-decoration: none; font-weight: 600;">www.ficotur.es</a>
+                                                    <span style="color: #94A3B8; margin: 0 5px;">|</span>
+                                                    <a href="${data.webUco}" target="_blank" style="color: #003B7C; text-decoration: none;">www.uco.es</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                ${badgesHtml ? `
+                                <tr>
+                                    <td style="padding-top: 8px;">
+                                        <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+                                            <tr>${badgesHtml}</tr>
+                                        </table>
+                                    </td>
+                                </tr>` : ''}
+                            </table>
+                        </td>
+                    </tr>
+                    ${legalHtml}
+                </table>`;
+            } else {
+                // COMPACT DESIGN
+                html = `
+                <table cellpadding="0" cellspacing="0" border="0" style="max-width: 560px; font-family: 'Segoe UI', Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #1E293B; background-color: #ffffff; border-collapse: collapse; text-align: left;">
+                    <tr>
+                        <td style="padding-right: 16px; vertical-align: middle; border-right: 2px solid #2A8F6C; text-align: center; width: 125px;">
+                            <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
+                                <tr>
+                                    <td style="padding-bottom: 6px; text-align: center;">
+                                        <a href="${data.webFicotur}" target="_blank" style="text-decoration: none;">
+                                            <img src="${logos.ficotur}" alt="FICOTUR SEJ-717" width="120" style="display: block; width: 120px; max-width: 120px; height: auto; border: 0; margin: 0 auto;" />
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-bottom: 6px;"><div style="border-top: 1px solid #E2E8F0; margin: 0 8px;"></div></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">
+                                        <a href="${data.webUco}" target="_blank" style="text-decoration: none;">
+                                            <img src="${logos.uco}" alt="Universidad de Córdoba" width="72" style="display: block; width: 72px; max-width: 72px; height: auto; border: 0; margin: 0 auto;" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        
+                        <td style="padding-left: 14px; vertical-align: middle;">
+                            <div style="font-size: 14px; font-weight: bold; color: #003B7C;">${data.nombreCompleto}</div>
+                            <div style="font-size: 12px; font-weight: 600; color: #2A8F6C;">${data.cargo}</div>
+                            <div style="font-size: 11px; color: #64748B; margin-top: 2px;">
+                                <strong>Grupo FICOTUR (SEJ-717)</strong> · Universidad de Córdoba
+                            </div>
+                            <div style="font-size: 11px; color: #334155; margin-top: 4px;">
+                                <a href="mailto:${data.email}" style="color: #003B7C; text-decoration: none; font-weight: 500;">${data.email}</a>
+                                ${data.telefono ? `<span style="color: #CBD5E1; margin: 0 4px;">|</span><a href="tel:${data.telefono.replace(/[^\d+]/g, '')}" style="color: #334155; text-decoration: none;">${data.telefono}</a>` : ''}
+                                <span style="color: #CBD5E1; margin: 0 4px;">|</span>
+                                <a href="${data.webFicotur}" target="_blank" style="color: #2A8F6C; text-decoration: none; font-weight: 600;">www.ficotur.es</a>
+                            </div>
+                            <div style="font-size: 11px; margin-top: 4px;">
+                                ${data.orcid ? `<a href="${data.orcid}" target="_blank" style="color: #003B7C; text-decoration: none; margin-right: 8px; font-weight: 500;">● ORCID</a>` : ''}
+                                ${data.scholar ? `<a href="${data.scholar}" target="_blank" style="color: #003B7C; text-decoration: none; margin-right: 8px; font-weight: 500;">● Google Scholar</a>` : ''}
+                                ${data.linkedin ? `<a href="${data.linkedin}" target="_blank" style="color: #003B7C; text-decoration: none; font-weight: 500;">● LinkedIn</a>` : ''}
+                            </div>
+                        </td>
+                    </tr>
+                    ${data.legal ? `
+                    <tr>
+                        <td colspan="2" style="padding-top: 8px;">
+                            <div style="font-size: 8.5px; line-height: 11px; color: #94A3B8; text-align: justify; border-top: 1px solid #F1F5F9; padding-top: 6px;">
+                                Este mensaje es confidencial y para uso exclusivo del destinatario. RGPD (UE) 2016/679 y LOPDGDD 3/2018 - Universidad de Córdoba. 🌱 <em>Piense en el medio ambiente antes de imprimir.</em>
+                            </div>
+                        </td>
+                    </tr>` : ''}
+                </table>`;
+            }
+
+            document.getElementById('signatureRenderContainer').innerHTML = html;
+        }
+
+        // COPIAR AL PORTAPAPELES CON FORMATO ENRIQUECIDO (CLIPBOARDITEM)
+        async function copyFormattedSignature() {
+            const container = document.getElementById('signatureRenderContainer');
+            const htmlContent = container.innerHTML;
+            const plainText = container.innerText;
+
+            try {
+                if (navigator.clipboard && window.ClipboardItem) {
+                    const blobHtml = new Blob([htmlContent], { type: 'text/html' });
+                    const blobText = new Blob([plainText], { type: 'text/plain' });
+                    const clipboardItem = new ClipboardItem({
+                        'text/html': blobHtml,
+                        'text/plain': blobText
+                    });
+                    await navigator.clipboard.write([clipboardItem]);
+                } else {
+                    // Fallback mediante selección DOM
+                    const range = document.createRange();
+                    range.selectNode(container);
+                    window.getSelection().removeAllRanges();
+                    window.getSelection().addRange(range);
+                    document.execCommand('copy');
+                    window.getSelection().removeAllRanges();
+                }
+                showToast("¡Firma copiada con formato! Ve a Outlook o Gmail y pulsa Ctrl+V (Pegar)");
+            } catch (err) {
+                console.error("Error al copiar firma:", err);
+                // Fallback clásico
+                try {
+                    const range = document.createRange();
+                    range.selectNode(container);
+                    window.getSelection().removeAllRanges();
+                    window.getSelection().addRange(range);
+                    document.execCommand('copy');
+                    window.getSelection().removeAllRanges();
+                    showToast("¡Firma copiada con formato! Pégala con Ctrl+V");
+                } catch (e2) {
+                    alert("No se pudo copiar automáticamente. Puedes usar el botón 'Copiar Código HTML'.");
+                }
+            }
+        }
+
+        // COPIAR CÓDIGO HTML
+        async function copyHtmlSource() {
+            const htmlContent = document.getElementById('signatureRenderContainer').innerHTML;
+            try {
+                await navigator.clipboard.writeText(htmlContent);
+                showToast("¡Código HTML copiado al portapapeles!");
+            } catch (e) {
+                prompt("Copia manualmente el código HTML:", htmlContent);
+            }
+        }
+
+        // DESCARGAR ARCHIVO HTML
+        function downloadHtmlFile() {
+            const htmlContent = `<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Firma Oficial FICOTUR</title>
+</head>
+<body style="margin:0; padding:20px; font-family:Arial, sans-serif;">
+${document.getElementById('signatureRenderContainer').innerHTML}
+</body>
+</html>`;
+            const blob = new Blob([htmlContent], { type: 'text/html;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'firma_ficotur.html';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            showToast("Archivo firma_ficotur.html descargado");
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toastMsg').textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 4500);
+        }
+
+        // CAMBIO DE PERFIL PRECONFIGURADO
+        document.getElementById('presetSelect').addEventListener('change', function() {
+            const key = this.value;
+            if (key === 'custom') return;
+            const data = PRESETS[key];
+            if (!data) return;
+
+            document.getElementById('fTratamiento').value = data.tratamiento;
+            document.getElementById('fNombre').value = data.nombre;
+            document.getElementById('fCargo').value = data.cargo;
+            document.getElementById('fDepartamento').value = data.depto;
+            document.getElementById('fGrupo').value = data.grupo;
+            document.getElementById('fEmail').value = data.email;
+            document.getElementById('fTelefono').value = data.telefono;
+            document.getElementById('fUbicacion').value = data.ubicacion;
+            document.getElementById('fWebFicotur').value = data.webFicotur;
+            document.getElementById('fWebUco').value = data.webUco;
+            document.getElementById('fOrcid').value = data.orcid;
+            document.getElementById('fScholar').value = data.scholar;
+            document.getElementById('fLinkedin').value = data.linkedin;
+
+            renderSignature();
+            showToast(`Perfil de ${data.nombre} cargado.`);
+        });
+
+        // LISTENERS PARA ACTUALIZACIÓN EN TIEMPO REAL
+        const inputs = document.querySelectorAll('input, select');
+        inputs.forEach(input => {
+            if (input.id !== 'presetSelect') {
+                input.addEventListener('input', () => {
+                    renderSignature();
+                });
+                input.addEventListener('change', () => {
+                    renderSignature();
+                });
+            }
+        });
+
+        // INICIALIZACIÓN
+        window.addEventListener('DOMContentLoaded', () => {
+            renderSignature();
+        });
+    </script>
+</body>
+</html>
