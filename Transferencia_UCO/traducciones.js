@@ -5,6 +5,7 @@ const dictionary = {
         "nav-equipo": "Equipo",
         "nav-proyectos": "Proyectos",
         "nav-publicaciones": "Publicaciones",
+        "nav-training": "Training",
         "nav-contacto": "Contacto",
         "nav-idioma": "Idioma",
 
@@ -18,7 +19,8 @@ const dictionary = {
 
         // Estadísticas index.html
         "stat-investigadores": "Investigadores",
-        "stat-articulos": "Artículos Científicos",
+        "stat-articulos": "Publicaciones Científicas",
+        "stat-citas": "Citas Académicas",
         "stat-proyectos": "Proyectos Activos",
         "stat-lineas": "Líneas de Investigación",
 
@@ -149,6 +151,7 @@ const dictionary = {
         "nav-equipo": "Team",
         "nav-proyectos": "Projects",
         "nav-publicaciones": "Publications",
+        "nav-training": "Training",
         "nav-contacto": "Contact",
         "nav-idioma": "Language",
 
@@ -162,7 +165,8 @@ const dictionary = {
 
         // Stats index.html
         "stat-investigadores": "Researchers",
-        "stat-articulos": "Scientific Papers",
+        "stat-articulos": "Scientific Publications",
+        "stat-citas": "Academic Citations",
         "stat-proyectos": "Active Projects",
         "stat-lineas": "Research Lines",
 
@@ -264,6 +268,7 @@ const dictionary = {
         "nav-equipo": "Équipe",
         "nav-proyectos": "Projets",
         "nav-publicaciones": "Publications",
+        "nav-training": "Training",
         "nav-contacto": "Contact",
         "nav-idioma": "Langue",
 
@@ -277,7 +282,8 @@ const dictionary = {
 
         // Stats index.html
         "stat-investigadores": "Chercheurs",
-        "stat-articulos": "Articles Scientifiques",
+        "stat-articulos": "Publications Scientifiques",
+        "stat-citas": "Citations Académiques",
         "stat-proyectos": "Projets Actifs",
         "stat-lineas": "Axes de Recherche",
 
@@ -379,6 +385,7 @@ const dictionary = {
         "nav-equipo": "Equipe",
         "nav-proyectos": "Projetos",
         "nav-publicaciones": "Publicações",
+        "nav-training": "Training",
         "nav-contacto": "Contato",
         "nav-idioma": "Idioma",
 
@@ -392,7 +399,8 @@ const dictionary = {
 
         // Stats index.html
         "stat-investigadores": "Pesquisadores",
-        "stat-articulos": "Artigos Científicos",
+        "stat-articulos": "Publicações Científicas",
+        "stat-citas": "Citações Acadêmicas",
         "stat-proyectos": "Projetos Ativos",
         "stat-lineas": "Linhas de Pesquisa",
 

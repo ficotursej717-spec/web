@@ -102,26 +102,31 @@
                 </div>
             </div>
 
-            <!-- Estadísticas integradas en el hero -->
+            <!-- Estadísticas integradas en el hero (trayectoria completa Google Scholar) -->
             <div class="hero-stats-bar">
                 <div class="container hero-stats-inner">
                     <div class="hero-stat">
-                        <span class="hero-stat-num">10</span>
+                        <span class="hero-stat-num" data-target="10">10</span>
                         <span class="hero-stat-label" data-translate="stat-investigadores">Investigadores</span>
                     </div>
                     <div class="hero-stat-divider"></div>
                     <div class="hero-stat">
-                        <span class="hero-stat-num">41</span>
-                        <span class="hero-stat-label" data-translate="stat-articulos">Artículos Científicos</span>
+                        <span class="hero-stat-num" data-target="500" data-prefix="+">+500</span>
+                        <span class="hero-stat-label" data-translate="stat-articulos">Publicaciones Científicas</span>
                     </div>
                     <div class="hero-stat-divider"></div>
                     <div class="hero-stat">
-                        <span class="hero-stat-num">3</span>
+                        <span class="hero-stat-num" data-target="7500" data-prefix="+">+7.500</span>
+                        <span class="hero-stat-label" data-translate="stat-citas">Citas Académicas</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-num" data-target="3">3</span>
                         <span class="hero-stat-label" data-translate="stat-proyectos">Proyectos Activos</span>
                     </div>
                     <div class="hero-stat-divider"></div>
                     <div class="hero-stat">
-                        <span class="hero-stat-num">6</span>
+                        <span class="hero-stat-num" data-target="6">6</span>
                         <span class="hero-stat-label" data-translate="stat-lineas">Líneas de Investigación</span>
                     </div>
                 </div>
@@ -674,14 +679,17 @@
         });
 
         // ── Animated Counters ─────────────────────────────────────
-        function animateCounter(el, target, duration = 1200) {
+        function animateCounter(el, target, prefix = '', suffix = '', duration = 1400) {
             const start = performance.now();
+            const isThousands = target >= 1000;
             const update = (now) => {
                 const elapsed = now - start;
                 const progress = Math.min(elapsed / duration, 1);
                 // Ease out cubic
                 const eased = 1 - Math.pow(1 - progress, 3);
-                el.textContent = Math.round(eased * target);
+                const currentVal = Math.round(eased * target);
+                const formatted = isThousands ? currentVal.toLocaleString('es-ES') : currentVal;
+                el.textContent = prefix + formatted + suffix;
                 if (progress < 1) requestAnimationFrame(update);
             };
             requestAnimationFrame(update);
@@ -691,8 +699,10 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     const el = entry.target;
-                    const target = parseInt(el.textContent, 10);
-                    if (!isNaN(target)) animateCounter(el, target);
+                    const target = parseInt(el.dataset.target || el.textContent.replace(/\D/g, ''), 10);
+                    const prefix = el.dataset.prefix || '';
+                    const suffix = el.dataset.suffix || '';
+                    if (!isNaN(target)) animateCounter(el, target, prefix, suffix);
                     counterObserver.unobserve(el);
                 }
             });
