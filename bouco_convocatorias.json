@@ -1,5 +1,21 @@
 [
     {
+        "id": "conv-2026-01045",
+        "titulo": "Reglamento 17/2026 por el que se regula el ingreso de profesorado ayudante doctor en la Universidad de Córdoba. Corrección de errores",
+        "fecha": "18/09/2026",
+        "tipo": "Anuncio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01044",
+        "titulo": "9ª Convocatoria de Contratos de Personal Investigador y Técnico",
+        "fecha": "18/09/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01042",
         "titulo": "Convocatoria Programa Campus Rural 2025/2026. Propuesta de resolución provisional de concesión de ayudas",
         "fecha": "17/09/2026",
@@ -20,22 +36,6 @@
         "titulo": "Ampliación de Bolsa de Trabajo funcionario Escala Ayudantes Archivos, Bibliotecas y Museos. Relación provisional de aspirantes admitidos y excluidos",
         "fecha": "17/09/2026",
         "tipo": "Anuncio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01043",
-        "titulo": "Segunda resolución definitiva de Ayudas estudiantado en riesgo de exclusión Social. Curso 2025/2026",
-        "fecha": "17/09/2026",
-        "tipo": "Resolución",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01040",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 24/2026. Varias Áreas",
-        "fecha": "17/09/2026",
-        "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
