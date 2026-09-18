@@ -161,7 +161,8 @@ const investigadoresData = {
             orcid: 'https://orcid.org/0009-0008-9384-5729',
             scholar: 'https://scholar.google.es/citations?user=H2JP8uwAAAAJ&hl=es',
             linkedin: 'https://www.linkedin.com/in/leonardo-gallardo-apolo-16ab78355/',
-            researchgate: 'https://www.researchgate.net/profile/Leonardo-Gallardo-Apolo'
+            researchgate: 'https://www.researchgate.net/profile/Leonardo-Gallardo-Apolo',
+            web: 'https://leogallardo97-bit.github.io/'
         }
     },
     'investigador-3': {
