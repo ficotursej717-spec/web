@@ -273,14 +273,39 @@
     </header>
 
     <!-- HERO -->
-    <div class="pub-hero">
-        <div class="container">
+    <div class="pub-hero" style="padding: 3.5rem 0 0;">
+        <div class="container" style="padding-bottom: 2rem;">
             <h1>Producción Científica Reciente</h1>
             <p>Últimas publicaciones de los investigadores del grupo, indexadas en revistas internacionales de impacto (JCR · SJR · Scopus · Web of Science).</p>
-            <div class="pub-hero-stats">
-                <div class="pub-hero-stat"><span class="num" id="stat-total">41</span><span class="label">Publicaciones</span></div>
-                <div class="pub-hero-stat"><span class="num">8</span><span class="label">Investigadores</span></div>
-                <div class="pub-hero-stat"><span class="num">2019–2026</span><span class="label">Período</span></div>
+        </div>
+
+        <!-- Estadísticas sincronizadas con index.html (trayectoria completa Google Scholar) -->
+        <div class="hero-stats-bar">
+            <div class="container hero-stats-inner">
+                <a href="equipo.html" class="hero-stat" style="text-decoration:none;">
+                    <span class="hero-stat-num" data-target="10">10</span>
+                    <span class="hero-stat-label" data-translate="stat-investigadores">Investigadores</span>
+                </a>
+                <div class="hero-stat-divider"></div>
+                <a href="publicaciones.html" class="hero-stat" style="text-decoration:none;">
+                    <span class="hero-stat-num" data-target="500" data-prefix="+">+500</span>
+                    <span class="hero-stat-label" data-translate="stat-articulos">Publicaciones Científicas</span>
+                </a>
+                <div class="hero-stat-divider"></div>
+                <a href="https://scholar.google.com/citations?user=3jb2UysAAAAJ&hl=es" target="_blank" rel="noopener" class="hero-stat" style="text-decoration:none;">
+                    <span class="hero-stat-num" data-target="7500" data-prefix="+">+7.500</span>
+                    <span class="hero-stat-label" data-translate="stat-citas">Citas Académicas</span>
+                </a>
+                <div class="hero-stat-divider"></div>
+                <a href="proyectos.html" class="hero-stat" style="text-decoration:none;">
+                    <span class="hero-stat-num" data-target="3">3</span>
+                    <span class="hero-stat-label" data-translate="stat-proyectos">Proyectos Activos</span>
+                </a>
+                <div class="hero-stat-divider"></div>
+                <a href="index.html#lineas" class="hero-stat" style="text-decoration:none;">
+                    <span class="hero-stat-num" data-target="6">6</span>
+                    <span class="hero-stat-label" data-translate="stat-lineas">Líneas de Investigación</span>
+                </a>
             </div>
         </div>
     </div>
@@ -670,7 +695,8 @@
 
         // Cálculo total dinámico
         const total = PUBLICACIONES_FICOTUR.reduce((s,r)=>s+r.publicaciones.length,0);
-        document.getElementById('stat-total').textContent = total;
+        const statTotalEl = document.getElementById('stat-total');
+        if (statTotalEl) statTotalEl.textContent = total;
 
         function getYearClass(year) {
             const map = {2026:'y2026',2025:'y2025',2024:'y2024',2023:'y2023',2022:'y2022',2020:'y2020'};
@@ -841,6 +867,39 @@
             if (i % 3 === 1) el.classList.add('reveal-delay-1');
             if (i % 3 === 2) el.classList.add('reveal-delay-2');
             revealObs.observe(el);
+        });
+
+        // ── Animated Counters sincronizados ────────────────────────
+        function animateCounter(el, target, prefix = '', suffix = '', duration = 1400) {
+            const start = performance.now();
+            const isThousands = target >= 1000;
+            const update = (now) => {
+                const elapsed = now - start;
+                const progress = Math.min(elapsed / duration, 1);
+                const eased = 1 - Math.pow(1 - progress, 3);
+                const currentVal = Math.round(eased * target);
+                const formatted = isThousands ? currentVal.toLocaleString('es-ES') : currentVal;
+                el.textContent = prefix + formatted + suffix;
+                if (progress < 1) requestAnimationFrame(update);
+            };
+            requestAnimationFrame(update);
+        }
+
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const el = entry.target;
+                    const target = parseInt(el.dataset.target || el.textContent.replace(/\D/g, ''), 10);
+                    const prefix = el.dataset.prefix || '';
+                    const suffix = el.dataset.suffix || '';
+                    if (!isNaN(target)) animateCounter(el, target, prefix, suffix);
+                    counterObserver.unobserve(el);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        document.querySelectorAll('.hero-stat-num').forEach(el => {
+            counterObserver.observe(el);
         });
 
     })();

@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publicaciones Científicas - FICOTUR | UCO</title>
-    <meta name="description" content="Producción científica real del Grupo FICOTUR (SEJ-717) de la Universidad de Córdoba. Últimas publicaciones indexadas en JCR, SJR y Dialnet Métricas de nuestros investigadores.">
+    <title>Publicaciones Científicas · FICOTUR (SEJ-717) | Universidad de Córdoba</title>
+    <meta name="description" content="Producción científica del Grupo FICOTUR (SEJ-717) de la Universidad de Córdoba (+500 publicaciones, +7500 citas). Artículos indexados en JCR, SJR y Dialnet Métricas.">
+    <link rel="canonical" href="https://www.uco.es/investiga/grupos/ficotur/publicaciones.html">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Open Graph / Meta Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Publicaciones Científicas · FICOTUR (SEJ-717) | Universidad de Córdoba">
+    <meta property="og:description" content="Producción científica de alto impacto del Grupo FICOTUR en JCR, SJR y Dialnet (+500 publicaciones).">
+    <meta property="og:url" content="https://www.uco.es/investiga/grupos/ficotur/publicaciones.html">
+    <meta property="og:image" content="https://www.uco.es/investiga/grupos/ficotur/logo_ficotur_vertical.png">
+    <meta property="og:site_name" content="FICOTUR - Universidad de Córdoba">
+    <meta property="og:locale" content="es_ES">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Publicaciones Científicas · FICOTUR (SEJ-717) | UCO">
+    <meta name="twitter:description" content="Artículos y libros científicos del Grupo de Investigación FICOTUR.">
+    <meta name="twitter:image" content="https://www.uco.es/investiga/grupos/ficotur/logo_ficotur_vertical.png">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "@id": "https://www.uco.es/investiga/grupos/ficotur/publicaciones.html",
+      "url": "https://www.uco.es/investiga/grupos/ficotur/publicaciones.html",
+      "name": "Publicaciones Científicas - FICOTUR UCO",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://www.uco.es/investiga/grupos/ficotur/index.html",
+        "name": "FICOTUR - Universidad de Córdoba"
+      }
+    }
+    </script>
     <style>
         /* ===== HERO BANNER ===== */
         .pub-hero {
@@ -116,6 +149,7 @@
             border-radius: 50px;
             font-family: var(--font-headings);
         }
+        .pub-year.y2026 { background: #003B7C; }
         .pub-year.y2025 { background: #1a6b4e; }
         .pub-year.y2024 { background: #2a8f6c; }
         .pub-year.y2023 { background: #3aab82; }
@@ -224,6 +258,7 @@
                 <a href="equipo.html"        class="nav-link" data-translate="nav-equipo">Equipo</a>
                 <a href="proyectos.html"     class="nav-link" data-translate="nav-proyectos">Proyectos</a>
                 <a href="publicaciones.html" class="nav-link active" data-translate="nav-publicaciones">Publicaciones</a>
+                <a href="training.html"      class="nav-link" data-translate="nav-training">Training</a>
                 <a href="contacto.html"      class="nav-link" data-translate="nav-contacto">Contacto</a>
             </nav>
             <div class="lang-selector">
@@ -238,14 +273,39 @@
     </header>
 
     <!-- HERO -->
-    <div class="pub-hero">
-        <div class="container">
+    <div class="pub-hero" style="padding: 3.5rem 0 0;">
+        <div class="container" style="padding-bottom: 2rem;">
             <h1>Producción Científica Reciente</h1>
             <p>Últimas publicaciones de los investigadores del grupo, indexadas en revistas internacionales de impacto (JCR · SJR · Scopus · Web of Science).</p>
-            <div class="pub-hero-stats">
-                <div class="pub-hero-stat"><span class="num" id="stat-total">28</span><span class="label">Publicaciones</span></div>
-                <div class="pub-hero-stat"><span class="num">7</span><span class="label">Investigadores</span></div>
-                <div class="pub-hero-stat"><span class="num">2020–2025</span><span class="label">Período</span></div>
+        </div>
+
+        <!-- Estadísticas sincronizadas con index.html (trayectoria completa Google Scholar) -->
+        <div class="hero-stats-bar">
+            <div class="container hero-stats-inner">
+                <a href="equipo.html" class="hero-stat" style="text-decoration:none;">
+                    <span class="hero-stat-num" data-target="10">10</span>
+                    <span class="hero-stat-label" data-translate="stat-investigadores">Investigadores</span>
+                </a>
+                <div class="hero-stat-divider"></div>
+                <a href="publicaciones.html" class="hero-stat" style="text-decoration:none;">
+                    <span class="hero-stat-num" data-target="500" data-prefix="+">+500</span>
+                    <span class="hero-stat-label" data-translate="stat-articulos">Publicaciones Científicas</span>
+                </a>
+                <div class="hero-stat-divider"></div>
+                <a href="https://scholar.google.com/citations?user=3jb2UysAAAAJ&hl=es" target="_blank" rel="noopener" class="hero-stat" style="text-decoration:none;">
+                    <span class="hero-stat-num" data-target="7500" data-prefix="+">+7.500</span>
+                    <span class="hero-stat-label" data-translate="stat-citas">Citas Académicas</span>
+                </a>
+                <div class="hero-stat-divider"></div>
+                <a href="proyectos.html" class="hero-stat" style="text-decoration:none;">
+                    <span class="hero-stat-num" data-target="3">3</span>
+                    <span class="hero-stat-label" data-translate="stat-proyectos">Proyectos Activos</span>
+                </a>
+                <div class="hero-stat-divider"></div>
+                <a href="index.html#lineas" class="hero-stat" style="text-decoration:none;">
+                    <span class="hero-stat-num" data-target="6">6</span>
+                    <span class="hero-stat-label" data-translate="stat-lineas">Líneas de Investigación</span>
+                </a>
             </div>
         </div>
     </div>
@@ -259,6 +319,7 @@
 
                 <div class="filter-chip-bar" id="year-chips" aria-label="Filtrar por año">
                     <button class="fchip active" data-year="">Todos</button>
+                    <button class="fchip" data-year="2026">2026</button>
                     <button class="fchip" data-year="2025">2025</button>
                     <button class="fchip" data-year="2024">2024</button>
                     <button class="fchip" data-year="2023">2023</button>
@@ -383,6 +444,7 @@
                     <a href="equipo.html" data-translate="nav-equipo">Equipo</a>
                     <a href="proyectos.html" data-translate="nav-proyectos">Proyectos</a>
                     <a href="publicaciones.html" data-translate="nav-publicaciones">Publicaciones</a>
+                    <a href="training.html" data-translate="nav-training">Training</a>
                     <a href="contacto.html" data-translate="nav-contacto">Contacto</a>
                 </div>
                 <div class="footer-legal-links">
@@ -408,19 +470,30 @@
     const PUBLICACIONES_FICOTUR = [
         {
             investigador: 'Ricardo Hernández Rojas',
-            foto: 'ricardo_hernandez.png',
+            foto: 'ricardo.jpg',
             cargo: 'Profesor Titular · Economía Financiera y Contabilidad',
             links: {
-                scholar: 'https://scholar.google.com/citations?user=3jb2UysAAAAJ&hl=es',
+                scholar: 'https://scholar.google.com/citations?user=Y70n6oMAAAAJ&hl=es',
                 orcid:   'https://orcid.org/0000-0002-3055-2151',
                 rgate:   'https://www.researchgate.net/profile/Ricardo-David-Hernandez-Rojas'
             },
             publicaciones: [
-                { titulo:'Gastronomy in Heritage Cities: Traditional Bread in the Culinary Experience', autores:'Ricardo D. Hernández Rojas', año:2025, revista:'RIVAR – Revista Iberoamericana de Viticultura, Agroindustria y Ruralidad', url:'https://scholar.google.com/citations?user=3jb2UysAAAAJ&hl=es', doi:false },
-                { titulo:'Visitor satisfaction at the Royal Tombs of Sipán Museum, Lambayeque, Peru: a study of the impact on image and recommendation', autores:'Ricardo D. Hernández Rojas et al.', año:2025, revista:'Quality & Quantity', url:'https://scholar.google.com/citations?user=3jb2UysAAAAJ&hl=es', doi:false },
+                { titulo:'Gastronomy in Heritage Cities: Traditional Bread in the Culinary Experience', autores:'Ricardo D. Hernández Rojas', año:2025, revista:'RIVAR – Revista Iberoamericana de Viticultura, Agroindustria y Ruralidad', url:'https://revistas.usach.cl/ojs/index.php/rivar', doi:false },
+                { titulo:'Visitor satisfaction at the Royal Tombs of Sipán Museum, Lambayeque, Peru: a study of the impact on image and recommendation', autores:'Ricardo D. Hernández Rojas et al.', año:2025, revista:'Quality & Quantity', url:'https://link.springer.com/journal/11135', doi:false },
                 { titulo:'The Study of Gastronomic Tourism in Cordoba and the Association of the Cuisine: An Econometric Analysis', autores:'Ricardo D. Hernández Rojas et al.', año:2025, revista:'SSRN Electronic Journal', url:'https://papers.ssrn.com/', doi:false },
                 { titulo:'Análisis de la gastronomía local a través de las fuentes de información, imagen y satisfacción', autores:'Ricardo Hernández-Rojas; Nuria Huete-Alcocer', año:2023, revista:'Tourism & Heritage Journal', url:'https://doi.org/10.1344/THJ.2023.5.428420', doi:true },
-                { titulo:'Gestión en ciudades patrimonio de la humanidad: la satisfacción del turista', autores:'Ricardo Hernández Rojas', año:2023, revista:'Cuadernos de Gestión Turística del Patrimonio', url:'https://cuadernosgestionturisticadelpatrimonio.es', doi:false }
+                { titulo:'Gestión en ciudades patrimonio de la humanidad: la satisfacción del turista', autores:'Ricardo Hernández Rojas', año:2023, revista:'Cuadernos de Gestión Turística del Patrimonio', url:'https://cuadernosgestionturisticadelpatrimonio.es', doi:false },
+                { titulo:'Does local cuisine influence the image of a World Heritage destination and subsequent loyalty?', autores:'Ricardo D. Hernández-Rojas et al.', año:2022, revista:'International Journal of Gastronomy and Food Science', url:'https://doi.org/10.1016/j.ijgfs.2022.100585', doi:true },
+                { titulo:'Gastronomy as an effect of visitor loyalty: the Peruvian (Lima) case', autores:'Ricardo D. Hernández-Rojas et al.', año:2022, revista:'International Journal of Tourism Cities', url:'https://doi.org/10.1108/IJTC-02-2021-0028', doi:true },
+                { titulo:'Analysis of the impact of traditional gastronomy on loyalty to a world heritage destination', autores:'Ricardo D. Hernández-Rojas; Nuria Huete-Alcocer; Amalia Hidalgo-Fernández', año:2022, revista:'International Journal of Gastronomy and Food Science, 30, 100585', url:'https://doi.org/10.1016/j.ijgfs.2022.100585', doi:true },
+                { titulo:'Influence of the restaurant brand and gastronomy on tourist loyalty: A study in Córdoba (Spain)', autores:'Ricardo D. Hernández-Rojas et al.', año:2021, revista:'International Journal of Gastronomy and Food Science', url:'https://doi.org/10.1016/j.ijgfs.2021.100377', doi:true },
+                { titulo:'The cultural and heritage tourist, SEM analysis: the case of The Citadel of the Catholic King', autores:'Ricardo D. Hernández-Rojas et al.', año:2021, revista:'Heritage Science', url:'https://doi.org/10.1186/s40494-021-00547-2', doi:true },
+                { titulo:'The role of traditional restaurants in tourist destination loyalty', autores:'Ricardo D. Hernández-Rojas et al.', año:2021, revista:'PLOS ONE', url:'https://doi.org/10.1371/journal.pone.0254095', doi:true },
+                { titulo:'Dark Tourism in Southern Spain (Córdoba): An Analysis of the Demand', autores:'Ricardo D. Hernández-Rojas et al.', año:2021, revista:'International Journal of Environmental Research and Public Health (MDPI)', url:'https://doi.org/10.3390/ijerph18073940', doi:true },
+                { titulo:'Loyalty in Heritage Tourism: The Case of Córdoba and Its Four World Heritage Sites', autores:'Ricardo D. Hernández-Rojas et al.', año:2020, revista:'International Journal of Environmental Research and Public Health (MDPI)', url:'https://doi.org/10.3390/ijerph17186321', doi:true },
+                { titulo:'Analysis of the Tourism Demand for Iberian Ham Routes in Andalusia (Southern Spain): Tourist Profile', autores:'Ricardo D. Hernández-Rojas et al.', año:2019, revista:'Sustainability (MDPI)', url:'https://doi.org/10.3390/su11164278', doi:true },
+                { titulo:'Turismo Gastronómico: la gastronomía tradicional de Córdoba (España)', autores:'Ricardo D. Hernández-Rojas', año:2018, revista:'Estudios y Perspectivas en Turismo', url:'http://www.scielo.org.ar/scielo.php?pid=S1851-17322018000200007&script=sci_arttext', doi:false },
+                { titulo:'The study of gastronomic tourism in Cordoba and the association of the cuisine: An econometric analysis', autores:'Ricardo D. Hernández-Rojas et al.', año:2016, revista:'Tourism and Hospitality Management', url:'https://doi.org/10.20867/thm.22.1.6', doi:true }
             ]
         },
         {
@@ -435,7 +508,13 @@
                 { titulo:'The EU sustainability reporting mandate in Spain: Challenges and opportunities for practice and academia', autores:'Nicolás Garcia-Torea; Mercedes Luque-Vílchez', año:2025, revista:'Social and Environmental Accountability Journal', url:'https://www.tandfonline.com/journals/rsea20', doi:false },
                 { titulo:'The EU Taxonomy, sustainability reporting and financial institutions: understanding the elements driving regulatory uncertainty', autores:'Nicolás García-Torea; Mercedes Luque-Vílchez; Pablo Rodríguez-Gutiérrez', año:2024, revista:'Accounting Forum', url:'https://doi.org/10.1080/01559982.2024.2364953', doi:true },
                 { titulo:'The construction of the normative persuasion of social and environmental reporting regulation', autores:'Mercedes Luque-Vílchez; Javier Husillos', año:2024, revista:'Sustainability Accounting, Management and Policy Journal', url:'https://www.emerald.com/insight/publication/issn/2040-8021', doi:false },
-                { titulo:'Key aspects of sustainability reporting quality and the future of GRI', autores:'Mercedes Luque-Vílchez; Michela Cordazzo; Gunnar Rimmel; Carol A. Tilt', año:2023, revista:'Sustainability Accounting, Management and Policy Journal', url:'https://www.emerald.com/insight/publication/issn/2040-8021', doi:false }
+                { titulo:'Key aspects of sustainability reporting quality and the future of GRI', autores:'Mercedes Luque-Vílchez; Michela Cordazzo; Gunnar Rimmel; Carol A. Tilt', año:2023, revista:'Sustainability Accounting, Management and Policy Journal', url:'https://www.emerald.com/insight/publication/issn/2040-8021', doi:false },
+                { titulo:'The implementation of sustainability reporting in a small and medium enterprise and the emergence of integrated thinking', autores:'Mercedes Luque-Vílchez; A. Rossi', año:2021, revista:'Meditari Accountancy Research', url:'https://doi.org/10.1108/MEDAR-01-2020-0724', doi:true },
+                { titulo:'An approach to using the best-worst method for supporting sustainability reporting decision-making in SMEs', autores:'P. Rodríguez-Gutiérrez; M.D. Guerrero-Baena; Mercedes Luque-Vílchez', año:2021, revista:'Journal of Environmental Planning and Management', url:'https://doi.org/10.1080/09640568.2021.1879941', doi:true },
+                { titulo:'Institutionalization of the Contents of Sustainability Assurance Services: A Comparison Between Italy and United States', autores:'C. Larrinaga; A. Rossi; M. Núñez-Nickel; Mercedes Luque-Vílchez', año:2020, revista:'Journal of Business Ethics', url:'https://doi.org/10.1007/s10551-018-4011-0', doi:true },
+                { titulo:'The Role of Sustainability Performance and Accounting Assurors in Sustainability Assurance Engagements', autores:'Mercedes Luque-Vílchez et al.', año:2019, revista:'Sustainability Accounting, Management and Policy Journal', url:'https://doi.org/10.1108/SAMPJ-09-2017-0102', doi:true },
+                { titulo:'Sustainability accounting regulation in Spanish public sector organizations', autores:'Mercedes Luque-Vílchez; C. Larrinaga; R. Fernández', año:2018, revista:'Public Money & Management', url:'https://doi.org/10.1080/09540962.2018.1434343', doi:true },
+                { titulo:'Reporting models do not translate well: Failing to regulate CSR reporting in Spain', autores:'Mercedes Luque-Vílchez; C. Larrinaga', año:2016, revista:'Social and Environmental Accountability Journal', url:'https://doi.org/10.1080/0969160X.2016.1149301', doi:true }
             ]
         },
         {
@@ -451,7 +530,12 @@
                 { titulo:'Residential satisfaction indicator: Latin American evidence', autores:'Juan Antonio Jimber del Río et al.', año:2025, revista:'International Journal of Strategic Property Management', url:'https://doi.org/10.3846/ijspm.2025.23241', doi:true },
                 { titulo:'Residential Customer Satisfaction in a Latin American Urban Context', autores:'Michelle-Ángela Zea-de la Torre; Juan-Antonio Jimber-del Río; Arnaldo Vergara-Romero et al.', año:2024, revista:'Journal of the Knowledge Economy', url:'https://doi.org/10.1007/s13132-024-01818-y', doi:true },
                 { titulo:'Contribution of rare earth elements is key to the economy of the future', autores:'J.-R. Cuadros-Muñoz; J.-A. Jimber-del-Río; A. Vergara-Romero et al.', año:2024, revista:'Land (MDPI)', url:'https://doi.org/10.3390/land13081220', doi:true },
-                { titulo:'Good Governance and Innovation: a Renewed Global Framework for National and Supranational Policy Advancement', autores:'Alberto Ibanez; J. A. Jimber del Rio; Gyanendra Singh Sisodia et al.', año:2024, revista:'Journal of the Knowledge Economy', url:'https://doi.org/10.1007/s13132-023-01324-7', doi:true }
+                { titulo:'Good Governance and Innovation: a Renewed Global Framework for National and Supranational Policy Advancement', autores:'Alberto Ibanez; J. A. Jimber del Rio; Gyanendra Singh Sisodia et al.', año:2024, revista:'Journal of the Knowledge Economy', url:'https://doi.org/10.1007/s13132-023-01324-7', doi:true },
+                { titulo:'Tourist loyalty model in world heritage cities: Córdoba as a case study', autores:'Juan Antonio Jimber del Río et al.', año:2022, revista:'PLOS ONE', url:'https://doi.org/10.1371/journal.pone.0267363', doi:true },
+                { titulo:'Structural model of loyalty in the tourism industry: the case of Galapagos natural reserve', autores:'Juan Antonio Jimber del Río et al.', año:2021, revista:'International Journal of Tourism Research', url:'https://doi.org/10.1002/jtr.2436', doi:true },
+                { titulo:'Citizen e-government satisfaction model in Latin America: the case of Ecuador', autores:'Juan Antonio Jimber del Río et al.', año:2021, revista:'Global Knowledge, Memory and Communication', url:'https://doi.org/10.1108/GKMC-04-2020-0055', doi:true },
+                { titulo:'Lealtad actitudinal, calidad percibida y satisfacción en turismo de crucero', autores:'Juan Antonio Jimber del Río et al.', año:2020, revista:'European Research on Management and Business Economics', url:'https://doi.org/10.1016/j.iedeen.2020.04.001', doi:true },
+                { titulo:'Customer satisfaction and loyalty in the hotel industry: A study in Ecuadorian hotels', autores:'Juan Antonio Jimber del Río et al.', año:2019, revista:'International Journal of Tourism Research', url:'https://doi.org/10.1002/jtr.2287', doi:true }
             ]
         },
         {
@@ -466,7 +550,28 @@
                 { titulo:'Assessing farmers\' intention to adopt drought insurance: Extended theory of planned behavior and behavioral reasoning theory', autores:'L. J. Cabeza-Ramírez; M. D. Guerrero-Baena; M. Luque-Vílchez; S. Sanchez-Cañizares', año:2024, revista:'International Journal of Disaster Risk Reduction', url:'https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction', doi:false },
                 { titulo:'What are the main drivers of SMEs\' production of sustainability reports?', autores:'M. D. Guerrero-Baena; F. Castilla-Polo; P. Rodríguez-Gutiérrez', año:2024, revista:'Small Business International Review', url:'https://upct.es/sbir', doi:false },
                 { titulo:'The cooperative ESG disclosure index: an empirical approach', autores:'F. Castilla-Polo; G. García-Martínez; M. D. Guerrero-Baena; F. Polo-Garrido', año:2024, revista:'Environment, Development and Sustainability', url:'https://link.springer.com/journal/10668', doi:false },
-                { titulo:'The business case for sustainability reporting in SMEs: consultants\' and academics\' perceptions', autores:'F. Castilla-Polo; M. D. Guerrero-Baena; P. Rodríguez-Gutiérrez', año:2023, revista:'Sustainable Development', url:'https://doi.org/10.1002/sd', doi:true }
+                { titulo:'The business case for sustainability reporting in SMEs: consultants\' and academics\' perceptions', autores:'F. Castilla-Polo; M. D. Guerrero-Baena; P. Rodríguez-Gutiérrez', año:2023, revista:'Sustainable Development', url:'https://doi.org/10.1002/sd', doi:true },
+                { titulo:'An approach to using the best-worst method for supporting sustainability reporting decision-making in SMEs', autores:'P. Rodríguez-Gutiérrez; M. D. Guerrero-Baena; M. Luque-Vílchez', año:2021, revista:'Journal of Environmental Planning and Management', url:'https://doi.org/10.1080/09640568.2021.1879941', doi:true },
+                { titulo:'Sustainability reporting in cooperatives: a literature review', autores:'F. Castilla-Polo; M. D. Guerrero-Baena', año:2020, revista:'Sustainability (MDPI)', url:'https://doi.org/10.3390/su12041648', doi:true },
+                { titulo:'El capital intelectual en las cooperativas agroalimentarias españolas', autores:'Francisca Castilla-Polo; M.D. Guerrero-Baena et al.', año:2018, revista:'Revista Española de Estudios Agrosociales y Pesqueros', url:'https://doi.org/10.1002/agr.21607', doi:false },
+                { titulo:'Voluntary disclosure of intellectual capital and corporate governance in cooperatives', autores:'Francisca Castilla-Polo; M. D. Guerrero-Baena', año:2017, revista:'Journal of Intellectual Capital', url:'https://doi.org/10.1108/JIC-05-2016-0052', doi:true }
+            ]
+        },
+        {
+            investigador: 'Dr. José Antonio Fernández-Gallardo',
+            foto: 'jose_antonio.png',
+            cargo: 'Profesor · Economía Financiera y Contabilidad',
+            links: {
+                orcid: 'https://orcid.org/0000-0002-3003-3909'
+            },
+            publicaciones: [
+                { titulo:'Gestión económica y comercialización del trabajo femenino en la pesca artesanal de Crucita, cantón Portoviejo', autores:'José Antonio Fernández-Gallardo et al.', año:2026, revista:'InnDev', url:'https://doi.org/10.69583/inndev.v5n1.2026.227', doi:true },
+                { titulo:'Impact of touristic sustainability on satisfaction with touristic services in a world heritage city. The case of the equestrian show in Córdoba (Spain)', autores:'José Antonio Fernández-Gallardo et al.', año:2025, revista:'Journal of Cultural Heritage Management and Sustainable Development', url:'https://doi.org/10.1108/JCHMSD-12-2023-0226', doi:true },
+                { titulo:'Hedging the risk of hydrological drought in irrigated agriculture: the role of precautionary savings', autores:'José Antonio Fernández-Gallardo et al.', año:2022, revista:'International Journal of Water Resources Development', url:'https://doi.org/10.1080/07900627.2021.1949699', doi:true },
+                { titulo:'La cadena de valor del maíz amarillo duro ecuatoriano. Retos y oportunidades', autores:'José Antonio Fernández-Gallardo et al.', año:2022, revista:'Lecturas de Economía', url:'https://doi.org/10.17533/udea.le.n98a347315', doi:true },
+                { titulo:'Análisis de costos de agronegocios en la cadena de valor del maíz duro caso Manabí-Ecuador', autores:'José Antonio Fernández-Gallardo et al.', año:2022, revista:'Custos e Agronegocio', url:'https://www.scopus.com/record/display.uri?eid=2-s2.0-85150455979&origin=resultslist', doi:false },
+                { titulo:'Caracterización socioeconómica del agricultor maicero en la Provincia de Manabí mediante técnicas de análisis multivariantes', autores:'José Antonio Fernández-Gallardo et al.', año:2020, revista:'Podium', url:'https://doi.org/10.31095/podium.2020.38.1', doi:true },
+                { titulo:'Evaluation of the Reception Capacity of a Certain Area Regarding Tourist Housing, Addressing Sustainable-Tourism Criteria', autores:'José Antonio Fernández-Gallardo et al.', año:2019, revista:'Sustainability (MDPI)', url:'https://doi.org/10.3390/SU11226422', doi:true }
             ]
         },
         {
@@ -477,14 +582,15 @@
                 orcid: 'https://orcid.org/0000-0002-2764-6624'
             },
             publicaciones: [
+                { titulo:'Gastrotourists\' profiles through their motivations, opinions, and perceptions: An artificial neural network approach', autores:'Miguel Ángel Solano; David Mora; María Amalia Hidalgo-Fernández; Salvador Moral Cuadra', año:2024, revista:'International Journal of Tourism Research, 26(3), e2655', url:'https://doi.org/10.1002/jtr.2655', doi:true },
+                { titulo:'Profit and viability persistence: Evidence from the Spanish agricultural sector', autores:'José Antonio Gómez-Limón-Rodríguez; Sandra María Sánchez-Cañizares; María Amalia Hidalgo-Fernández; Ana M.ª Castillo-Canalejo', año:2023, revista:'Agribusiness, 39(4), 1300-1332', url:'https://doi.org/10.1002/agr.21822', doi:true },
+                { titulo:'Pet tourism: Motivations and assessment in the destinations', autores:'María Amalia Hidalgo-Fernández; Salvador Moral Cuadra; Antonio Pablo Menor; Tomas Jesús López-Guzmán-Guzmán', año:2023, revista:'Consumer Behavior in Tourism and Hospitality, 18(3)', url:'https://doi.org/10.1108/CBTH-06-2022-0132', doi:true },
                 { titulo:'Gastronomía local, cultura y turismo en Ciudades Patrimonio de la Humanidad: el comportamiento del turista extranjero', autores:'Antonio Menor-Campos; Amalia Hidalgo-Fernández; Teresa López-Felipe; Carol Jara-Alba', año:2022, revista:'Investigaciones Turísticas', url:'https://doi.org/10.14198/INTURI2022.23.7', doi:true },
                 { titulo:'Analysis of the impact of traditional gastronomy on loyalty to a world heritage destination', autores:'Ricardo D. Hernández-Rojas; Nuria Huete-Alcocer; Amalia Hidalgo-Fernández', año:2022, revista:'International Journal of Gastronomy and Food Science, 30, 100585', url:'https://doi.org/10.1016/j.ijgfs.2022.100585', doi:true },
-                { titulo:'Profit and viability persistence: Evidence from the Spanish agricultural sector', autores:'José Antonio Gómez-Limón-Rodríguez; Sandra María Sánchez-Cañizares; María Amalia Hidalgo-Fernández; Ana M.ª Castillo-Canalejo', año:2023, revista:'Agribusiness, 39(4), 1300-1332', url:'https://doi.org/10.1002/agr.21822', doi:true },
-                { titulo:'Gastrotourists\' profiles through their motivations, opinions, and perceptions: An artificial neural network approach', autores:'Miguel Ángel Solano; David Mora; María Amalia Hidalgo-Fernández; Salvador Moral Cuadra', año:2024, revista:'International Journal of Tourism Research, 26(3), e2655', url:'https://doi.org/10.1002/jtr.2655', doi:true },
-                { titulo:'Analysis of the dimensions of corporate social responsibility: study applied to co-operativism in Ecuador', autores:'Francisco González-Santa Cruz; Iliana Loor-Alcívar; Nelly Moreira-Mero; María Amalia Hidalgo-Fernández', año:2020, revista:'Social Indicators Research, 148, 517-534', url:'https://doi.org/10.1007/s11205-019-02213-w', doi:true },
                 { titulo:'Analysis of organizational commitment in cooperatives in Ecuador', autores:'María Amalia Hidalgo-Fernández; Nelly Moreira-Mero; María Iliana Loor-Alcívar; Francisco González-Santa Cruz', año:2020, revista:'Journal of Management Development, 39(4), 391-406', url:'https://doi.org/10.1108/JMD-05-2019-0180', doi:true },
-                { titulo:'Pet tourism: Motivations and assessment in the destinations', autores:'María Amalia Hidalgo-Fernández; Salvador Moral Cuadra; Antonio Pablo Menor; Tomas Jesús López-Guzmán-Guzmán', año:2023, revista:'Consumer Behavior in Tourism and Hospitality, 18(3)', url:'https://doi.org/10.1108/CBTH-06-2022-0132', doi:true },
-                { titulo:'Influence of Internal Marketing Dimensions on Organizational Commitment: An Empirical Application in Ecuadorian Co-Operativism', autores:'Nelly Moreira-Mero; María Amalia Hidalgo-Fernández; María Iliana Loor-Alcívar; Francisco González-Santa Cruz', año:2020, revista:'Sage Open, 10(3), 1-10', url:'https://doi.org/10.1177/2158244020945712', doi:true }
+                { titulo:'Analysis of dimensions of corporate social responsibility: study applied to co-operativism in Ecuador', autores:'Francisco González-Santa Cruz; Iliana Loor-Alcívar; Nelly Moreira-Mero; María Amalia Hidalgo-Fernández', año:2020, revista:'Social Indicators Research, 148, 517-534', url:'https://doi.org/10.1007/s11205-019-02213-w', doi:true },
+                { titulo:'Influence of Internal Marketing Dimensions on Organizational Commitment: An Empirical Application in Ecuadorian Co-Operativism', autores:'Nelly Moreira-Mero; María Amalia Hidalgo-Fernández; María Iliana Loor-Alcívar; Francisco González-Santa Cruz', año:2020, revista:'Sage Open, 10(3), 1-10', url:'https://doi.org/10.1177/2158244020945712', doi:true },
+                { titulo:'Turismo gastronómico y análisis de las tendencias del mercado en Córdoba, España', autores:'María Amalia Hidalgo-Fernández et al.', año:2018, revista:'Estudios y Perspectivas en Turismo', url:'http://www.scielo.org.ar/scielo.php?script=sci_serial&pid=1851-1732', doi:false }
             ]
         },
         {
@@ -498,7 +604,8 @@
             },
             publicaciones: [
                 { titulo:'Influencia de la contabilidad de gestión como factor del éxito competitivo en el sector cooperativo', autores:'Marina Caracuel-Sillero et al.', año:2025, revista:'European Public & Social Innovation Review', url:'https://epsir.net', doi:false },
-                { titulo:'Tendencias de investigación sobre cooperativas agrícolas en España: un análisis bibliométrico', autores:'Marina Caracuel-Sillero et al.', año:2024, revista:'European Public & Social Innovation Review', url:'https://epsir.net', doi:false }
+                { titulo:'Tendencias de investigación sobre cooperativas agrícolas en España: un análisis bibliométrico', autores:'Marina Caracuel-Sillero et al.', año:2024, revista:'European Public & Social Innovation Review', url:'https://epsir.net', doi:false },
+                { titulo:'La contabilidad de gestión como factor de éxito en cooperativas agroalimentarias andaluzas', autores:'Luz Marina Caracuel-Sillero et al.', año:2022, revista:'Revista de Estudios Cooperativos (REVESCO)', url:'https://revistas.ucm.es/index.php/REVE', doi:false }
             ]
         },
         {
@@ -513,7 +620,8 @@
                 { titulo:'Olivar convencional frente a olivar ecológico. Una comparación de su desempeño económico', autores:'Arnaldo Vergara-Romero et al.', año:2025, revista:'Revista de Estudios Empresariales. Segunda Época', url:'https://doi.org/10.17561/ree.n1.2025.9311', doi:true },
                 { titulo:'Study of Citizen Satisfaction in Rural Versus Urban Areas in Public Services: Perspective of a Multi-group Analysis', autores:'Arnaldo Vergara-Romero et al.', año:2024, revista:'Social Indicators Research', url:'https://link.springer.com/journal/11205', doi:false },
                 { titulo:'Residential Customer Satisfaction in a Latin American Urban Context', autores:'Michelle-Ángela Zea-de la Torre; Juan-Antonio Jimber-del Río; Arnaldo Vergara-Romero et al.', año:2024, revista:'Journal of the Knowledge Economy', url:'https://doi.org/10.1007/s13132-024-01818-y', doi:true },
-                { titulo:'Contribution of rare earth elements is key to the economy of the future', autores:'J.-R. Cuadros-Muñoz; J.-A. Jimber-del-Río; A. Vergara-Romero et al.', año:2024, revista:'Land (MDPI)', url:'https://doi.org/10.3390/land13081220', doi:true }
+                { titulo:'Contribution of rare earth elements is key to the economy of the future', autores:'J.-R. Cuadros-Muñoz; J.-A. Jimber-del-Río; A. Vergara-Romero et al.', año:2024, revista:'Land (MDPI)', url:'https://doi.org/10.3390/land13081220', doi:true },
+                { titulo:'Analysis of behavioural factors driving the adoption of agroecological practices in olive groves (Doctoral Thesis)', autores:'Arnaldo Vergara-Romero', año:2026, revista:'Universidad de Córdoba – Repositorio Helvia', url:'https://helvia.uco.es/xmlui/handle/10396/35046', doi:false }
             ]
         }
     ];
@@ -587,10 +695,11 @@
 
         // Cálculo total dinámico
         const total = PUBLICACIONES_FICOTUR.reduce((s,r)=>s+r.publicaciones.length,0);
-        document.getElementById('stat-total').textContent = total;
+        const statTotalEl = document.getElementById('stat-total');
+        if (statTotalEl) statTotalEl.textContent = total;
 
         function getYearClass(year) {
-            const map = {2025:'y2025',2024:'y2024',2023:'y2023',2022:'y2022',2020:'y2020'};
+            const map = {2026:'y2026',2025:'y2025',2024:'y2024',2023:'y2023',2022:'y2022',2020:'y2020'};
             return map[year] || '';
         }
 
@@ -716,6 +825,83 @@
         });
 
         renderAll();
+
+        // ── SCHEMA.ORG ScholarlyArticle — Citabilidad para motores IA (2026) ──
+        const schemaItems = [];
+        PUBLICACIONES_FICOTUR.forEach(inv => {
+            inv.publicaciones.forEach(pub => {
+                schemaItems.push({
+                    "@context": "https://schema.org",
+                    "@type": "ScholarlyArticle",
+                    "headline": pub.titulo,
+                    "author": pub.autores.split(';').map(a => ({
+                        "@type": "Person",
+                        "name": a.trim()
+                    })),
+                    "datePublished": String(pub.año),
+                    "isPartOf": {
+                        "@type": "Periodical",
+                        "name": pub.revista
+                    },
+                    ...(pub.doi && pub.url ? { "url": pub.url, "sameAs": pub.url } : {}),
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "Grupo de Investigación FICOTUR SEJ-717, Universidad de Córdoba"
+                    }
+                });
+            });
+        });
+        const schemaScript = document.createElement('script');
+        schemaScript.type = 'application/ld+json';
+        schemaScript.textContent = JSON.stringify({ "@graph": schemaItems });
+        document.head.appendChild(schemaScript);
+
+        // ── SCROLL REVEAL en cards de publicaciones ───────────────
+        const revealObs = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) { e.target.classList.add('visible'); revealObs.unobserve(e.target); }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.pub-researcher-card').forEach((el, i) => {
+            el.classList.add('reveal');
+            if (i % 3 === 1) el.classList.add('reveal-delay-1');
+            if (i % 3 === 2) el.classList.add('reveal-delay-2');
+            revealObs.observe(el);
+        });
+
+        // ── Animated Counters sincronizados ────────────────────────
+        function animateCounter(el, target, prefix = '', suffix = '', duration = 1400) {
+            const start = performance.now();
+            const isThousands = target >= 1000;
+            const update = (now) => {
+                const elapsed = now - start;
+                const progress = Math.min(elapsed / duration, 1);
+                const eased = 1 - Math.pow(1 - progress, 3);
+                const currentVal = Math.round(eased * target);
+                const formatted = isThousands ? currentVal.toLocaleString('es-ES') : currentVal;
+                el.textContent = prefix + formatted + suffix;
+                if (progress < 1) requestAnimationFrame(update);
+            };
+            requestAnimationFrame(update);
+        }
+
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const el = entry.target;
+                    const target = parseInt(el.dataset.target || el.textContent.replace(/\D/g, ''), 10);
+                    const prefix = el.dataset.prefix || '';
+                    const suffix = el.dataset.suffix || '';
+                    if (!isNaN(target)) animateCounter(el, target, prefix, suffix);
+                    counterObserver.unobserve(el);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        document.querySelectorAll('.hero-stat-num').forEach(el => {
+            counterObserver.observe(el);
+        });
+
     })();
     </script>
 </body>
