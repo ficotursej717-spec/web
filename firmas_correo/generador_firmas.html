@@ -467,10 +467,15 @@
                     <select id="presetSelect" style="margin-top: 0.4rem;">
                         <option value="custom">-- Escribir datos propios (personalizado) --</option>
                         <option value="ricardo">Dr. Ricardo David Hernández Rojas (Profesor Titular, Co-IP)</option>
-                        <option value="amalia">Dra. Amalia Hidalgo Fernández (Profesora Titular)</option>
                         <option value="mercedes">Dra. Mercedes Luque-Vílchez (Profesora Titular)</option>
-                        <option value="leonardo">Leonardo Gallardo Apolo (Investigador en Formación / Predoctoral)</option>
+                        <option value="juanjimber">Dr. Juan Antonio Jimber del Río (Prof. Economía Financiera)</option>
+                        <option value="dolores">Dra. M. Dolores Guerrero-Baena (Profesora Titular)</option>
+                        <option value="joseantonio">Dr. José Antonio Fernández-Gallardo (Prof. Economía Financiera)</option>
+                        <option value="amalia">Dra. Amalia Hidalgo Fernández (Profesora Titular)</option>
                         <option value="carmen">Carmen Barbero Saavedra (Profesora de Economía Financiera)</option>
+                        <option value="marina">Dra. Luz Marina Caracuel Sillero (Profesora Sustituta Interina)</option>
+                        <option value="leonardo">Leonardo A. Gallardo Apolo (Investigador Predoctoral)</option>
+                        <option value="arnaldo">Dr. Arnaldo Vergara-Romero (Prof. Economía Financiera)</option>
                     </select>
                     <div class="helper-text">Selecciona un miembro para autorellenar todos sus datos automáticamente.</div>
                 </div>
@@ -585,6 +590,7 @@
                 <div class="tabs-container">
                     <button type="button" class="tab-btn active" id="tabStandard" onclick="switchDesign('standard')">Estándar</button>
                     <button type="button" class="tab-btn" id="tabCompact" onclick="switchDesign('compact')">Compacta</button>
+                    <button type="button" class="tab-btn" id="tabPlain" onclick="switchDesign('plain')" style="background-color: transparent; color: #64748B;">Texto Plano (Horde)</button>
                 </div>
             </div>
             
@@ -598,6 +604,18 @@
                     
                     <!-- AQUÍ SE RENDERIZA LA FIRMA GENERADA -->
                     <div id="signatureRenderContainer"></div>
+                </div>
+
+                <!-- CONTENEDOR TEXTO PLANO HORDE -->
+                <div id="plainTextContainer" style="display:none;">
+                    <div style="font-size:0.8rem; color:#64748B; margin-bottom:0.6rem; padding: 0.6rem 0.85rem; background:#FFF9EC; border:1px solid #FDE68A; border-radius:8px; line-height:1.5;">
+                        📌 <strong>Webmail UCO (Horde)</strong> no admite HTML en firmas. Copia el texto de abajo y pégalo directamente en:<br>
+                        <em>Horde → Mi Cuenta → Identidades → Firma</em>
+                    </div>
+                    <textarea id="plainTextArea" readonly rows="13" style="width:100%; font-family:'Courier New', monospace; font-size:12px; line-height:1.6; padding:0.85rem; border:1.5px solid #E2E8F0; border-radius:8px; background:#F8FAFC; color:#1E293B; resize:vertical; outline:none;"></textarea>
+                    <button type="button" class="btn btn-primary" style="margin-top:0.75rem; width:100%;" onclick="copyPlainText()">
+                        <span>📋</span> Copiar Texto Plano (para pegar en Horde)
+                    </button>
                 </div>
 
                 <!-- TARJETA DE ACCIONES -->
@@ -716,6 +734,81 @@
                 orcid: "https://orcid.org/0009-0008-7514-9228",
                 scholar: "",
                 linkedin: "https://www.linkedin.com/in/carmen-barbero-saavedra-731b31109/"
+            },
+            juanjimber: {
+                tratamiento: "Dr.",
+                nombre: "Juan Antonio Jimber del Río",
+                cargo: "Profesor del Área de Economía Financiera y Contabilidad",
+                depto: "Área de Economía Financiera y Contabilidad | Dpto. Economía Agraria, Finanzas y Contabilidad",
+                grupo: "Grupo de Investigación FICOTUR (SEJ-717) — Universidad de Córdoba",
+                email: "jjimber@uco.es",
+                telefono: "+34 957 218 000",
+                ubicacion: "Facultad de Derecho y Ciencias Económicas y Empresariales",
+                webFicotur: "https://ficotur.es",
+                webUco: "https://www.uco.es",
+                orcid: "https://orcid.org/0000-0001-6886-7434",
+                scholar: "",
+                linkedin: ""
+            },
+            dolores: {
+                tratamiento: "Dra.",
+                nombre: "M. Dolores Guerrero-Baena",
+                cargo: "Profesora Titular de Universidad",
+                depto: "Área de Economía Financiera y Contabilidad | Dpto. Economía Agraria, Finanzas y Contabilidad",
+                grupo: "Grupo de Investigación FICOTUR (SEJ-717) — Universidad de Córdoba",
+                email: "dolores.guerrero@uco.es",
+                telefono: "+34 957 218 000",
+                ubicacion: "Facultad de Derecho y Ciencias Económicas y Empresariales",
+                webFicotur: "https://ficotur.es",
+                webUco: "https://www.uco.es",
+                orcid: "https://orcid.org/0000-0003-4042-3094",
+                scholar: "",
+                linkedin: ""
+            },
+            joseantonio: {
+                tratamiento: "Dr.",
+                nombre: "José Antonio Fernández-Gallardo",
+                cargo: "Profesor del Área de Economía Financiera y Contabilidad",
+                depto: "Área de Economía Financiera y Contabilidad | Dpto. Economía Agraria, Finanzas y Contabilidad",
+                grupo: "Grupo de Investigación FICOTUR (SEJ-717) — Universidad de Córdoba",
+                email: "jose.fernandez@uco.es",
+                telefono: "+34 957 218 000",
+                ubicacion: "Facultad de Derecho y Ciencias Económicas y Empresariales",
+                webFicotur: "https://ficotur.es",
+                webUco: "https://www.uco.es",
+                orcid: "https://orcid.org/0000-0002-3003-3909",
+                scholar: "",
+                linkedin: ""
+            },
+            marina: {
+                tratamiento: "Dra.",
+                nombre: "Luz Marina Caracuel Sillero",
+                cargo: "Profesora Sustituta Interina y Coordinadora de ADE",
+                depto: "Área de Economía Financiera y Contabilidad | Dpto. Economía Agraria, Finanzas y Contabilidad",
+                grupo: "Grupo de Investigación FICOTUR (SEJ-717) — Universidad de Córdoba",
+                email: "lcaracuel@uco.es",
+                telefono: "+34 957 218 000",
+                ubicacion: "Facultad de Derecho y Ciencias Económicas y Empresariales",
+                webFicotur: "https://ficotur.es",
+                webUco: "https://www.uco.es",
+                orcid: "https://orcid.org/0009-0004-8597-8311",
+                scholar: "https://scholar.google.com/citations?user=BEFgDIgAAAAJ&hl=es",
+                linkedin: ""
+            },
+            arnaldo: {
+                tratamiento: "Dr.",
+                nombre: "Arnaldo Vergara-Romero",
+                cargo: "Profesor del Área de Economía Financiera y Contabilidad",
+                depto: "Área de Economía Financiera y Contabilidad | Dpto. Economía Agraria, Finanzas y Contabilidad",
+                grupo: "Grupo de Investigación FICOTUR (SEJ-717) — Universidad de Córdoba",
+                email: "z82veroa@uco.es",
+                telefono: "+34 957 218 000",
+                ubicacion: "Facultad de Derecho y Ciencias Económicas y Empresariales",
+                webFicotur: "https://ficotur.es",
+                webUco: "https://www.uco.es",
+                orcid: "https://orcid.org/0000-0001-8503-3685",
+                scholar: "",
+                linkedin: ""
             }
         };
 
@@ -735,9 +828,64 @@
 
         function switchDesign(design) {
             currentDesign = design;
+            const isPlain = design === 'plain';
+
+            // Pestañas
             document.getElementById('tabStandard').classList.toggle('active', design === 'standard');
             document.getElementById('tabCompact').classList.toggle('active', design === 'compact');
-            renderSignature();
+            document.getElementById('tabPlain').classList.toggle('active', isPlain);
+
+            // Mostrar/ocultar contenedores
+            document.getElementById('signatureRenderContainer').closest('.email-mockup').style.display = isPlain ? 'none' : 'block';
+            document.getElementById('plainTextContainer').style.display = isPlain ? 'block' : 'none';
+            document.querySelector('.actions-card').style.display = isPlain ? 'none' : 'block';
+
+            if (isPlain) {
+                renderPlainText();
+            } else {
+                renderSignature();
+            }
+        }
+
+        function renderPlainText() {
+            const data = getFormData();
+            const sep = '─'.repeat(52);
+            const lines = [
+                sep,
+                data.nombreCompleto,
+                data.cargo,
+                data.depto,
+                data.grupo,
+                'Facultad de Derecho y Ciencias Económicas y Empresariales',
+                'Campus de Rabanales, Ctra. Nacional IV km 396 | 14071 Córdoba (España)',
+                '',
+                `Tlf.: ${data.telefono || '+34 957 218 000'}    E-mail: ${data.email}`,
+                `Web del grupo: ${data.webFicotur || 'https://ficotur.es'}    UCO: ${data.webUco || 'https://www.uco.es'}`,
+            ];
+            if (data.orcid) lines.push(`ORCID: ${data.orcid}`);
+            if (data.scholar) lines.push(`Google Scholar: ${data.scholar}`);
+            if (data.linkedin) lines.push(`LinkedIn: ${data.linkedin}`);
+            lines.push(sep);
+            if (data.legal) {
+                lines.push('');
+                lines.push('AVISO DE CONFIDENCIALIDAD: Este mensaje y sus archivos adjuntos son de uso');
+                lines.push('exclusivo del destinatario. Si lo recibió por error, notifíquelo al remitente');
+                lines.push('y elimínelo. RGPD (UE) 2016/679 y LOPDGDD 3/2018 - Universidad de Córdoba.');
+                lines.push('🌱 Por favor, piense en el medio ambiente antes de imprimir este mensaje.');
+            }
+            document.getElementById('plainTextArea').value = lines.join('\n');
+        }
+
+        async function copyPlainText() {
+            const text = document.getElementById('plainTextArea').value;
+            try {
+                await navigator.clipboard.writeText(text);
+                showToast('¡Texto copiado! Pégalo en Horde → Mi Cuenta → Identidades → Firma');
+            } catch(e) {
+                document.getElementById('plainTextArea').select();
+                document.execCommand('copy');
+                showToast('¡Texto copiado! Pégalo en Horde → Mi Cuenta → Identidades → Firma');
+            }
         }
 
         function getFormData() {
@@ -1072,6 +1220,7 @@ ${document.getElementById('signatureRenderContainer').innerHTML}
 
             renderSignature();
             showToast(`Perfil de ${data.nombre} cargado.`);
+            if (currentDesign === 'plain') renderPlainText();
         });
 
         // LISTENERS PARA ACTUALIZACIÓN EN TIEMPO REAL
@@ -1079,10 +1228,10 @@ ${document.getElementById('signatureRenderContainer').innerHTML}
         inputs.forEach(input => {
             if (input.id !== 'presetSelect') {
                 input.addEventListener('input', () => {
-                    renderSignature();
+                    if (currentDesign === 'plain') renderPlainText(); else renderSignature();
                 });
                 input.addEventListener('change', () => {
-                    renderSignature();
+                    if (currentDesign === 'plain') renderPlainText(); else renderSignature();
                 });
             }
         });
