@@ -390,8 +390,7 @@ const investigadoresData = {
         },
         links: {
             orcid: 'https://orcid.org/0009-0004-8597-8311',
-            researchgate: 'https://www.researchgate.net/scientific-contributions/Marina-Caracuel-Sillero-2302728336',
-            scholar: 'https://scholar.google.com/citations?user=BEFgDIgAAAAJ&hl=es'
+            researchgate: 'https://www.researchgate.net/scientific-contributions/Marina-Caracuel-Sillero-2302728336'
         }
     },
     'investigador-10': {
