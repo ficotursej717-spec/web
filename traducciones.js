@@ -11,7 +11,7 @@ const dictionary = {
 
         // Hero index.html
         "hero-eyebrow": "Grupo de Investigación Ficotur (SEJ-717) — Universidad de Córdoba",
-        "hero-title": "FICOTUR · Finanzas, Contabilidad y Gestión Turística",
+        "hero-title": "Finance, Accounting and Tourism Management",
         "hero-desc": "Generamos conocimiento científico de alto impacto y transferencia tecnológica aplicada al desarrollo económico y la sostenibilidad turística.",
         "hero-btn-proyectos": "Ver Proyectos Activos",
         "hero-btn-equipo": "Conocer al Equipo",
@@ -157,7 +157,7 @@ const dictionary = {
 
         // Hero index.html
         "hero-eyebrow": "Ficotur Research Group (SEJ-717) — University of Córdoba",
-        "hero-title": "FICOTUR · Finance, Accounting and Tourism Management",
+        "hero-title": "Finance, Accounting and Tourism Management",
         "hero-desc": "We generate high-impact scientific knowledge and technology transfer applied to economic development and sustainable tourism.",
         "hero-btn-proyectos": "View Active Projects",
         "hero-btn-equipo": "Meet the Team",
@@ -274,7 +274,7 @@ const dictionary = {
 
         // Hero index.html
         "hero-eyebrow": "Groupe de Recherche Ficotur (SEJ-717) — Université de Cordoue",
-        "hero-title": "FICOTUR · Finance, Comptabilité et Gestion Touristique",
+        "hero-title": "Finance, Accounting and Tourism Management",
         "hero-desc": "Nous générons des connaissances scientifiques à fort impact et des transferts technologiques appliqués au développement économique et au tourisme durable.",
         "hero-btn-proyectos": "Voir les projets actifs",
         "hero-btn-equipo": "Rencontrer l'équipe",
@@ -391,7 +391,7 @@ const dictionary = {
 
         // Hero index.html
         "hero-eyebrow": "Grupo de Pesquisa Ficotur (SEJ-717) — Universidade de Córdoba",
-        "hero-title": "FICOTUR · Finanças, Contabilidade e Gestão Turística",
+        "hero-title": "Finance, Accounting and Tourism Management",
         "hero-desc": "Geramos conhecimento científico de alto impacto e transferência de tecnologia aplicada ao desenvolvimento econômico e turismo sustentável.",
         "hero-btn-proyectos": "Ver Projetos Activos",
         "hero-btn-equipo": "Conhecer a Equipe",
