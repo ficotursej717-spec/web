@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "Boletín de Novedades - Sábado, 19 de Septiembre de 2026",
+        "fecha": "19 Septiembre 2026",
+        "link": "https://www.uco.es/servicios/actualidad/boletines/listid-1/mailid-4951-boletin-general-nueva-imagen?tmpl=component&tmpl=component"
+    },
+    {
         "titulo": "Boletín de Novedades - Viernes, 18 de Septiembre de 2026",
         "fecha": "18 Septiembre 2026",
         "link": "https://www.uco.es/servicios/actualidad/boletines/listid-1/mailid-4950-boletin-general-nueva-imagen?tmpl=component&tmpl=component"
@@ -23,10 +28,5 @@
         "titulo": "Boletín de Novedades - Lunes, 14 de Septiembre de 2026",
         "fecha": "14 Septiembre 2026",
         "link": "https://www.uco.es/servicios/actualidad/boletines/listid-1/mailid-4946-boletin-general-nueva-imagen?tmpl=component&tmpl=component"
-    },
-    {
-        "titulo": "Boletín de Novedades - Domingo, 13 de Septiembre de 2026",
-        "fecha": "13 Septiembre 2026",
-        "link": "https://www.uco.es/servicios/actualidad/boletines/listid-1/mailid-4945-boletin-general-nueva-imagen?tmpl=component&tmpl=component"
     }
 ]
