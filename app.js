@@ -270,6 +270,7 @@ const investigadoresData = {
         },
         links: {
             orcid: 'https://orcid.org/0000-0001-8392-8573',
+            scholar: 'https://scholar.google.com/citations?user=tOu8JqEAAAAJ&hl=es',
             linkedin: 'https://www.linkedin.com/in/mercedes-luque-v%C3%ADlchez-6a571866/?skipRedirect=true'
         }
     },
