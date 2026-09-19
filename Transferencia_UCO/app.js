@@ -328,6 +328,7 @@ const investigadoresData = {
             despacho: 'Facultad de Derecho y Ciencias Económicas y Empresariales, Universidad de Córdoba'
         },
         links: {
+            scholar: 'https://scholar.google.com/citations?user=inuJm5EAAAAJ&hl=es',
             orcid: 'https://orcid.org/0000-0003-4042-3094'
         }
     },
