@@ -234,6 +234,170 @@
         }
         .pub-note-icon { font-size:1.5rem; flex-shrink:0; margin-top:.05rem; }
 
+        /* Panel de Métricas de Impacto Google Scholar por Investigador */
+        .rsh-scholar-panel {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.95));
+            border: 1px solid var(--border-color);
+            border-left: 4px solid #4285F4;
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 14px rgba(0, 59, 124, 0.06);
+            backdrop-filter: blur(8px);
+        }
+        .rsh-scholar-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px solid var(--border-color);
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .rsh-scholar-title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--primary);
+            font-family: var(--font-headings);
+        }
+        .rsh-scholar-title svg {
+            color: #4285F4;
+            flex-shrink: 0;
+        }
+        .rsh-scholar-link {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #4285F4;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            transition: var(--transition);
+        }
+        .rsh-scholar-link:hover {
+            text-decoration: underline;
+            color: #2b6cb0;
+        }
+        .rsh-scholar-grid {
+            display: grid;
+            grid-template-columns: 290px 1fr;
+            gap: 1.5rem;
+            align-items: center;
+        }
+        /* Tabla de índices */
+        .rsh-metrics-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+        }
+        .rsh-metrics-table th {
+            text-align: right;
+            padding: 0.4rem 0.5rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            font-size: 0.76rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .rsh-metrics-table th:first-child {
+            text-align: left;
+            padding-left: 0;
+        }
+        .rsh-metrics-table td {
+            padding: 0.45rem 0.5rem;
+            text-align: right;
+            font-family: var(--font-mono);
+            font-weight: 600;
+            color: var(--text-dark);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.6);
+        }
+        .rsh-metrics-table td:first-child {
+            text-align: left;
+            font-family: var(--font-body);
+            font-weight: 500;
+            color: var(--text-muted);
+            padding-left: 0;
+        }
+        .rsh-metrics-table tr:hover td {
+            background: rgba(66, 133, 244, 0.04);
+        }
+        /* Gráfico de barras de evolución */
+        .rsh-chart-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+        .rsh-chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+        .rsh-chart-bars {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 0.45rem;
+            height: 110px;
+            padding: 1rem 0.5rem 0;
+            background: rgba(241, 245, 249, 0.7);
+            border-radius: 8px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        .rsh-bar-col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            height: 100%;
+            justify-content: flex-end;
+            position: relative;
+        }
+        .rsh-bar-fill {
+            width: 75%;
+            max-width: 26px;
+            min-height: 4px;
+            background: linear-gradient(180deg, #4285F4 0%, #003B7C 100%);
+            border-radius: 4px 4px 0 0;
+            transition: height 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s ease, background 0.2s ease;
+            cursor: pointer;
+        }
+        .rsh-bar-fill:hover {
+            transform: scaleY(1.06);
+            background: linear-gradient(180deg, #2A8F6C 0%, #1a6b4e 100%);
+        }
+        .rsh-bar-val {
+            font-size: 0.72rem;
+            font-family: var(--font-mono);
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.25rem;
+            line-height: 1;
+        }
+        .rsh-bar-year {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+            margin-top: 0.35rem;
+            font-weight: 600;
+        }
+        @media(max-width: 768px) {
+            .rsh-scholar-grid {
+                grid-template-columns: 1fr;
+                gap: 1.25rem;
+            }
+            .rsh-chart-bars {
+                height: 90px;
+            }
+        }
+
         /* Sin resultados */
         .pub-empty { text-align:center; padding:3rem 1rem; color:var(--text-muted); font-size:.95rem; }
 
@@ -473,9 +637,25 @@
             foto: 'ricardo.jpg',
             cargo: 'Profesor Titular · Economía Financiera y Contabilidad',
             links: {
-                scholar: 'https://scholar.google.com/citations?user=Y70n6oMAAAAJ&hl=es',
+                scholar: 'https://scholar.google.com/citations?user=3jb2UysAAAAJ&hl=es',
                 orcid:   'https://orcid.org/0000-0002-3055-2151',
                 rgate:   'https://www.researchgate.net/profile/Ricardo-David-Hernandez-Rojas'
+            },
+            scholarMetrics: {
+                perfilUrl: 'https://scholar.google.com/citations?user=3jb2UysAAAAJ&hl=es',
+                citas: { total: '1.441', desde2021: '1.277' },
+                indiceH: { total: 20, desde2021: 20 },
+                indiceI10: { total: 31, desde2021: 29 },
+                evolucion: [
+                    { year: 2019, count: 37 },
+                    { year: 2020, count: 68 },
+                    { year: 2021, count: 106 },
+                    { year: 2022, count: 213 },
+                    { year: 2023, count: 226 },
+                    { year: 2024, count: 254 },
+                    { year: 2025, count: 250 },
+                    { year: 2026, count: 208 }
+                ]
             },
             publicaciones: [
                 { titulo:'Gastronomy in Heritage Cities: Traditional Bread in the Culinary Experience', autores:'Ricardo D. Hernández Rojas', año:2025, revista:'RIVAR – Revista Iberoamericana de Viticultura, Agroindustria y Ruralidad', url:'https://revistas.usach.cl/ojs/index.php/rivar', doi:false },
@@ -757,6 +937,80 @@
 
                 // Publicaciones
                 const pubsWrap = document.createElement('div');
+
+                // Panel de métricas e índices de Google Scholar (si están disponibles)
+                if (res.scholarMetrics) {
+                    const sm = res.scholarMetrics;
+                    const maxCount = Math.max(...sm.evolucion.map(e => e.count), 1);
+                    const panel = document.createElement('div');
+                    panel.className = 'rsh-scholar-panel';
+                    
+                    let barsHtml = '';
+                    sm.evolucion.forEach(ev => {
+                        const pct = Math.round((ev.count / maxCount) * 100);
+                        barsHtml += `
+                            <div class="rsh-bar-col" title="${ev.count} citas recibidas en ${ev.year}">
+                                <div class="rsh-bar-val">${ev.count}</div>
+                                <div class="rsh-bar-fill" style="height:${pct}%;"></div>
+                                <div class="rsh-bar-year">${ev.year}</div>
+                            </div>
+                        `;
+                    });
+
+                    panel.innerHTML = `
+                        <div class="rsh-scholar-top">
+                            <div class="rsh-scholar-title">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z M5 13.18v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4l-7 3.82-7-3.82z"/>
+                                </svg>
+                                <span>Índices y Gráfico de Citas (Google Scholar)</span>
+                            </div>
+                            <a href="${sm.perfilUrl}" target="_blank" rel="noopener" class="rsh-scholar-link">
+                                Ver perfil oficial en Google Scholar ↗
+                            </a>
+                        </div>
+                        <div class="rsh-scholar-grid">
+                            <div>
+                                <table class="rsh-metrics-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Citado por</th>
+                                            <th>Total</th>
+                                            <th>Desde 2021</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Citas</td>
+                                            <td><strong>${sm.citas.total}</strong></td>
+                                            <td>${sm.citas.desde2021}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Índice h</td>
+                                            <td><strong>${sm.indiceH.total}</strong></td>
+                                            <td>${sm.indiceH.desde2021}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Índice i10</td>
+                                            <td><strong>${sm.indiceI10.total}</strong></td>
+                                            <td>${sm.indiceI10.desde2021}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="rsh-chart-container">
+                                <div class="rsh-chart-header">
+                                    <span>Evolución anual de citas</span>
+                                    <span>Pico: ${maxCount} citas/año</span>
+                                </div>
+                                <div class="rsh-chart-bars">
+                                    ${barsHtml}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    pubsWrap.appendChild(panel);
+                }
                 filtered.forEach(p => {
                     const card = document.createElement('article');
                     card.className = 'pub-card';
