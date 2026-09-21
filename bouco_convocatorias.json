@@ -1,5 +1,29 @@
 [
     {
+        "id": "conv-2026-01047",
+        "titulo": "Convocatoria de profesor contratado 11/2024. Nueva propuesta definitiva plazas PAD C241119-C241120, tras estimación recurso de alzada",
+        "fecha": "21/09/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01046",
+        "titulo": "Convocatoria del Programa UCO-PRAEMs de Prácticas en Empresas 2025/2026. Resolución definitiva de concesión de ayudas",
+        "fecha": "21/09/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01048",
+        "titulo": "Programa de becas Santander Excelencia 360º para el estudiantado de Grado de la UCO. Curso 2025-2026. Relación provisional de solicitudes admitidas y excluidas",
+        "fecha": "21/09/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01045",
         "titulo": "Reglamento 17/2026 por el que se regula el ingreso de profesorado ayudante doctor en la Universidad de Córdoba. Corrección de errores",
         "fecha": "18/09/2026",
@@ -12,30 +36,6 @@
         "titulo": "9ª Convocatoria de Contratos de Personal Investigador y Técnico",
         "fecha": "18/09/2026",
         "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01042",
-        "titulo": "Convocatoria Programa Campus Rural 2025/2026. Propuesta de resolución provisional de concesión de ayudas",
-        "fecha": "17/09/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01041",
-        "titulo": "Programa Santander X Spain Awards Proyectos Emprendedores Universitarios 2025. Relación definitiva de solicitudes admitidas y excluidas",
-        "fecha": "17/09/2026",
-        "tipo": "Anuncio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01039",
-        "titulo": "Ampliación de Bolsa de Trabajo funcionario Escala Ayudantes Archivos, Bibliotecas y Museos. Relación provisional de aspirantes admitidos y excluidos",
-        "fecha": "17/09/2026",
-        "tipo": "Anuncio",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
