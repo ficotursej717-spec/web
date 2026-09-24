@@ -1,5 +1,29 @@
 [
     {
+        "id": "conv-2026-01055",
+        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 23/2026. Listado Provisional de aspirantes admitidos y excluidos. Varias Áreas",
+        "fecha": "24/09/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01053",
+        "titulo": "Convocatoria de teletrabajo para el Personal Técnico, de Gestión y de Administración y Servicios (PTGAS)",
+        "fecha": "24/09/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01056",
+        "titulo": "Convocatoria de Profesorado Contratado 5/2026. Propuesta provisional para contratación. Área Literatura Española",
+        "fecha": "24/09/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01052",
         "titulo": "Extracto Convocatoria Ayudas a estudiantes de Grado para movilidades físicas corta duración Erasmus+ en programas intensivos combinados (BIPs) para curso 25/26",
         "fecha": "22/09/2026",
@@ -11,30 +35,6 @@
         "id": "conv-2026-01051",
         "titulo": "Convocatoria de subvenciones orientadas a incentivar a los primeros clasificados en las Olimpiadas del Conocimiento de Química",
         "fecha": "22/09/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01050",
-        "titulo": "Convocatoria ayudas para contratos predoctorales para formación de doctores bajo modalidad contrato predoctoral prevista en Ley 14/2011, 1 de junio",
-        "fecha": "22/09/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01049",
-        "titulo": "Incentivos para la Residencia Universitaria de Belmez, curso 2025-2026. Relación provisional de solicitudes admitidas y excluidas de la convocatoria",
-        "fecha": "22/09/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01047",
-        "titulo": "Convocatoria de profesor contratado 11/2024. Nueva propuesta definitiva plazas PAD C241119-C241120, tras estimación recurso de alzada",
-        "fecha": "21/09/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
