@@ -1,41 +1,41 @@
 [
     {
-        "id": "conv-2026-01055",
-        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 23/2026. Listado Provisional de aspirantes admitidos y excluidos. Varias Áreas",
+        "id": "conv-2026-01059",
+        "titulo": "Listado complementario definitivo de ayudas de Acción Social concedidas y denegadas, no automáticas, solicitadas desde el 1 de julio al 31 de diciembre de 2025",
+        "fecha": "24/09/2026",
+        "tipo": "Anuncio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01061",
+        "titulo": "Listado definitivo de ayudas de Acción Social, Matrícula Externa, solicitadas del 1 de abril al 30 de junio de 2026",
+        "fecha": "24/09/2026",
+        "tipo": "Anuncio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01058",
+        "titulo": "Convocatoria Comisión de Servicios PTGAS Funcionario (Biblioteca)",
         "fecha": "24/09/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-01053",
-        "titulo": "Convocatoria de teletrabajo para el Personal Técnico, de Gestión y de Administración y Servicios (PTGAS)",
+        "id": "conv-2026-01065",
+        "titulo": "Programa EmprendeUCO-Diputación de Córdoba y sus Premios asociados 25/26. Baremación y propuesta de resolución provisional de adjudicación de premios",
         "fecha": "24/09/2026",
-        "tipo": "Convocatoria",
+        "tipo": "Resolución",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-01056",
-        "titulo": "Convocatoria de Profesorado Contratado 5/2026. Propuesta provisional para contratación. Área Literatura Española",
+        "id": "conv-2026-01060",
+        "titulo": "Listado definitivo de ayudas de Acción Social concedidas y denegadas, no automáticas, solicitadas desde el 1 de enero al 30 de junio de 2026",
         "fecha": "24/09/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01052",
-        "titulo": "Extracto Convocatoria Ayudas a estudiantes de Grado para movilidades físicas corta duración Erasmus+ en programas intensivos combinados (BIPs) para curso 25/26",
-        "fecha": "22/09/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01051",
-        "titulo": "Convocatoria de subvenciones orientadas a incentivar a los primeros clasificados en las Olimpiadas del Conocimiento de Química",
-        "fecha": "22/09/2026",
-        "tipo": "Convocatoria",
+        "tipo": "Anuncio",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
