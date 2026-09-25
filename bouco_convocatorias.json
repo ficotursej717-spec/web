@@ -1,41 +1,41 @@
 [
     {
-        "id": "conv-2026-01059",
-        "titulo": "Listado complementario definitivo de ayudas de Acción Social concedidas y denegadas, no automáticas, solicitadas desde el 1 de julio al 31 de diciembre de 2025",
-        "fecha": "24/09/2026",
-        "tipo": "Anuncio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01061",
-        "titulo": "Listado definitivo de ayudas de Acción Social, Matrícula Externa, solicitadas del 1 de abril al 30 de junio de 2026",
-        "fecha": "24/09/2026",
-        "tipo": "Anuncio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01058",
-        "titulo": "Convocatoria Comisión de Servicios PTGAS Funcionario (Biblioteca)",
-        "fecha": "24/09/2026",
+        "id": "conv-2026-01069",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 25/2026. Área de conocimiento de Derecho Mercantil",
+        "fecha": "25/09/2026",
         "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-01065",
-        "titulo": "Programa EmprendeUCO-Diputación de Córdoba y sus Premios asociados 25/26. Baremación y propuesta de resolución provisional de adjudicación de premios",
-        "fecha": "24/09/2026",
+        "id": "conv-2026-01079",
+        "titulo": "Resolución definitiva de la Submodalidad 2.4. \"UColidera\"",
+        "fecha": "25/09/2026",
         "tipo": "Resolución",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-01060",
-        "titulo": "Listado definitivo de ayudas de Acción Social concedidas y denegadas, no automáticas, solicitadas desde el 1 de enero al 30 de junio de 2026",
-        "fecha": "24/09/2026",
+        "id": "conv-2026-01070",
+        "titulo": "Bolsas de Trabajo PDI Laboral, derogación diversas áreas de conocimiento",
+        "fecha": "25/09/2026",
         "tipo": "Anuncio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01076",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 14/2026. Propuesta Provisional Código Bolsa BO261404",
+        "fecha": "25/09/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01077",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 19/2026. Propuesta Provisional Código Bolsa BO261902",
+        "fecha": "25/09/2026",
+        "tipo": "Convocatoria",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
