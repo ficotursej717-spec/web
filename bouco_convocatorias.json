@@ -1,41 +1,41 @@
 [
     {
-        "id": "conv-2026-01086",
-        "titulo": "XIV Plan Anual de Divulgación y Cultura Científica de la Universidad de Córdoba",
+        "id": "conv-2026-01103",
+        "titulo": "Relación de Convenios aprobados, ratificados y suscritos con organismos/empresas para la realización de prácticas tuteladas del alumnado universitario",
+        "fecha": "29/09/2026",
+        "tipo": "Convenio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01101",
+        "titulo": "Procedimiento para la reserva del salón de actos Juan XXIII para la celebración de actos de graduación universitaria",
         "fecha": "29/09/2026",
         "tipo": "Anuncio",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-01088",
-        "titulo": "Convocatoria de alumnado interno en las Cátedras de proyección sociocultural y Aulas culturales. Curso 2026/27",
-        "fecha": "29/09/2026",
-        "tipo": "Convocatoria",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01084",
-        "titulo": "Bolsas de Trabajo PDI Laboral tipo A, Área Psicología Evolutiva y de la Educación",
+        "id": "conv-2026-01093",
+        "titulo": "Reglamento 23/2026 sobre las Bases Reguladoras de las Ayudas a personas refugiadas y/o solicitantes de asilo para la realización de actividades formativas",
         "fecha": "29/09/2026",
         "tipo": "Anuncio",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-01083",
-        "titulo": "Bolsa de Trabajo PDI Laboral tipo A, Área Tecnología de los Alimentos (tras ejecución recurso de alzada)",
+        "id": "conv-2026-01102",
+        "titulo": "Modificación del texto del acuerdo por el que se aprueban los plazos de solicitud y resolución de la Evaluación por Compensación, curso 2026/2027",
         "fecha": "29/09/2026",
-        "tipo": "Anuncio",
+        "tipo": "Resolución",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-01087",
-        "titulo": "Convocatoria Colaboradores Honorarios de Cátedras y Aulas Culturales de la UCO y otras formas y estructuras de Proyección Universitaria. Curso 2026/2027",
+        "id": "conv-2026-01095",
+        "titulo": "Modelo de Convenio de Cooperación Educativa UCO-Entidades colaboradoras, para la realización de prácticas académicas externas de estudiantes",
         "fecha": "29/09/2026",
-        "tipo": "Convocatoria",
+        "tipo": "Convenio",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
