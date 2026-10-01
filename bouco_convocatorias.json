@@ -1,5 +1,29 @@
 [
     {
+        "id": "conv-2026-01104",
+        "titulo": "Convocatoria del Programa Campus Rural 2025/2026. Resolución definitiva de concesión de ayudas",
+        "fecha": "01/10/2026",
+        "tipo": "Convocatoria",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01105",
+        "titulo": "Programa Santander X Spain Awards | StartUp Universitaria 2025. Resolución definitiva de concesión del premio",
+        "fecha": "01/10/2026",
+        "tipo": "Resolución",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01106",
+        "titulo": "Concurso de Traslado de Personal Técnico, de Gestión y de Administración y Servicios (PTGAS) Laboral en el Área de Conserjería",
+        "fecha": "01/10/2026",
+        "tipo": "Anuncio",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01103",
         "titulo": "Relación de Convenios aprobados, ratificados y suscritos con organismos/empresas para la realización de prácticas tuteladas del alumnado universitario",
         "fecha": "29/09/2026",
@@ -12,30 +36,6 @@
         "titulo": "Procedimiento para la reserva del salón de actos Juan XXIII para la celebración de actos de graduación universitaria",
         "fecha": "29/09/2026",
         "tipo": "Anuncio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01093",
-        "titulo": "Reglamento 23/2026 sobre las Bases Reguladoras de las Ayudas a personas refugiadas y/o solicitantes de asilo para la realización de actividades formativas",
-        "fecha": "29/09/2026",
-        "tipo": "Anuncio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01102",
-        "titulo": "Modificación del texto del acuerdo por el que se aprueban los plazos de solicitud y resolución de la Evaluación por Compensación, curso 2026/2027",
-        "fecha": "29/09/2026",
-        "tipo": "Resolución",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01095",
-        "titulo": "Modelo de Convenio de Cooperación Educativa UCO-Entidades colaboradoras, para la realización de prácticas académicas externas de estudiantes",
-        "fecha": "29/09/2026",
-        "tipo": "Convenio",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
