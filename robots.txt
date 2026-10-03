@@ -1,4 +1,4 @@
-﻿User-agent: *
-Allow: /
-
-Sitemap: https://www.uco.es/investiga/grupos/ficotur/sitemap.xml
+# Entorno de pruebas / staging en GitHub Pages
+# Ocultar completamente todo el sitio a motores de búsqueda (Google, Bing, etc.)
+User-agent: *
+Disallow: /
