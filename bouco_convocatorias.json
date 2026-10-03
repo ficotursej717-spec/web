@@ -1,31 +1,39 @@
 [
     {
-        "id": "conv-2026-01104",
-        "titulo": "Convocatoria del Programa Campus Rural 2025/2026. Resolución definitiva de concesión de ayudas",
+        "id": "conv-2026-01106",
+        "numero": "2026/01106",
+        "titulo": "Concurso de Traslado de Personal Técnico, de Gestión y de Administración y Servicios (PTGAS) Laboral en el Área de Conserjería",
+        "descripcion": "Resolución de 1 de octubre de 2026, de la Universidad de Córdoba, por la que se convoca concurso de traslado de PTGAS Laboral en el Área de Conserjería.",
         "fecha": "01/10/2026",
-        "tipo": "Convocatoria",
+        "tipo": "Empleo",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
         "id": "conv-2026-01105",
+        "numero": "2026/01105",
         "titulo": "Programa Santander X Spain Awards | StartUp Universitaria 2025. Resolución definitiva de concesión del premio",
+        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento de la Universidad de Córdoba, de fecha 01 de octubre de 2026, por la que se publica la resolución definitiva de concesión del premio de la convocatoria del Programa Santander X Spain Awards StartUp | Universitaria 2025.",
         "fecha": "01/10/2026",
-        "tipo": "Resolución",
+        "tipo": "Becas",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
-        "id": "conv-2026-01106",
-        "titulo": "Concurso de Traslado de Personal Técnico, de Gestión y de Administración y Servicios (PTGAS) Laboral en el Área de Conserjería",
+        "id": "conv-2026-01104",
+        "numero": "2026/01104",
+        "titulo": "Convocatoria del Programa Campus Rural 2025/2026. Resolución definitiva de concesión de ayudas",
+        "descripcion": "Resolución del Vicerrector de Estudiantes, Acceso y Empleabilidad de la Universidad de Córdoba, de fecha 01 de octubre de 2026, por la que se publica la resolución definitiva de concesión de ayudas de la convocatoria del Programa Campus Rural 2025/2026.",
         "fecha": "01/10/2026",
-        "tipo": "Anuncio",
+        "tipo": "Becas",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     },
     {
         "id": "conv-2026-01103",
+        "numero": "2026/01103",
         "titulo": "Relación de Convenios aprobados, ratificados y suscritos con organismos/empresas para la realización de prácticas tuteladas del alumnado universitario",
+        "descripcion": "Relación de Convenios aprobados, ratificados y suscritos con organismos/empresas para la realización de prácticas tuteladas del alumnado universitario, en sesión ordinaria de Consejo de Gobierno, de 25 de septiembre de 2026.",
         "fecha": "29/09/2026",
         "tipo": "Convenio",
         "estado": "Abierto",
@@ -33,9 +41,51 @@
     },
     {
         "id": "conv-2026-01101",
+        "numero": "2026/01101",
         "titulo": "Procedimiento para la reserva del salón de actos Juan XXIII para la celebración de actos de graduación universitaria",
+        "descripcion": "Instrucción 2/26 del Vicerrectorado de Campus Sostenible, de fecha 24 de septiembre de 2026, por la que se regula la reserva del salón de actos Juan XXIII para la celebración de actos de graduación universitaria.",
         "fecha": "29/09/2026",
-        "tipo": "Anuncio",
+        "tipo": "Normativa",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01045",
+        "titulo": "Reglamento 17/2026 por el que se regula el ingreso de profesorado ayudante doctor en la Universidad de Córdoba. Corrección de errores",
+        "fecha": "18/09/2026",
+        "tipo": "Normativa",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01044",
+        "titulo": "9ª Convocatoria de Contratos de Personal Investigador y Técnico",
+        "fecha": "18/09/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01042",
+        "titulo": "Convocatoria Programa Campus Rural 2025/2026. Propuesta de resolución provisional de concesión de ayudas",
+        "fecha": "17/09/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01041",
+        "titulo": "Programa Santander X Spain Awards Proyectos Emprendedores Universitarios 2025. Relación definitiva de solicitudes admitidas y excluidas",
+        "fecha": "17/09/2026",
+        "tipo": "Proyectos",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01039",
+        "titulo": "Ampliación de Bolsa de Trabajo funcionario Escala Ayudantes Archivos, Bibliotecas y Museos. Relación provisional de aspirantes admitidos y excluidos",
+        "fecha": "17/09/2026",
+        "tipo": "Empleo",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }

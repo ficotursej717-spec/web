@@ -919,6 +919,11 @@ const boucoTranslations = {
         "Plazas": "Positions",
         "Resolución": "Resolution",
         "Convocatoria": "Call",
+        "Proyectos": "Projects",
+        "Becas": "Grants & Awards",
+        "Normativa": "Regulations",
+        "Convenio": "Agreement",
+        "Anuncio": "Announcement",
         "Abierto": "Open",
         "Cerrado": "Closed",
         "Ver Boletín UCO ↗": "View Official Gazette ↗",
@@ -930,6 +935,11 @@ const boucoTranslations = {
         "Plazas": "Postes",
         "Resolución": "Résolution",
         "Convocatoria": "Appel",
+        "Proyectos": "Projets",
+        "Becas": "Bourses & Prix",
+        "Normativa": "Règlements",
+        "Convenio": "Accord",
+        "Anuncio": "Annonce",
         "Abierto": "Ouvert",
         "Cerrado": "Fermé",
         "Ver Boletín UCO ↗": "Voir le bulletin UCO ↗",
@@ -941,6 +951,11 @@ const boucoTranslations = {
         "Plazas": "Vagas",
         "Resolución": "Resolução",
         "Convocatoria": "Edital",
+        "Proyectos": "Projetos",
+        "Becas": "Bolsas & Prêmios",
+        "Normativa": "Normativa",
+        "Convenio": "Convênio",
+        "Anuncio": "Anúncio",
         "Abierto": "Aberto",
         "Cerrado": "Fechado",
         "Ver Boletín UCO ↗": "Ver Boletim UCO ↗",
@@ -989,13 +1004,19 @@ function renderConvocatorias(lista) {
         item.setAttribute('aria-label', `Convocatoria: ${conv.titulo}. ${publicadoText} ${conv.fecha}. ${estadoTraducido}.`);
 
         const stateClass = conv.estado.toLowerCase();
+        const numBadge = conv.numero ? `<span class="bouco-badge-num">N.º ${conv.numero}</span>` : '';
+        const descHtml = conv.descripcion ? `<div class="bouco-item-desc">${conv.descripcion}</div>` : '';
         
         item.innerHTML = `
             <div class="bouco-item-header">
-                <span class="bouco-badge-tipo">${tipoTraducido}</span>
+                <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+                    <span class="bouco-badge-tipo">${tipoTraducido}</span>
+                    ${numBadge}
+                </div>
                 <span class="bouco-badge-state ${stateClass}">${estadoTraducido}</span>
             </div>
             <div class="bouco-item-title">${conv.titulo}</div>
+            ${descHtml}
             <div class="bouco-item-meta">
                 <span>${publicadoText} ${conv.fecha}</span>
                 <span>${verBoletinText}</span>
@@ -1028,14 +1049,20 @@ function setupBoucoFilters() {
         const query = searchInput.value.toLowerCase().trim();
 
         const filtered = convocatoriasList.filter(conv => {
-            const matchesQuery = conv.titulo.toLowerCase().includes(query) || 
-                                 conv.tipo.toLowerCase().includes(query);
+            const combined = `${conv.titulo} ${conv.descripcion || ''} ${conv.tipo} ${conv.numero || ''}`.toLowerCase();
+            const matchesQuery = !query || combined.includes(query);
             
             let matchesFilter = true;
-            if (activeFilter === 'Empleo') {
-                matchesFilter = conv.tipo === 'Empleo';
+            if (activeFilter === 'Resoluciones') {
+                matchesFilter = conv.tipo === 'Resolución' || combined.includes('resoluci');
             } else if (activeFilter === 'Proyectos') {
-                matchesFilter = conv.tipo === 'Proyectos' || conv.tipo === 'Licitación';
+                matchesFilter = conv.tipo === 'Proyectos' || combined.includes('proyecto') || combined.includes('licitaci');
+            } else if (activeFilter === 'Empleo') {
+                matchesFilter = conv.tipo === 'Empleo' || combined.includes('contrato') || combined.includes('plaza') || combined.includes('empleo');
+            } else if (activeFilter === 'Becas') {
+                matchesFilter = conv.tipo === 'Becas' || combined.includes('beca') || combined.includes('ayuda');
+            } else if (activeFilter === 'Normativa') {
+                matchesFilter = conv.tipo === 'Normativa' || combined.includes('reglamento') || combined.includes('instrucci');
             } else if (activeFilter === 'Abierto') {
                 matchesFilter = conv.estado === 'Abierto';
             }
