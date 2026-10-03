@@ -1,4 +1,4 @@
-﻿User-agent: *
+User-agent: *
 Allow: /
 
 Sitemap: https://www.uco.es/investiga/grupos/ficotur/sitemap.xml
