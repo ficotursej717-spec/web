@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01111",
+        "numero": "2026/01111",
+        "titulo": "9.ª convocatoria de Contratos de Investigación 2026. Corrección de errores",
+        "descripcion": "Corrección de errores. Resolución de 18 de septiembre de 2026, de la Universidad de Córdoba, por la que se convoca a concurso público Contratos de Investigación con cargo a Proyectos, Grupos, Contratos y Convenios de Investigación.",
+        "fecha": "05/10/2026",
+        "tipo": "Proyectos",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01110",
+        "numero": "2026/01110",
+        "titulo": "Extracto de la Convocatoria de Ayudas Movilidad de prácticas/mención internacional/régimen cotutela para estudiantes de Doctorado. Curso 2026/2027",
+        "descripcion": "Extracto de la Resolución del Vicerrectorado de Internacionalización, de 29 de septiembre de 2026, por la que se aprueba la Convocatoria de Ayudas Programa Santander Movilidad de Prácticas \"SMT- Student Mobility for Traineeships\" Estudiantes de Doctorado. Curso 2026/27.",
+        "fecha": "05/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01109",
+        "numero": "2026/01109",
+        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 24/2026. Listado Provisional de aspirantes admitidos y excluidos. Varias Áreas",
+        "descripcion": "Resolución de la Universidad de Córdoba, de 2 de octubre de 2026, por la que se aprueba la relación provisional de aspirantes admitidos y excluidos en la bolsa de trabajo de Profesor Sustituto. Código Bolsa BO262401, Área de Conocimiento Ingeniería de la Construcción; y Código Bolsa BO262402, Área de Conocimiento Didáctica de las Ciencias Sociales.",
+        "fecha": "05/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01108",
+        "numero": "2026/01108",
+        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 23/2026. Listado Definitivo de aspirantes admitidos y excluidos. Varias Áreas",
+        "descripcion": "Resolución de la Universidad de Córdoba, de 1 de octubre de 2026, por la que se aprueba la relación definitiva de aspirantes admitidos y excluidos en la bolsa de trabajo de Profesor Sustituto. Código Bolsa BO262301, Área de Conocimiento Ingeniería de Sistemas y Automática; y Código Bolsa BO262302, Área de Conocimiento Ingeniería Eléctrica.",
+        "fecha": "05/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01107",
+        "numero": "2026/01107",
+        "titulo": "Convocatoria de Profesorado Contratado 5/2026. Propuesta definitiva para contratación. Área Literatura Española",
+        "descripcion": "Resolución de 5 de octubre de 2026, de la Presidencia de la Comisión de Contratación, por la que se hace pública la relación definitiva de aspirantes seleccionados para la contratación como Profesor Asociado. Plaza Código C260502, Área de Conocimiento Literatura Española.",
+        "fecha": "05/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01106",
         "numero": "2026/01106",
         "titulo": "Concurso de Traslado de Personal Técnico, de Gestión y de Administración y Servicios (PTGAS) Laboral en el Área de Conserjería",
