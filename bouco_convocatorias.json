@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01126",
+        "numero": "2026/01126",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 17/2026. Constitución provisional. Área Didáctica de la Expresión Corporal",
+        "descripcion": "Resolución de la presidenta de la Comisión de Contratación, de 5 de octubre de 2026, por la que se aprueba la constitución provisional de la bolsa Ordinaria de Profesor Sustituto. Código Bolsa BO261701, Área de Conocimiento Didáctica de la Expresión Corporal, resultante de la convocatoria 17/2026 (Resolución de la Universidad de Córdoba de 2 de junio de 2026, BOUCO n.º 2026/00680 de 3 de junio).",
+        "fecha": "06/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01125",
+        "numero": "2026/01125",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 16/2026. Constitución provisional. Área Ciencia de los Materiales e Ingeniería Metalúrgica",
+        "descripcion": "Resolución de la presidenta de la Comisión de Contratación, de 6 de octubre de 2026, por la que se aprueba la constitución provisional de la bolsa Ordinaria de Profesor Sustituto. Código Bolsa BO261602, Área de Conocimiento Ciencia de los Materiales e Ingeniería Metalúrgica, resultante de la convocatoria 16/2026 (Resolución de la Universidad de Córdoba de 1 de junio de 2026, BOUCO n.º 2026/00665 de 2 de junio).",
+        "fecha": "06/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01124",
+        "numero": "2026/01124",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 6/2026. Constitución definitiva. Área Nutrición y Bromatología",
+        "descripcion": "Resolución de la presidenta de la Comisión de Contratación, de 5 de octubre de 2026, por la que se aprueba la constitución definitiva de bolsa Ordinaria de Profesor Sustituto. Código Bolsa BO260602, Área de Conocimiento Nutrición y Bromatología, resultante de la convocatoria 6/2026 (Resolución de la Universidad de Córdoba de 11 de marzo de 2026, BOUCO n.º 2026/00326 de 11 de marzo).",
+        "fecha": "06/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01121",
+        "numero": "2026/01121",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 1/2026. Constitución definitiva. Área Derecho Administrativo",
+        "descripcion": "Resolución de la presidenta de la Comisión de Contratación, de 5 de octubre de 2026, por la que se aprueba la constitución definitiva de la bolsa Ordinaria de Profesor Sustituto. Código Bolsa BO260102, Área de Conocimiento Derecho Administrativo, resultante de la convocatoria 1/2026 (Resolución de la Universidad de Córdoba de 22 de enero de 2026, BOUCO n.º 2026/00058 de 22 de enero).",
+        "fecha": "06/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01118",
+        "numero": "2026/01118",
+        "titulo": "Convocatoria Bolsa Ordinaria de Profesor Sustituto 24/2026. Corrección error en listado provisional de admitidos y excluidos",
+        "descripcion": "Corrección de error advertido en la Resolución de 2 de octubre de 2026, de la Universidad de Córdoba, por la que se aprueba la relación provisional de aspirantes admitidos y excluidos en la bolsa Código BO262401, Área de Conocimiento Ingeniería de la Construcción.",
+        "fecha": "06/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01111",
         "numero": "2026/01111",
         "titulo": "9.ª convocatoria de Contratos de Investigación 2026. Corrección de errores",
