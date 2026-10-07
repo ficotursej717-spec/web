@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01135",
+        "numero": "2026/01135",
+        "titulo": "Convocatoria Comisión Servicios Personal Técnico, Gestión y Administración y Servicios (PTGAS) funcionario. Relación provisional personas admitidas y excluidas",
+        "descripcion": "Resolución de 7 de octubre de 2026, de la Universidad de Córdoba, por la que se declara aprobada la relación provisional de personas admitidas y excluidas por el procedimiento de Comisión de Servicios.",
+        "fecha": "07/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01134",
+        "numero": "2026/01134",
+        "titulo": "Extracto de la resolución de 23 de septiembre de 2026, de Convocatoria del Programa Becas Santander Complemento a las Prácticas 2026 (Edición II)",
+        "descripcion": "Extracto de la Resolución del Vicerrector de Estudiantes, Acceso y Empleabilidad, de fecha 23 de septiembre de 2026, por la que se publica la convocatoria del Programa Becas Santander Complemento a las Prácticas 2026 (Edición II).",
+        "fecha": "07/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01133",
+        "numero": "2026/01133",
+        "titulo": "Programa de Becas de la Cátedra Canitas de Animales de Compañía 2025/2026. Resolución definitiva de concesión de ayudas. Modificación",
+        "descripcion": "Resolución del Vicerrector de Estudiantes, Acceso y Empleabilidad de la Universidad de Córdoba, de fecha 7 de octubre de 2026, por la que se modifica la resolución definitiva de concesión de ayudas a estudiantes beneficiarios/as de la convocatoria del Programa de Becas de la Cátedra Canitas de Animales de Compañía de la Universidad de Córdoba 2025/2026, publicada en BOUCO nº 2026/00844, de 3 de julio.",
+        "fecha": "07/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01131",
+        "numero": "2026/01131",
+        "titulo": "Programa EmprendeUCO-Diputación de Córdoba y sus Premios asociados. Edición 2025/2026. Resolución definitiva de adjudicación de premios",
+        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento, de la Universidad de Córdoba, de fecha 6 de octubre de 2026, por la que se hace pública la resolución definitiva de adjudicación de premios en el marco de la convocatoria del Programa EmprendeUCO-Diputación de Córdoba y sus Premios asociados, en su edición 2025/2026.",
+        "fecha": "07/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01130",
+        "numero": "2026/01130",
+        "titulo": "Libre Designación Personal Técnico, de Gestión y de Administración y Servicios Funcionario. Relación provisional de personas admitidas y excluidas",
+        "descripcion": "Resolución de 6 de octubre de 2026, del Rectorado de la Universidad de Córdoba, por la que se aprueba la relación provisional de personas aspirantes admitidas y excluidas.",
+        "fecha": "07/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01126",
         "numero": "2026/01126",
         "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 17/2026. Constitución provisional. Área Didáctica de la Expresión Corporal",
