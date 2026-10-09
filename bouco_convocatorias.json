@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01141",
+        "numero": "2026/01141",
+        "titulo": "Resolución definitiva de personas admitidas y excluidas en la convocatoria de incentivos para alojamiento en la Residencia Universitaria de Belmez curso 2025-26",
+        "descripcion": "Resolución de 8 de octubre de 2026, de la jefa de secretaria de la EPS de Belmez de la Universidad de Córdoba, por la que se hace pública la relación definitiva de personas admitidas y excluidas en la convocatoria de incentivos para alojamiento en la Residencia Universitaria de Belmez para el curso 2025/2026.",
+        "fecha": "08/10/2026",
+        "tipo": "Resolución",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01140",
+        "numero": "2026/01140",
+        "titulo": "Becas Santander Ayuda Económica para estudiantado matriculado en el curso 2026/2027. Relación provisional de solicitudes admitidas y excluidas",
+        "descripcion": "Resolución de 8 de octubre de 2026, de la Sección de Becas de la Universidad de Córdoba, por la que se publica relación provisional de solicitudes admitidas y excluidas de la convocatoria de Becas Santander Ayuda Económica para el estudiantado matriculado en el curso 2026/2027.",
+        "fecha": "08/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01139",
+        "numero": "2026/01139",
+        "titulo": "Modalidad III.A: Concurso de Ideas de Negocio del XII Plan Propio Galileo de Innovación y Transferencia",
+        "descripcion": "Resolución de la Directora General de la OTC de la Universidad de Córdoba, de 8 de octubre de 2026, por la que se publica el listado provisional de solicitudes admitidas y excluidas de la Modalidad III. A: Concurso de Ideas de Negocio de la Universidad de Córdoba del XII Plan Propio Galileo de Innovación y Transferencia.",
+        "fecha": "08/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01137",
+        "numero": "2026/01137",
+        "titulo": "Programa de becas Santander Excelencia 360º para el estudiantado de Grado de la UCO. Curso 2025-2026. Baremación provisional de méritos",
+        "descripcion": "Resolución de 8 de octubre de 2026, de la Directora General de Estudios de Grado de la Universidad de Córdoba, por la que se publica la resolución provisional de méritos de las personas que han resultado admitidas al procedimiento de concesión de las becas Santander Excelencia 360º, para el estudiantado de la Universidad de Córdoba matriculado en el último curso de estudios de Grado durante el curso 2025-2026.",
+        "fecha": "08/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01136",
+        "numero": "2026/01136",
+        "titulo": "Cese miembros asesores Comisiones Técnicas Evaluadoras",
+        "descripcion": "Resolución de 7 de octubre de 2026, del Rector de la Universidad de Córdoba, por la que se procede al cese de los miembros asesores de las Comisiones Técnicas Evaluadoras encargadas de intervenir en el proceso de baremación de plazas de profesorado contratado.",
+        "fecha": "08/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01135",
         "numero": "2026/01135",
         "titulo": "Convocatoria Comisión Servicios Personal Técnico, Gestión y Administración y Servicios (PTGAS) funcionario. Relación provisional personas admitidas y excluidas",
