@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01150",
+        "numero": "2026/01150",
+        "titulo": "Convocatoria Comisión de Servicios de PTGAS funcionario. Relación provisional de personas admitidas y excluidas",
+        "descripcion": "Resolución de 8 de octubre de 2026, de la Universidad de Córdoba, por la que se declara aprobada la relación provisional de personas admitidas y excluidas por el procedimiento de Comisión de Servicios.",
+        "fecha": "09/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01147",
+        "numero": "2026/01147",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 19/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Código Bolsa BO261902",
+        "descripcion": "Anuncio de 8 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa BO261902, Área de Conocimiento Química Física, resultante de la convocatoria 19/2026 (Resolución de la Universidad de Córdoba de 17 de junio de 2026, BOUCO n.º 2026/00745 de 18 de junio).",
+        "fecha": "09/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01145",
+        "numero": "2026/01145",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 12/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Código Bolsa BO261202",
+        "descripcion": "Anuncio de 8 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa BO261202, Área de Conocimiento Bioquímica y Biología Molecular, resultante de la convocatoria 12/2026 (Resolución de la Universidad de Córdoba de 27 de abril de 2026, BOUCO n.º 2026/00529 de 28 de abril).",
+        "fecha": "09/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01143",
+        "numero": "2026/01143",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 14/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Bolsa Código BO261402",
+        "descripcion": "Anuncio de 8 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa BO261402, Área de Conocimiento Física Atómica, Molecular y Nuclear, resultante de la convocatoria 14/2026 (Resolución de la Universidad de Córdoba de 1 de junio de 2026, BOUCO n.º 2026/00657 de 2 de junio).",
+        "fecha": "09/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01142",
+        "numero": "2026/01142",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 26/2026. Área Derecho del Trabajo y de la Seguridad Social",
+        "descripcion": "Resolución de la Universidad de Córdoba, de 8 de octubre de 2026, por la que se convoca concurso público de méritos para formar parte de bolsa de trabajo ordinaria de Profesor Sustituto. Código Bolsa BO262601, Área de conocimiento Derecho del Trabajo y de la Seguridad Social.",
+        "fecha": "09/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01141",
         "numero": "2026/01141",
         "titulo": "Resolución definitiva de personas admitidas y excluidas en la convocatoria de incentivos para alojamiento en la Residencia Universitaria de Belmez curso 2025-26",
