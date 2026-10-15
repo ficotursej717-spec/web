@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01160",
+        "numero": "2026/01160",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 20/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Bolsa BO262002",
+        "descripcion": "Anuncio de 15 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa Código BO262002, Área de Conocimiento Ingeniería de los Procesos de Fabricación, resultante de la convocatoria 20/2026 (Resolución de la Universidad de Córdoba de 1 de julio de 2026, BOUCO n.º 2026/00835 de 2 de julio).",
+        "fecha": "15/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01159",
+        "numero": "2026/01159",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 17/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Bolsa BO261701",
+        "descripcion": "Anuncio de 15 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa código BO261701, Área de Conocimiento Didáctica de la Expresión Corporal, resultante de la convocatoria 17/2026 (Resolución de la Universidad de Córdoba de 2 de junio de 2026, BOUCO n.º 2026/00680 de 3 de junio).",
+        "fecha": "15/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01157",
+        "numero": "2026/01157",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 16/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Bolsa BO261602",
+        "descripcion": "Anuncio de 15 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa Código BO261602, Área de Conocimiento Ciencia de los Materiales e Ingeniería Metalúrgica, resultante de la convocatoria 16/2026 (Resolución de la Universidad de Córdoba de 1 de junio de 2026, BOUCO n.º 2026/00665 de 2 de junio).",
+        "fecha": "15/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01156",
+        "numero": "2026/01156",
+        "titulo": "Programa Becas Santander Complemento a las Prácticas 2026 (Edición I). Relación provisional de solicitudes admitidas y excluidas",
+        "descripcion": "Resolución de la Jefatura del Servicio de Formación Continua, Empleabilidad y Emprendimiento de la Universidad de Córdoba, de fecha 14 de octubre de 2026, por la que se publica la relación provisional de solicitudes admitidas y excluidas de estudiantes participantes en la convocatoria del Programa Becas Santander Complemento a las Prácticas 2026 (Edición I).",
+        "fecha": "15/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01155",
+        "numero": "2026/01155",
+        "titulo": "Bolsas de Trabajo PDI Laboral, derogación diversas Áreas de Conocimiento",
+        "descripcion": "Resolución de 14 de octubre de 2026, de la presidenta de la Comisión de Contratación, por la que se acuerda hacer pública la relación de bolsas de trabajo de PDI Laboral que quedan derogadas por el transcurso del tiempo establecido de vigencia.",
+        "fecha": "15/10/2026",
+        "tipo": "Resolución",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01154",
         "numero": "2026/01154",
         "titulo": "Listado provisional de solicitudes admitidas y excluidas del III Premio \"Sanidad de los animales de compañía\" de la Cátedra Canitas",
