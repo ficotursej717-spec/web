@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01166",
+        "numero": "2026/01166",
+        "titulo": "Corrección a la resolución definitiva de concesión del XXIX Premio de ensayo \"Leonor de Guzmán\"",
+        "descripcion": "Corrección a la resolución definitiva de la Vicerrectora de Igualdad, Inclusión y Justicia Social, de 13 de octubre de 2026, por la que se publicó el \"Acuerdo del fallo del Jurado del XXIX Premio Nacional de Ensayo \"Leonor de Guzmán\". Convocatoria 2026\".",
+        "fecha": "16/10/2026",
+        "tipo": "Normativa",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01165",
+        "numero": "2026/01165",
+        "titulo": "Resolución definitiva de concesión del VI Premio de innovación docente y buenas prácticas \"María Moliner\"",
+        "descripcion": "Resolución definitiva de la Vicerrectora de Igualdad, Inclusión y Justicia Social, de 15 de octubre de 2026, por la que se publica el \"Acuerdo del fallo del Jurado del VI premio de innovación docente y buenas prácticas \"María Moliner\". Convocatoria 2026\".",
+        "fecha": "16/10/2026",
+        "tipo": "Normativa",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01164",
+        "numero": "2026/01164",
+        "titulo": "Listado definitivo de solicitudes de ayudas para la Creación y Consolidación de EBC del XII Plan Propio Galileo",
+        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento de la Universidad de Córdoba, de 16 de octubre de 2026, por la que se publica el listado definitivo de solicitudes en la convocatoria de ayudas para la Creación y Consolidación de Empresas Basadas en el Conocimiento del XII Plan Propio Galileo de Innovación y Transferencia.",
+        "fecha": "16/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01163",
+        "numero": "2026/01163",
+        "titulo": "Resolución definitiva por la que se declara desierta la Convocatoria de la Colección de Estudios de Género \"Simone de Beauvoir\", 2026 de la UCO",
+        "descripcion": "Resolución definitiva de la Vicerrectora de Igualdad, Inclusión y Justicia Social, de 13 de octubre de 2026, por la que se declara desierta la Convocatoria de la Colección de Estudios de Género \"Simone de Beauvoir\", 2026 de la Universidad de Córdoba.",
+        "fecha": "16/10/2026",
+        "tipo": "Resolución",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01162",
+        "numero": "2026/01162",
+        "titulo": "Concurso-oposición Titulado Grado Medio ADI (Área de Laboratorios Departamentales), promoción interna. Resolución de conclusión del proceso selectivo",
+        "descripcion": "Resolución de 16 de octubre de 2026, de la Universidad de Córdoba, por la que se declara concluido el proceso selectivo para la provisión de una plaza de personal laboral en la categoría de Titulado Grado Medio ADI (Área de Laboratorios Departamentales), en la Escuela Politécnica Superior de Belmez, Grupo II, en régimen de personal laboral fijo, por el sistema de promoción interna.",
+        "fecha": "16/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01160",
         "numero": "2026/01160",
         "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 20/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Bolsa BO262002",
