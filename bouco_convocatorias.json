@@ -1,5 +1,25 @@
 [
     {
+        "id": "conv-2026-01175",
+        "numero": "2026/01175",
+        "titulo": "Convocatoria Comisión de Servicios de PTGAS funcionario. Adjudicación de puestos de trabajo",
+        "descripcion": "Resolución de 20 de octubre de 2026, de la Universidad de Córdoba, por la que se resuelve la adjudicación de puestos de trabajo de la Relación de Puestos de Trabajo (RPT) de Personal Técnico, de Gestión y de Administración y Servicios Funcionario por el procedimiento de Comisión de Servicios.",
+        "fecha": "20/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01174",
+        "numero": "2026/01174",
+        "titulo": "Ayudas Junta Andalucía adquisición competencia lingüística estudios oficiales Grado 2025/2026. Relación provisional solicitudes admitidas y excluidas",
+        "descripcion": "Resolución de 19 de octubre de 2026, de la Sección de Becas de la Universidad de Córdoba, por la que se publica relación provisional de solicitudes admitidas y excluidas de la convocatoria de ayudas de la Junta de Andalucía para la adquisición de niveles de competencia lingüística en estudios oficiales de Grado, curso 2025/2026.",
+        "fecha": "20/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01173",
         "numero": "2026/01173",
         "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 24/2026. Listado Definitivo de aspirantes admitidos y excluidos. Varias Áreas",
@@ -476,24 +496,6 @@
         "descripcion": "Relación de Convenios aprobados, ratificados y suscritos con organismos/empresas para la realización de prácticas tuteladas del alumnado universitario, en sesión ordinaria de Consejo de Gobierno, de 25 de septiembre de 2026.",
         "fecha": "29/09/2026",
         "tipo": "Convenio",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01101",
-        "numero": "2026/01101",
-        "titulo": "Procedimiento para la reserva del salón de actos Juan XXIII para la celebración de actos de graduación universitaria",
-        "descripcion": "Instrucción 2/26 del Vicerrectorado de Campus Sostenible, de fecha 24 de septiembre de 2026, por la que se regula la reserva del salón de actos Juan XXIII para la celebración de actos de graduación universitaria.",
-        "fecha": "29/09/2026",
-        "tipo": "Normativa",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01045",
-        "titulo": "Reglamento 17/2026 por el que se regula el ingreso de profesorado ayudante doctor en la Universidad de Córdoba. Corrección de errores",
-        "fecha": "18/09/2026",
-        "tipo": "Normativa",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
