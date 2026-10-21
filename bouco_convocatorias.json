@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01180",
+        "numero": "2026/01180",
+        "titulo": "Convocatoria Comisión de Servicios PTGAS Funcionario. Corrección de errores",
+        "descripcion": "Corrección de errores de la Resolución de 20 de octubre de 2026, de la Universidad de Córdoba, por la que se resuelve la adjudicación de puestos de trabajo de la Relación de Puestos de Trabajo (RPT) de Personal Técnico, de Gestión y de Administración y Servicios Funcionario por el procedimiento de Comisión de Servicios.",
+        "fecha": "21/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01179",
+        "numero": "2026/01179",
+        "titulo": "Convocatoria Comisión de Servicios de PTGAS funcionario. Adjudicación de puestos de trabajo (Área de Biblioteca)",
+        "descripcion": "Resolución de 20 de octubre de 2026, de la Universidad de Córdoba, por la que se resuelve la adjudicación de puestos de trabajo de la Relación de Puestos de Trabajo (RPT) de Personal Técnico, de Gestión y de Administración y Servicios Funcionario por el procedimiento de Comisión de Servicios.",
+        "fecha": "21/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01178",
+        "numero": "2026/01178",
+        "titulo": "10ª Convocatoria de Contratos de Personal Investigador y Técnico",
+        "descripcion": "Resolución de 20 de octubre de 2026, de la Universidad de Córdoba, por la que se convoca a concurso público Contratos de personal investigador y técnico con cargo a Proyectos, Grupos, Contratos y Convenios de Investigación.",
+        "fecha": "21/10/2026",
+        "tipo": "Proyectos",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01177",
+        "numero": "2026/01177",
+        "titulo": "Convocatoria de Profesorado Contratado 2/2023. Nueva propuesta definitiva para contratación. Área Ingeniería Eléctrica. Plaza C230236",
+        "descripcion": "Resolución de 19 de octubre de 2026, de la Comisión de Contratación, por la que se hace pública nueva propuesta definitiva de contratación para la plaza de Profesor Ayudante Doctor. Código plaza C230236, Área de Conocimiento Ingeniería Eléctrica.",
+        "fecha": "21/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01176",
+        "numero": "2026/01176",
+        "titulo": "Convocatoria de Profesorado Contratado 2/2023. Nueva propuesta definitiva para contratación. Área Ingeniería Eléctrica. Plaza C230235",
+        "descripcion": "Resolución de 19 de octubre de 2026, de la Comisión de Contratación, por la que se hace pública nueva propuesta definitiva de contratación para la plaza de Profesor Ayudante Doctor. Código plaza C230235, Área de Conocimiento Ingeniería Eléctrica.",
+        "fecha": "21/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01175",
         "numero": "2026/01175",
         "titulo": "Convocatoria Comisión de Servicios de PTGAS funcionario. Adjudicación de puestos de trabajo",
@@ -446,56 +496,6 @@
         "descripcion": "Resolución de la Universidad de Córdoba, de 1 de octubre de 2026, por la que se aprueba la relación definitiva de aspirantes admitidos y excluidos en la bolsa de trabajo de Profesor Sustituto. Código Bolsa BO262301, Área de Conocimiento Ingeniería de Sistemas y Automática; y Código Bolsa BO262302, Área de Conocimiento Ingeniería Eléctrica.",
         "fecha": "05/10/2026",
         "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01107",
-        "numero": "2026/01107",
-        "titulo": "Convocatoria de Profesorado Contratado 5/2026. Propuesta definitiva para contratación. Área Literatura Española",
-        "descripcion": "Resolución de 5 de octubre de 2026, de la Presidencia de la Comisión de Contratación, por la que se hace pública la relación definitiva de aspirantes seleccionados para la contratación como Profesor Asociado. Plaza Código C260502, Área de Conocimiento Literatura Española.",
-        "fecha": "05/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01106",
-        "numero": "2026/01106",
-        "titulo": "Concurso de Traslado de Personal Técnico, de Gestión y de Administración y Servicios (PTGAS) Laboral en el Área de Conserjería",
-        "descripcion": "Resolución de 1 de octubre de 2026, de la Universidad de Córdoba, por la que se convoca concurso de traslado de PTGAS Laboral en el Área de Conserjería.",
-        "fecha": "01/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01105",
-        "numero": "2026/01105",
-        "titulo": "Programa Santander X Spain Awards | StartUp Universitaria 2025. Resolución definitiva de concesión del premio",
-        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento de la Universidad de Córdoba, de fecha 01 de octubre de 2026, por la que se publica la resolución definitiva de concesión del premio de la convocatoria del Programa Santander X Spain Awards StartUp | Universitaria 2025.",
-        "fecha": "01/10/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01104",
-        "numero": "2026/01104",
-        "titulo": "Convocatoria del Programa Campus Rural 2025/2026. Resolución definitiva de concesión de ayudas",
-        "descripcion": "Resolución del Vicerrector de Estudiantes, Acceso y Empleabilidad de la Universidad de Córdoba, de fecha 01 de octubre de 2026, por la que se publica la resolución definitiva de concesión de ayudas de la convocatoria del Programa Campus Rural 2025/2026.",
-        "fecha": "01/10/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01103",
-        "numero": "2026/01103",
-        "titulo": "Relación de Convenios aprobados, ratificados y suscritos con organismos/empresas para la realización de prácticas tuteladas del alumnado universitario",
-        "descripcion": "Relación de Convenios aprobados, ratificados y suscritos con organismos/empresas para la realización de prácticas tuteladas del alumnado universitario, en sesión ordinaria de Consejo de Gobierno, de 25 de septiembre de 2026.",
-        "fecha": "29/09/2026",
-        "tipo": "Convenio",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
