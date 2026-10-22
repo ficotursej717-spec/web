@@ -1,5 +1,25 @@
 [
     {
+        "id": "conv-2026-01182",
+        "numero": "2026/01182",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 6/2026. Notificación Recurso de Alzada",
+        "descripcion": "Anuncio de 22 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de Recurso de Alzada a la propuesta definitiva de la Bolsa Código B260602, Área de Conocimiento Nutrición y Bromatología.",
+        "fecha": "22/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01181",
+        "numero": "2026/01181",
+        "titulo": "Listado definitivo de solicitudes admitidas y excluidas de los Premios a la Trayectoria en Transferencia del Conocimiento del XII Plan Propio Galileo",
+        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento de la Universidad de Córdoba, de 22 de octubre de 2026, por la que se publica el listado definitivo de solicitudes admitidas y excluidas en la convocatoria de Premios a la Trayectoria en Transferencia del Conocimiento del XII Plan Propio Galileo.",
+        "fecha": "22/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01180",
         "numero": "2026/01180",
         "titulo": "Convocatoria Comisión de Servicios PTGAS Funcionario. Corrección de errores",
@@ -476,26 +496,6 @@
         "descripcion": "Extracto de la Resolución del Vicerrectorado de Internacionalización, de 29 de septiembre de 2026, por la que se aprueba la Convocatoria de Ayudas Programa Santander Movilidad de Prácticas \"SMT- Student Mobility for Traineeships\" Estudiantes de Doctorado. Curso 2026/27.",
         "fecha": "05/10/2026",
         "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01109",
-        "numero": "2026/01109",
-        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 24/2026. Listado Provisional de aspirantes admitidos y excluidos. Varias Áreas",
-        "descripcion": "Resolución de la Universidad de Córdoba, de 2 de octubre de 2026, por la que se aprueba la relación provisional de aspirantes admitidos y excluidos en la bolsa de trabajo de Profesor Sustituto. Código Bolsa BO262401, Área de Conocimiento Ingeniería de la Construcción; y Código Bolsa BO262402, Área de Conocimiento Didáctica de las Ciencias Sociales.",
-        "fecha": "05/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01108",
-        "numero": "2026/01108",
-        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 23/2026. Listado Definitivo de aspirantes admitidos y excluidos. Varias Áreas",
-        "descripcion": "Resolución de la Universidad de Córdoba, de 1 de octubre de 2026, por la que se aprueba la relación definitiva de aspirantes admitidos y excluidos en la bolsa de trabajo de Profesor Sustituto. Código Bolsa BO262301, Área de Conocimiento Ingeniería de Sistemas y Automática; y Código Bolsa BO262302, Área de Conocimiento Ingeniería Eléctrica.",
-        "fecha": "05/10/2026",
-        "tipo": "Empleo",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
