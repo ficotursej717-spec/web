@@ -1,5 +1,35 @@
 [
     {
+        "id": "conv-2026-01202",
+        "numero": "2026/01202",
+        "titulo": "Resolución por la que se publica el listado de Grupos de Innovación Docente (GID) y de Grupos de Innovación Docente de Excelencia (GIDE)",
+        "descripcion": "Resolución de 28 de octubre de 2026, del Vicerrector de Estudios de Grado, Calidad, Innovación Docente y Política Lingüística, por la que se publica el listado de Grupos de Innovación Docente (GID) y de Grupos de Innovación Docente de Excelencia (GIDE) en aplicación del Reglamento 28/2023.",
+        "fecha": "29/10/2026",
+        "tipo": "Normativa",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01200",
+        "numero": "2026/01200",
+        "titulo": "Programa EmprendeUCO-Diputación de Córdoba y sus Premios asociados. Edición 2025/2026. Resolución definitiva de adjudicación de premios. Modificación",
+        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento, de la Universidad de Córdoba, de fecha 28 de octubre de 2026, por la que se modifica la Resolución definitiva de adjudicación de premios, de fecha 6 de octubre de 2026, para incluir el nombre de los beneficiarios de los premios, en el marco de la convocatoria del Programa EmprendeUCO-Diputación de Córdoba y sus Premios asociados, en su edición 2025/2026.",
+        "fecha": "29/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01199",
+        "numero": "2026/01199",
+        "titulo": "Resolución sobre condiciones de realización de prácticas académicas externas de estudiantes de la Universidad de Córdoba en sus dependencias",
+        "descripcion": "Resolución del vicerrectorado de estudiantes, acceso y empleabilidad de la Universidad de Córdoba, de 28 de octubre de 2026, por la que se autorizan y establecen las condiciones para la realización de prácticas académicas externas por parte de estudiantes de la Universidad de Córdoba en sus dependencias.",
+        "fecha": "29/10/2026",
+        "tipo": "Resolución",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01198",
         "numero": "2026/01198",
         "titulo": "Resolución provisional de concesión en la convocatoria de incentivos para alojamiento en la Residencia Universitaria de Belmez, curso 2025-2026",
@@ -466,36 +496,6 @@
         "descripcion": "Anuncio de 8 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa BO261402, Área de Conocimiento Física Atómica, Molecular y Nuclear, resultante de la convocatoria 14/2026 (Resolución de la Universidad de Córdoba de 1 de junio de 2026, BOUCO n.º 2026/00657 de 2 de junio).",
         "fecha": "09/10/2026",
         "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01142",
-        "numero": "2026/01142",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 26/2026. Área Derecho del Trabajo y de la Seguridad Social",
-        "descripcion": "Resolución de la Universidad de Córdoba, de 8 de octubre de 2026, por la que se convoca concurso público de méritos para formar parte de bolsa de trabajo ordinaria de Profesor Sustituto. Código Bolsa BO262601, Área de conocimiento Derecho del Trabajo y de la Seguridad Social.",
-        "fecha": "09/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01141",
-        "numero": "2026/01141",
-        "titulo": "Resolución definitiva de personas admitidas y excluidas en la convocatoria de incentivos para alojamiento en la Residencia Universitaria de Belmez curso 2025-26",
-        "descripcion": "Resolución de 8 de octubre de 2026, de la jefa de secretaria de la EPS de Belmez de la Universidad de Córdoba, por la que se hace pública la relación definitiva de personas admitidas y excluidas en la convocatoria de incentivos para alojamiento en la Residencia Universitaria de Belmez para el curso 2025/2026.",
-        "fecha": "08/10/2026",
-        "tipo": "Resolución",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01140",
-        "numero": "2026/01140",
-        "titulo": "Becas Santander Ayuda Económica para estudiantado matriculado en el curso 2026/2027. Relación provisional de solicitudes admitidas y excluidas",
-        "descripcion": "Resolución de 8 de octubre de 2026, de la Sección de Becas de la Universidad de Córdoba, por la que se publica relación provisional de solicitudes admitidas y excluidas de la convocatoria de Becas Santander Ayuda Económica para el estudiantado matriculado en el curso 2026/2027.",
-        "fecha": "08/10/2026",
-        "tipo": "Becas",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
