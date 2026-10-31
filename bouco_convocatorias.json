@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01208",
+        "numero": "2026/01208",
+        "titulo": "11ª Convocatoria de Contratos de Personal Investigador y Técnico",
+        "descripcion": "Resolución de 30 de octubre de 2026, de la Universidad de Córdoba, por la que se convoca a concurso público Contratos de personal investigador y técnico con cargo a Proyectos, Grupos, Contratos y Convenios de Investigación.",
+        "fecha": "30/10/2026",
+        "tipo": "Proyectos",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01207",
+        "numero": "2026/01207",
+        "titulo": "Listado definitivo solicitudes admitidas y excluidas Modalidad IIIA: Concurso de Ideas de Negocio del XII Plan Propio Galileo",
+        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento de la Universidad de Córdoba, de 30 de octubre de 2026, por la que se publica el listado definitivo de solicitudes admitidas y excluidas de la Modalidad IIIA: Concurso de Ideas de Negocio de la Universidad de Córdoba del XII Plan Propio Galileo de Innovación y Transferencia.",
+        "fecha": "30/10/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01206",
+        "numero": "2026/01206",
+        "titulo": "Convocatoria del Programa de Prácticas Académicas Externas en Empresas para estudiantes de Máster Oficial 26/27",
+        "descripcion": "Extracto de la Resolución de fecha 3 de septiembre de 2026, del Vicerrector de Estudiantes, Acceso y Empleabilidad, por la que se convocan las bolsas o ayudas económicas para el Programa de Prácticas Académicas Externas en Empresas para estudiantes de Máster Oficial 2026/2027.",
+        "fecha": "30/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01204",
+        "numero": "2026/01204",
+        "titulo": "Propuesta de resolución provisional de Becas Santander Ayuda Económica para el estudiantado matriculado en el curso 2026/2027",
+        "descripcion": "Propuesta de resolución provisional, de 30 de octubre de 2026, de la Sección de Becas de la Universidad de Córdoba, por la que se publica la relación de solicitantes propuestos para concesión, solicitantes en lista de espera y solicitudes denegadas de Becas Santander Ayuda Económica del curso 2026/2027.",
+        "fecha": "30/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01203",
+        "numero": "2026/01203",
+        "titulo": "Resolución de concesión de beca Santander No Erasmus de la Universidad de Córdoba",
+        "descripcion": "Resolución de 28 de octubre de 2026, del Vicerrectorado de Internacionalización de la Universidad de Córdoba, por la que se publican los beneficiarios de las becas Santander No Erasmus de la Universidad de Córdoba.",
+        "fecha": "30/10/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01202",
         "numero": "2026/01202",
         "titulo": "Resolución por la que se publica el listado de Grupos de Innovación Docente (GID) y de Grupos de Innovación Docente de Excelencia (GIDE)",
@@ -446,56 +496,6 @@
         "descripcion": "Resolución de 9 de octubre de 2026, del Vicerrectorado de Estudiantes, Acceso y Empleabilidad, por la que se modifica la composición de la Comisión de Selección de solicitudes de la Becas Santander Ayuda Económica para el estudiantado matriculado en el curso 2026/2027.",
         "fecha": "13/10/2026",
         "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01144",
-        "numero": "2026/01144",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 14/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Código Bolsa BO261404",
-        "descripcion": "Anuncio de 8 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa Código BO261404, Área de Conocimiento Didáctica de las Ciencias Experimentales, resultante de la convocatoria 14/2026 (Resolución de la Universidad de Córdoba de 1 de junio de 2026, BOUCO n.º 2026/00657 de 2 de junio).",
-        "fecha": "13/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01150",
-        "numero": "2026/01150",
-        "titulo": "Convocatoria Comisión de Servicios de PTGAS funcionario. Relación provisional de personas admitidas y excluidas",
-        "descripcion": "Resolución de 8 de octubre de 2026, de la Universidad de Córdoba, por la que se declara aprobada la relación provisional de personas admitidas y excluidas por el procedimiento de Comisión de Servicios.",
-        "fecha": "09/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01147",
-        "numero": "2026/01147",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 19/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Código Bolsa BO261902",
-        "descripcion": "Anuncio de 8 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa BO261902, Área de Conocimiento Química Física, resultante de la convocatoria 19/2026 (Resolución de la Universidad de Córdoba de 17 de junio de 2026, BOUCO n.º 2026/00745 de 18 de junio).",
-        "fecha": "09/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01145",
-        "numero": "2026/01145",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 12/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Código Bolsa BO261202",
-        "descripcion": "Anuncio de 8 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa BO261202, Área de Conocimiento Bioquímica y Biología Molecular, resultante de la convocatoria 12/2026 (Resolución de la Universidad de Córdoba de 27 de abril de 2026, BOUCO n.º 2026/00529 de 28 de abril).",
-        "fecha": "09/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01143",
-        "numero": "2026/01143",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 14/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Bolsa Código BO261402",
-        "descripcion": "Anuncio de 8 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa BO261402, Área de Conocimiento Física Atómica, Molecular y Nuclear, resultante de la convocatoria 14/2026 (Resolución de la Universidad de Córdoba de 1 de junio de 2026, BOUCO n.º 2026/00657 de 2 de junio).",
-        "fecha": "09/10/2026",
-        "tipo": "Empleo",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
