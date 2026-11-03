@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01219",
+        "numero": "2026/01219",
+        "titulo": "Listado provisional de solicitudes admitidas y excluidas II Premio Sanidad del Olivar de la Cátedra Olive Health para trabajos de Fin de Grado y Fin de Máster",
+        "descripcion": "Resolución de la Dirección de la Cátedra Olive Health, de fecha 3 de noviembre de 2026, por la que se publica el listado provisional de solicitudes admitidas y excluidas en la Convocatoria del II Premio Sanidad del Olivar de la Cátedra Olive Health para trabajos de Fin de Grado y Fin de Máster.",
+        "fecha": "03/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01218",
+        "numero": "2026/01218",
+        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 27/2026. Listado definitivo de aspirantes admitidos y excluidos",
+        "descripcion": "Resolución de la Universidad de Córdoba, de 3 noviembre de 2026, por la que se aprueba la relación definitiva de aspirantes admitidos y excluidos en la bolsa de trabajo de Profesor Sustituto. Código Bolsa BO262701, Área de Conocimiento Derecho Internacional Público y Relaciones Internacionales.",
+        "fecha": "03/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01215",
+        "numero": "2026/01215",
+        "titulo": "Extracto XI Convocatoria de Premios a la Excelencia para Investigadores e Investigadoras Noveles de la Universidad de Córdoba",
+        "descripcion": "Extracto de la Resolución de la Vicerrectora de Política Científica de fecha 16 de julio 2026, por la que se aprueba la XI Convocatoria de Premios a la Excelencia para Investigadores e Investigadoras Noveles de la Universidad de Córdoba.",
+        "fecha": "03/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01213",
+        "numero": "2026/01213",
+        "titulo": "Listado provisional de ayudas de Acción Social, Matrícula Externa, solicitadas del 1 de julio al 30 de septiembre de 2026",
+        "descripcion": "Acuerdo de la Comisión de Acción Social, en sesión de 28 de octubre de 2026, por el que se aprueba listado provisional de ayudas concedidas y denegadas Matrículas Externas, solicitadas del 1 de julio de 2026 al 30 de septiembre de 2026, con cargo al Fondo de Acción Social, para el personal al servicio de esta Universidad.",
+        "fecha": "03/11/2026",
+        "tipo": "Normativa",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01210",
+        "numero": "2026/01210",
+        "titulo": "Programa de becas Santander Excelencia 360º para el estudiantado de Grado de la UCO. Curso 2025-2026. Baremación definitiva de méritos",
+        "descripcion": "Resolución de 30 de octubre de 2026, del Vicerrector de Estudios de Grado, Calidad, Innovación Docente y Política Lingüística de la Universidad de Córdoba, por la que se publica la resolución definitiva de méritos de las personas que han resultado admitidas al procedimiento de concesión de las becas Santander Excelencia 360º, para el estudiantado de la Universidad de Córdoba matriculado en el último curso de estudios de Grado durante el curso 2025-2026.",
+        "fecha": "03/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01208",
         "numero": "2026/01208",
         "titulo": "11ª Convocatoria de Contratos de Personal Investigador y Técnico",
@@ -446,56 +496,6 @@
         "descripcion": "Anuncio de 15 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa Código BO261602, Área de Conocimiento Ciencia de los Materiales e Ingeniería Metalúrgica, resultante de la convocatoria 16/2026 (Resolución de la Universidad de Córdoba de 1 de junio de 2026, BOUCO n.º 2026/00665 de 2 de junio).",
         "fecha": "15/10/2026",
         "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01156",
-        "numero": "2026/01156",
-        "titulo": "Programa Becas Santander Complemento a las Prácticas 2026 (Edición I). Relación provisional de solicitudes admitidas y excluidas",
-        "descripcion": "Resolución de la Jefatura del Servicio de Formación Continua, Empleabilidad y Emprendimiento de la Universidad de Córdoba, de fecha 14 de octubre de 2026, por la que se publica la relación provisional de solicitudes admitidas y excluidas de estudiantes participantes en la convocatoria del Programa Becas Santander Complemento a las Prácticas 2026 (Edición I).",
-        "fecha": "15/10/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01155",
-        "numero": "2026/01155",
-        "titulo": "Bolsas de Trabajo PDI Laboral, derogación diversas Áreas de Conocimiento",
-        "descripcion": "Resolución de 14 de octubre de 2026, de la presidenta de la Comisión de Contratación, por la que se acuerda hacer pública la relación de bolsas de trabajo de PDI Laboral que quedan derogadas por el transcurso del tiempo establecido de vigencia.",
-        "fecha": "15/10/2026",
-        "tipo": "Resolución",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01154",
-        "numero": "2026/01154",
-        "titulo": "Listado provisional de solicitudes admitidas y excluidas del III Premio \"Sanidad de los animales de compañía\" de la Cátedra Canitas",
-        "descripcion": "Resolución de la Dirección de la Cátedra Canitas de animales de compañía, de fecha 14 de octubre de 2026 por la que se publica el listado provisional de solicitudes admitidas y excluidas en la Convocatoria del III Premio \"Sanidad de los animales de compañía\" de la Cátedra Canitas de animales de compañía para trabajos de Fin de Grado.",
-        "fecha": "14/10/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01153",
-        "numero": "2026/01153",
-        "titulo": "Instrucción de la Gerencia por la que se regula el procedimiento y pautas a seguir para la elaboración y remisión del extracto de convocatorias de subvenciones",
-        "descripcion": "Instrucción 1/2026 de la Gerencia de la Universidad de Córdoba, por la que se determinan las pautas para la elaboración y remisión del extracto de las convocatorias de subvenciones de la Universidad de Córdoba.",
-        "fecha": "14/10/2026",
-        "tipo": "Proyectos",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01152",
-        "numero": "2026/01152",
-        "titulo": "Becas Santander Ayuda Económica para el estudiantado matriculado en el curso 2026/2027. Modificación de la composición de la Comisión de Selección",
-        "descripcion": "Resolución de 9 de octubre de 2026, del Vicerrectorado de Estudiantes, Acceso y Empleabilidad, por la que se modifica la composición de la Comisión de Selección de solicitudes de la Becas Santander Ayuda Económica para el estudiantado matriculado en el curso 2026/2027.",
-        "fecha": "13/10/2026",
-        "tipo": "Becas",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
