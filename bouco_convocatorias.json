@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01232",
+        "numero": "2026/01232",
+        "titulo": "Instrucción sobre el ejercicio del paro académico el 11 de noviembre de 2026 en la Universidad de Córdoba",
+        "descripcion": "Instrucción conjunta del vicerrectorado de estudiantes, acceso y empleabilidad y del vicerrectorado de estudios de grado, calidad, innovación docente y política lingüística, de 29 octubre de 2026, sobre el ejercicio del paro académico el 11 de noviembre de 2026.",
+        "fecha": "04/11/2026",
+        "tipo": "Normativa",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01229",
+        "numero": "2026/01229",
+        "titulo": "Listado definitivo de solicitudes admitidas y excluidas del III Premio \"Sanidad de los animales de compañía\" de la Cátedra Canitas",
+        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento, de fecha 3 de noviembre, por la que se publica el listado definitivo de solicitudes admitidas y excluidas en la Convocatoria del III Premio \"Sanidad de los animales de compañía\", de la Cátedra Canitas de animales de compañía para trabajos de Fin de Grado.",
+        "fecha": "04/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01227",
+        "numero": "2026/01227",
+        "titulo": "Reglamento 26/2025 sobre las Bases Reguladoras del Premio \"Luis Rodríguez\" de Investigación en Interculturalidad. Modificación",
+        "descripcion": "Acuerdo de Consejo de Gobierno, en sesión ordinaria de 30 de octubre de 2026, por el que se aprueba la modificación del Reglamento 26/2025, sobre las Bases Reguladoras del Premio \"Luis Rodríguez\" de Investigación en Interculturalidad.",
+        "fecha": "04/11/2026",
+        "tipo": "Normativa",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01226",
+        "numero": "2026/01226",
+        "titulo": "Reglamento 21/2019 sobre las Bases Reguladoras de las Ayudas para el estudiantado en riesgo de exclusión social. Modificación",
+        "descripcion": "Acuerdo de Consejo de Gobierno, en sesión ordinaria de 30 de octubre de 2026, por el que se aprueba la modificación del Reglamento 21/2019, sobre las Bases Reguladoras de las Ayudas para el estudiantado en riesgo de exclusión social.",
+        "fecha": "04/11/2026",
+        "tipo": "Normativa",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01221",
+        "numero": "2026/01221",
+        "titulo": "Reglamento 25/2026 de gestión, uso y convivencia de la Red de Huertos Universitarios de la Universidad de Córdoba",
+        "descripcion": "Acuerdo de Consejo de Gobierno, en sesión ordinaria de 30 de octubre de 2026, por el que se aprueba el Reglamento 25/2026, de gestión, uso y convivencia de la Red de Huertos Universitarios de la Universidad de Córdoba.",
+        "fecha": "04/11/2026",
+        "tipo": "Normativa",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01219",
         "numero": "2026/01219",
         "titulo": "Listado provisional de solicitudes admitidas y excluidas II Premio Sanidad del Olivar de la Cátedra Olive Health para trabajos de Fin de Grado y Fin de Máster",
@@ -446,56 +496,6 @@
         "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento de la Universidad de Córdoba, de 16 de octubre de 2026, por la que se publica el listado definitivo de solicitudes en la convocatoria de ayudas para la Creación y Consolidación de Empresas Basadas en el Conocimiento del XII Plan Propio Galileo de Innovación y Transferencia.",
         "fecha": "16/10/2026",
         "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01163",
-        "numero": "2026/01163",
-        "titulo": "Resolución definitiva por la que se declara desierta la Convocatoria de la Colección de Estudios de Género \"Simone de Beauvoir\", 2026 de la UCO",
-        "descripcion": "Resolución definitiva de la Vicerrectora de Igualdad, Inclusión y Justicia Social, de 13 de octubre de 2026, por la que se declara desierta la Convocatoria de la Colección de Estudios de Género \"Simone de Beauvoir\", 2026 de la Universidad de Córdoba.",
-        "fecha": "16/10/2026",
-        "tipo": "Resolución",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01162",
-        "numero": "2026/01162",
-        "titulo": "Concurso-oposición Titulado Grado Medio ADI (Área de Laboratorios Departamentales), promoción interna. Resolución de conclusión del proceso selectivo",
-        "descripcion": "Resolución de 16 de octubre de 2026, de la Universidad de Córdoba, por la que se declara concluido el proceso selectivo para la provisión de una plaza de personal laboral en la categoría de Titulado Grado Medio ADI (Área de Laboratorios Departamentales), en la Escuela Politécnica Superior de Belmez, Grupo II, en régimen de personal laboral fijo, por el sistema de promoción interna.",
-        "fecha": "16/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01160",
-        "numero": "2026/01160",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 20/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Bolsa BO262002",
-        "descripcion": "Anuncio de 15 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa Código BO262002, Área de Conocimiento Ingeniería de los Procesos de Fabricación, resultante de la convocatoria 20/2026 (Resolución de la Universidad de Córdoba de 1 de julio de 2026, BOUCO n.º 2026/00835 de 2 de julio).",
-        "fecha": "15/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01159",
-        "numero": "2026/01159",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 17/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Bolsa BO261701",
-        "descripcion": "Anuncio de 15 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa código BO261701, Área de Conocimiento Didáctica de la Expresión Corporal, resultante de la convocatoria 17/2026 (Resolución de la Universidad de Córdoba de 2 de junio de 2026, BOUCO n.º 2026/00680 de 3 de junio).",
-        "fecha": "15/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01157",
-        "numero": "2026/01157",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 16/2026. Publicación de interposición de reclamaciones a la propuesta provisional. Bolsa BO261602",
-        "descripcion": "Anuncio de 15 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de reclamaciones a la baremación de méritos de candidatos de la bolsa Código BO261602, Área de Conocimiento Ciencia de los Materiales e Ingeniería Metalúrgica, resultante de la convocatoria 16/2026 (Resolución de la Universidad de Córdoba de 1 de junio de 2026, BOUCO n.º 2026/00665 de 2 de junio).",
-        "fecha": "15/10/2026",
-        "tipo": "Empleo",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
