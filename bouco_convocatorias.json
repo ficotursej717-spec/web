@@ -1,5 +1,45 @@
 [
     {
+        "id": "conv-2026-01250",
+        "numero": "2026/01250",
+        "titulo": "Convocatoria becas movilidad internacional estudiantes UCO. Plan Propio de Cooperación y Educación para Desarrollo, 2026. Resolución provisional 2º llamamiento",
+        "descripcion": "Resolución del órgano instructor, de fecha 10 de noviembre de 2026, por la que se publica el listado provisional de solicitudes aprobadas en segundo llamamiento de la Convocatoria de becas de movilidad internacional a estudiantes de la UCO del Plan Propio de Cooperación y Educación para el Desarrollo, 2026.",
+        "fecha": "10/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01249",
+        "numero": "2026/01249",
+        "titulo": "Resolución definitiva de la Submodalidad 2.3 Contratos Postdoctorales UCO 2026",
+        "descripcion": "Resolución de la Vicerrectora de Política Científica, de 9 de noviembre de 2026, por la que se aprueba la resolución definitiva de concesión de la submodalidad 2.3 Constratos Postdoctorales UCO 2025, del Plan Propio de Investigación \"Enrique Aguilar Benítez de Lugo\" 2026.",
+        "fecha": "10/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01248",
+        "numero": "2026/01248",
+        "titulo": "Resolución definitiva de la Submodalidad 2.6 \"UCOProyecta\"",
+        "descripcion": "Resolución de la Vicerrectora de Política Científica, de 9 de noviembre de 2026, por la que se aprueba la resolución definitiva de la submodalidad 2.6 \"UCOProyecta\", del Plan Propio de Investigación \"Enrique Aguilar Benítez de Lugo\" 2026.",
+        "fecha": "10/11/2026",
+        "tipo": "Resolución",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01246",
+        "numero": "2026/01246",
+        "titulo": "Concurso de Traslado de PTGAS Laboral en el Área de Conserjería. Relación definitiva de personas admitidas y excluidas",
+        "descripcion": "Resolución de 10 de noviembre de 2026, de la Universidad de Córdoba, por la que se declara aprobada la relación definitiva de personas admitidas y excluidas al concurso de traslado de personal laboral en el Área de Conserjería.",
+        "fecha": "10/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01245",
         "numero": "2026/01245",
         "titulo": "Resolución de la Gerencia por la que se regulan los servicios de seguridad y mantenimiento durante la jornada del día 11 de noviembre de 2026",
@@ -456,46 +496,6 @@
         "descripcion": "Resolución de 20 de octubre de 2026, de la Universidad de Córdoba, por la que se convoca a concurso público Contratos de personal investigador y técnico con cargo a Proyectos, Grupos, Contratos y Convenios de Investigación.",
         "fecha": "21/10/2026",
         "tipo": "Proyectos",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01177",
-        "numero": "2026/01177",
-        "titulo": "Convocatoria de Profesorado Contratado 2/2023. Nueva propuesta definitiva para contratación. Área Ingeniería Eléctrica. Plaza C230236",
-        "descripcion": "Resolución de 19 de octubre de 2026, de la Comisión de Contratación, por la que se hace pública nueva propuesta definitiva de contratación para la plaza de Profesor Ayudante Doctor. Código plaza C230236, Área de Conocimiento Ingeniería Eléctrica.",
-        "fecha": "21/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01176",
-        "numero": "2026/01176",
-        "titulo": "Convocatoria de Profesorado Contratado 2/2023. Nueva propuesta definitiva para contratación. Área Ingeniería Eléctrica. Plaza C230235",
-        "descripcion": "Resolución de 19 de octubre de 2026, de la Comisión de Contratación, por la que se hace pública nueva propuesta definitiva de contratación para la plaza de Profesor Ayudante Doctor. Código plaza C230235, Área de Conocimiento Ingeniería Eléctrica.",
-        "fecha": "21/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01175",
-        "numero": "2026/01175",
-        "titulo": "Convocatoria Comisión de Servicios de PTGAS funcionario. Adjudicación de puestos de trabajo",
-        "descripcion": "Resolución de 20 de octubre de 2026, de la Universidad de Córdoba, por la que se resuelve la adjudicación de puestos de trabajo de la Relación de Puestos de Trabajo (RPT) de Personal Técnico, de Gestión y de Administración y Servicios Funcionario por el procedimiento de Comisión de Servicios.",
-        "fecha": "20/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01174",
-        "numero": "2026/01174",
-        "titulo": "Ayudas Junta Andalucía adquisición competencia lingüística estudios oficiales Grado 2025/2026. Relación provisional solicitudes admitidas y excluidas",
-        "descripcion": "Resolución de 19 de octubre de 2026, de la Sección de Becas de la Universidad de Córdoba, por la que se publica relación provisional de solicitudes admitidas y excluidas de la convocatoria de ayudas de la Junta de Andalucía para la adquisición de niveles de competencia lingüística en estudios oficiales de Grado, curso 2025/2026.",
-        "fecha": "20/10/2026",
-        "tipo": "Becas",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
