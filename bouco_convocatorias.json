@@ -1,5 +1,45 @@
 [
     {
+        "id": "conv-2026-01254",
+        "numero": "2026/01254",
+        "titulo": "Convocatoria de profesorado contratado 2/2023. Nueva propuesta definitiva plaza PAD área Ingeniería Eléctrica",
+        "descripcion": "Resolución de 10 de noviembre de 2026, de la Comisión de Contratación, por la que se hace pública nueva propuesta definitiva de contratación para la plaza de Profesor Ayudante Doctor. Código Plaza C230236, Área de Ingeniería Eléctrica.",
+        "fecha": "11/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01253",
+        "numero": "2026/01253",
+        "titulo": "Propuesta definitiva de solicitudes admitidas y excluidas de la Convocatoria de los premios extraordinarios de doctorado curso 2025/2026",
+        "descripcion": "Propuesta del Vicerrectorado de Estudios de Posgrado de la Universidad de Córdoba, con fecha 11 de noviembre de 2026, por la que se publica el listado definitivo de solicitudes admitidas y excluidas de la Convocatoria de los premios extraordinarios de doctorado curso 2025/2026.",
+        "fecha": "11/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01252",
+        "numero": "2026/01252",
+        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 28/2026. Listado Provisional de aspirantes admitidos y excluidos",
+        "descripcion": "Resolución de la Universidad de Córdoba de 10 de noviembre de 2026, por la que se aprueba la relación provisional de aspirantes admitidos y excluidos en la bolsa de trabajo de Profesor Sustituto Código Plaza BO262801, Área de Conocimiento: Filosofía Moral.",
+        "fecha": "11/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01251",
+        "numero": "2026/01251",
+        "titulo": "Convocatoria del Programa GEN-Lidera de la Universidad de Córdoba 26/27",
+        "descripcion": "Extracto de la Resolución de fecha 11 de septiembre de 2026, del Vicerrector de Estudiantes, Acceso y Empleabilidad de la Universidad de Córdoba, por la que se convocan las bolsas o ayudas económicas para prácticas académicas externas del Programa GEN-Lidera 2026/2027.",
+        "fecha": "11/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01250",
         "numero": "2026/01250",
         "titulo": "Convocatoria becas movilidad internacional estudiantes UCO. Plan Propio de Cooperación y Educación para Desarrollo, 2026. Resolución provisional 2º llamamiento",
@@ -456,46 +496,6 @@
         "descripcion": "Anuncio de 22 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de Recurso de Alzada a la propuesta definitiva de la Bolsa Código B260602, Área de Conocimiento Nutrición y Bromatología.",
         "fecha": "22/10/2026",
         "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01181",
-        "numero": "2026/01181",
-        "titulo": "Listado definitivo de solicitudes admitidas y excluidas de los Premios a la Trayectoria en Transferencia del Conocimiento del XII Plan Propio Galileo",
-        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento de la Universidad de Córdoba, de 22 de octubre de 2026, por la que se publica el listado definitivo de solicitudes admitidas y excluidas en la convocatoria de Premios a la Trayectoria en Transferencia del Conocimiento del XII Plan Propio Galileo.",
-        "fecha": "22/10/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01180",
-        "numero": "2026/01180",
-        "titulo": "Convocatoria Comisión de Servicios PTGAS Funcionario. Corrección de errores",
-        "descripcion": "Corrección de errores de la Resolución de 20 de octubre de 2026, de la Universidad de Córdoba, por la que se resuelve la adjudicación de puestos de trabajo de la Relación de Puestos de Trabajo (RPT) de Personal Técnico, de Gestión y de Administración y Servicios Funcionario por el procedimiento de Comisión de Servicios.",
-        "fecha": "21/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01179",
-        "numero": "2026/01179",
-        "titulo": "Convocatoria Comisión de Servicios de PTGAS funcionario. Adjudicación de puestos de trabajo (Área de Biblioteca)",
-        "descripcion": "Resolución de 20 de octubre de 2026, de la Universidad de Córdoba, por la que se resuelve la adjudicación de puestos de trabajo de la Relación de Puestos de Trabajo (RPT) de Personal Técnico, de Gestión y de Administración y Servicios Funcionario por el procedimiento de Comisión de Servicios.",
-        "fecha": "21/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01178",
-        "numero": "2026/01178",
-        "titulo": "10ª Convocatoria de Contratos de Personal Investigador y Técnico",
-        "descripcion": "Resolución de 20 de octubre de 2026, de la Universidad de Córdoba, por la que se convoca a concurso público Contratos de personal investigador y técnico con cargo a Proyectos, Grupos, Contratos y Convenios de Investigación.",
-        "fecha": "21/10/2026",
-        "tipo": "Proyectos",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
