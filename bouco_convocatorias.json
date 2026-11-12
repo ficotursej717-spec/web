@@ -1,5 +1,15 @@
 [
     {
+        "id": "conv-2026-01255",
+        "numero": "2026/01255",
+        "titulo": "Concurso-oposición Técnico Especialista STOEM (UT), promoción interna. Resolución de conclusión del proceso selectivo",
+        "descripcion": "Resolución de 12 de noviembre de 2026, de la Universidad de Córdoba, por la que se declara concluido el proceso selectivo para la provisión de una plaza de personal laboral en la categoría de Técnico Especialista de Servicios Técnicos de Obras, Equipamiento y Mantenimiento en la Unidad Técnica de Obras, Equipamiento, Mantenimiento y Energía, Grupo III, por el sistema de promoción interna.",
+        "fecha": "12/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01254",
         "numero": "2026/01254",
         "titulo": "Convocatoria de profesorado contratado 2/2023. Nueva propuesta definitiva plaza PAD área Ingeniería Eléctrica",
@@ -485,16 +495,6 @@
         "titulo": "Convocatoria Movilidad forzosa provisional por cargas de trabajo. Anuncio de interposición de recurso de reposición",
         "descripcion": "Anuncio de 21 de octubre de 2026, de la Universidad de Córdoba, de interposición de recurso de reposición contra la Resolución de 15 de septiembre de 2026, de la Universidad de Córdoba, por la que se dispone la movilidad forzosa provisional por cargas de trabajo de personal funcionario de carrera a puestos de trabajo de la Relación de Puestos de Trabajo (RPT) de PTGAS.",
         "fecha": "24/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01182",
-        "numero": "2026/01182",
-        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 6/2026. Notificación Recurso de Alzada",
-        "descripcion": "Anuncio de 22 de octubre de 2026, de la Universidad de Córdoba, por el que se procede a la notificación de la interposición de Recurso de Alzada a la propuesta definitiva de la Bolsa Código B260602, Área de Conocimiento Nutrición y Bromatología.",
-        "fecha": "22/10/2026",
         "tipo": "Empleo",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
