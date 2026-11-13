@@ -1,5 +1,35 @@
 [
     {
+        "id": "conv-2026-01258",
+        "numero": "2026/01258",
+        "titulo": "Libre Designación Personal Técnico, de Gestión y Administración y de Servicios Funcionario. Adjudicación de puestos de trabajo",
+        "descripcion": "Resolución de 13 de noviembre de 2026, de la Universidad de Córdoba, por la que se adjudican los puestos de trabajo de la RPT de Personal Técnico, de Gestión y de Administración y Servicios (PTGAS) Funcionario, por el sistema de libre designación.",
+        "fecha": "13/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01257",
+        "numero": "2026/01257",
+        "titulo": "Convocatoria de bolsa Ordinaria de Profesor Sustituto 29/2026. Área Didáctica de la Matemática",
+        "descripcion": "Resolución de la Universidad de Córdoba de 12 de noviembre de 2026, por la que se convoca concurso público de méritos para formar parte de bolsa de trabajo ordinaria de Profesor Sustituto. Código Bolsa BO262901, Área de Conocimiento Didáctica de la Matemática.",
+        "fecha": "13/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01256",
+        "numero": "2026/01256",
+        "titulo": "Resolución definitiva de la Submodalidad 3.1 Estancias breves en centros de investigación extranjeros",
+        "descripcion": "Resolución de la Vicerrectora de Política Científica, de 9 de noviembre de 2026, por la que se aprueba la resolución definitiva de concesión de la Submodalidad 3.1 Estancias breves en centros de investigación extranjeros, del Plan Propio de Investigación \"Enrique Aguilar Benítez de Lugo\" 2026.",
+        "fecha": "13/11/2026",
+        "tipo": "Resolución",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01255",
         "numero": "2026/01255",
         "titulo": "Concurso-oposición Técnico Especialista STOEM (UT), promoción interna. Resolución de conclusión del proceso selectivo",
@@ -466,36 +496,6 @@
         "descripcion": "Resolución del Rector de la Universidad de Córdoba, de fecha 23 de octubre de 2026, por la que se acuerda la revocación parcial de las resoluciones dictadas al amparo del Reglamento 32/2023, de las Bases Reguladoras para la concesión de las ayudas correspondientes a la II Fase del Plan Propio de Investigación Aplicada (Línea I y II).",
         "fecha": "24/10/2026",
         "tipo": "Normativa",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01185",
-        "numero": "2026/01185",
-        "titulo": "Instrucciones sobre vinculación de personal investigador para la participación en Proyectos de Generación del Conocimiento, convocatoria 2026",
-        "descripcion": "Resolución de la Vicerrectora de Política Científica de la Universidad de Córdoba, de 23 de octubre, por la que se publican las instrucciones sobre la vinculación de determinado personal investigador de la Universidad de Córdoba, a la hora de participar en calidad de investigador principal o miembro del equipo de investigación de Proyectos de Generación del Conocimiento de la convocatoria de 2026, correspondientes a «Generación de Conocimiento» del Ministerio de Ciencia, Innovación y Universidades.",
-        "fecha": "24/10/2026",
-        "tipo": "Proyectos",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01184",
-        "numero": "2026/01184",
-        "titulo": "Becas de movilidad internacional a estudiantes de la UCO del Plan Propio de Cooperación y Educación para el Desarrollo 2026. Listado definitivo",
-        "descripcion": "Resolución de la Directora del Área de Cooperación y Solidaridad de la Universidad de Córdoba, de 22 de octubre de 2026, por la que se publica el listado definitivo de solicitudes admitidas y excluidas de la Convocatoria de becas de movilidad a estudiantes del Plan Propio de Cooperación y Educación para el Desarrollo 2026, 2º llamamiento.",
-        "fecha": "24/10/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01183",
-        "numero": "2026/01183",
-        "titulo": "Convocatoria Movilidad forzosa provisional por cargas de trabajo. Anuncio de interposición de recurso de reposición",
-        "descripcion": "Anuncio de 21 de octubre de 2026, de la Universidad de Córdoba, de interposición de recurso de reposición contra la Resolución de 15 de septiembre de 2026, de la Universidad de Córdoba, por la que se dispone la movilidad forzosa provisional por cargas de trabajo de personal funcionario de carrera a puestos de trabajo de la Relación de Puestos de Trabajo (RPT) de PTGAS.",
-        "fecha": "24/10/2026",
-        "tipo": "Empleo",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
