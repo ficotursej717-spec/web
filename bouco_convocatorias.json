@@ -1,5 +1,45 @@
 [
     {
+        "id": "conv-2026-01262",
+        "numero": "2026/01262",
+        "titulo": "Convocatoria Comisión de Servicios PTGAS Funcionario",
+        "descripcion": "Resolución de 16 de noviembre de 2026, de la Universidad de Córdoba, por la que se convoca Comisión de Servicios de puestos de trabajo de la Relación de Puestos de Trabajo (RPT) de Personal Técnico, de Gestión y de Administración y Servicios (PTGAS) funcionario.",
+        "fecha": "17/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01261",
+        "numero": "2026/01261",
+        "titulo": "Programa Becas Santander Complemento a las Prácticas 2026 (Edición I). Relación definitiva de solicitudes admitidas y excluidas",
+        "descripcion": "Resolución del Vicerrector de Estudiantes, Acceso y Empleabilidad de la Universidad de Córdoba, de fecha 16 de noviembre de 2026, por la que se publica la relación definitiva de solicitudes admitidas y excluidas de estudiantes participantes en la convocatoria del Programa Becas Santander Complemento a las Prácticas 2026 (Edición I).",
+        "fecha": "17/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01260",
+        "numero": "2026/01260",
+        "titulo": "Constitución de listado de llamamiento en la Unidad Técnica de Obras, Equipamiento, Mantenimiento y Energía",
+        "descripcion": "Resolución de 16 de noviembre de 2026, del Gerente de la Universidad de Córdoba, por la que se establece el procedimiento para cubrir necesidades urgentes e inaplazables de Personal Laboral en la Unidad Técnica de Obras, Equipamiento, Mantenimiento y Energía, de una plaza de Titulado de Grado Medio S.T.O.E.M (Arquitecto Técnico), Grupo II.",
+        "fecha": "17/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01259",
+        "numero": "2026/01259",
+        "titulo": "Convocatoria Comisión de Servicios de PTGAS funcionario. Adjudicación de puestos de trabajo",
+        "descripcion": "Resolución de 16 de noviembre de 2026, de la Universidad de Córdoba, por la que se resuelve la adjudicación de puestos de trabajo de la Relación de Puestos de Trabajo (RPT) de Personal Técnico, de Gestión y de Administración y Servicios Funcionario por el procedimiento de Comisión de Servicios.",
+        "fecha": "17/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01258",
         "numero": "2026/01258",
         "titulo": "Libre Designación Personal Técnico, de Gestión y Administración y de Servicios Funcionario. Adjudicación de puestos de trabajo",
@@ -456,46 +496,6 @@
         "descripcion": "Resolución de la Universidad de Córdoba de 26 de octubre de 2026, por la que se aprueba la relación provisional de aspirantes admitidos y excluidos en la bolsa de trabajo de Profesor Sustituto Código Bolsa BO262701, Área de Conocimiento: Derecho Internacional Público y Relaciones Internacionales.",
         "fecha": "27/10/2026",
         "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01189",
-        "numero": "2026/01189",
-        "titulo": "Becas Santander Ayuda Económica para el estudiantado matriculado en el curso 2026/2027. Relación definitiva de solicitudes admitidas y excluidas",
-        "descripcion": "Resolución de 26 de octubre de 2026, del Vicerrectorado de Estudiantes, Acceso y Empleabilidad, por la que se publica la relación definitiva de solicitudes admitidas y excluidas de la convocatoria de Becas Santander Ayuda Económica para el estudiantado matriculado en el curso 2026/2027.",
-        "fecha": "27/10/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01188",
-        "numero": "2026/01188",
-        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 26/2026. Listado Provisional de aspirantes admitidos y excluidos",
-        "descripcion": "Resolución de la Universidad de Córdoba, de 26 de octubre de 2026, por la que se aprueba la relación provisional de aspirantes admitidos y excluidos en la bolsa de trabajo de Profesor Sustituto. Código Bolsa BO262601, Área Conocimiento Derecho del Trabajo y de la Seguridad Social.",
-        "fecha": "26/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01187",
-        "numero": "2026/01187",
-        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 25/2026. Listado Provisional de aspirantes admitidos y excluidos",
-        "descripcion": "Resolución de la Universidad de Córdoba, de 26 de octubre de 2026, por la que se aprueba la relación provisional de aspirantes admitidos y excluidos en la bolsa de trabajo de Profesor Sustituto. Código Bolsa BO262501, Área de Conocimiento Conocimiento Derecho Mercantil.",
-        "fecha": "26/10/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01186",
-        "numero": "2026/01186",
-        "titulo": "Acuerdo de revocación parcial de las resoluciones de las convocatorias de la Línea I y II de la II Fase Plan Propio de Investigación Aplicada",
-        "descripcion": "Resolución del Rector de la Universidad de Córdoba, de fecha 23 de octubre de 2026, por la que se acuerda la revocación parcial de las resoluciones dictadas al amparo del Reglamento 32/2023, de las Bases Reguladoras para la concesión de las ayudas correspondientes a la II Fase del Plan Propio de Investigación Aplicada (Línea I y II).",
-        "fecha": "24/10/2026",
-        "tipo": "Normativa",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
