@@ -1,5 +1,25 @@
 [
     {
+        "id": "conv-2026-01274",
+        "numero": "2026/01274",
+        "titulo": "Propuesta provisional de concesión de premios extraordinarios de doctorado correspondientes a la convocatoria del curso 2025/2026",
+        "descripcion": "Acuerdo de la Comisión de másteres y doctorado de la Universidad de Córdoba, de 19 de noviembre de 2025, por el que se publica la propuesta de concesión de los premios extraordinarios de doctorado correspondientes a la convocatoria del curso 2025/2026.",
+        "fecha": "19/11/2026",
+        "tipo": "Normativa",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01273",
+        "numero": "2026/01273",
+        "titulo": "Resolución de concesión de ayudas Erasmus+ (Acción KA1). Movilidad de personal con fines docentes \"Staff Mobility for Teaching Assignment\". Cursos 25/26 y 26/27",
+        "descripcion": "Resolución de 16 de noviembre de 2026, del Vicerrectorado de Internacionalización de la Universidad de Córdoba, por la que se publican los beneficiarios de las ayudas Erasmus+ (Acción KA1). Movilidad de personal con fines docentes \"Staff Mobility for Teaching Assignment\". Cursos 25/26 y 26/27.",
+        "fecha": "19/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01272",
         "numero": "2026/01272",
         "titulo": "Concurso de Traslado de Personal Técnico, de Gestión y de Administración y Servicios (PTGAS) Laboral en el Área de Laboratorio. Resolución final",
@@ -476,26 +496,6 @@
         "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento, de la Universidad de Córdoba, de fecha 28 de octubre de 2026, por la que se modifica la Resolución definitiva de adjudicación de premios, de fecha 6 de octubre de 2026, para incluir el nombre de los beneficiarios de los premios, en el marco de la convocatoria del Programa EmprendeUCO-Diputación de Córdoba y sus Premios asociados, en su edición 2025/2026.",
         "fecha": "29/10/2026",
         "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01199",
-        "numero": "2026/01199",
-        "titulo": "Resolución sobre condiciones de realización de prácticas académicas externas de estudiantes de la Universidad de Córdoba en sus dependencias",
-        "descripcion": "Resolución del vicerrectorado de estudiantes, acceso y empleabilidad de la Universidad de Córdoba, de 28 de octubre de 2026, por la que se autorizan y establecen las condiciones para la realización de prácticas académicas externas por parte de estudiantes de la Universidad de Córdoba en sus dependencias.",
-        "fecha": "29/10/2026",
-        "tipo": "Resolución",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01198",
-        "numero": "2026/01198",
-        "titulo": "Resolución provisional de concesión en la convocatoria de incentivos para alojamiento en la Residencia Universitaria de Belmez, curso 2025-2026",
-        "descripcion": "Resolución de 23 de octubre de 2026, de la jefa de secretaría de la EPS de Belmez de la Universidad de Córdoba, por la que se hace pública la resolución provisional de concesión en la convocatoria de incentivos para alojamiento en la Residencia Universitaria de Belmez para el curso 2025/2026.",
-        "fecha": "29/10/2026",
-        "tipo": "Resolución",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
