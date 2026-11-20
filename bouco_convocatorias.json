@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01280",
+        "numero": "2026/01280",
+        "titulo": "9.ª convocatoria de Contratos de Investigación 2026. Corrección de errores",
+        "descripcion": "Corrección de errores. Resolución de 18 de septiembre de 2026, de la Universidad de Córdoba, por la que se convoca a concurso público Contratos de Investigación con cargo a Proyectos, Grupos, Contratos y Convenios de Investigación.",
+        "fecha": "20/11/2026",
+        "tipo": "Proyectos",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01279",
+        "numero": "2026/01279",
+        "titulo": "Convocatoria de Profesorado Contratado 2/2023. Nueva propuesta definitiva para contratación. Área Ingeniería Eléctrica",
+        "descripcion": "Resolución de 19 de noviembre de 2026, de la Comisión de Contratación, por la que se hace pública nueva propuesta definitiva de contratación para la plaza de Profesor Ayudante Doctor. Código plaza C230236, Área de Conocimiento Ingeniería Eléctrica.",
+        "fecha": "20/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01277",
+        "numero": "2026/01277",
+        "titulo": "Convocatoria 2026 de la Modalidad 3 del IV Plan Propio de Investigación Internacional de la Universidad de Córdoba \"Rosalind Franklin\". Declaración Desierta",
+        "descripcion": "Resolución de la Vicerrectora de Política Científica, de 19 de noviembre de 2026, por la que se declara desierta la Convocatoria para 2026 de la Modalidad 3 del IV Plan Propio de Investigación Internacional de la Universidad de Córdoba \"Rosalind Franklin\": Atracción de Personal Investigador Doctor para el Fortalecimiento de la Investigación Internacional.",
+        "fecha": "20/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01276",
+        "numero": "2026/01276",
+        "titulo": "Resolución definitiva de Becas Santander Ayuda Económica para el estudiantado matriculado en el curso 2026/2027",
+        "descripcion": "Resolución de 19 de noviembre de 2026, del Vicerrectorado de Estudiantes, Acceso y Empleabilidad, por la que se publica la relación definitiva de solicitudes concedidas, solicitudes en lista de espera y solicitudes denegadas de las Becas Santander Ayuda Económica para el estudiantado matriculado en el curso 2026/2027.",
+        "fecha": "20/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01275",
+        "numero": "2026/01275",
+        "titulo": "Extracto de Convocatoria de Becas destinadas a financiar los precios públicos del alumnado del Centro Intergeneracional curso 2026/2027",
+        "descripcion": "Extracto de la Resolución del Vicerrector de Estudiantes, Acceso y Empleabilidad, de fecha 18 de noviembre de 2026, por la que se convocan Becas destinadas a financiar los precios públicos del alumnado del Centro Intergeneracional \"Francisco Santisteban\".",
+        "fecha": "20/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01274",
         "numero": "2026/01274",
         "titulo": "Propuesta provisional de concesión de premios extraordinarios de doctorado correspondientes a la convocatoria del curso 2025/2026",
@@ -446,56 +496,6 @@
         "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento de la Universidad de Córdoba, de 30 de octubre de 2026, por la que se publica el listado definitivo de solicitudes admitidas y excluidas de la Modalidad IIIA: Concurso de Ideas de Negocio de la Universidad de Córdoba del XII Plan Propio Galileo de Innovación y Transferencia.",
         "fecha": "30/10/2026",
         "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01206",
-        "numero": "2026/01206",
-        "titulo": "Convocatoria del Programa de Prácticas Académicas Externas en Empresas para estudiantes de Máster Oficial 26/27",
-        "descripcion": "Extracto de la Resolución de fecha 3 de septiembre de 2026, del Vicerrector de Estudiantes, Acceso y Empleabilidad, por la que se convocan las bolsas o ayudas económicas para el Programa de Prácticas Académicas Externas en Empresas para estudiantes de Máster Oficial 2026/2027.",
-        "fecha": "30/10/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01204",
-        "numero": "2026/01204",
-        "titulo": "Propuesta de resolución provisional de Becas Santander Ayuda Económica para el estudiantado matriculado en el curso 2026/2027",
-        "descripcion": "Propuesta de resolución provisional, de 30 de octubre de 2026, de la Sección de Becas de la Universidad de Córdoba, por la que se publica la relación de solicitantes propuestos para concesión, solicitantes en lista de espera y solicitudes denegadas de Becas Santander Ayuda Económica del curso 2026/2027.",
-        "fecha": "30/10/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01203",
-        "numero": "2026/01203",
-        "titulo": "Resolución de concesión de beca Santander No Erasmus de la Universidad de Córdoba",
-        "descripcion": "Resolución de 28 de octubre de 2026, del Vicerrectorado de Internacionalización de la Universidad de Córdoba, por la que se publican los beneficiarios de las becas Santander No Erasmus de la Universidad de Córdoba.",
-        "fecha": "30/10/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01202",
-        "numero": "2026/01202",
-        "titulo": "Resolución por la que se publica el listado de Grupos de Innovación Docente (GID) y de Grupos de Innovación Docente de Excelencia (GIDE)",
-        "descripcion": "Resolución de 28 de octubre de 2026, del Vicerrector de Estudios de Grado, Calidad, Innovación Docente y Política Lingüística, por la que se publica el listado de Grupos de Innovación Docente (GID) y de Grupos de Innovación Docente de Excelencia (GIDE) en aplicación del Reglamento 28/2023.",
-        "fecha": "29/10/2026",
-        "tipo": "Normativa",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01200",
-        "numero": "2026/01200",
-        "titulo": "Programa EmprendeUCO-Diputación de Córdoba y sus Premios asociados. Edición 2025/2026. Resolución definitiva de adjudicación de premios. Modificación",
-        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento, de la Universidad de Córdoba, de fecha 28 de octubre de 2026, por la que se modifica la Resolución definitiva de adjudicación de premios, de fecha 6 de octubre de 2026, para incluir el nombre de los beneficiarios de los premios, en el marco de la convocatoria del Programa EmprendeUCO-Diputación de Córdoba y sus Premios asociados, en su edición 2025/2026.",
-        "fecha": "29/10/2026",
-        "tipo": "Becas",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
