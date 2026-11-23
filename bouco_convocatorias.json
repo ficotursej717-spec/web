@@ -1,5 +1,35 @@
 [
     {
+        "id": "conv-2026-01283",
+        "numero": "2026/01283",
+        "titulo": "Resolución de concesión de \"Becas Santander-Erasmus de la Universidad de Córdoba\"",
+        "descripcion": "Resolución de 19 de noviembre de 2026, del Vicerrectorado de Internacionalización de la Universidad de Córdoba, por la que se publican los beneficiarios de las \"Becas Santander-Erasmus de la Universidad de Córdoba\". Curso 2026-2027.",
+        "fecha": "23/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01282",
+        "numero": "2026/01282",
+        "titulo": "Resolución de concesión de becas Programa Erasmus+ de movilidad del PDI Formación Out. curso 2025-2026. Corrección de errores",
+        "descripcion": "Corrección de errores. Resolución del Vicerrectorado de Internacionalización, de 14 de julio de 2026, por la que se conceden becas Programa Erasmus+ de movilidad del PDI Formación Out. curso 2025- 2026. proyecto 2025-1-es01- a131-hed-000316044.",
+        "fecha": "23/11/2026",
+        "tipo": "Proyectos",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01281",
+        "numero": "2026/01281",
+        "titulo": "Resolución de Concesión de becas Programa Erasmus+ de movilidad del PTGAS. Formación Out. Curso 2025-2026. Corrección de errores",
+        "descripcion": "Corrección de errores. Resolución del Vicerrectorado de Internacionalización, de 09 de julio de 2026, por la que se conceden becas Programa Erasmus+ de movilidad del Personal Técnico, de Gestión y de Administración y Servicios. Formación Out. Curso 2025-2026. Proyecto 2025-1-Es01-Ka131- Hed-000316044.",
+        "fecha": "23/11/2026",
+        "tipo": "Proyectos",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01280",
         "numero": "2026/01280",
         "titulo": "9.ª convocatoria de Contratos de Investigación 2026. Corrección de errores",
@@ -466,36 +496,6 @@
         "descripcion": "Acuerdo de la Comisión de Acción Social, en sesión de 28 de octubre de 2026, por el que se aprueba listado provisional de ayudas concedidas y denegadas Matrículas Externas, solicitadas del 1 de julio de 2026 al 30 de septiembre de 2026, con cargo al Fondo de Acción Social, para el personal al servicio de esta Universidad.",
         "fecha": "03/11/2026",
         "tipo": "Normativa",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01210",
-        "numero": "2026/01210",
-        "titulo": "Programa de becas Santander Excelencia 360º para el estudiantado de Grado de la UCO. Curso 2025-2026. Baremación definitiva de méritos",
-        "descripcion": "Resolución de 30 de octubre de 2026, del Vicerrector de Estudios de Grado, Calidad, Innovación Docente y Política Lingüística de la Universidad de Córdoba, por la que se publica la resolución definitiva de méritos de las personas que han resultado admitidas al procedimiento de concesión de las becas Santander Excelencia 360º, para el estudiantado de la Universidad de Córdoba matriculado en el último curso de estudios de Grado durante el curso 2025-2026.",
-        "fecha": "03/11/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01208",
-        "numero": "2026/01208",
-        "titulo": "11ª Convocatoria de Contratos de Personal Investigador y Técnico",
-        "descripcion": "Resolución de 30 de octubre de 2026, de la Universidad de Córdoba, por la que se convoca a concurso público Contratos de personal investigador y técnico con cargo a Proyectos, Grupos, Contratos y Convenios de Investigación.",
-        "fecha": "30/10/2026",
-        "tipo": "Proyectos",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01207",
-        "numero": "2026/01207",
-        "titulo": "Listado definitivo solicitudes admitidas y excluidas Modalidad IIIA: Concurso de Ideas de Negocio del XII Plan Propio Galileo",
-        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento de la Universidad de Córdoba, de 30 de octubre de 2026, por la que se publica el listado definitivo de solicitudes admitidas y excluidas de la Modalidad IIIA: Concurso de Ideas de Negocio de la Universidad de Córdoba del XII Plan Propio Galileo de Innovación y Transferencia.",
-        "fecha": "30/10/2026",
-        "tipo": "Empleo",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
