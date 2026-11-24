@@ -1,5 +1,45 @@
 [
     {
+        "id": "conv-2026-01287",
+        "numero": "2026/01287",
+        "titulo": "Extracto de la convocatoria de Ayudas para el estudiantado en riesgo de exclusión social. Curso 2026/2027",
+        "descripcion": "Resolución de 23 de noviembre de 2026, del Vicerrectorado de Estudiantes, Acceso y Empleabilidad, por la que se convocan Ayudas para el estudiantando en riesgo de exclusión social para el curso 2026/2027.",
+        "fecha": "24/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01286",
+        "numero": "2026/01286",
+        "titulo": "Listado definitivo de solicitudes admitidas y excluidas del II Premio Sanidad del Olivar de la Cátedra Olive Health para trabajos Fin de Grado y Fin de Máster",
+        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento, de fecha 23 de noviembre de 2026, por la que se publica el listado definitivo de solicitudes admitidas y excluidas en la Convocatoria del II Premio Sanidad del Olivar de la Cátedra Olive Health para trabajos de Fin de Grado y Fin de Máster.",
+        "fecha": "24/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01285",
+        "numero": "2026/01285",
+        "titulo": "Extracto de la Convocatoria del Programa Erasmus+ (Acción KA1). Movilidad de Estudiantes de Grado y Máster para Estudios en países del Programa. Curso 2027/28",
+        "descripcion": "Resolución de la Vicerrectora de Internacionalización de la Universidad de Córdoba, de 24 de noviembre de 2026, por la que se aprueba la Convocatoria Erasmus+. Movilidad de Estudiantes de Grado y Máster para estudios en países del Programa Erasmus (SMS KA131), curso 2027/2028.",
+        "fecha": "24/11/2026",
+        "tipo": "Resolución",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01284",
+        "numero": "2026/01284",
+        "titulo": "Nueva Resolución definitiva de concesión de Becas Erasmus+ para movilidades de estudio, curso 2026/2027",
+        "descripcion": "Nueva Resolución de la Vicerrectora de Internacionalización del 24 de noviembre del 2026, por la que se modifica la Resolución de fecha de 29 de Julio de 2026, que hace pública la adjudicación definitiva de Becas Erasmus+ para movilidades de estudio. Curso 2026/2027.",
+        "fecha": "24/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01283",
         "numero": "2026/01283",
         "titulo": "Resolución de concesión de \"Becas Santander-Erasmus de la Universidad de Córdoba\"",
@@ -455,46 +495,6 @@
         "titulo": "Reglamento 25/2026 de gestión, uso y convivencia de la Red de Huertos Universitarios de la Universidad de Córdoba",
         "descripcion": "Acuerdo de Consejo de Gobierno, en sesión ordinaria de 30 de octubre de 2026, por el que se aprueba el Reglamento 25/2026, de gestión, uso y convivencia de la Red de Huertos Universitarios de la Universidad de Córdoba.",
         "fecha": "04/11/2026",
-        "tipo": "Normativa",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01219",
-        "numero": "2026/01219",
-        "titulo": "Listado provisional de solicitudes admitidas y excluidas II Premio Sanidad del Olivar de la Cátedra Olive Health para trabajos de Fin de Grado y Fin de Máster",
-        "descripcion": "Resolución de la Dirección de la Cátedra Olive Health, de fecha 3 de noviembre de 2026, por la que se publica el listado provisional de solicitudes admitidas y excluidas en la Convocatoria del II Premio Sanidad del Olivar de la Cátedra Olive Health para trabajos de Fin de Grado y Fin de Máster.",
-        "fecha": "03/11/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01218",
-        "numero": "2026/01218",
-        "titulo": "Convocatoria de Bolsa Ordinaria de Profesor Sustituto 27/2026. Listado definitivo de aspirantes admitidos y excluidos",
-        "descripcion": "Resolución de la Universidad de Córdoba, de 3 noviembre de 2026, por la que se aprueba la relación definitiva de aspirantes admitidos y excluidos en la bolsa de trabajo de Profesor Sustituto. Código Bolsa BO262701, Área de Conocimiento Derecho Internacional Público y Relaciones Internacionales.",
-        "fecha": "03/11/2026",
-        "tipo": "Empleo",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01215",
-        "numero": "2026/01215",
-        "titulo": "Extracto XI Convocatoria de Premios a la Excelencia para Investigadores e Investigadoras Noveles de la Universidad de Córdoba",
-        "descripcion": "Extracto de la Resolución de la Vicerrectora de Política Científica de fecha 16 de julio 2026, por la que se aprueba la XI Convocatoria de Premios a la Excelencia para Investigadores e Investigadoras Noveles de la Universidad de Córdoba.",
-        "fecha": "03/11/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01213",
-        "numero": "2026/01213",
-        "titulo": "Listado provisional de ayudas de Acción Social, Matrícula Externa, solicitadas del 1 de julio al 30 de septiembre de 2026",
-        "descripcion": "Acuerdo de la Comisión de Acción Social, en sesión de 28 de octubre de 2026, por el que se aprueba listado provisional de ayudas concedidas y denegadas Matrículas Externas, solicitadas del 1 de julio de 2026 al 30 de septiembre de 2026, con cargo al Fondo de Acción Social, para el personal al servicio de esta Universidad.",
-        "fecha": "03/11/2026",
         "tipo": "Normativa",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
