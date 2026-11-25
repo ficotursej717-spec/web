@@ -1,5 +1,55 @@
 [
     {
+        "id": "conv-2026-01294",
+        "numero": "2026/01294",
+        "titulo": "Resolución definitiva de concesión de las ayudas para la Creación y Consolidación de EBC del XII Plan Propio Galileo",
+        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento de la Universidad de Córdoba, de 25 de noviembre de 2026, por la que se publica la resolución definitiva de concesión de las ayudas para la Creación y Consolidación de Empresas Basadas en el Conocimiento.",
+        "fecha": "25/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01293",
+        "numero": "2026/01293",
+        "titulo": "Resolución definitiva de concesión de los Premios a la Trayectoria en Transferencia del Conocimiento del XII Plan Propio Galileo",
+        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento de la Universidad de Córdoba, de 25 de noviembre de 2026, por la que se hace pública la Concesión de Premios a la Trayectoria en Transferencia del Conocimiento del XII Plan Propio Galileo.",
+        "fecha": "25/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01292",
+        "numero": "2026/01292",
+        "titulo": "Propuesta de Resolución Provisional de Ayudas de Matrícula en el programa de inclusión social para la permanencia en UCO-Gata Cattana 2026/2027",
+        "descripcion": "Propuesta de Resolución Provisional, de la Jefa del Servicio de Equidad, de 25 de noviembre de 2026, por la que se hace pública la relación provisional de concesión de ayudas de matrícula en el programa de inclusión social para la permanencia en UCO-Gata Cattana.",
+        "fecha": "25/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01290",
+        "numero": "2026/01290",
+        "titulo": "Extracto de la Convocatoria de ayudas al estudio por situación de emergencia causadas por el conflicto bélico en Irán",
+        "descripcion": "Extracto de la Resolución del 23 de noviembre de 2026, de la Vicerrectora de Igualdad, Inclusión y Justicia Social de la Universidad de Córdoba, por la que se convocan las ayudas al estudio por situación de emergencia causadas por el conflicto bélico en Irán, 2026.",
+        "fecha": "25/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01289",
+        "numero": "2026/01289",
+        "titulo": "Convocatoria Comisión de Servicios de PTGA funcionario. Relación provisional de personas admitidas y excluidas",
+        "descripcion": "Resolución de 24 de noviembre de 2026, de la Universidad de Córdoba, por la que se declara aprobada la relación provisional de personas admitidas y excluidas por el procedimiento de Comisión de Servicios.",
+        "fecha": "25/11/2026",
+        "tipo": "Resolución",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01287",
         "numero": "2026/01287",
         "titulo": "Extracto de la convocatoria de Ayudas para el estudiantado en riesgo de exclusión social. Curso 2026/2027",
@@ -446,56 +496,6 @@
         "descripcion": "Resolución, de 5 de noviembre de 2026, del Vicerrector de Transferencia, Formación Continua y Emprendimiento, por la que se convoca la propuesta y nombramiento de personas Colaboradoras Honorarias en Cátedras y Centros de Desarrollo competentes del Vicerrectorado de Transferencia, Formación Continua y Emprendimiento. Curso académico 2026-27.",
         "fecha": "05/11/2026",
         "tipo": "Resolución",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01232",
-        "numero": "2026/01232",
-        "titulo": "Instrucción sobre el ejercicio del paro académico el 11 de noviembre de 2026 en la Universidad de Córdoba",
-        "descripcion": "Instrucción conjunta del vicerrectorado de estudiantes, acceso y empleabilidad y del vicerrectorado de estudios de grado, calidad, innovación docente y política lingüística, de 29 octubre de 2026, sobre el ejercicio del paro académico el 11 de noviembre de 2026.",
-        "fecha": "04/11/2026",
-        "tipo": "Normativa",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01229",
-        "numero": "2026/01229",
-        "titulo": "Listado definitivo de solicitudes admitidas y excluidas del III Premio \"Sanidad de los animales de compañía\" de la Cátedra Canitas",
-        "descripcion": "Resolución del Vicerrector de Transferencia, Formación Continua y Emprendimiento, de fecha 3 de noviembre, por la que se publica el listado definitivo de solicitudes admitidas y excluidas en la Convocatoria del III Premio \"Sanidad de los animales de compañía\", de la Cátedra Canitas de animales de compañía para trabajos de Fin de Grado.",
-        "fecha": "04/11/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01227",
-        "numero": "2026/01227",
-        "titulo": "Reglamento 26/2025 sobre las Bases Reguladoras del Premio \"Luis Rodríguez\" de Investigación en Interculturalidad. Modificación",
-        "descripcion": "Acuerdo de Consejo de Gobierno, en sesión ordinaria de 30 de octubre de 2026, por el que se aprueba la modificación del Reglamento 26/2025, sobre las Bases Reguladoras del Premio \"Luis Rodríguez\" de Investigación en Interculturalidad.",
-        "fecha": "04/11/2026",
-        "tipo": "Normativa",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01226",
-        "numero": "2026/01226",
-        "titulo": "Reglamento 21/2019 sobre las Bases Reguladoras de las Ayudas para el estudiantado en riesgo de exclusión social. Modificación",
-        "descripcion": "Acuerdo de Consejo de Gobierno, en sesión ordinaria de 30 de octubre de 2026, por el que se aprueba la modificación del Reglamento 21/2019, sobre las Bases Reguladoras de las Ayudas para el estudiantado en riesgo de exclusión social.",
-        "fecha": "04/11/2026",
-        "tipo": "Normativa",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01221",
-        "numero": "2026/01221",
-        "titulo": "Reglamento 25/2026 de gestión, uso y convivencia de la Red de Huertos Universitarios de la Universidad de Córdoba",
-        "descripcion": "Acuerdo de Consejo de Gobierno, en sesión ordinaria de 30 de octubre de 2026, por el que se aprueba el Reglamento 25/2026, de gestión, uso y convivencia de la Red de Huertos Universitarios de la Universidad de Córdoba.",
-        "fecha": "04/11/2026",
-        "tipo": "Normativa",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
