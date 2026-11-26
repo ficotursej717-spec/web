@@ -1,5 +1,35 @@
 [
     {
+        "id": "conv-2026-01297",
+        "numero": "2026/01297",
+        "titulo": "Convocatoria Libre Designación Personal Técnico, de Gestión y de Administración y Servicios Funcionario",
+        "descripcion": "Resolución de 26 de noviembre de 2026, de la Universidad de Córdoba, por la que se convoca provisión de puesto de trabajo de la Relación de Puestos de Trabajo (RPT) de Personal Técnico, de Gestión y de Administración y Servicios (PTGAS) Funcionario, por el sistema de libre designación.",
+        "fecha": "26/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01296",
+        "numero": "2026/01296",
+        "titulo": "Actualización provisional complementaria de las listas de acreditados en la Universidad de Córdoba",
+        "descripcion": "Resolución de 26 de noviembre de 2026, del Vicerrectorado de Personal Docente e Investigador, por la que se publica lista provisional complementaria de Profesorado acreditado al cuerpo de Profesorado Titular de Universidad.",
+        "fecha": "26/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01295",
+        "numero": "2026/01295",
+        "titulo": "Bolsas de Trabajo PDI Laboral, derogación diversas Áreas de Conocimiento",
+        "descripcion": "Resolución de 25 de noviembre de 2026 de la presidenta de la Comisión de Contratación, por la que se acuerda hacer pública la relación de bolsas de trabajo de PDI Laboral que quedan derogadas por el transcurso del tiempo establecido de vigencia.",
+        "fecha": "26/11/2026",
+        "tipo": "Resolución",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01294",
         "numero": "2026/01294",
         "titulo": "Resolución definitiva de concesión de las ayudas para la Creación y Consolidación de EBC del XII Plan Propio Galileo",
@@ -466,36 +496,6 @@
         "descripcion": "Resolución de 5 de noviembre de 2026, de la Universidad de Córdoba, por la que se regula y se concede una subvención directa de carácter excepcional a la Asociación de Alumnos y Exalumnos del Centro Intergeneracional de la Universidad de Córdoba.",
         "fecha": "05/11/2026",
         "tipo": "Proyectos",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01237",
-        "numero": "2026/01237",
-        "titulo": "Instrucción 3/2026 sobre el procedimiento de actuación en caso de intervenciones extraordinarias en la infraestructura verde de la Universidad de Córdoba",
-        "descripcion": "Instrucción 3/2026 del Vicerrectorado de Campus Sostenible, de fecha 4 de noviembre de 2026, sobre el procedimiento de actuación en caso de intervenciones extraordinarias en la infraestructura verde de la Universidad de Córdoba.",
-        "fecha": "05/11/2026",
-        "tipo": "Normativa",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01236",
-        "numero": "2026/01236",
-        "titulo": "Ayudas Junta de Andalucía adquisición competencia lingüística estudios oficiales Grado 2025/2026. Relación definitiva de solicitudes admitidas/excluidas",
-        "descripcion": "Resolución de 5 de noviembre de 2026, del Vicerrectorado de Estudiantes, Acceso y Empleabilidad, por la que se publica la relación definitiva de solicitudes admitidas y excluidas de la convocatoria de ayudas de la Junta de Andalucía para la adquisición de niveles de competencia lingüística en estudios oficiales de Grado, curso 2025/2026.",
-        "fecha": "05/11/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01234",
-        "numero": "2026/01234",
-        "titulo": "Convocatoria de Colaboradores Honorarios de las Cátedras y Centros de Desarrollo",
-        "descripcion": "Resolución, de 5 de noviembre de 2026, del Vicerrector de Transferencia, Formación Continua y Emprendimiento, por la que se convoca la propuesta y nombramiento de personas Colaboradoras Honorarias en Cátedras y Centros de Desarrollo competentes del Vicerrectorado de Transferencia, Formación Continua y Emprendimiento. Curso académico 2026-27.",
-        "fecha": "05/11/2026",
-        "tipo": "Resolución",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
