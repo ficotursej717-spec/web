@@ -1,5 +1,35 @@
 [
     {
+        "id": "conv-2026-01300",
+        "numero": "2026/01300",
+        "titulo": "Modalidad III.A: Concurso de Ideas de Negocio del XII Plan Propio Galileo de Innovación y Transferencia",
+        "descripcion": "Resolución de la Directora General de la OTC de la Universidad de Córdoba, de 27 de noviembre de 2026, por la que se publica la resolución provisional de solicitudes concedidas de la Modalidad III.A: Concurso de Ideas de Negocio de la Universidad de Córdoba del XII Plan Propio Galileo de Innovación y Transferencia.",
+        "fecha": "27/11/2026",
+        "tipo": "Empleo",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01299",
+        "numero": "2026/01299",
+        "titulo": "Resolución definitiva de Ayudas para la adquisición de niveles de competencia lingüística en estudios oficiales de Grado. Curso 2025/2026",
+        "descripcion": "Resolución de 27 de noviembre de 2026, del Vicerrectorado de Estudiantes, Acceso y Empleabilidad, por la que se publica la relación definitiva de solicitudes concedidas y denegadas de la convocatoria de Ayudas para la adquisición de niveles de competencia lingüística en estudios oficiales de Grado, curso 2025/2026.",
+        "fecha": "27/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
+        "id": "conv-2026-01298",
+        "numero": "2026/01298",
+        "titulo": "Resolución definitiva de la Convocatoria de becas movilidad internacional a estudiantes UCO, del Plan Propio de Cooperación y Educación para el Desarrollo 2026",
+        "descripcion": "Resolución del Vicerrectorado de Igualdad, Inclusión y Justicia Social, de fecha 26 de noviembre de 2026, por la que se publica el listado definitivo de solicitudes aprobadas y desestimadas en 2º llamamiento de la Convocatoria de becas de movilidad internacional a estudiantes de la UCO del Plan Propio de Cooperación y Educación para el Desarrollo, 2026.",
+        "fecha": "27/11/2026",
+        "tipo": "Becas",
+        "estado": "Abierto",
+        "link": "https://sede.uco.es/bouco/"
+    },
+    {
         "id": "conv-2026-01297",
         "numero": "2026/01297",
         "titulo": "Convocatoria Libre Designación Personal Técnico, de Gestión y de Administración y Servicios Funcionario",
@@ -466,36 +496,6 @@
         "descripcion": "Propuesta de resolución provisional, de 9 de noviembre de 2026, de la Sección de Becas de la Universidad de Córdoba, por la que se publica la relación de solicitudes concedidas y denegadas de Ayuda Junta Andalucía adquisición competencia lingüística del curso 2025/2026.",
         "fecha": "09/11/2026",
         "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01243",
-        "numero": "2026/01243",
-        "titulo": "Convocatoria del Programa Campus Rural 2025/2026. Resolución definitiva de concesión de ayudas. Modificación",
-        "descripcion": "Resolución del Vicerrector de Estudiantes, Acceso y Empleabilidad de la Universidad de Córdoba, de fecha 9 de noviembre de 2026, por la que se modifica la resolución definitiva de concesión de ayudas a estudiantes beneficiarios/as de la convocatoria del Programa Campus Rural 2025/2026, publicada en BOUCO nº 2026/01104, de 1 de octubre.",
-        "fecha": "09/11/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01241",
-        "numero": "2026/01241",
-        "titulo": "Resolución provisional de concesión de los Premios a la Trayectoria en Transferencia del Conocimiento del XII Plan Propio Galileo",
-        "descripcion": "Resolución de la Directora General de la Oficina de Transferencia del Conocimiento (OTC) de la Universidad de Córdoba, de 4 de noviembre de 2026, por la que se publica la propuesta de resolución provisional de concesión de la convocatoria de Premios a la Trayectoria en Transferencia del Conocimiento del XII Plan Propio Galileo.",
-        "fecha": "05/11/2026",
-        "tipo": "Becas",
-        "estado": "Abierto",
-        "link": "https://sede.uco.es/bouco/"
-    },
-    {
-        "id": "conv-2026-01238",
-        "numero": "2026/01238",
-        "titulo": "Resolución de Concesión de Subvención a la Asociación de alumnos y exalumnos del Centro Intergeneracional de la Universidad de Córdoba",
-        "descripcion": "Resolución de 5 de noviembre de 2026, de la Universidad de Córdoba, por la que se regula y se concede una subvención directa de carácter excepcional a la Asociación de Alumnos y Exalumnos del Centro Intergeneracional de la Universidad de Córdoba.",
-        "fecha": "05/11/2026",
-        "tipo": "Proyectos",
         "estado": "Abierto",
         "link": "https://sede.uco.es/bouco/"
     }
